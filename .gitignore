@@ -5,6 +5,7 @@
 .env
 
 # Dumb files
+*.sqlite3
 .DS_Store
 /.idea/
 *.orig

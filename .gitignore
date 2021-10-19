@@ -1,0 +1,24 @@
+# Python
+*.log
+*.pot
+*.pyc
+.env
+
+# Dumb files
+.DS_Store
+/.idea/
+*.orig
+desktop.ini
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Static
+/static/
+/static/.idea/*
+/_static/CACHE/
+
+# Settings
+_local.py
+_env.py

@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  da.nginx:
+    image: nginx:alpine
+    container_name: da.nginx
+    tty: true
+    volumes:
+      - ../:/srv/app
+    healthcheck:
+      test: ["CMD-SHELL", "wget -O /dev/null http://da.nginx || exit 1"]
+      timeout: 10s
+    labels:
+      - "autoheal=true"
+    restart: on-failure

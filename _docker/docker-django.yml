@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  da.django:
+    build:
+      context: ../
+      dockerfile: ./_docker/django/Dockerfile
+    image: da.django
+    container_name: da.django
+    tty: true
+    ports:
+      - 8000:8000
+    volumes:
+      - ../:/srv/app
+    restart: on-failure

@@ -9,3 +9,4 @@ mysqlclient
 pip-tools
 python-decouple
 redis
+requests

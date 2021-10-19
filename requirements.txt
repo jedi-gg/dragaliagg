@@ -14,6 +14,10 @@ botocore==1.21.65
     # via
     #   boto3
     #   s3transfer
+certifi==2021.10.8
+    # via requests
+charset-normalizer==2.0.7
+    # via requests
 click==8.0.3
     # via pip-tools
 django==3.2.8
@@ -30,6 +34,8 @@ django-redis-cache==3.0.0
     # via -r requirements.in
 django-redis-sessions==0.6.2
     # via -r requirements.in
+idna==3.3
+    # via requests
 jmespath==0.10.0
     # via
     #   boto3
@@ -51,6 +57,8 @@ redis==3.5.3
     #   -r requirements.in
     #   django-redis-cache
     #   django-redis-sessions
+requests==2.26.0
+    # via -r requirements.in
 s3transfer==0.5.0
     # via boto3
 six==1.16.0
@@ -64,7 +72,9 @@ sqlparse==0.4.2
 tomli==1.2.1
     # via pep517
 urllib3==1.26.7
-    # via botocore
+    # via
+    #   botocore
+    #   requests
 wheel==0.37.0
     # via pip-tools
 wrapt==1.13.2

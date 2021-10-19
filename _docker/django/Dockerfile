@@ -4,7 +4,7 @@ ENV TERM=xterm-256color \
     PYTHONUNBUFFERED=1 \
     DJANGO_SETTINGS_MODULE="core.settings"
 
-RUN apt-get update && apt-get install -y nano default-mysql-client
+RUN apt-get update && apt-get install -y nano default-mysql-client iputils-ping
 
 RUN echo 'alias l="ls -al"' >> ~/.bashrc
 RUN echo 'alias pm="python manage.py"' >> ~/.bashrc

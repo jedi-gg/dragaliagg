@@ -2,6 +2,10 @@ version: "3.9"
 
 x-web-variables: &web-variables
   ENV: DEV
+  MYSQL_DATABASE: ${SQL_NAME-dragaliauto}
+  MYSQL_USER: ${SQL_USER-root}
+  MYSQL_ROOT_PASSWORD: ${SQL_PASSWORD-root}
+  MYSQL_HOST: ${SQL_HOST-da.sql}
 
 services:
   da.redis:
@@ -15,20 +19,12 @@ services:
   da.sql:
     container_name: da.sql
     image: mariadb:10.3-focal
-    command:
-      [
-        mysqld,
-        --character-set-server=utf8mb4,
-        --collation-server=utf8mb4_unicode_ci,
-      ]
     environment:
-      - MYSQL_ROOT_PASSWORD=da
-      - MYSQL_DATABASE=da
-      - MYSQL_ROOT_HOST=%
+      <<: *web-variables
     ports:
       - 3306:3306
     volumes:
-      - datavolume:/var/run/mysqld
+      - sql:/var/lib/mysql
 
   da.django:
     extends:
@@ -52,5 +48,5 @@ services:
       timeout: 10h
 
 volumes:
-  datavolume: {}
+  sql: {}
   redis: {}

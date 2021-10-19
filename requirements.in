@@ -2,9 +2,8 @@ beautifulsoup4
 boto3
 django
 django-debug-toolbar
-django-debug-toolbar-template-profiler  # Template speed - https://github.com/node13h/django-debug-toolbar-template-profiler
 django-redis-cache
-django-redis-sessions
+html5lib
 mysqlclient
 pip-tools
 python-decouple

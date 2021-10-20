@@ -16,5 +16,3 @@ try:
     from ._local import *
 except ImportError:
     pass
-
-print(STATIC_ROOT)

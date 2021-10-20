@@ -32,6 +32,9 @@ class CompAdmin(admin.ModelAdmin):
     autocomplete_fields = [
         'shared_skill_1',
         'shared_skill_2',
+        'section',
+        'quest',
+        'difficulty',
     ]
 
 @admin.register(CompSection)
@@ -49,6 +52,3 @@ class CompQuestAdmin(admin.ModelAdmin):
 @admin.register(CompDifficulty)
 class CompDifficultyAdmin(admin.ModelAdmin):
     search_fields = ['title',]
-    autocomplete_fields = [
-        'quest',
-    ]

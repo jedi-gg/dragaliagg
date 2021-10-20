@@ -2,6 +2,9 @@ from bs4 import BeautifulSoup
 import requests
 
 from django.core.management.base import BaseCommand
+from django.utils.text import slugify
+
+from game_data.models import Adventurer, Wyrmprint, Dragon
 
 # Disable warnings
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
@@ -10,6 +13,21 @@ requests.packages.urllib3.disable_warnings()
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
+        # Adventurer Lookup
+        adv_lookup = {}
+        for adv in Adventurer.objects.all():
+            adv_lookup[adv.slug] = ''
+        
+        # Wyrmprint Lookup
+        wp_lookup = {}
+        for wp in Wyrmprint.objects.all():
+            wp_lookup[adv.slug] = ''
+        
+        # Dragon Lookup
+        drg_lookup = {}
+        for drg in Dragon.objects.all():
+            drg_lookup[adv.slug] = ''
+
         base_url = 'https://dragalialost.wiki/w/'
 
         # Scape Units
@@ -22,21 +40,85 @@ class Command(BaseCommand):
                 'tr', {'class': 'character-grid-entry'}
             )
 
-            unit_dict = {}
-            for unit in units[:10]:
-                unit_info = {}
+            for unit in units:
                 cols = unit.findAll('td')
 
-                # for x, col in enumerate(cols, 0):
-                #     print(x)
-                #     print(col)
+                name = cols[1].find('a').text.strip()
+                slug = slugify(name)
 
-                unit_info['url'] = cols[0].find('a')['href']
-                unit_info['image'] = cols[0].find('img')['src']
-                unit_info['name'] = cols[1].find('a').text.strip()
-                unit_info['rarity'] = cols[2].find('div').text.strip()
-                unit_info['element'] = cols[3].find('div').text.strip()
-                unit_info['weapon'] = cols[4].find('div').text.strip()
-                # unit_dict[cols[0].string] = cols[1].string
+                # Check if already in DB
+                if slug in adv_lookup:
+                    continue
 
-                print(unit_info)
+                Adventurer.objects.update_or_create(
+                    name=name,
+                    defaults={
+                        'slug': slug,
+                        'image': cols[0].find('img')['src'].replace('/thumb.php?f=', '').replace('&width=80', ''),
+                        'wiki_url': cols[0].find('a')['href'],
+                        'rarity': cols[2].find('div').text.strip(),
+                        'element': cols[3].find('div').text.strip(),
+                        'weapon': cols[4].find('div').text.strip()
+                    }
+                )
+     
+        # Scape Wyrmprints
+        url = "{}Wyrmprint_List".format(base_url)
+        r = requests.get(url, verify=False)
+
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.content, "html5lib")
+            trs = soup.findAll(
+                'tr', {'class': 'wyrmprint-grid-entry'}
+            )
+
+            for row in trs:
+                cols = row.findAll('td')
+
+                name = cols[1].find('a').text.strip()
+                slug = slugify(name)
+
+                # Check if already in DB
+                if slug in wp_lookup:
+                    continue
+
+                Wyrmprint.objects.update_or_create(
+                    name=name,
+                    defaults={
+                        'slug': slug,
+                        'image': cols[0].find('img')['src'].replace('/thumb.php?f=', '').replace('&width=80', ''),
+                        'wiki_url': cols[0].find('a')['href'],
+                        'rarity': cols[2].find('div').text.strip(),
+                    }
+                )
+        
+        # Scape Dragons
+        url = "{}Dragon_List".format(base_url)
+        r = requests.get(url, verify=False)
+
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.content, "html5lib")
+            trs = soup.findAll(
+                'tr', {'class': 'character-grid-entry'}
+            )
+
+            for row in trs:
+                cols = row.findAll('td')
+
+                name = cols[1].find('a').text.strip()
+                slug = slugify(name)
+
+                # Check if already in DB
+                if slug in drg_lookup:
+                    continue
+
+                Dragon.objects.update_or_create(
+                    name=name,
+                    defaults={
+                        'slug': slug,
+                        'image': cols[0].find('img')['src'].replace('/thumb.php?f=', '').replace('&width=80', ''),
+                        'wiki_url': cols[0].find('a')['href'],
+                        'rarity': cols[2].find('div').text.strip(),
+                        'element': cols[3].find('div').text.strip(),
+                    }
+                )

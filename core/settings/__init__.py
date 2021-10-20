@@ -1,4 +1,5 @@
 from .django import *
+from .site import *
 
 """
 If applicable, import local settings.

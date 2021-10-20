@@ -5,22 +5,23 @@ x-web-variables: &web-variables
   MYSQL_DATABASE: ${SQL_NAME-dragaliauto}
   MYSQL_USER: ${SQL_USER-root}
   MYSQL_ROOT_PASSWORD: ${SQL_PASSWORD-root}
-  MYSQL_HOST: ${SQL_HOST-da.sql}
+  MYSQL_HOST: ${SQL_HOST-dg.sql}
   DJANGO_SUPERUSER_USERNAME: ${DJANGO_SUPERUSER_USERNAME-admin}
   DJANGO_SUPERUSER_PASSWORD: ${DJANGO_SUPERUSER_PASSWORD-admin}
   DJANGO_SUPERUSER_EMAIL: ${DJANGO_SUPERUSER_EMAIL-admin@admin.com}
+  DJANGO_SECRET_KEY: ${DJANGO_SUPERUSER_EMAIL-secret}
 
 services:
-  da.redis:
+  dg.redis:
     image: redis:6.0.5
-    container_name: da.redis
+    container_name: dg.redis
     ports:
       - 6379:6379
     volumes:
       - redis:/data
 
-  da.sql:
-    container_name: da.sql
+  dg.sql:
+    container_name: dg.sql
     image: mariadb:10.3-focal
     environment:
       <<: *web-variables
@@ -30,21 +31,21 @@ services:
       - sql:/var/lib/mysql
     command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
 
-  da.django:
+  dg.django:
     extends:
       file: ./_docker/docker-django.yml
-      service: da.django
+      service: dg.django
     environment:
       <<: *web-variables
 
-  da.nginx:
+  dg.nginx:
     extends:
       file: ./_docker/docker-nginx.yml
-      service: da.nginx
+      service: dg.nginx
     volumes:
       - ./_docker/django/nginx.dev.conf:/etc/nginx/conf.d/app.conf
     depends_on:
-      - da.django
+      - dg.django
     ports:
       - 80:80
     healthcheck:

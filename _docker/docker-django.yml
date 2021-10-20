@@ -1,12 +1,12 @@
 version: "3.9"
 
 services:
-  da.django:
+  dg.django:
     build:
       context: ../
       dockerfile: ./_docker/django/Dockerfile
-    image: da.django
-    container_name: da.django
+    image: dg.django
+    container_name: dg.django
     tty: true
     ports:
       - 8000:8000

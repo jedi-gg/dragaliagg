@@ -1,6 +1,6 @@
 from django.db import models
 
-from game_data.models import Adventurer, Wyrmprint, Dragon, Weapon
+from game_data.models import Adventurer
 
 
 class Comp(models.Model):
@@ -17,14 +17,7 @@ class Comp(models.Model):
     shared_skill_1 = models.ForeignKey(Adventurer, related_name='comp_shared_skill_1', on_delete=models.DO_NOTHING, blank=True, null=True)
     shared_skill_2 = models.ForeignKey(Adventurer, related_name='comp_shared_skill_2', on_delete=models.DO_NOTHING, blank=True, null=True)
 
-    # Adventurer 1
-    adventurer_1 = models.ForeignKey(Adventurer, related_name='comp_adventurer_1', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_1_wp_1 = models.ForeignKey(Wyrmprint, related_name='comp_adventurer_1_wp_1', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_1_wp_2 = models.ForeignKey(Wyrmprint, related_name='comp_adventurer_1_wp_2', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_1_wp_3 = models.ForeignKey(Wyrmprint, related_name='comp_adventurer_1_wp_3', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_1_wp_4 = models.ForeignKey(Wyrmprint, related_name='comp_adventurer_1_wp_4', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_1_wp_5 = models.ForeignKey(Wyrmprint, related_name='comp_adventurer_1_wp_5', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_1_wp_6 = models.ForeignKey(Wyrmprint, related_name='comp_adventurer_1_wp_6', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_1_wp_7 = models.ForeignKey(Wyrmprint, related_name='comp_adventurer_1_wp_7', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_1_dragon = models.ForeignKey(Dragon, related_name='comp_dragon_1', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_1_weapon = models.ForeignKey(Weapon, related_name='comp_weapon_1', on_delete=models.DO_NOTHING, blank=True, null=True)
+    # adventurer_1 = models.ForeignKey(AdventurerBuild, related_name='comp_adventurer_1', on_delete=models.DO_NOTHING, blank=True, null=True)
+    # adventurer_2 = models.ForeignKey(AdventurerBuild, related_name='comp_adventurer_2', on_delete=models.DO_NOTHING, blank=True, null=True)
+    # adventurer_3 = models.ForeignKey(AdventurerBuild, related_name='comp_adventurer_3', on_delete=models.DO_NOTHING, blank=True, null=True)
+    # adventurer_4 = models.ForeignKey(AdventurerBuild, related_name='comp_adventurer_4', on_delete=models.DO_NOTHING, blank=True, null=True)

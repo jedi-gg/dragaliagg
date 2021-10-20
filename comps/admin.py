@@ -1,6 +1,12 @@
 from django.contrib import admin
 
-from comps.models import Comp, AdventurerBuild
+from comps.models import (
+    Comp,
+    CompSection,
+    CompQuest,
+    CompDifficulty,
+    AdventurerBuild,
+)
 
 
 class AdventurerBuildInline(admin.StackedInline):
@@ -26,4 +32,23 @@ class CompAdmin(admin.ModelAdmin):
     autocomplete_fields = [
         'shared_skill_1',
         'shared_skill_2',
+    ]
+
+@admin.register(CompSection)
+class CompSectionAdmin(admin.ModelAdmin):
+    search_fields = ['title',]
+
+
+@admin.register(CompQuest)
+class CompQuestAdmin(admin.ModelAdmin):
+    search_fields = ['title',]
+    autocomplete_fields = [
+        'section',
+    ]
+
+@admin.register(CompDifficulty)
+class CompDifficultyAdmin(admin.ModelAdmin):
+    search_fields = ['title',]
+    autocomplete_fields = [
+        'quest',
     ]

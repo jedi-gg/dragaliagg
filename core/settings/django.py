@@ -20,7 +20,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'game_data',
-    'builds',
+    'comps',
 ]
 
 MIDDLEWARE = [

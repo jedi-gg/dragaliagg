@@ -7,3 +7,6 @@ class Wyrmprint(models.Model):
     image = models.CharField(max_length=100)
     wiki_url = models.CharField(max_length=100)
     rarity = models.PositiveIntegerField()
+
+    def __str__(self):
+        return self.name

@@ -11,6 +11,9 @@ class CompSection(SlugModel):
     def slug_name(self):
         return self.title
     
+    def string_slug(self):
+        return self.slug.replace('-', '')
+    
     def get_quests(self):
         return self.quests.order_by('ordering')
 

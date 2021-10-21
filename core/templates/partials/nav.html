@@ -78,10 +78,10 @@
           </li>
           {% for section in sections %}
           <li class="nav-item">
-            <a class="nav-link" href="#sidebarPages" data-bs-toggle="collapse" role="button" aria-expanded="true" aria-controls="sidebarPages">
+            <a class="nav-link" href="#{{ section.string_slug }}" data-bs-toggle="collapse" role="button" aria-expanded="true" aria-controls="{{ section.string_slug }}">
               {{ section }}
             </a>
-            <div class="collapse show" id="sidebarPages">
+            <div class="collapse show" id="{{ section.string_slug }}">
               <ul class="nav nav-sm flex-column">
                 {% for event in section.get_quests %}
                 <li class="nav-item">

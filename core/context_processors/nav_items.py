@@ -4,5 +4,5 @@ from comps.models import CompSection
 
 def nav_items(request):
     return {
-        'sections': CompSection.objects.all().order_by('ordering')
+        'sections': CompSection.objects.all().order_by('-ordering')
     }

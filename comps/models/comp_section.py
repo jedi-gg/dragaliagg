@@ -10,6 +10,9 @@ class CompSection(SlugModel):
 
     def slug_name(self):
         return self.title
+    
+    def get_quests(self):
+        return self.quests.order_by('ordering')
 
     def __str__(self):
         return self.title

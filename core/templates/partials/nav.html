@@ -76,107 +76,24 @@
               </ul>
             </div>
           </li>
+          {% for section in sections %}
           <li class="nav-item">
             <a class="nav-link" href="#sidebarPages" data-bs-toggle="collapse" role="button" aria-expanded="true" aria-controls="sidebarPages">
-              <i class="fe fe-file"></i> Auto Comps
+              {{ section }}
             </a>
             <div class="collapse show" id="sidebarPages">
               <ul class="nav nav-sm flex-column">
+                {% for event in section.get_quests %}
                 <li class="nav-item">
-                  <a href="#sidebarAccount" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarAccount">
-                    Sinister Dminion
+                  <a href="{{ event.slug }}" class="nav-link">
+                    {{ event }}
                   </a>
-                  <div class="collapse " id="sidebarAccount">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="./account-general.html" class="nav-link ">
-                          General
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="./account-billing.html" class="nav-link ">
-                          Billing
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="./account-members.html" class="nav-link ">
-                          Members
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="./account-security.html" class="nav-link ">
-                          Security
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="./account-notifications.html" class="nav-link ">
-                          Notifications
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
                 </li>
-                <li class="nav-item">
-                  <a href="#sidebarCrm" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarCrm">
-                    Trials Of The Mighty
-                  </a>
-                  <div class="collapse " id="sidebarCrm">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="./crm-contacts.html" class="nav-link ">
-                          Contacts
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="./crm-companies.html" class="nav-link ">
-                          Companies
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="./crm-deals.html" class="nav-link ">
-                          Deals
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a href="#sidebarProfile" class="nav-link" data-bs-toggle="collapse" role="button" aria-expanded="true" aria-controls="sidebarProfile">
-                    Agito
-                  </a>
-                  <div class="collapse show" id="sidebarProfile">
-                    <ul class="nav nav-sm flex-column">
-                      <li class="nav-item">
-                        <a href="./profile-posts.html" class="nav-link ">
-                          Volk's Wrath
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="./profile-groups.html" class="nav-link ">
-                          Ciella's Wrath
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="./profile-projects.html" class="nav-link active">
-                          Ayaha & Otoha's Wrath
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="./profile-files.html" class="nav-link ">
-                          Kai Yan's Wrath
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="./profile-subscribers.html" class="nav-link ">
-                          Tartarus’s Wrath
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
+                {% endfor %}
               </ul>
             </div>
           </li>
+          {% endfor %}            
           <li class="nav-item">
             <a class="nav-link " href="./widgets.html">
               <i class="fe fe-grid"></i> Manual Comps

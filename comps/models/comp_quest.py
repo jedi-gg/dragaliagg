@@ -11,6 +11,9 @@ class CompQuest(SlugModel):
     section = models.ForeignKey('CompSection', related_name='quests', on_delete=models.DO_NOTHING, blank=True, null=True)
     difficulties = models.ManyToManyField('CompDifficulty')
 
+    def quest_slug(self):
+        return self.slug
+
     def slug_name(self):
         return self.title
     

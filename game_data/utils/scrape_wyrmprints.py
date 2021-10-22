@@ -34,7 +34,16 @@ def scrape_wyrmprints():
                 .replace('_02.png&width=80', '')
             )
             name = cols[1].find('a').text.strip()
-            print('Creating {}'.format(name))
+
+            # Affinity
+            affinity_name = None
+            affinity_icon = None
+            affinity_tooltip = row.find('td', {'class': 'wyrmprint-grid-entry-affinity'}).find('span')
+            if affinity_tooltip:
+                affinity_name = affinity_tooltip.find('span').find('b').text
+                affinity_icon = affinity_tooltip.find('a').find('img')['alt'].split(' ')[2].replace('.png', '')
+
+            # Ability
             ability_icon = row['data-ability-icon'].replace('Icon_Ability_', '')
             last_tooltip = row.find('td', {'class': 'wyrmprint-grid-entry-ability1'}).find_all('span', {'class': 'tooltip'})[-1]
             ability_name = last_tooltip.find('a').text
@@ -51,6 +60,8 @@ def scrape_wyrmprints():
                     'slug': slugify(name),
                     'wiki_url': cols[0].find('a')['href'],
                     'rarity': cols[2].find('div').text.strip(),
+                    'affinity_name': affinity_name,
+                    'affinity_icon': affinity_icon,
                     'ability_name': ability_name,
                     'ability_icon': ability_icon,
                     'ability_description': ability_description,

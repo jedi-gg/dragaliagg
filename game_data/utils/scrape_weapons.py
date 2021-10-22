@@ -11,7 +11,7 @@ def scrape_weapons():
     # Weapon Lookup
     w_lookup = {}
     for w in Weapon.objects.all():
-        w_lookup[w.slug] = ''
+        w_lookup[w.id] = ''
 
     # Scape Weapons
     url = "{}/w/Weapon_List".format(settings.BASE_WIKI_URL)
@@ -27,18 +27,19 @@ def scrape_weapons():
         for row in rows:
             cols = row.findAll('td')
 
+            id_parts = cols[0].find('img')['alt'].split(' ')
+            w_id = id_parts[0]
             name = cols[1].find('a').text.strip()
-            slug = slugify(name)
 
             # Check if already in DB
-            if slug in w_lookup:
+            if w_id in w_lookup:
                 continue
 
             obj, created = Weapon.objects.get_or_create(
-                name=name,
+                id=w_id,
                 defaults={
-                    'slug': slug,
-                    'image': cols[0].find('img')['src'].replace('/thumb.php?f=', '').replace('&width=60', ''),
+                    'name': name,
+                    'slug': slugify(name),
                     'wiki_url': cols[0].find('a')['href'],
                     'rarity': cols[2].find('img')['title'],
                     'type': cols[3].find('img')['title'],

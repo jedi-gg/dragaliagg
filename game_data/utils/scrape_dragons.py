@@ -11,7 +11,7 @@ def scrape_dragons():
     # Dragon Lookup
     d_lookup = {}
     for d in Dragon.objects.all():
-        d_lookup[d.slug] = ''
+        d_lookup[d.id] = ''
 
     # Scape Dragons
     url = "{}/w/Dragon_List".format(settings.BASE_WIKI_URL)
@@ -27,18 +27,19 @@ def scrape_dragons():
         for row in trs:
             cols = row.findAll('td')
 
+            id_parts = cols[0].find('img')['alt'].split(' ')
+            d_id = id_parts[0]
             name = cols[1].find('a').text.strip()
-            slug = slugify(name)
 
             # Check if already in DB
-            if slug in d_lookup:
+            if d_id in d_lookup:
                 continue
 
             obj, created = Dragon.objects.get_or_create(
-                name=name,
+                id=d_id,
                 defaults={
-                    'slug': slug,
-                    'image': cols[0].find('img')['src'].replace('/thumb.php?f=', '').replace('&width=80', ''),
+                    'name': name,
+                    'slug': slugify(name),
                     'wiki_url': cols[0].find('a')['href'],
                     'rarity': cols[2].find('div').text.strip(),
                     'element': cols[3].find('div').text.strip(),

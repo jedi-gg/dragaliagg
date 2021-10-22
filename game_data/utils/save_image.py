@@ -7,7 +7,7 @@ def save_image(url, path):
     if os.path.isfile(path):
         return
 
-    print('DOWNLOADING')
+    print('Downloading {}'.format(url))
     r = requests.get(url, stream=True)
     if r.status_code == 200:
         with open(path, 'wb') as out_file:

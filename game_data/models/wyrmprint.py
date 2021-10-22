@@ -7,6 +7,8 @@ class Wyrmprint(models.Model):
     slug = models.CharField(max_length=100)
     wiki_url = models.CharField(max_length=100)
     rarity = models.PositiveIntegerField()
+    affinity_name = models.CharField(max_length=100, blank=True, null=True)
+    affinity_icon = models.CharField(max_length=100, blank=True, null=True)
     ability_name = models.CharField(max_length=100, blank=True, null=True)
     ability_icon = models.CharField(max_length=100, blank=True, null=True)
     ability_description = models.TextField(blank=True, null=True)

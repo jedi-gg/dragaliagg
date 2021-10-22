@@ -11,5 +11,5 @@ requests.packages.urllib3.disable_warnings()
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
-        for a in Adventurer.objects.all()[:1]:
+        for a in Adventurer.objects.all():
             a.download_images()

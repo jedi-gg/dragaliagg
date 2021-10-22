@@ -11,7 +11,7 @@ def scrape_wyrmprints():
     # # Wyrmprint Lookup
     wp_lookup = {}
     for wp in Wyrmprint.objects.all():
-        wp_lookup[wp.slug] = ''
+        wp_lookup[wp.id] = ''
 
     # Scape Wyrmprints
     url = "{}/w/Wyrmprint_List".format(settings.BASE_WIKI_URL)
@@ -27,20 +27,33 @@ def scrape_wyrmprints():
         for row in trs:
             cols = row.findAll('td')
 
+            wp_id = (
+                cols[0].find('img')['src']
+                .replace('/thumb.php?f=', '')
+                .replace('_01.png&width=80', '')
+                .replace('_02.png&width=80', '')
+            )
             name = cols[1].find('a').text.strip()
-            slug = slugify(name)
+            print('Creating {}'.format(name))
+            ability_icon = row['data-ability-icon'].replace('Icon_Ability_', '')
+            last_tooltip = row.find('td', {'class': 'wyrmprint-grid-entry-ability1'}).find_all('span', {'class': 'tooltip'})[-1]
+            ability_name = last_tooltip.find('a').text
+            ability_description = last_tooltip.find('span').text
 
             # Check if already in DB
-            if slug in wp_lookup:
+            if wp_id in wp_lookup:
                 continue
 
             obj, created = Wyrmprint.objects.get_or_create(
-                name=name,
+                id=wp_id,
                 defaults={
-                    'slug': slug,
-                    'image': cols[0].find('img')['src'].replace('/thumb.php?f=', '').replace('&width=80', ''),
+                    'name': name,
+                    'slug': slugify(name),
                     'wiki_url': cols[0].find('a')['href'],
                     'rarity': cols[2].find('div').text.strip(),
+                    'ability_name': ability_name,
+                    'ability_icon': ability_icon,
+                    'ability_description': ability_description,
                 }
             )
 

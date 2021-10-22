@@ -11,7 +11,7 @@ def scrape_adventurers():
     # Adventurer Lookup
     adv_lookup = {}
     for adv in Adventurer.objects.all():
-        adv_lookup[adv.slug] = ''
+        adv_lookup[adv.id] = ''
 
     # Scape Adventurers
     url = "{}/w/Adventurer_List".format(settings.BASE_WIKI_URL)
@@ -27,18 +27,19 @@ def scrape_adventurers():
         for unit in units:
             cols = unit.findAll('td')
 
+            id_parts = cols[0].find('img')['alt'].split(' ')
+            adv_id = '{}_{}'.format(id_parts[0], id_parts[1])
             name = cols[1].find('a').text.strip()
-            slug = slugify(name)
 
             # Check if already in DB
-            if slug in adv_lookup:
+            if adv_id in adv_lookup:
                 continue
 
             obj, created = Adventurer.objects.get_or_create(
-                name=name,
+                id = adv_id,
                 defaults={
-                    'slug': slug,
-                    'image': cols[0].find('img')['src'].replace('/thumb.php?f=', '').replace('&width=80', ''),
+                    'name': name,
+                    'slug': slugify(name),
                     'wiki_url': cols[0].find('a')['href'],
                     'rarity': cols[2].find('div').text.strip(),
                     'element': cols[3].find('div').text.strip(),

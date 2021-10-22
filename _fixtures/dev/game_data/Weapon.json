@@ -1,0 +1,3182 @@
+[
+{
+  "model": "game_data.weapon",
+  "pk": "301001",
+  "fields": {
+    "name": "Battleworn Sword",
+    "slug": "battleworn-sword",
+    "wiki_url": "/w/Battleworn_Sword",
+    "rarity": 1,
+    "element": "None",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301002",
+  "fields": {
+    "name": "Soldier's Brand",
+    "slug": "soldiers-brand",
+    "wiki_url": "/w/Soldier%27s_Brand",
+    "rarity": 2,
+    "element": "None",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301010",
+  "fields": {
+    "name": "Eoantide",
+    "slug": "eoantide",
+    "wiki_url": "/w/Eoantide",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301015",
+  "fields": {
+    "name": "Zex's End",
+    "slug": "zexs-end",
+    "wiki_url": "/w/Zex%27s_End",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301030",
+  "fields": {
+    "name": "Knight's Sword",
+    "slug": "knights-sword",
+    "wiki_url": "/w/Knight%27s_Sword",
+    "rarity": 3,
+    "element": "None",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301032",
+  "fields": {
+    "name": "Levatein",
+    "slug": "levatein",
+    "wiki_url": "/w/Levatein",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301033",
+  "fields": {
+    "name": "Durandal",
+    "slug": "durandal",
+    "wiki_url": "/w/Durandal",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301037",
+  "fields": {
+    "name": "Dáinsleif",
+    "slug": "dainsleif",
+    "wiki_url": "/w/D%C3%A1insleif",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301040",
+  "fields": {
+    "name": "Knights' Grace",
+    "slug": "knights-grace",
+    "wiki_url": "/w/Knights%27_Grace",
+    "rarity": 4,
+    "element": "None",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301041",
+  "fields": {
+    "name": "Hero's Sword",
+    "slug": "heros-sword",
+    "wiki_url": "/w/Hero%27s_Sword",
+    "rarity": 5,
+    "element": "None",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301046",
+  "fields": {
+    "name": "Lucky Hanetsuki Paddle",
+    "slug": "lucky-hanetsuki-paddle",
+    "wiki_url": "/w/Lucky_Hanetsuki_Paddle",
+    "rarity": 5,
+    "element": "None",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301056",
+  "fields": {
+    "name": "Inferno Apogee",
+    "slug": "inferno-apogee",
+    "wiki_url": "/w/Inferno_Apogee",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301077",
+  "fields": {
+    "name": "Judge of Oceans",
+    "slug": "judge-of-oceans",
+    "wiki_url": "/w/Judge_of_Oceans",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301098",
+  "fields": {
+    "name": "Roaring Weald",
+    "slug": "roaring-weald",
+    "wiki_url": "/w/Roaring_Weald",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301106",
+  "fields": {
+    "name": "Abyssbringer",
+    "slug": "abyssbringer",
+    "wiki_url": "/w/Abyssbringer",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301117",
+  "fields": {
+    "name": "Death Aeon",
+    "slug": "death-aeon",
+    "wiki_url": "/w/Death_Aeon",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301119",
+  "fields": {
+    "name": "Absolute Tempest",
+    "slug": "absolute-tempest",
+    "wiki_url": "/w/Absolute_Tempest",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301120",
+  "fields": {
+    "name": "Absolute Aqua",
+    "slug": "absolute-aqua",
+    "wiki_url": "/w/Absolute_Aqua",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301121",
+  "fields": {
+    "name": "Absolute Lightning",
+    "slug": "absolute-lightning",
+    "wiki_url": "/w/Absolute_Lightning",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301122",
+  "fields": {
+    "name": "Absolute Crimson",
+    "slug": "absolute-crimson",
+    "wiki_url": "/w/Absolute_Crimson",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301123",
+  "fields": {
+    "name": "Absolute Hex",
+    "slug": "absolute-hex",
+    "wiki_url": "/w/Absolute_Hex",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301130",
+  "fields": {
+    "name": "Mega Sword",
+    "slug": "mega-sword",
+    "wiki_url": "/w/Mega_Sword",
+    "rarity": 5,
+    "element": "None",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301132",
+  "fields": {
+    "name": "Chimeratech Commander",
+    "slug": "chimeratech-commander",
+    "wiki_url": "/w/Chimeratech_Commander",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301133",
+  "fields": {
+    "name": "Chimeratech Anomalocaris",
+    "slug": "chimeratech-anomalocaris",
+    "wiki_url": "/w/Chimeratech_Anomalocaris",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301134",
+  "fields": {
+    "name": "Chimeratech Cypress",
+    "slug": "chimeratech-cypress",
+    "wiki_url": "/w/Chimeratech_Cypress",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301135",
+  "fields": {
+    "name": "Chimeratech Sirius",
+    "slug": "chimeratech-sirius",
+    "wiki_url": "/w/Chimeratech_Sirius",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301136",
+  "fields": {
+    "name": "Chimeratech Nocturne",
+    "slug": "chimeratech-nocturne",
+    "wiki_url": "/w/Chimeratech_Nocturne",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301138",
+  "fields": {
+    "name": "Nothung",
+    "slug": "nothung",
+    "wiki_url": "/w/Nothung",
+    "rarity": 6,
+    "element": "Flame",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301139",
+  "fields": {
+    "name": "Ame no Murakumo",
+    "slug": "ame-no-murakumo",
+    "wiki_url": "/w/Ame_no_Murakumo",
+    "rarity": 6,
+    "element": "Water",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301140",
+  "fields": {
+    "name": "Excalibur",
+    "slug": "excalibur",
+    "wiki_url": "/w/Excalibur",
+    "rarity": 6,
+    "element": "Wind",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301141",
+  "fields": {
+    "name": "Caladbolg",
+    "slug": "caladbolg",
+    "wiki_url": "/w/Caladbolg",
+    "rarity": 6,
+    "element": "Light",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "301142",
+  "fields": {
+    "name": "Yitian Jian",
+    "slug": "yitian-jian",
+    "wiki_url": "/w/Yitian_Jian",
+    "rarity": 6,
+    "element": "Shadow",
+    "type": "Sword"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302001",
+  "fields": {
+    "name": "Battleworn Blade",
+    "slug": "battleworn-blade",
+    "wiki_url": "/w/Battleworn_Blade",
+    "rarity": 1,
+    "element": "None",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302010",
+  "fields": {
+    "name": "Maar Oasis",
+    "slug": "maar-oasis",
+    "wiki_url": "/w/Maar_Oasis",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302012",
+  "fields": {
+    "name": "Guardian Seal",
+    "slug": "guardian-seal",
+    "wiki_url": "/w/Guardian_Seal",
+    "rarity": 4,
+    "element": "None",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302013",
+  "fields": {
+    "name": "Heaven's Acuity",
+    "slug": "heavens-acuity",
+    "wiki_url": "/w/Heaven%27s_Acuity",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302014",
+  "fields": {
+    "name": "Dane's Favor",
+    "slug": "danes-favor",
+    "wiki_url": "/w/Dane%27s_Favor",
+    "rarity": 5,
+    "element": "None",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302021",
+  "fields": {
+    "name": "Subjugator",
+    "slug": "subjugator",
+    "wiki_url": "/w/Subjugator",
+    "rarity": 3,
+    "element": "None",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302023",
+  "fields": {
+    "name": "Anemone",
+    "slug": "anemone",
+    "wiki_url": "/w/Anemone",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302025",
+  "fields": {
+    "name": "Heavenwing",
+    "slug": "heavenwing",
+    "wiki_url": "/w/Heavenwing",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302028",
+  "fields": {
+    "name": "Blackwing",
+    "slug": "blackwing",
+    "wiki_url": "/w/Blackwing",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302045",
+  "fields": {
+    "name": "Skyrender",
+    "slug": "skyrender",
+    "wiki_url": "/w/Skyrender",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302058",
+  "fields": {
+    "name": "Highwater Slicer",
+    "slug": "highwater-slicer",
+    "wiki_url": "/w/Highwater_Slicer",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302089",
+  "fields": {
+    "name": "Stormsquall Crash",
+    "slug": "stormsquall-crash",
+    "wiki_url": "/w/Stormsquall_Crash",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302097",
+  "fields": {
+    "name": "Nightsky Ripper",
+    "slug": "nightsky-ripper",
+    "wiki_url": "/w/Nightsky_Ripper",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302108",
+  "fields": {
+    "name": "Hollow Lightning",
+    "slug": "hollow-lightning",
+    "wiki_url": "/w/Hollow_Lightning",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302110",
+  "fields": {
+    "name": "Endless Horizon",
+    "slug": "endless-horizon",
+    "wiki_url": "/w/Endless_Horizon",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302111",
+  "fields": {
+    "name": "Ruinous Torrent",
+    "slug": "ruinous-torrent",
+    "wiki_url": "/w/Ruinous_Torrent",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302112",
+  "fields": {
+    "name": "Brilliant Flash",
+    "slug": "brilliant-flash",
+    "wiki_url": "/w/Brilliant_Flash",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302113",
+  "fields": {
+    "name": "Blinding Conflagration",
+    "slug": "blinding-conflagration",
+    "wiki_url": "/w/Blinding_Conflagration",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302114",
+  "fields": {
+    "name": "True Abyss",
+    "slug": "true-abyss",
+    "wiki_url": "/w/True_Abyss",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302121",
+  "fields": {
+    "name": "Mega Blade",
+    "slug": "mega-blade",
+    "wiki_url": "/w/Mega_Blade",
+    "rarity": 5,
+    "element": "None",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302123",
+  "fields": {
+    "name": "Chimeratech Lord",
+    "slug": "chimeratech-lord",
+    "wiki_url": "/w/Chimeratech_Lord",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302124",
+  "fields": {
+    "name": "Chimeratech Hadranax",
+    "slug": "chimeratech-hadranax",
+    "wiki_url": "/w/Chimeratech_Hadranax",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302125",
+  "fields": {
+    "name": "Chimeratech Benzoin",
+    "slug": "chimeratech-benzoin",
+    "wiki_url": "/w/Chimeratech_Benzoin",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302126",
+  "fields": {
+    "name": "Chimeratech Canopus",
+    "slug": "chimeratech-canopus",
+    "wiki_url": "/w/Chimeratech_Canopus",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302127",
+  "fields": {
+    "name": "Chimeratech Requiem",
+    "slug": "chimeratech-requiem",
+    "wiki_url": "/w/Chimeratech_Requiem",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302129",
+  "fields": {
+    "name": "Tyrfing",
+    "slug": "tyrfing",
+    "wiki_url": "/w/Tyrfing",
+    "rarity": 6,
+    "element": "Flame",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302130",
+  "fields": {
+    "name": "Ame no Habakiri",
+    "slug": "ame-no-habakiri",
+    "wiki_url": "/w/Ame_no_Habakiri",
+    "rarity": 6,
+    "element": "Water",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302131",
+  "fields": {
+    "name": "Arondight",
+    "slug": "arondight",
+    "wiki_url": "/w/Arondight",
+    "rarity": 6,
+    "element": "Wind",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302132",
+  "fields": {
+    "name": "Fragarach",
+    "slug": "fragarach",
+    "wiki_url": "/w/Fragarach",
+    "rarity": 6,
+    "element": "Light",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "302133",
+  "fields": {
+    "name": "Qixing Baodao",
+    "slug": "qixing-baodao",
+    "wiki_url": "/w/Qixing_Baodao",
+    "rarity": 6,
+    "element": "Shadow",
+    "type": "Blade"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303001",
+  "fields": {
+    "name": "Battleworn Dagger",
+    "slug": "battleworn-dagger",
+    "wiki_url": "/w/Battleworn_Dagger",
+    "rarity": 1,
+    "element": "None",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303013",
+  "fields": {
+    "name": "Aeternal Flame",
+    "slug": "aeternal-flame",
+    "wiki_url": "/w/Aeternal_Flame",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303020",
+  "fields": {
+    "name": "Lux Lamina",
+    "slug": "lux-lamina",
+    "wiki_url": "/w/Lux_Lamina",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303026",
+  "fields": {
+    "name": "Bejeweled Dagger",
+    "slug": "bejeweled-dagger",
+    "wiki_url": "/w/Bejeweled_Dagger",
+    "rarity": 3,
+    "element": "None",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303028",
+  "fields": {
+    "name": "Karlsnautr",
+    "slug": "karlsnautr",
+    "wiki_url": "/w/Karlsnautr",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303030",
+  "fields": {
+    "name": "Thunderblade Sugaar",
+    "slug": "thunderblade-sugaar",
+    "wiki_url": "/w/Thunderblade_Sugaar",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303031",
+  "fields": {
+    "name": "Honor Edge",
+    "slug": "honor-edge",
+    "wiki_url": "/w/Honor_Edge",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303033",
+  "fields": {
+    "name": "Hardbreaker",
+    "slug": "hardbreaker",
+    "wiki_url": "/w/Hardbreaker",
+    "rarity": 4,
+    "element": "None",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303035",
+  "fields": {
+    "name": "Kris Naga",
+    "slug": "kris-naga",
+    "wiki_url": "/w/Kris_Naga",
+    "rarity": 5,
+    "element": "None",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303058",
+  "fields": {
+    "name": "Frigid Sting",
+    "slug": "frigid-sting",
+    "wiki_url": "/w/Frigid_Sting",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303065",
+  "fields": {
+    "name": "Vermillion Pain",
+    "slug": "vermillion-pain",
+    "wiki_url": "/w/Vermillion_Pain",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303088",
+  "fields": {
+    "name": "The Gale",
+    "slug": "the-gale",
+    "wiki_url": "/w/The_Gale",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303096",
+  "fields": {
+    "name": "Death Seeker",
+    "slug": "death-seeker",
+    "wiki_url": "/w/Death_Seeker",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303107",
+  "fields": {
+    "name": "Merciful Claw",
+    "slug": "merciful-claw",
+    "wiki_url": "/w/Merciful_Claw",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303109",
+  "fields": {
+    "name": "Windruler's Maw",
+    "slug": "windrulers-maw",
+    "wiki_url": "/w/Windruler%27s_Maw",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303110",
+  "fields": {
+    "name": "Tideruler's Maw",
+    "slug": "tiderulers-maw",
+    "wiki_url": "/w/Tideruler%27s_Maw",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303111",
+  "fields": {
+    "name": "Fulminator's Maw",
+    "slug": "fulminators-maw",
+    "wiki_url": "/w/Fulminator%27s_Maw",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303112",
+  "fields": {
+    "name": "Flameruler's Maw",
+    "slug": "flamerulers-maw",
+    "wiki_url": "/w/Flameruler%27s_Maw",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303113",
+  "fields": {
+    "name": "Shaderuler's Maw",
+    "slug": "shaderulers-maw",
+    "wiki_url": "/w/Shaderuler%27s_Maw",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303120",
+  "fields": {
+    "name": "Mega Dagger",
+    "slug": "mega-dagger",
+    "wiki_url": "/w/Mega_Dagger",
+    "rarity": 5,
+    "element": "None",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303122",
+  "fields": {
+    "name": "Chimeratech Elite",
+    "slug": "chimeratech-elite",
+    "wiki_url": "/w/Chimeratech_Elite",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303123",
+  "fields": {
+    "name": "Chimeratech Vetulicola",
+    "slug": "chimeratech-vetulicola",
+    "wiki_url": "/w/Chimeratech_Vetulicola",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303124",
+  "fields": {
+    "name": "Chimeratech Tea Tree",
+    "slug": "chimeratech-tea-tree",
+    "wiki_url": "/w/Chimeratech_Tea_Tree",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303125",
+  "fields": {
+    "name": "Chimeratech Capella",
+    "slug": "chimeratech-capella",
+    "wiki_url": "/w/Chimeratech_Capella",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303126",
+  "fields": {
+    "name": "Chimeratech Rhapsody",
+    "slug": "chimeratech-rhapsody",
+    "wiki_url": "/w/Chimeratech_Rhapsody",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303128",
+  "fields": {
+    "name": "Hrotti",
+    "slug": "hrotti",
+    "wiki_url": "/w/Hrotti",
+    "rarity": 6,
+    "element": "Flame",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303129",
+  "fields": {
+    "name": "Futsu no Mitama",
+    "slug": "futsu-no-mitama",
+    "wiki_url": "/w/Futsu_no_Mitama",
+    "rarity": 6,
+    "element": "Water",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303130",
+  "fields": {
+    "name": "Carnwennan",
+    "slug": "carnwennan",
+    "wiki_url": "/w/Carnwennan",
+    "rarity": 6,
+    "element": "Wind",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303131",
+  "fields": {
+    "name": "Claíomh Solais",
+    "slug": "claiomh-solais",
+    "wiki_url": "/w/Cla%C3%ADomh_Solais",
+    "rarity": 6,
+    "element": "Light",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "303132",
+  "fields": {
+    "name": "Qinghong Jian",
+    "slug": "qinghong-jian",
+    "wiki_url": "/w/Qinghong_Jian",
+    "rarity": 6,
+    "element": "Shadow",
+    "type": "Dagger"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304001",
+  "fields": {
+    "name": "Battleworn Axe",
+    "slug": "battleworn-axe",
+    "wiki_url": "/w/Battleworn_Axe",
+    "rarity": 1,
+    "element": "None",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304012",
+  "fields": {
+    "name": "Victory Axe",
+    "slug": "victory-axe",
+    "wiki_url": "/w/Victory_Axe",
+    "rarity": 5,
+    "element": "None",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304013",
+  "fields": {
+    "name": "Radiant Swath",
+    "slug": "radiant-swath",
+    "wiki_url": "/w/Radiant_Swath",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304014",
+  "fields": {
+    "name": "Primordial Titan",
+    "slug": "primordial-titan",
+    "wiki_url": "/w/Primordial_Titan",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304025",
+  "fields": {
+    "name": "Warrior's Axe",
+    "slug": "warriors-axe",
+    "wiki_url": "/w/Warrior%27s_Axe",
+    "rarity": 3,
+    "element": "None",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304026",
+  "fields": {
+    "name": "Plain Axe",
+    "slug": "plain-axe",
+    "wiki_url": "/w/Plain_Axe",
+    "rarity": 4,
+    "element": "None",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304027",
+  "fields": {
+    "name": "Axe of the Blazing King",
+    "slug": "axe-of-the-blazing-king",
+    "wiki_url": "/w/Axe_of_the_Blazing_King",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304028",
+  "fields": {
+    "name": "Grand Seadragon",
+    "slug": "grand-seadragon",
+    "wiki_url": "/w/Grand_Seadragon",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304029",
+  "fields": {
+    "name": "Axe of the Southern Cross",
+    "slug": "axe-of-the-southern-cross",
+    "wiki_url": "/w/Axe_of_the_Southern_Cross",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304043",
+  "fields": {
+    "name": "Heavenwrath Gaze",
+    "slug": "heavenwrath-gaze",
+    "wiki_url": "/w/Heavenwrath_Gaze",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304066",
+  "fields": {
+    "name": "Permafrost Crash",
+    "slug": "permafrost-crash",
+    "wiki_url": "/w/Permafrost_Crash",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304087",
+  "fields": {
+    "name": "Jagged Bolt",
+    "slug": "jagged-bolt",
+    "wiki_url": "/w/Jagged_Bolt",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304095",
+  "fields": {
+    "name": "Genocide Cleaver",
+    "slug": "genocide-cleaver",
+    "wiki_url": "/w/Genocide_Cleaver",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304106",
+  "fields": {
+    "name": "Blitzfang",
+    "slug": "blitzfang",
+    "wiki_url": "/w/Blitzfang",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304108",
+  "fields": {
+    "name": "Glorystorm's Guide",
+    "slug": "glorystorms-guide",
+    "wiki_url": "/w/Glorystorm%27s_Guide",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304109",
+  "fields": {
+    "name": "Mercy's Azure Tide",
+    "slug": "mercys-azure-tide",
+    "wiki_url": "/w/Mercy%27s_Azure_Tide",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304110",
+  "fields": {
+    "name": "Mighty Thundercrash",
+    "slug": "mighty-thundercrash",
+    "wiki_url": "/w/Mighty_Thundercrash",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304111",
+  "fields": {
+    "name": "Royal Crimson Heat",
+    "slug": "royal-crimson-heat",
+    "wiki_url": "/w/Royal_Crimson_Heat",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304112",
+  "fields": {
+    "name": "Shadowy Darkbite Axe",
+    "slug": "shadowy-darkbite-axe",
+    "wiki_url": "/w/Shadowy_Darkbite_Axe",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304119",
+  "fields": {
+    "name": "Mega Axe",
+    "slug": "mega-axe",
+    "wiki_url": "/w/Mega_Axe",
+    "rarity": 5,
+    "element": "None",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304121",
+  "fields": {
+    "name": "Chimeratech Warlord",
+    "slug": "chimeratech-warlord",
+    "wiki_url": "/w/Chimeratech_Warlord",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304122",
+  "fields": {
+    "name": "Chimeratech Helmetia",
+    "slug": "chimeratech-helmetia",
+    "wiki_url": "/w/Chimeratech_Helmetia",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304123",
+  "fields": {
+    "name": "Chimeratech Palmarosa",
+    "slug": "chimeratech-palmarosa",
+    "wiki_url": "/w/Chimeratech_Palmarosa",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304124",
+  "fields": {
+    "name": "Chimeratech Rigel",
+    "slug": "chimeratech-rigel",
+    "wiki_url": "/w/Chimeratech_Rigel",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304125",
+  "fields": {
+    "name": "Chimeratech Fugue",
+    "slug": "chimeratech-fugue",
+    "wiki_url": "/w/Chimeratech_Fugue",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304127",
+  "fields": {
+    "name": "Mjölnir",
+    "slug": "mjolnir",
+    "wiki_url": "/w/Mj%C3%B6lnir",
+    "rarity": 6,
+    "element": "Flame",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304128",
+  "fields": {
+    "name": "Ohohagari",
+    "slug": "ohohagari",
+    "wiki_url": "/w/Ohohagari",
+    "rarity": 6,
+    "element": "Water",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304129",
+  "fields": {
+    "name": "Marmyadose",
+    "slug": "marmyadose",
+    "wiki_url": "/w/Marmyadose",
+    "rarity": 6,
+    "element": "Wind",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304130",
+  "fields": {
+    "name": "Rog Mol",
+    "slug": "rog-mol",
+    "wiki_url": "/w/Rog_Mol",
+    "rarity": 6,
+    "element": "Light",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "304131",
+  "fields": {
+    "name": "Fangtian Huaji",
+    "slug": "fangtian-huaji",
+    "wiki_url": "/w/Fangtian_Huaji",
+    "rarity": 6,
+    "element": "Shadow",
+    "type": "Axe"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305001",
+  "fields": {
+    "name": "Battleworn Lance",
+    "slug": "battleworn-lance",
+    "wiki_url": "/w/Battleworn_Lance",
+    "rarity": 1,
+    "element": "None",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305014",
+  "fields": {
+    "name": "Ocean Lord",
+    "slug": "ocean-lord",
+    "wiki_url": "/w/Ocean_Lord",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305015",
+  "fields": {
+    "name": "Pactspear",
+    "slug": "pactspear",
+    "wiki_url": "/w/Pactspear",
+    "rarity": 5,
+    "element": "None",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305029",
+  "fields": {
+    "name": "Strong Halberd",
+    "slug": "strong-halberd",
+    "wiki_url": "/w/Strong_Halberd",
+    "rarity": 4,
+    "element": "None",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305030",
+  "fields": {
+    "name": "Calamity Trigger",
+    "slug": "calamity-trigger",
+    "wiki_url": "/w/Calamity_Trigger",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305032",
+  "fields": {
+    "name": "Spear of the Northern Cross",
+    "slug": "spear-of-the-northern-cross",
+    "wiki_url": "/w/Spear_of_the_Northern_Cross",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305033",
+  "fields": {
+    "name": "Thunder King's Greatspear",
+    "slug": "thunder-kings-greatspear",
+    "wiki_url": "/w/Thunder_King%27s_Greatspear",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305036",
+  "fields": {
+    "name": "Mistilteinn",
+    "slug": "mistilteinn",
+    "wiki_url": "/w/Mistilteinn",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305039",
+  "fields": {
+    "name": "Trident",
+    "slug": "trident",
+    "wiki_url": "/w/Trident",
+    "rarity": 3,
+    "element": "None",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305066",
+  "fields": {
+    "name": "Strohm Mare",
+    "slug": "strohm-mare",
+    "wiki_url": "/w/Strohm_Mare",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305077",
+  "fields": {
+    "name": "Flamedance Lance",
+    "slug": "flamedance-lance",
+    "wiki_url": "/w/Flamedance_Lance",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305094",
+  "fields": {
+    "name": "Windsovereign Trident",
+    "slug": "windsovereign-trident",
+    "wiki_url": "/w/Windsovereign_Trident",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305102",
+  "fields": {
+    "name": "Final Eclipse",
+    "slug": "final-eclipse",
+    "wiki_url": "/w/Final_Eclipse",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305113",
+  "fields": {
+    "name": "Starpiercer",
+    "slug": "starpiercer",
+    "wiki_url": "/w/Starpiercer",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305115",
+  "fields": {
+    "name": "Guiding Gale",
+    "slug": "guiding-gale",
+    "wiki_url": "/w/Guiding_Gale",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305116",
+  "fields": {
+    "name": "Limpid Rush",
+    "slug": "limpid-rush",
+    "wiki_url": "/w/Limpid_Rush",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305117",
+  "fields": {
+    "name": "Brilliant Lightflash",
+    "slug": "brilliant-lightflash",
+    "wiki_url": "/w/Brilliant_Lightflash",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305118",
+  "fields": {
+    "name": "Pureflame Lance",
+    "slug": "pureflame-lance",
+    "wiki_url": "/w/Pureflame_Lance",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305119",
+  "fields": {
+    "name": "Ebon Scourge Lance",
+    "slug": "ebon-scourge-lance",
+    "wiki_url": "/w/Ebon_Scourge_Lance",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305126",
+  "fields": {
+    "name": "Mega Lance",
+    "slug": "mega-lance",
+    "wiki_url": "/w/Mega_Lance",
+    "rarity": 5,
+    "element": "None",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305128",
+  "fields": {
+    "name": "Chimeratech Lancemaster",
+    "slug": "chimeratech-lancemaster",
+    "wiki_url": "/w/Chimeratech_Lancemaster",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305129",
+  "fields": {
+    "name": "Chimeratech Takakkawia",
+    "slug": "chimeratech-takakkawia",
+    "wiki_url": "/w/Chimeratech_Takakkawia",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305130",
+  "fields": {
+    "name": "Chimeratech Caraway",
+    "slug": "chimeratech-caraway",
+    "wiki_url": "/w/Chimeratech_Caraway",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305131",
+  "fields": {
+    "name": "Chimeratech Arcturus",
+    "slug": "chimeratech-arcturus",
+    "wiki_url": "/w/Chimeratech_Arcturus",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305132",
+  "fields": {
+    "name": "Chimeratech Elegy",
+    "slug": "chimeratech-elegy",
+    "wiki_url": "/w/Chimeratech_Elegy",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305135",
+  "fields": {
+    "name": "Gungnir",
+    "slug": "gungnir",
+    "wiki_url": "/w/Gungnir",
+    "rarity": 6,
+    "element": "Flame",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305136",
+  "fields": {
+    "name": "Ame no Nuhoko",
+    "slug": "ame-no-nuhoko",
+    "wiki_url": "/w/Ame_no_Nuhoko",
+    "rarity": 6,
+    "element": "Water",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305137",
+  "fields": {
+    "name": "Rhongomyniad",
+    "slug": "rhongomyniad",
+    "wiki_url": "/w/Rhongomyniad",
+    "rarity": 6,
+    "element": "Wind",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305138",
+  "fields": {
+    "name": "Areadbhar",
+    "slug": "areadbhar",
+    "wiki_url": "/w/Areadbhar",
+    "rarity": 6,
+    "element": "Light",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "305139",
+  "fields": {
+    "name": "Qinglong Yanyuedao",
+    "slug": "qinglong-yanyuedao",
+    "wiki_url": "/w/Qinglong_Yanyuedao",
+    "rarity": 6,
+    "element": "Shadow",
+    "type": "Lance"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306001",
+  "fields": {
+    "name": "Battleworn Bow",
+    "slug": "battleworn-bow",
+    "wiki_url": "/w/Battleworn_Bow",
+    "rarity": 1,
+    "element": "None",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306013",
+  "fields": {
+    "name": "Executor",
+    "slug": "executor",
+    "wiki_url": "/w/Executor",
+    "rarity": 4,
+    "element": "None",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306014",
+  "fields": {
+    "name": "Necro Arcus",
+    "slug": "necro-arcus",
+    "wiki_url": "/w/Necro_Arcus",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306015",
+  "fields": {
+    "name": "Nitralica's Koto",
+    "slug": "nitralicas-koto",
+    "wiki_url": "/w/Nitralica%27s_Koto",
+    "rarity": 5,
+    "element": "None",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306026",
+  "fields": {
+    "name": "Composite Bow",
+    "slug": "composite-bow",
+    "wiki_url": "/w/Composite_Bow",
+    "rarity": 3,
+    "element": "None",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306027",
+  "fields": {
+    "name": "Lupis Solis",
+    "slug": "lupis-solis",
+    "wiki_url": "/w/Lupis_Solis",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306029",
+  "fields": {
+    "name": "Peacock's Whorl",
+    "slug": "peacocks-whorl",
+    "wiki_url": "/w/Peacock%27s_Whorl",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306030",
+  "fields": {
+    "name": "Stellar Pegasus",
+    "slug": "stellar-pegasus",
+    "wiki_url": "/w/Stellar_Pegasus",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306031",
+  "fields": {
+    "name": "Thunderbow",
+    "slug": "thunderbow",
+    "wiki_url": "/w/Thunderbow",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306061",
+  "fields": {
+    "name": "Vulcanrage",
+    "slug": "vulcanrage",
+    "wiki_url": "/w/Vulcanrage",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306071",
+  "fields": {
+    "name": "Everfrost Bow",
+    "slug": "everfrost-bow",
+    "wiki_url": "/w/Everfrost_Bow",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306087",
+  "fields": {
+    "name": "Firmament Auger",
+    "slug": "firmament-auger",
+    "wiki_url": "/w/Firmament_Auger",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306095",
+  "fields": {
+    "name": "Black Dahlia Bow",
+    "slug": "black-dahlia-bow",
+    "wiki_url": "/w/Black_Dahlia_Bow",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306106",
+  "fields": {
+    "name": "Astral Echo",
+    "slug": "astral-echo",
+    "wiki_url": "/w/Astral_Echo",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306108",
+  "fields": {
+    "name": "Jormungand's Fury",
+    "slug": "jormungands-fury",
+    "wiki_url": "/w/Jormungand%27s_Fury",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306109",
+  "fields": {
+    "name": "Azure Mercurius",
+    "slug": "azure-mercurius",
+    "wiki_url": "/w/Azure_Mercurius",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306110",
+  "fields": {
+    "name": "Jupiter's Sky",
+    "slug": "jupiters-sky",
+    "wiki_url": "/w/Jupiter%27s_Sky",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306111",
+  "fields": {
+    "name": "Valkyrie's Fire",
+    "slug": "valkyries-fire",
+    "wiki_url": "/w/Valkyrie%27s_Fire",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306112",
+  "fields": {
+    "name": "Hellish Prophecy",
+    "slug": "hellish-prophecy",
+    "wiki_url": "/w/Hellish_Prophecy",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306119",
+  "fields": {
+    "name": "Mega Bow",
+    "slug": "mega-bow",
+    "wiki_url": "/w/Mega_Bow",
+    "rarity": 5,
+    "element": "None",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306121",
+  "fields": {
+    "name": "Chimeratech Sniper",
+    "slug": "chimeratech-sniper",
+    "wiki_url": "/w/Chimeratech_Sniper",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306122",
+  "fields": {
+    "name": "Chimeratech Hallucigenia",
+    "slug": "chimeratech-hallucigenia",
+    "wiki_url": "/w/Chimeratech_Hallucigenia",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306123",
+  "fields": {
+    "name": "Chimeratech Ajwain",
+    "slug": "chimeratech-ajwain",
+    "wiki_url": "/w/Chimeratech_Ajwain",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306124",
+  "fields": {
+    "name": "Chimeratech Vega",
+    "slug": "chimeratech-vega",
+    "wiki_url": "/w/Chimeratech_Vega",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306125",
+  "fields": {
+    "name": "Chimeratech Concerto",
+    "slug": "chimeratech-concerto",
+    "wiki_url": "/w/Chimeratech_Concerto",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306127",
+  "fields": {
+    "name": "Ýdalir",
+    "slug": "ydalir",
+    "wiki_url": "/w/%C3%9Ddalir",
+    "rarity": 6,
+    "element": "Flame",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306128",
+  "fields": {
+    "name": "Ame no Hajiyumi",
+    "slug": "ame-no-hajiyumi",
+    "wiki_url": "/w/Ame_no_Hajiyumi",
+    "rarity": 6,
+    "element": "Water",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306129",
+  "fields": {
+    "name": "Failnaught",
+    "slug": "failnaught",
+    "wiki_url": "/w/Failnaught",
+    "rarity": 6,
+    "element": "Wind",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306130",
+  "fields": {
+    "name": "Tathlum",
+    "slug": "tathlum",
+    "wiki_url": "/w/Tathlum",
+    "rarity": 6,
+    "element": "Light",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "306131",
+  "fields": {
+    "name": "Longshe Gong",
+    "slug": "longshe-gong",
+    "wiki_url": "/w/Longshe_Gong",
+    "rarity": 6,
+    "element": "Shadow",
+    "type": "Bow"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307001",
+  "fields": {
+    "name": "Battleworn Wand",
+    "slug": "battleworn-wand",
+    "wiki_url": "/w/Battleworn_Wand",
+    "rarity": 1,
+    "element": "None",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307012",
+  "fields": {
+    "name": "Latchkey",
+    "slug": "latchkey",
+    "wiki_url": "/w/Latchkey",
+    "rarity": 4,
+    "element": "None",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307014",
+  "fields": {
+    "name": "Phytalmios",
+    "slug": "phytalmios",
+    "wiki_url": "/w/Phytalmios",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307015",
+  "fields": {
+    "name": "Terranigmus",
+    "slug": "terranigmus",
+    "wiki_url": "/w/Terranigmus",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307031",
+  "fields": {
+    "name": "Wand of the Torrent",
+    "slug": "wand-of-the-torrent",
+    "wiki_url": "/w/Wand_of_the_Torrent",
+    "rarity": 5,
+    "element": "None",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307032",
+  "fields": {
+    "name": "Ocean Monarch",
+    "slug": "ocean-monarch",
+    "wiki_url": "/w/Ocean_Monarch",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307034",
+  "fields": {
+    "name": "Twilight Shimmer",
+    "slug": "twilight-shimmer",
+    "wiki_url": "/w/Twilight_Shimmer",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307035",
+  "fields": {
+    "name": "Underworld Despair",
+    "slug": "underworld-despair",
+    "wiki_url": "/w/Underworld_Despair",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307042",
+  "fields": {
+    "name": "Wizard's Rod",
+    "slug": "wizards-rod",
+    "wiki_url": "/w/Wizard%27s_Rod",
+    "rarity": 3,
+    "element": "None",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307066",
+  "fields": {
+    "name": "Scepter of Infinite Fire",
+    "slug": "scepter-of-infinite-fire",
+    "wiki_url": "/w/Scepter_of_Infinite_Fire",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307077",
+  "fields": {
+    "name": "Spirit Breaker",
+    "slug": "spirit-breaker",
+    "wiki_url": "/w/Spirit_Breaker",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307095",
+  "fields": {
+    "name": "Typhoon's Rule",
+    "slug": "typhoons-rule",
+    "wiki_url": "/w/Typhoon%27s_Rule",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307103",
+  "fields": {
+    "name": "Dirge of Desperation",
+    "slug": "dirge-of-desperation",
+    "wiki_url": "/w/Dirge_of_Desperation",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307114",
+  "fields": {
+    "name": "Worldshaker",
+    "slug": "worldshaker",
+    "wiki_url": "/w/Worldshaker",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307116",
+  "fields": {
+    "name": "Grand Tempest",
+    "slug": "grand-tempest",
+    "wiki_url": "/w/Grand_Tempest_(Weapon)",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307117",
+  "fields": {
+    "name": "Aquatic Spiral",
+    "slug": "aquatic-spiral",
+    "wiki_url": "/w/Aquatic_Spiral",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307118",
+  "fields": {
+    "name": "Primeval Thunder",
+    "slug": "primeval-thunder",
+    "wiki_url": "/w/Primeval_Thunder",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307119",
+  "fields": {
+    "name": "Infernoblaze",
+    "slug": "infernoblaze",
+    "wiki_url": "/w/Infernoblaze",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307120",
+  "fields": {
+    "name": "Darkbinder",
+    "slug": "darkbinder",
+    "wiki_url": "/w/Darkbinder",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307127",
+  "fields": {
+    "name": "Mega Wand",
+    "slug": "mega-wand",
+    "wiki_url": "/w/Mega_Wand",
+    "rarity": 5,
+    "element": "None",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307129",
+  "fields": {
+    "name": "Chimeratech Archmage",
+    "slug": "chimeratech-archmage",
+    "wiki_url": "/w/Chimeratech_Archmage",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307130",
+  "fields": {
+    "name": "Chimeratech Hurdia",
+    "slug": "chimeratech-hurdia",
+    "wiki_url": "/w/Chimeratech_Hurdia",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307131",
+  "fields": {
+    "name": "Chimeratech Frankin",
+    "slug": "chimeratech-frankin",
+    "wiki_url": "/w/Chimeratech_Frankin",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307132",
+  "fields": {
+    "name": "Chimeratech Betelgeuse",
+    "slug": "chimeratech-betelgeuse",
+    "wiki_url": "/w/Chimeratech_Betelgeuse",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307133",
+  "fields": {
+    "name": "Chimeratech Oratorio",
+    "slug": "chimeratech-oratorio",
+    "wiki_url": "/w/Chimeratech_Oratorio",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307135",
+  "fields": {
+    "name": "Brísingr",
+    "slug": "brisingr",
+    "wiki_url": "/w/Br%C3%ADsingr",
+    "rarity": 6,
+    "element": "Flame",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307136",
+  "fields": {
+    "name": "Omizununo",
+    "slug": "omizununo",
+    "wiki_url": "/w/Omizununo",
+    "rarity": 6,
+    "element": "Water",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307137",
+  "fields": {
+    "name": "Camelot",
+    "slug": "camelot",
+    "wiki_url": "/w/Camelot",
+    "rarity": 6,
+    "element": "Wind",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307138",
+  "fields": {
+    "name": "Brionac",
+    "slug": "brionac",
+    "wiki_url": "/w/Brionac",
+    "rarity": 6,
+    "element": "Light",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "307139",
+  "fields": {
+    "name": "Jiu Ci",
+    "slug": "jiu-ci",
+    "wiki_url": "/w/Jiu_Ci",
+    "rarity": 6,
+    "element": "Shadow",
+    "type": "Wand"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308001",
+  "fields": {
+    "name": "Battleworn Staff",
+    "slug": "battleworn-staff",
+    "wiki_url": "/w/Battleworn_Staff",
+    "rarity": 1,
+    "element": "None",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308002",
+  "fields": {
+    "name": "Staff of Grace",
+    "slug": "staff-of-grace",
+    "wiki_url": "/w/Staff_of_Grace",
+    "rarity": 3,
+    "element": "None",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308005",
+  "fields": {
+    "name": "Staff of Life",
+    "slug": "staff-of-life",
+    "wiki_url": "/w/Staff_of_Life",
+    "rarity": 4,
+    "element": "None",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308011",
+  "fields": {
+    "name": "Bracing Waters",
+    "slug": "bracing-waters",
+    "wiki_url": "/w/Bracing_Waters",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308014",
+  "fields": {
+    "name": "Light of Judgment",
+    "slug": "light-of-judgment",
+    "wiki_url": "/w/Light_of_Judgment",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308015",
+  "fields": {
+    "name": "Caduceus",
+    "slug": "caduceus",
+    "wiki_url": "/w/Caduceus",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308030",
+  "fields": {
+    "name": "Cane of Soul's Repose",
+    "slug": "cane-of-souls-repose",
+    "wiki_url": "/w/Cane_of_Soul%27s_Repose",
+    "rarity": 5,
+    "element": "None",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308031",
+  "fields": {
+    "name": "Staff of the Red Emperor",
+    "slug": "staff-of-the-red-emperor",
+    "wiki_url": "/w/Staff_of_the_Red_Emperor",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308032",
+  "fields": {
+    "name": "Ancient Mage's Windcane",
+    "slug": "ancient-mages-windcane",
+    "wiki_url": "/w/Ancient_Mage%27s_Windcane",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308044",
+  "fields": {
+    "name": "Endless Demise",
+    "slug": "endless-demise",
+    "wiki_url": "/w/Endless_Demise",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308055",
+  "fields": {
+    "name": "Endless Azure Core",
+    "slug": "endless-azure-core",
+    "wiki_url": "/w/Endless_Azure_Core",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308088",
+  "fields": {
+    "name": "Skypainter Staff",
+    "slug": "skypainter-staff",
+    "wiki_url": "/w/Skypainter_Staff",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308096",
+  "fields": {
+    "name": "Aria of Lamentation",
+    "slug": "aria-of-lamentation",
+    "wiki_url": "/w/Aria_of_Lamentation",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308107",
+  "fields": {
+    "name": "Dominus of Ever",
+    "slug": "dominus-of-ever",
+    "wiki_url": "/w/Dominus_of_Ever",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308109",
+  "fields": {
+    "name": "Stormruler",
+    "slug": "stormruler",
+    "wiki_url": "/w/Stormruler",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308110",
+  "fields": {
+    "name": "Ocean's Embrace",
+    "slug": "oceans-embrace",
+    "wiki_url": "/w/Ocean%27s_Embrace",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308111",
+  "fields": {
+    "name": "Heavensneer",
+    "slug": "heavensneer",
+    "wiki_url": "/w/Heavensneer",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308112",
+  "fields": {
+    "name": "Blazegambol",
+    "slug": "blazegambol",
+    "wiki_url": "/w/Blazegambol",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308113",
+  "fields": {
+    "name": "Dark Hunger",
+    "slug": "dark-hunger",
+    "wiki_url": "/w/Dark_Hunger",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308120",
+  "fields": {
+    "name": "Mega Staff",
+    "slug": "mega-staff",
+    "wiki_url": "/w/Mega_Staff",
+    "rarity": 5,
+    "element": "None",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308122",
+  "fields": {
+    "name": "Chimeratech Cardinal",
+    "slug": "chimeratech-cardinal",
+    "wiki_url": "/w/Chimeratech_Cardinal",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308123",
+  "fields": {
+    "name": "Chimeratech Metaldetes",
+    "slug": "chimeratech-metaldetes",
+    "wiki_url": "/w/Chimeratech_Metaldetes",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308124",
+  "fields": {
+    "name": "Chimeratech Marjoram",
+    "slug": "chimeratech-marjoram",
+    "wiki_url": "/w/Chimeratech_Marjoram",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308125",
+  "fields": {
+    "name": "Chimeratech Procyon",
+    "slug": "chimeratech-procyon",
+    "wiki_url": "/w/Chimeratech_Procyon",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308126",
+  "fields": {
+    "name": "Chimeratech Coda",
+    "slug": "chimeratech-coda",
+    "wiki_url": "/w/Chimeratech_Coda",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308128",
+  "fields": {
+    "name": "Gjallarhorn",
+    "slug": "gjallarhorn",
+    "wiki_url": "/w/Gjallarhorn",
+    "rarity": 6,
+    "element": "Flame",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308129",
+  "fields": {
+    "name": "Kunado",
+    "slug": "kunado",
+    "wiki_url": "/w/Kunado",
+    "rarity": 6,
+    "element": "Water",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308130",
+  "fields": {
+    "name": "Avalon",
+    "slug": "avalon",
+    "wiki_url": "/w/Avalon",
+    "rarity": 6,
+    "element": "Wind",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308131",
+  "fields": {
+    "name": "Del Frith",
+    "slug": "del-frith",
+    "wiki_url": "/w/Del_Frith",
+    "rarity": 6,
+    "element": "Light",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "308132",
+  "fields": {
+    "name": "Li Zhang",
+    "slug": "li-zhang",
+    "wiki_url": "/w/Li_Zhang",
+    "rarity": 6,
+    "element": "Shadow",
+    "type": "Staff"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309001",
+  "fields": {
+    "name": "Battleworn Manacaster",
+    "slug": "battleworn-manacaster",
+    "wiki_url": "/w/Battleworn_Manacaster",
+    "rarity": 1,
+    "element": "None",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309002",
+  "fields": {
+    "name": "Antique Manacaster",
+    "slug": "antique-manacaster",
+    "wiki_url": "/w/Antique_Manacaster",
+    "rarity": 4,
+    "element": "None",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309009",
+  "fields": {
+    "name": "Chanzelian Caster",
+    "slug": "chanzelian-caster",
+    "wiki_url": "/w/Chanzelian_Caster",
+    "rarity": 5,
+    "element": "None",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309011",
+  "fields": {
+    "name": "Chanzelian Caster Mk. 65",
+    "slug": "chanzelian-caster-mk-65",
+    "wiki_url": "/w/Chanzelian_Caster_Mk._65",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309012",
+  "fields": {
+    "name": "Chanzelian Caster Mk. 72",
+    "slug": "chanzelian-caster-mk-72",
+    "wiki_url": "/w/Chanzelian_Caster_Mk._72",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309013",
+  "fields": {
+    "name": "Chanzelian Caster Mk. 21",
+    "slug": "chanzelian-caster-mk-21",
+    "wiki_url": "/w/Chanzelian_Caster_Mk._21",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309014",
+  "fields": {
+    "name": "Chanzelian Caster Mk. 62",
+    "slug": "chanzelian-caster-mk-62",
+    "wiki_url": "/w/Chanzelian_Caster_Mk._62",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309015",
+  "fields": {
+    "name": "Chanzelian Caster Mk. 81",
+    "slug": "chanzelian-caster-mk-81",
+    "wiki_url": "/w/Chanzelian_Caster_Mk._81",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309016",
+  "fields": {
+    "name": "Chimeratech Gunner",
+    "slug": "chimeratech-gunner",
+    "wiki_url": "/w/Chimeratech_Gunner",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309017",
+  "fields": {
+    "name": "Chimeratech Marella",
+    "slug": "chimeratech-marella",
+    "wiki_url": "/w/Chimeratech_Marella",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309018",
+  "fields": {
+    "name": "Chimeratech Fennel",
+    "slug": "chimeratech-fennel",
+    "wiki_url": "/w/Chimeratech_Fennel",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309019",
+  "fields": {
+    "name": "Chimeratech Al Nasr",
+    "slug": "chimeratech-al-nasr",
+    "wiki_url": "/w/Chimeratech_Al_Nasr",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309020",
+  "fields": {
+    "name": "Chimeratech Cantata",
+    "slug": "chimeratech-cantata",
+    "wiki_url": "/w/Chimeratech_Cantata",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309021",
+  "fields": {
+    "name": "Crimson Trigger",
+    "slug": "crimson-trigger",
+    "wiki_url": "/w/Crimson_Trigger",
+    "rarity": 5,
+    "element": "Flame",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309022",
+  "fields": {
+    "name": "Aqua Trigger",
+    "slug": "aqua-trigger",
+    "wiki_url": "/w/Aqua_Trigger",
+    "rarity": 5,
+    "element": "Water",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309023",
+  "fields": {
+    "name": "Tempest Trigger",
+    "slug": "tempest-trigger",
+    "wiki_url": "/w/Tempest_Trigger",
+    "rarity": 5,
+    "element": "Wind",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309024",
+  "fields": {
+    "name": "Thunder Trigger",
+    "slug": "thunder-trigger",
+    "wiki_url": "/w/Thunder_Trigger",
+    "rarity": 5,
+    "element": "Light",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309025",
+  "fields": {
+    "name": "Curse Trigger",
+    "slug": "curse-trigger",
+    "wiki_url": "/w/Curse_Trigger",
+    "rarity": 5,
+    "element": "Shadow",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309026",
+  "fields": {
+    "name": "Draupnir",
+    "slug": "draupnir",
+    "wiki_url": "/w/Draupnir",
+    "rarity": 6,
+    "element": "Flame",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309027",
+  "fields": {
+    "name": "Ame no Torifune",
+    "slug": "ame-no-torifune",
+    "wiki_url": "/w/Ame_no_Torifune",
+    "rarity": 6,
+    "element": "Water",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309028",
+  "fields": {
+    "name": "Gallatin",
+    "slug": "gallatin",
+    "wiki_url": "/w/Gallatin",
+    "rarity": 6,
+    "element": "Wind",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309029",
+  "fields": {
+    "name": "Gae Assail",
+    "slug": "gae-assail",
+    "wiki_url": "/w/Gae_Assail",
+    "rarity": 6,
+    "element": "Light",
+    "type": "Manacaster"
+  }
+},
+{
+  "model": "game_data.weapon",
+  "pk": "309030",
+  "fields": {
+    "name": "Wanli Qi Yunyan",
+    "slug": "wanli-qi-yunyan",
+    "wiki_url": "/w/Wanli_Qi_Yunyan",
+    "rarity": 6,
+    "element": "Shadow",
+    "type": "Manacaster"
+  }
+}
+]

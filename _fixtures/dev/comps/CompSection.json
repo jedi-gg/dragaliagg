@@ -1,0 +1,26 @@
+[
+{
+  "model": "comps.compsection",
+  "pk": 1,
+  "fields": {
+    "slug": "sinister-dominion",
+    "title": "Sinister Dominion",
+    "nav_title": null,
+    "ordering": 40,
+    "description": "",
+    "wiki_link": null
+  }
+},
+{
+  "model": "comps.compsection",
+  "pk": 2,
+  "fields": {
+    "slug": "agito",
+    "title": "Agito",
+    "nav_title": null,
+    "ordering": 35,
+    "description": "",
+    "wiki_link": null
+  }
+}
+]

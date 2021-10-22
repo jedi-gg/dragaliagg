@@ -1,0 +1,42 @@
+[
+{
+  "model": "comps.compdifficulty",
+  "pk": 1,
+  "fields": {
+    "slug": "legend",
+    "title": "Legend",
+    "ordering": 10,
+    "description": ""
+  }
+},
+{
+  "model": "comps.compdifficulty",
+  "pk": 2,
+  "fields": {
+    "slug": "master",
+    "title": "Master",
+    "ordering": 9,
+    "description": ""
+  }
+},
+{
+  "model": "comps.compdifficulty",
+  "pk": 3,
+  "fields": {
+    "slug": "expert",
+    "title": "Expert",
+    "ordering": 8,
+    "description": ""
+  }
+},
+{
+  "model": "comps.compdifficulty",
+  "pk": 4,
+  "fields": {
+    "slug": "standard",
+    "title": "Standard",
+    "ordering": 7,
+    "description": ""
+  }
+}
+]

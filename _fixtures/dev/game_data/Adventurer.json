@@ -1,0 +1,3314 @@
+[
+{
+  "model": "game_data.adventurer",
+  "pk": "100001_01",
+  "fields": {
+    "name": "The Prince",
+    "slug": "the-prince",
+    "wiki_url": "/w/The_Prince",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100001_08",
+  "fields": {
+    "name": "Gala Prince",
+    "slug": "gala-prince",
+    "wiki_url": "/w/Gala_Prince",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100001_12",
+  "fields": {
+    "name": "Summer Prince",
+    "slug": "summer-prince",
+    "wiki_url": "/w/Summer_Prince",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100002_01",
+  "fields": {
+    "name": "Elisanne",
+    "slug": "elisanne",
+    "wiki_url": "/w/Elisanne",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100002_02",
+  "fields": {
+    "name": "Halloween Elisanne",
+    "slug": "halloween-elisanne",
+    "wiki_url": "/w/Halloween_Elisanne",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100002_06",
+  "fields": {
+    "name": "Wedding Elisanne",
+    "slug": "wedding-elisanne",
+    "wiki_url": "/w/Wedding_Elisanne",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100002_13",
+  "fields": {
+    "name": "Gala Elisanne",
+    "slug": "gala-elisanne",
+    "wiki_url": "/w/Gala_Elisanne",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100002_15",
+  "fields": {
+    "name": "Kimono Elisanne",
+    "slug": "kimono-elisanne",
+    "wiki_url": "/w/Kimono_Elisanne",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100003_01",
+  "fields": {
+    "name": "Ranzal",
+    "slug": "ranzal",
+    "wiki_url": "/w/Ranzal",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100003_02",
+  "fields": {
+    "name": "Summer Ranzal",
+    "slug": "summer-ranzal",
+    "wiki_url": "/w/Summer_Ranzal",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100003_07",
+  "fields": {
+    "name": "Gala Ranzal",
+    "slug": "gala-ranzal",
+    "wiki_url": "/w/Gala_Ranzal",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100003_10",
+  "fields": {
+    "name": "Child Ranzal",
+    "slug": "child-ranzal",
+    "wiki_url": "/w/Child_Ranzal",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100004_01",
+  "fields": {
+    "name": "Cleo",
+    "slug": "cleo",
+    "wiki_url": "/w/Cleo",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100004_02",
+  "fields": {
+    "name": "Dragonyule Cleo",
+    "slug": "dragonyule-cleo",
+    "wiki_url": "/w/Dragonyule_Cleo",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100004_04",
+  "fields": {
+    "name": "Summer Cleo",
+    "slug": "summer-cleo",
+    "wiki_url": "/w/Summer_Cleo",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100004_10",
+  "fields": {
+    "name": "Gala Cleo",
+    "slug": "gala-cleo",
+    "wiki_url": "/w/Gala_Cleo",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100004_17",
+  "fields": {
+    "name": "Forager Cleo",
+    "slug": "forager-cleo",
+    "wiki_url": "/w/Forager_Cleo",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100004_19",
+  "fields": {
+    "name": "Yukata Cleo",
+    "slug": "yukata-cleo",
+    "wiki_url": "/w/Yukata_Cleo",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100005_01",
+  "fields": {
+    "name": "Alex",
+    "slug": "alex",
+    "wiki_url": "/w/Alex",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100005_02",
+  "fields": {
+    "name": "Gala Alex",
+    "slug": "gala-alex",
+    "wiki_url": "/w/Gala_Alex",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100005_08",
+  "fields": {
+    "name": "Summer Alex",
+    "slug": "summer-alex",
+    "wiki_url": "/w/Summer_Alex",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100006_01",
+  "fields": {
+    "name": "Luca",
+    "slug": "luca",
+    "wiki_url": "/w/Luca",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100006_03",
+  "fields": {
+    "name": "Summer Luca",
+    "slug": "summer-luca",
+    "wiki_url": "/w/Summer_Luca",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100006_09",
+  "fields": {
+    "name": "Gala Luca",
+    "slug": "gala-luca",
+    "wiki_url": "/w/Gala_Luca",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100006_11",
+  "fields": {
+    "name": "Kimono Luca",
+    "slug": "kimono-luca",
+    "wiki_url": "/w/Kimono_Luca",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100007_07",
+  "fields": {
+    "name": "Gala Notte",
+    "slug": "gala-notte",
+    "wiki_url": "/w/Gala_Notte",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100009_07",
+  "fields": {
+    "name": "Zena",
+    "slug": "zena",
+    "wiki_url": "/w/Zena",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100009_08",
+  "fields": {
+    "name": "Gala Zena",
+    "slug": "gala-zena",
+    "wiki_url": "/w/Gala_Zena",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100010_04",
+  "fields": {
+    "name": "Gala Mym",
+    "slug": "gala-mym",
+    "wiki_url": "/w/Gala_Mym",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100010_07",
+  "fields": {
+    "name": "Halloween Mym",
+    "slug": "halloween-mym",
+    "wiki_url": "/w/Halloween_Mym",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100010_10",
+  "fields": {
+    "name": "Summer Mym",
+    "slug": "summer-mym",
+    "wiki_url": "/w/Summer_Mym",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Long-Range Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100013_04",
+  "fields": {
+    "name": "Gala Leonidas",
+    "slug": "gala-leonidas",
+    "wiki_url": "/w/Gala_Leonidas",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Rapid-Fire Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100013_06",
+  "fields": {
+    "name": "Summer Leonidas",
+    "slug": "summer-leonidas",
+    "wiki_url": "/w/Summer_Leonidas",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100015_04",
+  "fields": {
+    "name": "Chelle",
+    "slug": "chelle",
+    "wiki_url": "/w/Chelle",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100015_05",
+  "fields": {
+    "name": "Gala Chelle",
+    "slug": "gala-chelle",
+    "wiki_url": "/w/Gala_Chelle",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Rapid-Fire Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100015_08",
+  "fields": {
+    "name": "Summer Chelle",
+    "slug": "summer-chelle",
+    "wiki_url": "/w/Summer_Chelle",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100018_02",
+  "fields": {
+    "name": "Gala Leif",
+    "slug": "gala-leif",
+    "wiki_url": "/w/Gala_Leif",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100018_07",
+  "fields": {
+    "name": "Civilian Leif",
+    "slug": "civilian-leif",
+    "wiki_url": "/w/Civilian_Leif",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100019_02",
+  "fields": {
+    "name": "Harle",
+    "slug": "harle",
+    "wiki_url": "/w/Harle",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100029_02",
+  "fields": {
+    "name": "Gala Sarisse",
+    "slug": "gala-sarisse",
+    "wiki_url": "/w/Gala_Sarisse",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100029_03",
+  "fields": {
+    "name": "Hunter Sarisse",
+    "slug": "hunter-sarisse",
+    "wiki_url": "/w/Hunter_Sarisse",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100029_04",
+  "fields": {
+    "name": "Sharpshooter Sarisse",
+    "slug": "sharpshooter-sarisse",
+    "wiki_url": "/w/Sharpshooter_Sarisse",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Close-Range Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100031_03",
+  "fields": {
+    "name": "Alberius",
+    "slug": "alberius",
+    "wiki_url": "/w/Alberius",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100032_01",
+  "fields": {
+    "name": "Laxi",
+    "slug": "laxi",
+    "wiki_url": "/w/Laxi",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100032_04",
+  "fields": {
+    "name": "Gala Laxi",
+    "slug": "gala-laxi",
+    "wiki_url": "/w/Gala_Laxi",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100045_01",
+  "fields": {
+    "name": "Gala Mascula",
+    "slug": "gala-mascula",
+    "wiki_url": "/w/Gala_Mascula",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "100054_01",
+  "fields": {
+    "name": "Gala Zethia",
+    "slug": "gala-zethia",
+    "wiki_url": "/w/Gala_Zethia",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110001_01",
+  "fields": {
+    "name": "Alain",
+    "slug": "alain",
+    "wiki_url": "/w/Alain",
+    "rarity": 3,
+    "element": "Flame",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110002_01",
+  "fields": {
+    "name": "Aoi",
+    "slug": "aoi",
+    "wiki_url": "/w/Aoi",
+    "rarity": 3,
+    "element": "Flame",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110002_02",
+  "fields": {
+    "name": "Wedding Aoi",
+    "slug": "wedding-aoi",
+    "wiki_url": "/w/Wedding_Aoi",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110003_01",
+  "fields": {
+    "name": "Joe",
+    "slug": "joe",
+    "wiki_url": "/w/Joe",
+    "rarity": 3,
+    "element": "Flame",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110003_02",
+  "fields": {
+    "name": "Sharpshooter Joe",
+    "slug": "sharpshooter-joe",
+    "wiki_url": "/w/Sharpshooter_Joe",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Long-Range Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110004_01",
+  "fields": {
+    "name": "Xania",
+    "slug": "xania",
+    "wiki_url": "/w/Xania",
+    "rarity": 3,
+    "element": "Flame",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110004_02",
+  "fields": {
+    "name": "Wedding Xania",
+    "slug": "wedding-xania",
+    "wiki_url": "/w/Wedding_Xania",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110005_01",
+  "fields": {
+    "name": "Renelle",
+    "slug": "renelle",
+    "wiki_url": "/w/Renelle",
+    "rarity": 3,
+    "element": "Flame",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110006_01",
+  "fields": {
+    "name": "Aurien",
+    "slug": "aurien",
+    "wiki_url": "/w/Aurien",
+    "rarity": 3,
+    "element": "Flame",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110007_01",
+  "fields": {
+    "name": "Vanessa",
+    "slug": "vanessa",
+    "wiki_url": "/w/Vanessa",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110007_02",
+  "fields": {
+    "name": "Hunter Vanessa",
+    "slug": "hunter-vanessa",
+    "wiki_url": "/w/Hunter_Vanessa",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110008_01",
+  "fields": {
+    "name": "Karl",
+    "slug": "karl",
+    "wiki_url": "/w/Karl",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110009_01",
+  "fields": {
+    "name": "Sinoa",
+    "slug": "sinoa",
+    "wiki_url": "/w/Sinoa",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110009_02",
+  "fields": {
+    "name": "Summer Sinoa",
+    "slug": "summer-sinoa",
+    "wiki_url": "/w/Summer_Sinoa",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110010_01",
+  "fields": {
+    "name": "Mikoto",
+    "slug": "mikoto",
+    "wiki_url": "/w/Mikoto",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110010_02",
+  "fields": {
+    "name": "Summer Mikoto",
+    "slug": "summer-mikoto",
+    "wiki_url": "/w/Summer_Mikoto",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110011_01",
+  "fields": {
+    "name": "Ezelith",
+    "slug": "ezelith",
+    "wiki_url": "/w/Ezelith",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110011_02",
+  "fields": {
+    "name": "Valentine's Ezelith",
+    "slug": "valentines-ezelith",
+    "wiki_url": "/w/Valentine%27s_Ezelith",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110012_01",
+  "fields": {
+    "name": "Rex",
+    "slug": "rex",
+    "wiki_url": "/w/Rex",
+    "rarity": 3,
+    "element": "Water",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110013_01",
+  "fields": {
+    "name": "Waike",
+    "slug": "waike",
+    "wiki_url": "/w/Waike",
+    "rarity": 3,
+    "element": "Water",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110014_01",
+  "fields": {
+    "name": "Cibella",
+    "slug": "cibella",
+    "wiki_url": "/w/Cibella",
+    "rarity": 3,
+    "element": "Water",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110015_01",
+  "fields": {
+    "name": "Zardin",
+    "slug": "zardin",
+    "wiki_url": "/w/Zardin",
+    "rarity": 3,
+    "element": "Water",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110015_02",
+  "fields": {
+    "name": "Beautician Zardin",
+    "slug": "beautician-zardin",
+    "wiki_url": "/w/Beautician_Zardin",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110016_01",
+  "fields": {
+    "name": "Jurota",
+    "slug": "jurota",
+    "wiki_url": "/w/Jurota",
+    "rarity": 3,
+    "element": "Water",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110017_01",
+  "fields": {
+    "name": "Ricardt",
+    "slug": "ricardt",
+    "wiki_url": "/w/Ricardt",
+    "rarity": 3,
+    "element": "Water",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110018_01",
+  "fields": {
+    "name": "Karina",
+    "slug": "karina",
+    "wiki_url": "/w/Karina",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110018_02",
+  "fields": {
+    "name": "Opera Karina",
+    "slug": "opera-karina",
+    "wiki_url": "/w/Opera_Karina",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110019_01",
+  "fields": {
+    "name": "Thaniel",
+    "slug": "thaniel",
+    "wiki_url": "/w/Thaniel",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110020_01",
+  "fields": {
+    "name": "Luther",
+    "slug": "luther",
+    "wiki_url": "/w/Luther",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110021_01",
+  "fields": {
+    "name": "Xainfried",
+    "slug": "xainfried",
+    "wiki_url": "/w/Xainfried",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110021_03",
+  "fields": {
+    "name": "Dragonyule Xainfried",
+    "slug": "dragonyule-xainfried",
+    "wiki_url": "/w/Dragonyule_Xainfried",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110022_01",
+  "fields": {
+    "name": "Xander",
+    "slug": "xander",
+    "wiki_url": "/w/Xander",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110022_02",
+  "fields": {
+    "name": "Dragonyule Xander",
+    "slug": "dragonyule-xander",
+    "wiki_url": "/w/Dragonyule_Xander",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110023_01",
+  "fields": {
+    "name": "Johanna",
+    "slug": "johanna",
+    "wiki_url": "/w/Johanna",
+    "rarity": 3,
+    "element": "Wind",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110024_01",
+  "fields": {
+    "name": "Sophie",
+    "slug": "sophie",
+    "wiki_url": "/w/Sophie",
+    "rarity": 3,
+    "element": "Wind",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110025_01",
+  "fields": {
+    "name": "Nicolas",
+    "slug": "nicolas",
+    "wiki_url": "/w/Nicolas",
+    "rarity": 3,
+    "element": "Wind",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110026_01",
+  "fields": {
+    "name": "Francesca",
+    "slug": "francesca",
+    "wiki_url": "/w/Francesca",
+    "rarity": 3,
+    "element": "Wind",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110027_01",
+  "fields": {
+    "name": "Melody",
+    "slug": "melody",
+    "wiki_url": "/w/Melody",
+    "rarity": 3,
+    "element": "Wind",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110027_02",
+  "fields": {
+    "name": "Valentine's Melody",
+    "slug": "valentines-melody",
+    "wiki_url": "/w/Valentine%27s_Melody",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110028_01",
+  "fields": {
+    "name": "Philia",
+    "slug": "philia",
+    "wiki_url": "/w/Philia",
+    "rarity": 3,
+    "element": "Wind",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110029_01",
+  "fields": {
+    "name": "Aeleen",
+    "slug": "aeleen",
+    "wiki_url": "/w/Aeleen",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110029_02",
+  "fields": {
+    "name": "Nurse Aeleen",
+    "slug": "nurse-aeleen",
+    "wiki_url": "/w/Nurse_Aeleen",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110030_01",
+  "fields": {
+    "name": "Musashi",
+    "slug": "musashi",
+    "wiki_url": "/w/Musashi",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110031_01",
+  "fields": {
+    "name": "Eleonora",
+    "slug": "eleonora",
+    "wiki_url": "/w/Eleonora",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110032_01",
+  "fields": {
+    "name": "Maribelle",
+    "slug": "maribelle",
+    "wiki_url": "/w/Maribelle",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110032_02",
+  "fields": {
+    "name": "Student Maribelle",
+    "slug": "student-maribelle",
+    "wiki_url": "/w/Student_Maribelle",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110033_01",
+  "fields": {
+    "name": "Linus",
+    "slug": "linus",
+    "wiki_url": "/w/Linus",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110034_01",
+  "fields": {
+    "name": "Malka",
+    "slug": "malka",
+    "wiki_url": "/w/Malka",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110035_01",
+  "fields": {
+    "name": "Raemond",
+    "slug": "raemond",
+    "wiki_url": "/w/Raemond",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110036_01",
+  "fields": {
+    "name": "Malora",
+    "slug": "malora",
+    "wiki_url": "/w/Malora",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110036_03",
+  "fields": {
+    "name": "Dragonyule Malora",
+    "slug": "dragonyule-malora",
+    "wiki_url": "/w/Dragonyule_Malora",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110037_01",
+  "fields": {
+    "name": "Irfan",
+    "slug": "irfan",
+    "wiki_url": "/w/Irfan",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110038_01",
+  "fields": {
+    "name": "Hope",
+    "slug": "hope",
+    "wiki_url": "/w/Hope",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110038_02",
+  "fields": {
+    "name": "Templar Hope",
+    "slug": "templar-hope",
+    "wiki_url": "/w/Templar_Hope",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110039_01",
+  "fields": {
+    "name": "Ryozen",
+    "slug": "ryozen",
+    "wiki_url": "/w/Ryozen",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110040_01",
+  "fields": {
+    "name": "Rawn",
+    "slug": "rawn",
+    "wiki_url": "/w/Rawn",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110041_01",
+  "fields": {
+    "name": "Amane",
+    "slug": "amane",
+    "wiki_url": "/w/Amane",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110041_02",
+  "fields": {
+    "name": "Summer Amane",
+    "slug": "summer-amane",
+    "wiki_url": "/w/Summer_Amane",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110042_01",
+  "fields": {
+    "name": "Julietta",
+    "slug": "julietta",
+    "wiki_url": "/w/Julietta",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110042_02",
+  "fields": {
+    "name": "Summer Julietta",
+    "slug": "summer-julietta",
+    "wiki_url": "/w/Summer_Julietta",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110043_01",
+  "fields": {
+    "name": "Hildegarde",
+    "slug": "hildegarde",
+    "wiki_url": "/w/Hildegarde",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110043_02",
+  "fields": {
+    "name": "Valentine's Hildegarde",
+    "slug": "valentines-hildegarde",
+    "wiki_url": "/w/Valentine%27s_Hildegarde",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110044_01",
+  "fields": {
+    "name": "Taro",
+    "slug": "taro",
+    "wiki_url": "/w/Taro",
+    "rarity": 3,
+    "element": "Shadow",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110045_01",
+  "fields": {
+    "name": "Erik",
+    "slug": "erik",
+    "wiki_url": "/w/Erik",
+    "rarity": 3,
+    "element": "Shadow",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110046_01",
+  "fields": {
+    "name": "Rodrigo",
+    "slug": "rodrigo",
+    "wiki_url": "/w/Rodrigo",
+    "rarity": 3,
+    "element": "Shadow",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110047_01",
+  "fields": {
+    "name": "Althemia",
+    "slug": "althemia",
+    "wiki_url": "/w/Althemia",
+    "rarity": 3,
+    "element": "Shadow",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110047_02",
+  "fields": {
+    "name": "Halloween Althemia",
+    "slug": "halloween-althemia",
+    "wiki_url": "/w/Halloween_Althemia",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110048_01",
+  "fields": {
+    "name": "Vice",
+    "slug": "vice",
+    "wiki_url": "/w/Vice",
+    "rarity": 3,
+    "element": "Shadow",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110049_01",
+  "fields": {
+    "name": "Edward",
+    "slug": "edward",
+    "wiki_url": "/w/Edward",
+    "rarity": 3,
+    "element": "Shadow",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110049_02",
+  "fields": {
+    "name": "Halloween Edward",
+    "slug": "halloween-edward",
+    "wiki_url": "/w/Halloween_Edward",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110050_01",
+  "fields": {
+    "name": "Berserker",
+    "slug": "berserker",
+    "wiki_url": "/w/Berserker",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110050_02",
+  "fields": {
+    "name": "Hunter Berserker",
+    "slug": "hunter-berserker",
+    "wiki_url": "/w/Hunter_Berserker",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110051_01",
+  "fields": {
+    "name": "Kleimann",
+    "slug": "kleimann",
+    "wiki_url": "/w/Kleimann",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110052_01",
+  "fields": {
+    "name": "Orion",
+    "slug": "orion",
+    "wiki_url": "/w/Orion",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110052_03",
+  "fields": {
+    "name": "Valentine's Orion",
+    "slug": "valentines-orion",
+    "wiki_url": "/w/Valentine%27s_Orion",
+    "rarity": 3,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110053_01",
+  "fields": {
+    "name": "Nefaria",
+    "slug": "nefaria",
+    "wiki_url": "/w/Nefaria",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110053_02",
+  "fields": {
+    "name": "Dragonyule Nefaria",
+    "slug": "dragonyule-nefaria",
+    "wiki_url": "/w/Dragonyule_Nefaria",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110053_03",
+  "fields": {
+    "name": "Incognito Nefaria",
+    "slug": "incognito-nefaria",
+    "wiki_url": "/w/Incognito_Nefaria",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110054_01",
+  "fields": {
+    "name": "Serena",
+    "slug": "serena",
+    "wiki_url": "/w/Serena",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110056_01",
+  "fields": {
+    "name": "Yue",
+    "slug": "yue",
+    "wiki_url": "/w/Yue",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110058_01",
+  "fields": {
+    "name": "Jakob",
+    "slug": "jakob",
+    "wiki_url": "/w/Jakob",
+    "rarity": 3,
+    "element": "Water",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110059_01",
+  "fields": {
+    "name": "Grace",
+    "slug": "grace",
+    "wiki_url": "/w/Grace",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110059_02",
+  "fields": {
+    "name": "Undercover Grace",
+    "slug": "undercover-grace",
+    "wiki_url": "/w/Undercover_Grace",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110063_01",
+  "fields": {
+    "name": "Estelle",
+    "slug": "estelle",
+    "wiki_url": "/w/Estelle",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110063_02",
+  "fields": {
+    "name": "Summer Estelle",
+    "slug": "summer-estelle",
+    "wiki_url": "/w/Summer_Estelle",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110064_01",
+  "fields": {
+    "name": "Yachiyo",
+    "slug": "yachiyo",
+    "wiki_url": "/w/Yachiyo",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110064_02",
+  "fields": {
+    "name": "Armored Yachiyo",
+    "slug": "armored-yachiyo",
+    "wiki_url": "/w/Armored_Yachiyo",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110066_01",
+  "fields": {
+    "name": "Norwin",
+    "slug": "norwin",
+    "wiki_url": "/w/Norwin",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110066_02",
+  "fields": {
+    "name": "Summer Norwin",
+    "slug": "summer-norwin",
+    "wiki_url": "/w/Summer_Norwin",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110067_01",
+  "fields": {
+    "name": "Vida",
+    "slug": "vida",
+    "wiki_url": "/w/Vida",
+    "rarity": 3,
+    "element": "Shadow",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110252_01",
+  "fields": {
+    "name": "Lily",
+    "slug": "lily",
+    "wiki_url": "/w/Lily",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110252_02",
+  "fields": {
+    "name": "Dragonyule Lily",
+    "slug": "dragonyule-lily",
+    "wiki_url": "/w/Dragonyule_Lily",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110253_01",
+  "fields": {
+    "name": "Orsem",
+    "slug": "orsem",
+    "wiki_url": "/w/Orsem",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110254_01",
+  "fields": {
+    "name": "Zace",
+    "slug": "zace",
+    "wiki_url": "/w/Zace",
+    "rarity": 3,
+    "element": "Shadow",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110255_01",
+  "fields": {
+    "name": "Celliera",
+    "slug": "celliera",
+    "wiki_url": "/w/Celliera",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110255_02",
+  "fields": {
+    "name": "Summer Celliera",
+    "slug": "summer-celliera",
+    "wiki_url": "/w/Summer_Celliera",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110256_01",
+  "fields": {
+    "name": "Louise",
+    "slug": "louise",
+    "wiki_url": "/w/Louise",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110257_01",
+  "fields": {
+    "name": "Lowen",
+    "slug": "lowen",
+    "wiki_url": "/w/Lowen",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110257_02",
+  "fields": {
+    "name": "Halloween Lowen",
+    "slug": "halloween-lowen",
+    "wiki_url": "/w/Halloween_Lowen",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110258_01",
+  "fields": {
+    "name": "Pietro",
+    "slug": "pietro",
+    "wiki_url": "/w/Pietro",
+    "rarity": 3,
+    "element": "Water",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110259_01",
+  "fields": {
+    "name": "Lea",
+    "slug": "lea",
+    "wiki_url": "/w/Lea",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110260_01",
+  "fields": {
+    "name": "Emma",
+    "slug": "emma",
+    "wiki_url": "/w/Emma",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110261_01",
+  "fields": {
+    "name": "Marty",
+    "slug": "marty",
+    "wiki_url": "/w/Marty",
+    "rarity": 3,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110262_01",
+  "fields": {
+    "name": "Aldred",
+    "slug": "aldred",
+    "wiki_url": "/w/Aldred",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110263_01",
+  "fields": {
+    "name": "Ramona",
+    "slug": "ramona",
+    "wiki_url": "/w/Ramona",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110264_01",
+  "fields": {
+    "name": "Rena",
+    "slug": "rena",
+    "wiki_url": "/w/Rena",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110265_01",
+  "fields": {
+    "name": "Renee",
+    "slug": "renee",
+    "wiki_url": "/w/Renee",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110266_01",
+  "fields": {
+    "name": "Naveed",
+    "slug": "naveed",
+    "wiki_url": "/w/Naveed",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110267_01",
+  "fields": {
+    "name": "Hawk",
+    "slug": "hawk",
+    "wiki_url": "/w/Hawk",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110268_01",
+  "fields": {
+    "name": "Lin You",
+    "slug": "lin-you",
+    "wiki_url": "/w/Lin_You",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110269_01",
+  "fields": {
+    "name": "Verica",
+    "slug": "verica",
+    "wiki_url": "/w/Verica",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110269_02",
+  "fields": {
+    "name": "Summer Verica",
+    "slug": "summer-verica",
+    "wiki_url": "/w/Summer_Verica",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110270_01",
+  "fields": {
+    "name": "Melsa",
+    "slug": "melsa",
+    "wiki_url": "/w/Melsa",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110270_02",
+  "fields": {
+    "name": "Halloween Melsa",
+    "slug": "halloween-melsa",
+    "wiki_url": "/w/Halloween_Melsa",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110271_01",
+  "fields": {
+    "name": "Linnea",
+    "slug": "linnea",
+    "wiki_url": "/w/Linnea",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110272_01",
+  "fields": {
+    "name": "Forte",
+    "slug": "forte",
+    "wiki_url": "/w/Forte",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110274_01",
+  "fields": {
+    "name": "Albert",
+    "slug": "albert",
+    "wiki_url": "/w/Albert",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110275_01",
+  "fields": {
+    "name": "Annelie",
+    "slug": "annelie",
+    "wiki_url": "/w/Annelie",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110276_01",
+  "fields": {
+    "name": "Fritz",
+    "slug": "fritz",
+    "wiki_url": "/w/Fritz",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110277_01",
+  "fields": {
+    "name": "Felicia",
+    "slug": "felicia",
+    "wiki_url": "/w/Felicia",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110280_01",
+  "fields": {
+    "name": "Heinwald",
+    "slug": "heinwald",
+    "wiki_url": "/w/Heinwald",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110281_01",
+  "fields": {
+    "name": "Curran",
+    "slug": "curran",
+    "wiki_url": "/w/Curran",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110281_02",
+  "fields": {
+    "name": "Yukata Curran",
+    "slug": "yukata-curran",
+    "wiki_url": "/w/Yukata_Curran",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110285_01",
+  "fields": {
+    "name": "Grimnir",
+    "slug": "grimnir",
+    "wiki_url": "/w/Grimnir",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110291_01",
+  "fields": {
+    "name": "Marth",
+    "slug": "marth",
+    "wiki_url": "/w/Marth",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110295_01",
+  "fields": {
+    "name": "Valerio",
+    "slug": "valerio",
+    "wiki_url": "/w/Valerio",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110296_01",
+  "fields": {
+    "name": "Mitsuba",
+    "slug": "mitsuba",
+    "wiki_url": "/w/Mitsuba",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110296_02",
+  "fields": {
+    "name": "Forager Mitsuba",
+    "slug": "forager-mitsuba",
+    "wiki_url": "/w/Forager_Mitsuba",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110299_01",
+  "fields": {
+    "name": "Xuan Zang",
+    "slug": "xuan-zang",
+    "wiki_url": "/w/Xuan_Zang",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110299_02",
+  "fields": {
+    "name": "Radiant Xuan Zang",
+    "slug": "radiant-xuan-zang",
+    "wiki_url": "/w/Radiant_Xuan_Zang",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110300_01",
+  "fields": {
+    "name": "Pipple",
+    "slug": "pipple",
+    "wiki_url": "/w/Pipple",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110301_01",
+  "fields": {
+    "name": "Odetta",
+    "slug": "odetta",
+    "wiki_url": "/w/Odetta",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110301_02",
+  "fields": {
+    "name": "Halloween Odetta",
+    "slug": "halloween-odetta",
+    "wiki_url": "/w/Halloween_Odetta",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110302_01",
+  "fields": {
+    "name": "Pia",
+    "slug": "pia",
+    "wiki_url": "/w/Pia",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110303_01",
+  "fields": {
+    "name": "Elias",
+    "slug": "elias",
+    "wiki_url": "/w/Elias",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110304_01",
+  "fields": {
+    "name": "Vixel",
+    "slug": "vixel",
+    "wiki_url": "/w/Vixel",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110305_01",
+  "fields": {
+    "name": "Lucretia",
+    "slug": "lucretia",
+    "wiki_url": "/w/Lucretia",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110306_01",
+  "fields": {
+    "name": "Bellina",
+    "slug": "bellina",
+    "wiki_url": "/w/Bellina",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110307_01",
+  "fields": {
+    "name": "Victor",
+    "slug": "victor",
+    "wiki_url": "/w/Victor",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110307_02",
+  "fields": {
+    "name": "Dragonyule Victor",
+    "slug": "dragonyule-victor",
+    "wiki_url": "/w/Dragonyule_Victor",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110310_01",
+  "fields": {
+    "name": "Addis",
+    "slug": "addis",
+    "wiki_url": "/w/Addis",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110310_02",
+  "fields": {
+    "name": "Valentine's Addis",
+    "slug": "valentines-addis",
+    "wiki_url": "/w/Valentine%27s_Addis",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110311_01",
+  "fields": {
+    "name": "Sazanka",
+    "slug": "sazanka",
+    "wiki_url": "/w/Sazanka",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110312_01",
+  "fields": {
+    "name": "Botan",
+    "slug": "botan",
+    "wiki_url": "/w/Botan",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110313_01",
+  "fields": {
+    "name": "Ieyasu",
+    "slug": "ieyasu",
+    "wiki_url": "/w/Ieyasu",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110313_03",
+  "fields": {
+    "name": "Summer Ieyasu",
+    "slug": "summer-ieyasu",
+    "wiki_url": "/w/Summer_Ieyasu",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110314_01",
+  "fields": {
+    "name": "Su Fang",
+    "slug": "su-fang",
+    "wiki_url": "/w/Su_Fang",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110315_01",
+  "fields": {
+    "name": "Ku Hai",
+    "slug": "ku-hai",
+    "wiki_url": "/w/Ku_Hai",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110316_01",
+  "fields": {
+    "name": "Xiao Lei",
+    "slug": "xiao-lei",
+    "wiki_url": "/w/Xiao_Lei",
+    "rarity": 3,
+    "element": "Light",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110317_01",
+  "fields": {
+    "name": "Laranoa",
+    "slug": "laranoa",
+    "wiki_url": "/w/Laranoa",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110318_01",
+  "fields": {
+    "name": "Sylas",
+    "slug": "sylas",
+    "wiki_url": "/w/Sylas",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110319_01",
+  "fields": {
+    "name": "Fleur",
+    "slug": "fleur",
+    "wiki_url": "/w/Fleur",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110322_01",
+  "fields": {
+    "name": "Zhu Bajie",
+    "slug": "zhu-bajie",
+    "wiki_url": "/w/Zhu_Bajie",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110323_01",
+  "fields": {
+    "name": "Sha Wujing",
+    "slug": "sha-wujing",
+    "wiki_url": "/w/Sha_Wujing",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110324_01",
+  "fields": {
+    "name": "Wu Kong",
+    "slug": "wu-kong",
+    "wiki_url": "/w/Wu_Kong",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110325_01",
+  "fields": {
+    "name": "Yaten",
+    "slug": "yaten",
+    "wiki_url": "/w/Yaten",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110326_01",
+  "fields": {
+    "name": "Natalie",
+    "slug": "natalie",
+    "wiki_url": "/w/Natalie",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110327_01",
+  "fields": {
+    "name": "Alfonse",
+    "slug": "alfonse",
+    "wiki_url": "/w/Alfonse",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110328_01",
+  "fields": {
+    "name": "Fjorm",
+    "slug": "fjorm",
+    "wiki_url": "/w/Fjorm",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110333_01",
+  "fields": {
+    "name": "Veronica",
+    "slug": "veronica",
+    "wiki_url": "/w/Veronica",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110334_01",
+  "fields": {
+    "name": "Audric",
+    "slug": "audric",
+    "wiki_url": "/w/Audric",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110334_02",
+  "fields": {
+    "name": "Gala Audric",
+    "slug": "gala-audric",
+    "wiki_url": "/w/Gala_Audric",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110335_01",
+  "fields": {
+    "name": "Patia",
+    "slug": "patia",
+    "wiki_url": "/w/Patia",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110335_02",
+  "fields": {
+    "name": "Summer Patia",
+    "slug": "summer-patia",
+    "wiki_url": "/w/Summer_Patia",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110336_01",
+  "fields": {
+    "name": "Delphi",
+    "slug": "delphi",
+    "wiki_url": "/w/Delphi",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110337_01",
+  "fields": {
+    "name": "Cassandra",
+    "slug": "cassandra",
+    "wiki_url": "/w/Cassandra",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110337_03",
+  "fields": {
+    "name": "Yukata Cassandra",
+    "slug": "yukata-cassandra",
+    "wiki_url": "/w/Yukata_Cassandra",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110340_01",
+  "fields": {
+    "name": "Noelle",
+    "slug": "noelle",
+    "wiki_url": "/w/Noelle",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110340_02",
+  "fields": {
+    "name": "Formal Noelle",
+    "slug": "formal-noelle",
+    "wiki_url": "/w/Formal_Noelle",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110341_01",
+  "fields": {
+    "name": "Akasha",
+    "slug": "akasha",
+    "wiki_url": "/w/Akasha",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110341_03",
+  "fields": {
+    "name": "Halloween Akasha",
+    "slug": "halloween-akasha",
+    "wiki_url": "/w/Halloween_Akasha",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110342_01",
+  "fields": {
+    "name": "Chelsea",
+    "slug": "chelsea",
+    "wiki_url": "/w/Chelsea",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110342_03",
+  "fields": {
+    "name": "Valentine's Chelsea",
+    "slug": "valentines-chelsea",
+    "wiki_url": "/w/Valentine%27s_Chelsea",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110343_01",
+  "fields": {
+    "name": "Durant",
+    "slug": "durant",
+    "wiki_url": "/w/Durant",
+    "rarity": 4,
+    "element": "Shadow",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110344_01",
+  "fields": {
+    "name": "Yuya",
+    "slug": "yuya",
+    "wiki_url": "/w/Yuya",
+    "rarity": 4,
+    "element": "Flame",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110345_01",
+  "fields": {
+    "name": "Mitsuhide",
+    "slug": "mitsuhide",
+    "wiki_url": "/w/Mitsuhide",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110345_03",
+  "fields": {
+    "name": "Summer Mitsuhide",
+    "slug": "summer-mitsuhide",
+    "wiki_url": "/w/Summer_Mitsuhide",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110346_01",
+  "fields": {
+    "name": "Nobunaga",
+    "slug": "nobunaga",
+    "wiki_url": "/w/Nobunaga",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110347_01",
+  "fields": {
+    "name": "Chitose",
+    "slug": "chitose",
+    "wiki_url": "/w/Chitose",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110348_01",
+  "fields": {
+    "name": "Hanabusa",
+    "slug": "hanabusa",
+    "wiki_url": "/w/Hanabusa",
+    "rarity": 4,
+    "element": "Light",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110349_01",
+  "fields": {
+    "name": "Lathna",
+    "slug": "lathna",
+    "wiki_url": "/w/Lathna",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110349_04",
+  "fields": {
+    "name": "Yukata Lathna",
+    "slug": "yukata-lathna",
+    "wiki_url": "/w/Yukata_Lathna",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110350_01",
+  "fields": {
+    "name": "Joachim",
+    "slug": "joachim",
+    "wiki_url": "/w/Joachim",
+    "rarity": 4,
+    "element": "Wind",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110350_02",
+  "fields": {
+    "name": "Formal Joachim",
+    "slug": "formal-joachim",
+    "wiki_url": "/w/Formal_Joachim",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Long-Range Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110351_01",
+  "fields": {
+    "name": "Jiang Ziya",
+    "slug": "jiang-ziya",
+    "wiki_url": "/w/Jiang_Ziya",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110352_01",
+  "fields": {
+    "name": "Tobias",
+    "slug": "tobias",
+    "wiki_url": "/w/Tobias",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110352_03",
+  "fields": {
+    "name": "Faeblessed Tobias",
+    "slug": "faeblessed-tobias",
+    "wiki_url": "/w/Faeblessed_Tobias",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110353_01",
+  "fields": {
+    "name": "Kirsty",
+    "slug": "kirsty",
+    "wiki_url": "/w/Kirsty",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110354_01",
+  "fields": {
+    "name": "Mega Man",
+    "slug": "mega-man",
+    "wiki_url": "/w/Mega_Man",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110355_01",
+  "fields": {
+    "name": "Lazry",
+    "slug": "lazry",
+    "wiki_url": "/w/Lazry",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110356_01",
+  "fields": {
+    "name": "Gauld",
+    "slug": "gauld",
+    "wiki_url": "/w/Gauld",
+    "rarity": 4,
+    "element": "Water",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110357_01",
+  "fields": {
+    "name": "Nadine",
+    "slug": "nadine",
+    "wiki_url": "/w/Nadine",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110358_01",
+  "fields": {
+    "name": "Sharena",
+    "slug": "sharena",
+    "wiki_url": "/w/Sharena",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110359_01",
+  "fields": {
+    "name": "Chrom",
+    "slug": "chrom",
+    "wiki_url": "/w/Chrom",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110360_01",
+  "fields": {
+    "name": "Tiki",
+    "slug": "tiki",
+    "wiki_url": "/w/Tiki",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110361_01",
+  "fields": {
+    "name": "Peony",
+    "slug": "peony",
+    "wiki_url": "/w/Peony",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110362_01",
+  "fields": {
+    "name": "Yurius",
+    "slug": "yurius",
+    "wiki_url": "/w/Yurius",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110363_01",
+  "fields": {
+    "name": "Eugene",
+    "slug": "eugene",
+    "wiki_url": "/w/Eugene",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110364_01",
+  "fields": {
+    "name": "Catherine",
+    "slug": "catherine",
+    "wiki_url": "/w/Catherine",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110365_01",
+  "fields": {
+    "name": "Nevin",
+    "slug": "nevin",
+    "wiki_url": "/w/Nevin",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110366_01",
+  "fields": {
+    "name": "Pinon",
+    "slug": "pinon",
+    "wiki_url": "/w/Pinon",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110367_01",
+  "fields": {
+    "name": "Ilia",
+    "slug": "ilia",
+    "wiki_url": "/w/Ilia",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Long-Range Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110368_01",
+  "fields": {
+    "name": "Meene",
+    "slug": "meene",
+    "wiki_url": "/w/Meene",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110369_01",
+  "fields": {
+    "name": "Mordecai",
+    "slug": "mordecai",
+    "wiki_url": "/w/Mordecai",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110370_01",
+  "fields": {
+    "name": "Lapis",
+    "slug": "lapis",
+    "wiki_url": "/w/Lapis",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Rapid-Fire Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110371_01",
+  "fields": {
+    "name": "Pecorine",
+    "slug": "pecorine",
+    "wiki_url": "/w/Pecorine",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110374_01",
+  "fields": {
+    "name": "Kuzunoha",
+    "slug": "kuzunoha",
+    "wiki_url": "/w/Kuzunoha",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110375_01",
+  "fields": {
+    "name": "Seimei",
+    "slug": "seimei",
+    "wiki_url": "/w/Seimei",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110376_01",
+  "fields": {
+    "name": "Yoshitsune",
+    "slug": "yoshitsune",
+    "wiki_url": "/w/Yoshitsune",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Close-Range Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110377_01",
+  "fields": {
+    "name": "Joker",
+    "slug": "joker",
+    "wiki_url": "/w/Joker",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110378_01",
+  "fields": {
+    "name": "Panther",
+    "slug": "panther",
+    "wiki_url": "/w/Panther",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110379_01",
+  "fields": {
+    "name": "Mona",
+    "slug": "mona",
+    "wiki_url": "/w/Mona",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110380_01",
+  "fields": {
+    "name": "Sophie (Persona)",
+    "slug": "sophie-persona",
+    "wiki_url": "/w/Sophie_(Persona)",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110381_01",
+  "fields": {
+    "name": "Ryszarda",
+    "slug": "ryszarda",
+    "wiki_url": "/w/Ryszarda",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Lance"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110382_01",
+  "fields": {
+    "name": "Faris",
+    "slug": "faris",
+    "wiki_url": "/w/Faris",
+    "rarity": 5,
+    "element": "Flame",
+    "weapon": "Long-Range Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110383_01",
+  "fields": {
+    "name": "Finni",
+    "slug": "finni",
+    "wiki_url": "/w/Finni",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Axe"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110384_01",
+  "fields": {
+    "name": "Eirene",
+    "slug": "eirene",
+    "wiki_url": "/w/Eirene",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Close-Range Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110385_01",
+  "fields": {
+    "name": "Humanoid Mercury",
+    "slug": "humanoid-mercury",
+    "wiki_url": "/w/Humanoid_Mercury",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110386_01",
+  "fields": {
+    "name": "Myriam",
+    "slug": "myriam",
+    "wiki_url": "/w/Myriam",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110387_01",
+  "fields": {
+    "name": "Humanoid Midgardsormr",
+    "slug": "humanoid-midgardsormr",
+    "wiki_url": "/w/Humanoid_Midgardsormr",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110388_01",
+  "fields": {
+    "name": "Vania",
+    "slug": "vania",
+    "wiki_url": "/w/Vania",
+    "rarity": 5,
+    "element": "Shadow",
+    "weapon": "Wand"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110389_01",
+  "fields": {
+    "name": "Saiga",
+    "slug": "saiga",
+    "wiki_url": "/w/Saiga",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Close-Range Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110391_01",
+  "fields": {
+    "name": "Isaac",
+    "slug": "isaac",
+    "wiki_url": "/w/Isaac",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Bow"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110392_01",
+  "fields": {
+    "name": "Nino",
+    "slug": "nino",
+    "wiki_url": "/w/Nino",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Sword"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110393_01",
+  "fields": {
+    "name": "Farren",
+    "slug": "farren",
+    "wiki_url": "/w/Farren",
+    "rarity": 5,
+    "element": "Light",
+    "weapon": "Dagger"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110394_01",
+  "fields": {
+    "name": "Cecile",
+    "slug": "cecile",
+    "wiki_url": "/w/Cecile",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Rapid-Fire Manacaster"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110395_01",
+  "fields": {
+    "name": "Regina",
+    "slug": "regina",
+    "wiki_url": "/w/Regina",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Blade"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110396_01",
+  "fields": {
+    "name": "Sandalphon",
+    "slug": "sandalphon",
+    "wiki_url": "/w/Sandalphon",
+    "rarity": 5,
+    "element": "Water",
+    "weapon": "Staff"
+  }
+},
+{
+  "model": "game_data.adventurer",
+  "pk": "110397_01",
+  "fields": {
+    "name": "Basileus",
+    "slug": "basileus",
+    "wiki_url": "/w/Basileus",
+    "rarity": 5,
+    "element": "Wind",
+    "weapon": "Wand"
+  }
+}
+]

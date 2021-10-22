@@ -1,0 +1,1388 @@
+[
+{
+  "model": "game_data.dragon",
+  "pk": "200009",
+  "fields": {
+    "name": "Gala Mars",
+    "slug": "gala-mars",
+    "wiki_url": "/w/Gala_Mars",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "200010",
+  "fields": {
+    "name": "Chthonius",
+    "slug": "chthonius",
+    "wiki_url": "/w/Chthonius",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "200017",
+  "fields": {
+    "name": "Gala Cat Sìth",
+    "slug": "gala-cat-sith",
+    "wiki_url": "/w/Gala_Cat_S%C3%ACth",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "200018",
+  "fields": {
+    "name": "Gala Thor",
+    "slug": "gala-thor",
+    "wiki_url": "/w/Gala_Thor",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210001",
+  "fields": {
+    "name": "Midgardsormr",
+    "slug": "midgardsormr",
+    "wiki_url": "/w/Midgardsormr",
+    "rarity": 4,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210002",
+  "fields": {
+    "name": "Brunhilda",
+    "slug": "brunhilda",
+    "wiki_url": "/w/Brunhilda",
+    "rarity": 4,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210003",
+  "fields": {
+    "name": "Mercury",
+    "slug": "mercury",
+    "wiki_url": "/w/Mercury",
+    "rarity": 4,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210004",
+  "fields": {
+    "name": "Jupiter",
+    "slug": "jupiter",
+    "wiki_url": "/w/Jupiter",
+    "rarity": 4,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210005",
+  "fields": {
+    "name": "Zodiark",
+    "slug": "zodiark",
+    "wiki_url": "/w/Zodiark",
+    "rarity": 4,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210006",
+  "fields": {
+    "name": "Phoenix",
+    "slug": "phoenix",
+    "wiki_url": "/w/Phoenix",
+    "rarity": 4,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210007",
+  "fields": {
+    "name": "Ifrit",
+    "slug": "ifrit",
+    "wiki_url": "/w/Ifrit",
+    "rarity": 4,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210008",
+  "fields": {
+    "name": "Poliʻahu",
+    "slug": "poliahu",
+    "wiki_url": "/w/Poli%CA%BBahu",
+    "rarity": 4,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210010",
+  "fields": {
+    "name": "Sylvia",
+    "slug": "sylvia",
+    "wiki_url": "/w/Sylvia",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210011",
+  "fields": {
+    "name": "Stribog",
+    "slug": "stribog",
+    "wiki_url": "/w/Stribog",
+    "rarity": 4,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210012",
+  "fields": {
+    "name": "Unicorn",
+    "slug": "unicorn",
+    "wiki_url": "/w/Unicorn",
+    "rarity": 4,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210013",
+  "fields": {
+    "name": "Lindworm",
+    "slug": "lindworm",
+    "wiki_url": "/w/Lindworm",
+    "rarity": 4,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210014",
+  "fields": {
+    "name": "Juggernaut",
+    "slug": "juggernaut",
+    "wiki_url": "/w/Juggernaut_(Dragon)",
+    "rarity": 4,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210015",
+  "fields": {
+    "name": "Silke",
+    "slug": "silke",
+    "wiki_url": "/w/Silke",
+    "rarity": 4,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210016",
+  "fields": {
+    "name": "Agni",
+    "slug": "agni",
+    "wiki_url": "/w/Agni",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210017",
+  "fields": {
+    "name": "Leviathan",
+    "slug": "leviathan",
+    "wiki_url": "/w/Leviathan",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210018",
+  "fields": {
+    "name": "Zephyr",
+    "slug": "zephyr",
+    "wiki_url": "/w/Zephyr",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210019",
+  "fields": {
+    "name": "Nidhogg",
+    "slug": "nidhogg",
+    "wiki_url": "/w/Nidhogg",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210020",
+  "fields": {
+    "name": "Jeanne d'Arc",
+    "slug": "jeanne-darc",
+    "wiki_url": "/w/Jeanne_d%27Arc",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210021",
+  "fields": {
+    "name": "Homura",
+    "slug": "homura",
+    "wiki_url": "/w/Homura",
+    "rarity": 3,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210022",
+  "fields": {
+    "name": "Cinder Drake",
+    "slug": "cinder-drake",
+    "wiki_url": "/w/Cinder_Drake",
+    "rarity": 3,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210023",
+  "fields": {
+    "name": "Kindling Imp",
+    "slug": "kindling-imp",
+    "wiki_url": "/w/Kindling_Imp",
+    "rarity": 3,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210024",
+  "fields": {
+    "name": "Cerberus",
+    "slug": "cerberus",
+    "wiki_url": "/w/Cerberus",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210025",
+  "fields": {
+    "name": "Poseidon",
+    "slug": "poseidon",
+    "wiki_url": "/w/Poseidon",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210026",
+  "fields": {
+    "name": "Pazuzu",
+    "slug": "pazuzu",
+    "wiki_url": "/w/Pazuzu",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210030",
+  "fields": {
+    "name": "Arctos",
+    "slug": "arctos",
+    "wiki_url": "/w/Arctos",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210036",
+  "fields": {
+    "name": "Garuda",
+    "slug": "garuda",
+    "wiki_url": "/w/Garuda",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210038",
+  "fields": {
+    "name": "High Midgardsormr",
+    "slug": "high-midgardsormr",
+    "wiki_url": "/w/High_Midgardsormr",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210039",
+  "fields": {
+    "name": "High Brunhilda",
+    "slug": "high-brunhilda",
+    "wiki_url": "/w/High_Brunhilda",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210040",
+  "fields": {
+    "name": "High Mercury",
+    "slug": "high-mercury",
+    "wiki_url": "/w/High_Mercury",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210041",
+  "fields": {
+    "name": "High Jupiter",
+    "slug": "high-jupiter",
+    "wiki_url": "/w/High_Jupiter",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210042",
+  "fields": {
+    "name": "High Zodiark",
+    "slug": "high-zodiark",
+    "wiki_url": "/w/High_Zodiark",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210043",
+  "fields": {
+    "name": "Liger",
+    "slug": "liger",
+    "wiki_url": "/w/Liger",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210045",
+  "fields": {
+    "name": "Phantom",
+    "slug": "phantom",
+    "wiki_url": "/w/Phantom",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210046",
+  "fields": {
+    "name": "Nyarlathotep",
+    "slug": "nyarlathotep",
+    "wiki_url": "/w/Nyarlathotep",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210048",
+  "fields": {
+    "name": "Gilgamesh",
+    "slug": "gilgamesh",
+    "wiki_url": "/w/Gilgamesh",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210049",
+  "fields": {
+    "name": "Cupid",
+    "slug": "cupid",
+    "wiki_url": "/w/Cupid",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210050",
+  "fields": {
+    "name": "Roc",
+    "slug": "roc",
+    "wiki_url": "/w/Roc",
+    "rarity": 4,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210051",
+  "fields": {
+    "name": "Takemikazuchi",
+    "slug": "takemikazuchi",
+    "wiki_url": "/w/Takemikazuchi",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210052",
+  "fields": {
+    "name": "Prometheus",
+    "slug": "prometheus",
+    "wiki_url": "/w/Prometheus",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210053",
+  "fields": {
+    "name": "Nimis",
+    "slug": "nimis",
+    "wiki_url": "/w/Nimis",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210054",
+  "fields": {
+    "name": "Siren",
+    "slug": "siren",
+    "wiki_url": "/w/Siren",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210055",
+  "fields": {
+    "name": "Erasmus",
+    "slug": "erasmus",
+    "wiki_url": "/w/Erasmus",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210056",
+  "fields": {
+    "name": "Corsaint Phoenix",
+    "slug": "corsaint-phoenix",
+    "wiki_url": "/w/Corsaint_Phoenix",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210057",
+  "fields": {
+    "name": "Pele",
+    "slug": "pele",
+    "wiki_url": "/w/Pele",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210058",
+  "fields": {
+    "name": "Vodyanoy",
+    "slug": "vodyanoy",
+    "wiki_url": "/w/Vodyanoy",
+    "rarity": 4,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210059",
+  "fields": {
+    "name": "Fubuki",
+    "slug": "fubuki",
+    "wiki_url": "/w/Fubuki",
+    "rarity": 3,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210060",
+  "fields": {
+    "name": "Tsumuji",
+    "slug": "tsumuji",
+    "wiki_url": "/w/Tsumuji",
+    "rarity": 3,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210061",
+  "fields": {
+    "name": "Hinata",
+    "slug": "hinata",
+    "wiki_url": "/w/Hinata",
+    "rarity": 3,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210062",
+  "fields": {
+    "name": "Hikage",
+    "slug": "hikage",
+    "wiki_url": "/w/Hikage",
+    "rarity": 3,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210063",
+  "fields": {
+    "name": "Snow Drake",
+    "slug": "snow-drake",
+    "wiki_url": "/w/Snow_Drake",
+    "rarity": 3,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210064",
+  "fields": {
+    "name": "Gust Drake",
+    "slug": "gust-drake",
+    "wiki_url": "/w/Gust_Drake",
+    "rarity": 3,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210065",
+  "fields": {
+    "name": "Moon Drake",
+    "slug": "moon-drake",
+    "wiki_url": "/w/Moon_Drake",
+    "rarity": 3,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210066",
+  "fields": {
+    "name": "Gloom Drake",
+    "slug": "gloom-drake",
+    "wiki_url": "/w/Gloom_Drake",
+    "rarity": 3,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210067",
+  "fields": {
+    "name": "Wellspring Imp",
+    "slug": "wellspring-imp",
+    "wiki_url": "/w/Wellspring_Imp",
+    "rarity": 3,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210068",
+  "fields": {
+    "name": "Zephyr Imp",
+    "slug": "zephyr-imp",
+    "wiki_url": "/w/Zephyr_Imp",
+    "rarity": 3,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210069",
+  "fields": {
+    "name": "Astral Imp",
+    "slug": "astral-imp",
+    "wiki_url": "/w/Astral_Imp",
+    "rarity": 3,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210070",
+  "fields": {
+    "name": "Pallid Imp",
+    "slug": "pallid-imp",
+    "wiki_url": "/w/Pallid_Imp",
+    "rarity": 3,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210072",
+  "fields": {
+    "name": "Maritimus",
+    "slug": "maritimus",
+    "wiki_url": "/w/Maritimus",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210074",
+  "fields": {
+    "name": "Yulong",
+    "slug": "yulong",
+    "wiki_url": "/w/Yulong",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210075",
+  "fields": {
+    "name": "Halloween Silke",
+    "slug": "halloween-silke",
+    "wiki_url": "/w/Halloween_Silke",
+    "rarity": 4,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210076",
+  "fields": {
+    "name": "Dragonyule Jeanne",
+    "slug": "dragonyule-jeanne",
+    "wiki_url": "/w/Dragonyule_Jeanne",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210077",
+  "fields": {
+    "name": "Marishiten",
+    "slug": "marishiten",
+    "wiki_url": "/w/Marishiten",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210078",
+  "fields": {
+    "name": "Shishimai",
+    "slug": "shishimai",
+    "wiki_url": "/w/Shishimai_(Dragon)",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210079",
+  "fields": {
+    "name": "Peng Lai",
+    "slug": "peng-lai",
+    "wiki_url": "/w/Peng_Lai",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210080",
+  "fields": {
+    "name": "Long Long",
+    "slug": "long-long",
+    "wiki_url": "/w/Long_Long",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210081",
+  "fields": {
+    "name": "Simurgh",
+    "slug": "simurgh",
+    "wiki_url": "/w/Simurgh",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210082",
+  "fields": {
+    "name": "Konohana Sakuya",
+    "slug": "konohana-sakuya",
+    "wiki_url": "/w/Konohana_Sakuya",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210083",
+  "fields": {
+    "name": "Barbatos",
+    "slug": "barbatos",
+    "wiki_url": "/w/Barbatos",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210084",
+  "fields": {
+    "name": "Freyja",
+    "slug": "freyja",
+    "wiki_url": "/w/Freyja",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210085",
+  "fields": {
+    "name": "Tie Shan Gongzhu",
+    "slug": "tie-shan-gongzhu",
+    "wiki_url": "/w/Tie_Shan_Gongzhu",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210087",
+  "fields": {
+    "name": "Shinobi",
+    "slug": "shinobi",
+    "wiki_url": "/w/Shinobi",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210089",
+  "fields": {
+    "name": "Bronze Fafnir",
+    "slug": "bronze-fafnir",
+    "wiki_url": "/w/Bronze_Fafnir_(Dragon)",
+    "rarity": 4,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210090",
+  "fields": {
+    "name": "Silver Fafnir",
+    "slug": "silver-fafnir",
+    "wiki_url": "/w/Silver_Fafnir_(Dragon)",
+    "rarity": 4,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210091",
+  "fields": {
+    "name": "Gold Fafnir",
+    "slug": "gold-fafnir",
+    "wiki_url": "/w/Gold_Fafnir_(Dragon)",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210094",
+  "fields": {
+    "name": "Pop-Star Siren",
+    "slug": "pop-star-siren",
+    "wiki_url": "/w/Pop-Star_Siren",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210095",
+  "fields": {
+    "name": "Parallel Zodiark",
+    "slug": "parallel-zodiark",
+    "wiki_url": "/w/Parallel_Zodiark",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210097",
+  "fields": {
+    "name": "Halloween Maritimus",
+    "slug": "halloween-maritimus",
+    "wiki_url": "/w/Halloween_Maritimus",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210098",
+  "fields": {
+    "name": "Vayu",
+    "slug": "vayu",
+    "wiki_url": "/w/Vayu",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210103",
+  "fields": {
+    "name": "Apollo",
+    "slug": "apollo",
+    "wiki_url": "/w/Apollo",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210105",
+  "fields": {
+    "name": "Hastur",
+    "slug": "hastur",
+    "wiki_url": "/w/Hastur",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210107",
+  "fields": {
+    "name": "Kagutsuchi",
+    "slug": "kagutsuchi",
+    "wiki_url": "/w/Kagutsuchi",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210109",
+  "fields": {
+    "name": "Kamuy",
+    "slug": "kamuy",
+    "wiki_url": "/w/Kamuy",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210110",
+  "fields": {
+    "name": "Daikokuten",
+    "slug": "daikokuten",
+    "wiki_url": "/w/Daikokuten",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210111",
+  "fields": {
+    "name": "Mini Mids",
+    "slug": "mini-mids",
+    "wiki_url": "/w/Mini_Mids",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210112",
+  "fields": {
+    "name": "Epimetheus",
+    "slug": "epimetheus",
+    "wiki_url": "/w/Epimetheus",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210114",
+  "fields": {
+    "name": "Ebisu",
+    "slug": "ebisu",
+    "wiki_url": "/w/Ebisu_(Dragon)",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210115",
+  "fields": {
+    "name": "Andromeda",
+    "slug": "andromeda",
+    "wiki_url": "/w/Andromeda",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210116",
+  "fields": {
+    "name": "Ariel",
+    "slug": "ariel",
+    "wiki_url": "/w/Ariel",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210117",
+  "fields": {
+    "name": "AC-011 Garland",
+    "slug": "ac-011-garland",
+    "wiki_url": "/w/AC-011_Garland",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210120",
+  "fields": {
+    "name": "Gaibhne & Creidhne",
+    "slug": "gaibhne-creidhne",
+    "wiki_url": "/w/Gaibhne_%26_Creidhne",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210121",
+  "fields": {
+    "name": "Rathalos",
+    "slug": "rathalos",
+    "wiki_url": "/w/Rathalos",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210122",
+  "fields": {
+    "name": "Dreadking Rathalos",
+    "slug": "dreadking-rathalos",
+    "wiki_url": "/w/Dreadking_Rathalos",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210123",
+  "fields": {
+    "name": "Fatalis",
+    "slug": "fatalis",
+    "wiki_url": "/w/Fatalis",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210124",
+  "fields": {
+    "name": "Horus",
+    "slug": "horus",
+    "wiki_url": "/w/Horus",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210125",
+  "fields": {
+    "name": "Summer Konohana Sakuya",
+    "slug": "summer-konohana-sakuya",
+    "wiki_url": "/w/Summer_Konohana_Sakuya",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210126",
+  "fields": {
+    "name": "Azazel",
+    "slug": "azazel",
+    "wiki_url": "/w/Azazel",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210127",
+  "fields": {
+    "name": "Mini Zodi",
+    "slug": "mini-zodi",
+    "wiki_url": "/w/Mini_Zodi",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210130",
+  "fields": {
+    "name": "Styx",
+    "slug": "styx",
+    "wiki_url": "/w/Styx",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210131",
+  "fields": {
+    "name": "Midgardsormr Zero",
+    "slug": "midgardsormr-zero",
+    "wiki_url": "/w/Midgardsormr_Zero",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210132",
+  "fields": {
+    "name": "Ramiel",
+    "slug": "ramiel",
+    "wiki_url": "/w/Ramiel",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210133",
+  "fields": {
+    "name": "Mini Hildy",
+    "slug": "mini-hildy",
+    "wiki_url": "/w/Mini_Hildy",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210134",
+  "fields": {
+    "name": "Gala Reborn Poseidon",
+    "slug": "gala-reborn-poseidon",
+    "wiki_url": "/w/Gala_Reborn_Poseidon",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210135",
+  "fields": {
+    "name": "Giovanni",
+    "slug": "giovanni",
+    "wiki_url": "/w/Giovanni",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210136",
+  "fields": {
+    "name": "Gozu Tenno",
+    "slug": "gozu-tenno",
+    "wiki_url": "/w/Gozu_Tenno",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210137",
+  "fields": {
+    "name": "Menoetius",
+    "slug": "menoetius",
+    "wiki_url": "/w/Menoetius",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210138",
+  "fields": {
+    "name": "Arsène",
+    "slug": "arsene",
+    "wiki_url": "/w/Ars%C3%A8ne",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210142",
+  "fields": {
+    "name": "Lumière Pandora",
+    "slug": "lumiere-pandora",
+    "wiki_url": "/w/Lumi%C3%A8re_Pandora",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210143",
+  "fields": {
+    "name": "Gala Reborn Zephyr",
+    "slug": "gala-reborn-zephyr",
+    "wiki_url": "/w/Gala_Reborn_Zephyr",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210144",
+  "fields": {
+    "name": "Gala Reborn Jeanne",
+    "slug": "gala-reborn-jeanne",
+    "wiki_url": "/w/Gala_Reborn_Jeanne",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210145",
+  "fields": {
+    "name": "Gabriel",
+    "slug": "gabriel",
+    "wiki_url": "/w/Gabriel",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210146",
+  "fields": {
+    "name": "Mini Mercs",
+    "slug": "mini-mercs",
+    "wiki_url": "/w/Mini_Mercs",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210147",
+  "fields": {
+    "name": "Gala Reborn Agni",
+    "slug": "gala-reborn-agni",
+    "wiki_url": "/w/Gala_Reborn_Agni",
+    "rarity": 5,
+    "element": "Flame"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210148",
+  "fields": {
+    "name": "High Chthonius",
+    "slug": "high-chthonius",
+    "wiki_url": "/w/High_Chthonius",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210152",
+  "fields": {
+    "name": "Rose Queen",
+    "slug": "rose-queen",
+    "wiki_url": "/w/Rose_Queen",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210154",
+  "fields": {
+    "name": "Raphael",
+    "slug": "raphael",
+    "wiki_url": "/w/Raphael",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210155",
+  "fields": {
+    "name": "Gala Reborn Nidhogg",
+    "slug": "gala-reborn-nidhogg",
+    "wiki_url": "/w/Gala_Reborn_Nidhogg",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210156",
+  "fields": {
+    "name": "Summer Marishiten",
+    "slug": "summer-marishiten",
+    "wiki_url": "/w/Summer_Marishiten",
+    "rarity": 5,
+    "element": "Water"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210158",
+  "fields": {
+    "name": "Summer Cat Sìth",
+    "slug": "summer-cat-sith",
+    "wiki_url": "/w/Summer_Cat_S%C3%ACth",
+    "rarity": 5,
+    "element": "Light"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210161",
+  "fields": {
+    "name": "Gala Beast Volk",
+    "slug": "gala-beast-volk",
+    "wiki_url": "/w/Gala_Beast_Volk",
+    "rarity": 5,
+    "element": "Wind"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210162",
+  "fields": {
+    "name": "Gala Bahamut",
+    "slug": "gala-bahamut",
+    "wiki_url": "/w/Gala_Bahamut",
+    "rarity": 5,
+    "element": "Shadow"
+  }
+},
+{
+  "model": "game_data.dragon",
+  "pk": "210166",
+  "fields": {
+    "name": "Mini Jupi",
+    "slug": "mini-jupi",
+    "wiki_url": "/w/Mini_Jupi",
+    "rarity": 5,
+    "element": "Light"
+  }
+}
+]

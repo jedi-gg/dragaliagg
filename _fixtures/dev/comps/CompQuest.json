@@ -1,0 +1,20 @@
+[
+{
+  "model": "comps.compquest",
+  "pk": 1,
+  "fields": {
+    "slug": "asuras-blinding-light",
+    "title": "Asura's Blinding Light",
+    "nav_title": "Asura",
+    "ordering": 0,
+    "description": "",
+    "wiki_link": "https://dragalialost.wiki/w/Asura%27s_Blinding_Light",
+    "section": 1,
+    "difficulties": [
+      2,
+      3,
+      4
+    ]
+  }
+}
+]

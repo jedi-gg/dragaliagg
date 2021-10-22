@@ -2,6 +2,7 @@ from decouple import config
 
 from .django import *
 from .site import *
+from .fixtures import *
 
 """
 Import environment settings

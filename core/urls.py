@@ -11,4 +11,3 @@ urlpatterns = [
     path('', include('comps.urls')),
     path('', Home.as_view(), name='home'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT, show_indexes=True)
-

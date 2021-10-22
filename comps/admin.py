@@ -29,6 +29,8 @@ class AdventurerBuildInline(admin.StackedInline):
 @admin.register(Comp)
 class CompAdmin(admin.ModelAdmin):
     inlines = [AdventurerBuildInline,]
+    save_as = True
+
     autocomplete_fields = [
         'shared_skill_1',
         'shared_skill_2',

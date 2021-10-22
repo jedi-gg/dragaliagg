@@ -1,3 +1,3 @@
 from .home import Home
-from .quest import CompQuestDetail
-from .section import CompSectionDetail
+from .quest_list import CompQuestList
+from .section import CompSectionList

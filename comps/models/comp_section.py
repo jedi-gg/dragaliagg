@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 from core.models import SlugModel
 
@@ -16,6 +17,11 @@ class CompSection(SlugModel):
     
     def get_quests(self):
         return self.quests.order_by('ordering')
+
+    def get_absolute_url(self):
+        return reverse('section-list', kwargs={
+            'section_slug': self.slug,
+        })
 
     def __str__(self):
         return self.title

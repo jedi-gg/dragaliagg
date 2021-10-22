@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="{% static '/assets/css/libs.bundle.css' %}" />
     
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="{% static '/assets/css/theme.bundle.css' %}" />
+    <link rel="stylesheet" href="{% static '/assets/css/theme-dark.bundle.css' %}" />
     
     <!-- Title -->
-    <title>Dashkit</title>
+    <title>Draglia.gg</title>
   </head>
   <body>
 
@@ -43,12 +43,12 @@
 
                 <!-- Pretitle -->
                 <h6 class="header-pretitle">
-                  Welcome
+                  {% block header_pretitle %}Welcome{% endblock %}
                 </h6>
 
                 <!-- Title -->
                 <h1 class="header-title">
-                  Draglia.gg
+                  {% block header_title %}Draglia.gg{% endblock %}
                 </h1>
 
               </div>

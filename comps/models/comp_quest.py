@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 from core.models import SlugModel
 
@@ -17,5 +18,11 @@ class CompQuest(SlugModel):
     def slug_name(self):
         return self.title
     
+    def get_absolute_url(self):
+        return reverse('quest-list', kwargs={
+            'section_slug': self.section.slug,
+            'quest_slug': self.slug,
+        })
+        
     def __str__(self):
         return self.title

@@ -11,9 +11,9 @@
             <div class="col-12">
 
                 <div class="card">
-                <div class="card-body" style="background: url('{{ c.get_lead.get_portrait }}') no-repeat left -30px;">
+                <div class="card-body" style="background: url('{{ c.get_lead.get_portrait }}') no-repeat left -30px; padding: 1rem">
                     <div class="row align-items-center">
-                    <div class="col-auto" style="width: 175px;">
+                    <div class="col-auto" style="width: 185px;">
 
 
 
@@ -21,32 +21,20 @@
                     <div class="col ms-n2">
 
                         <!-- Title -->
-                        <h4 class="mb-1 name">
+                        <h3 class="mb-1 name">
                         <a href="project-overview.html">{{ c }}</a>
-                        </h4>
+                        </h3>
 
                         <!-- Text -->
                         <p class="card-text small text-muted mb-1">
-                        <time datetime="2018-06-21">{{ c.difficulty }} - {{ c.clear_time }}</time>
+                        <time datetime="2018-06-21">{{ c.difficulty }} - {{ c.clear_time }} - {{ c.clear_rate }}%</time>
                         </p>
 
-                        <!-- Progress -->
-                        <div class="row align-items-center g-0">
-                        <div class="col-auto">
-
-                            <!-- Value -->
-                            <div class="small me-2">{{ c.clear_rate }}%</div>
-
-                        </div>
-                        <div class="col">
-
-                            <!-- Progress -->
-                            <div class="progress progress-sm">
-                            <div class="progress-bar" role="progressbar" style="width: {{ c.clear_rate }}%" aria-valuenow="{{ c.clear_rate }}" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-
-                        </div>
-                        </div> <!-- / .row -->
+                        <p>
+                            {% for slot, adv in c.get_rest_of_team.items %}
+                            <img src="{{ adv.get_image }}" />
+                            {% endfor %}
+                        </p>
 
                     </div>
                     <div class="col-auto">

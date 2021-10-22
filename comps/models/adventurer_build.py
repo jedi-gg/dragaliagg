@@ -5,8 +5,8 @@ from comps.enums import AdventurerSlotEnum
 from comps.models import Comp
 
 class AdventurerBuild(models.Model):
-    comp = models.ForeignKey(Comp, related_name='adventurer_builds', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer = models.ForeignKey(Adventurer, related_name='comp_adventurer_builds', on_delete=models.DO_NOTHING, blank=True, null=True)
+    comp = models.ForeignKey(Comp, related_name='builds', on_delete=models.DO_NOTHING, blank=True, null=True)
+    adventurer = models.ForeignKey(Adventurer, related_name='builds', on_delete=models.DO_NOTHING, blank=True, null=True)
     slot = models.PositiveSmallIntegerField(choices=AdventurerSlotEnum.as_tuples(), default=AdventurerSlotEnum.LEAD_UNIT.value)
     adventurer_wp_1 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_1', on_delete=models.DO_NOTHING, blank=True, null=True)
     adventurer_wp_2 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_2', on_delete=models.DO_NOTHING, blank=True, null=True)

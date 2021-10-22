@@ -5,7 +5,7 @@ from .save_image import save_image
 def scrape_image_adventurers():
     thumb_image_sizes = ['40', '80', '120',]
     portrait_sizes = ['100', '200', '450', '1000',]
-    for a in Adventurer.objects.all()[:10]:
+    for a in Adventurer.objects.all():
         for size in thumb_image_sizes:
             url = 'https://dragalialost.wiki/thumb.php?f={}&width={}'.format(
                 a.image, size)

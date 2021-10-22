@@ -1,5 +1,6 @@
 from django.db import models
 
+from comps.enums import AdventurerSlotEnum
 from core.models import SlugModel
 from game_data.models import Adventurer
 
@@ -23,6 +24,23 @@ class Comp(SlugModel):
 
     def slug_name(self):
         return self.title
+    
+    def get_team(self):
+        comp_slots = {}
+        for build in self.builds.all():
+            comp_slots[build.slot] = build.adventurer
+        
+        return comp_slots
+    
+    def get_lead(self):
+        return self.builds.get(slot=AdventurerSlotEnum.LEAD_UNIT.value).adventurer
+    
+    def get_rest_of_team(self):
+        rest_of_team = {}
+        for build in self.builds.exclude(slot=AdventurerSlotEnum.LEAD_UNIT.value):
+            rest_of_team[build.slot] = build.adventurer
+        
+        return rest_of_team
 
     def __str__(self):
         return self.title

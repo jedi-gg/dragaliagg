@@ -13,22 +13,22 @@ class Adventurer(models.Model):
     element = models.CharField(max_length=50)
     weapon = models.CharField(max_length=50)
 
-    def get_image(self, size=40):
+    def get_image(self, size=60):
         return '{}game_assets/adventurers/{}_{}.png'.format(
             settings.STATIC_URL,
-            self.image.replace('.png', ''),
+            self.id,
             size
         )
     
     def get_portrait(self, size=200):
         return '{}game_assets/adventurers/{}_portrait_{}.png'.format(
             settings.STATIC_URL,
-            self.image.replace('.png', ''),
+            self.id,
             size
         )
     
     def download_images(self):
-        thumb_image_sizes = ['40', '80', '120',]
+        thumb_image_sizes = ['40', '60', '80', '120',]
         portrait_sizes = ['100', '200', '450', '1000',]
 
         for size in thumb_image_sizes:

@@ -30,9 +30,9 @@
                         <time datetime="2018-06-21">{{ c.difficulty }} - {{ c.clear_time }} - {{ c.clear_rate }}%</time>
                         </p>
 
-                        <p>
-                            {% for slot, adv in c.get_rest_of_team.items %}
-                            <img src="{{ adv.get_image }}" />
+                        <p class="mb-0">
+                            {% for slot, adv in c.get_team.items %}
+                            <img src="{{ adv.get_image }}" style="width: 60px;" />
                             {% endfor %}
                         </p>
 

@@ -15,7 +15,22 @@
     <link rel="stylesheet" href="{% static '/assets/css/libs.bundle.css' %}" />
     
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="{% static '/assets/css/theme-dark.bundle.css' %}" />
+    <link rel="stylesheet" href="https://use.typekit.net/xkt1txf.css">
+    <link rel="stylesheet" href="{% static '/assets/css/theme.bundle.css' %}" />
+
+    <style>
+    .dragalia-font {
+      font-family: itc-avant-garde-gothic-pro, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      color: #fff;
+      font-size: 30px;
+      letter-spacing: 1px;
+      -webkit-text-stroke: 7px black;
+      paint-order: stroke fill;
+
+    }
+    </style>
     
     <!-- Title -->
     <title>Draglia.gg</title>
@@ -25,7 +40,7 @@
     {% include "partials/nav.html" %}
 
     <!-- MAIN CONTENT -->
-    <div class="main-content">
+    <div class="main-content" style="background: no-repeat url('{% static 'img/gg_bg2.png' %}'); background-size: contain;">
 
       <!-- HEADER -->
       <div class="header">
@@ -50,7 +65,7 @@
                 </h6>
 
                 <!-- Title -->
-                <h1 class="header-title">
+                <h1 class="header-title dragalia-font">
                   {% block header_title %}Dragalia.gg - Auto, Manual and Semi-Manual Compositions for Draglia Lost{% endblock %}
                 </h1>
 

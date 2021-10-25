@@ -11,7 +11,8 @@ class Comp(SlugModel):
     game_version = models.CharField(max_length=100, blank=True, null=True)
     clear_time = models.CharField(max_length=50)
     clear_rate = models.CharField(max_length=50)
-    notes = models.TextField(blank=True, null=True)
+    description = models.TextField(blank=True, null=True)
+    creators_notes = models.TextField(blank=True, null=True)
     discussion_link = models.URLField(blank=True, null=True)
     video_link = models.URLField(blank=True, null=True)
 

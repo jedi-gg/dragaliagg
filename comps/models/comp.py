@@ -6,6 +6,7 @@ from game_data.models import Adventurer
 
 
 class Comp(SlugModel):
+    comp_type = models.ForeignKey('CompType', related_name='comps', on_delete=models.DO_NOTHING, blank=True, null=True)
     title = models.CharField(max_length=100, null=True, blank=True)
     creator = models.ForeignKey('CompCreator', related_name='comps', on_delete=models.DO_NOTHING, blank=True, null=True)
     post_date = models.DateField(blank=True, null=True)

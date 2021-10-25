@@ -7,6 +7,7 @@ from comps.models import (
     CompDifficulty,
     AdventurerBuild,
     CompCreator,
+    CompType,
 )
 
 
@@ -58,6 +59,10 @@ class CompQuestAdmin(admin.ModelAdmin):
 @admin.register(CompDifficulty)
 class CompDifficultyAdmin(admin.ModelAdmin):
     search_fields = ['title',]
+
+@admin.register(CompType)
+class CompTypeAdmin(admin.ModelAdmin):
+    search_fields = ['name',]
 
 @admin.register(CompCreator)
 class CompCreatorAdmin(admin.ModelAdmin):

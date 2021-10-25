@@ -17,5 +17,6 @@ class CompQuestList(ListView):
         context = super(CompQuestList, self).get_context_data(**kwargs)
 
         context['quest'] = self.quest
+        context['banner'] = self.quest.get_banner_image()
 
         return context

@@ -51,10 +51,12 @@
             <div class="row align-items-center">
               <div class="col-auto">
 
+                {% if banner %}
                 <!-- Avatar -->
                 <div class="avatar avatar-lg avatar-4by3" style="width: 15rem;">
-                  <img src="https://dragalialost.wiki/images/c/c2/Banner_Asura%27s_Blinding_Light.png" alt="..." class="avatar-img rounded">
+                  <img src="{{ banner }}" alt="..." class="avatar-img rounded">
                 </div>
+                {% endif %}
 
               </div>
               <div class="col ms-n3 ms-md-n2">

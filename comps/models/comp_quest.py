@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 from django.urls import reverse
 
@@ -7,6 +8,7 @@ from core.models import SlugModel
 class CompQuest(SlugModel):
     title = models.CharField(max_length=100)
     nav_title = models.CharField(max_length=100, blank=True, null=True)
+    banner_title = models.CharField(max_length=100, blank=True, null=True)
     ordering = models.PositiveIntegerField(default=0)
     description = models.TextField(blank=True, null=True)
     wiki_link = models.URLField(blank=True, null=True)
@@ -22,6 +24,13 @@ class CompQuest(SlugModel):
     
     def get_nav_title(self):
         return self.nav_title if self.nav_title else self.title
+    
+    def get_banner_image(self, size=250):
+        return '{}game_assets/banners/{}_{}.png'.format(
+            settings.STATIC_URL,
+            self.banner_title,
+            size
+        )
     
     def get_absolute_url(self):
         return reverse('quest-list', kwargs={

@@ -286,5 +286,77 @@
     "adventurer_dragon": null,
     "adventurer_weapon": null
   }
+},
+{
+  "model": "comps.adventurerbuild",
+  "pk": 17,
+  "fields": {
+    "comp": 5,
+    "adventurer": "100032_04",
+    "slot": 1,
+    "adventurer_wp_1": null,
+    "adventurer_wp_2": null,
+    "adventurer_wp_3": null,
+    "adventurer_wp_4": null,
+    "adventurer_wp_5": null,
+    "adventurer_wp_6": null,
+    "adventurer_wp_7": null,
+    "adventurer_dragon": null,
+    "adventurer_weapon": null
+  }
+},
+{
+  "model": "comps.adventurerbuild",
+  "pk": 18,
+  "fields": {
+    "comp": 5,
+    "adventurer": "100013_04",
+    "slot": 2,
+    "adventurer_wp_1": null,
+    "adventurer_wp_2": null,
+    "adventurer_wp_3": null,
+    "adventurer_wp_4": null,
+    "adventurer_wp_5": null,
+    "adventurer_wp_6": null,
+    "adventurer_wp_7": null,
+    "adventurer_dragon": null,
+    "adventurer_weapon": null
+  }
+},
+{
+  "model": "comps.adventurerbuild",
+  "pk": 19,
+  "fields": {
+    "comp": 5,
+    "adventurer": "110378_01",
+    "slot": 3,
+    "adventurer_wp_1": null,
+    "adventurer_wp_2": null,
+    "adventurer_wp_3": null,
+    "adventurer_wp_4": null,
+    "adventurer_wp_5": null,
+    "adventurer_wp_6": null,
+    "adventurer_wp_7": null,
+    "adventurer_dragon": null,
+    "adventurer_weapon": null
+  }
+},
+{
+  "model": "comps.adventurerbuild",
+  "pk": 20,
+  "fields": {
+    "comp": 5,
+    "adventurer": "110257_02",
+    "slot": 4,
+    "adventurer_wp_1": null,
+    "adventurer_wp_2": null,
+    "adventurer_wp_3": null,
+    "adventurer_wp_4": null,
+    "adventurer_wp_5": null,
+    "adventurer_wp_6": null,
+    "adventurer_wp_7": null,
+    "adventurer_dragon": null,
+    "adventurer_weapon": null
+  }
 }
 ]

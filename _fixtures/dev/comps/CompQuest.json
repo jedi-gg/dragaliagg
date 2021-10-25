@@ -74,5 +74,25 @@
       4
     ]
   }
+},
+{
+  "model": "comps.compquest",
+  "pk": 5,
+  "fields": {
+    "slug": "volks-wrath",
+    "title": "Volk's Wrath",
+    "nav_title": "Volk",
+    "banner_title": null,
+    "ordering": 10,
+    "description": "",
+    "wiki_link": "https://dragalialost.wiki/w/Volk%27s_Wrath",
+    "section": 2,
+    "difficulties": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
 }
 ]

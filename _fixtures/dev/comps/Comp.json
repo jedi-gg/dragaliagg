@@ -94,5 +94,29 @@
     "shared_skill_1": "110337_01",
     "shared_skill_2": "100003_01"
   }
+},
+{
+  "model": "comps.comp",
+  "pk": 5,
+  "fields": {
+    "slug": "volks-wrath-master-4x-gold-fafnir-snow-dust",
+    "comp_type": 1,
+    "title": "Volk’s Wrath: Master (4x Gold Fafnir) – Snow-Dust",
+    "creator": 5,
+    "post_date": "2021-06-07",
+    "auto_shapeshift": false,
+    "game_version": "2.8.0",
+    "clear_time": "6:10",
+    "clear_rate": "\"Pretty good\"",
+    "description": "A reliable team for gold farming Master Volk.",
+    "creators_notes": "“Consistency is pretty good but it’s close to 100% if you replace Galaxi Gold Faf with a proper dragon (I use Prometheus just in case and with Prometheus, you can run Scorch Punish over Dragon Scale) so if you want more gold or for weeklies, use 4 faf but if you want to auto farm x99, use Prometheus.”\r\n\r\n– Snow-Dust",
+    "discussion_link": null,
+    "video_link": null,
+    "section": 2,
+    "quest": 5,
+    "difficulty": 2,
+    "shared_skill_1": null,
+    "shared_skill_2": "110337_03"
+  }
 }
 ]

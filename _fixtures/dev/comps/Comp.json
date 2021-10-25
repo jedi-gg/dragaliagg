@@ -44,5 +44,51 @@
     "shared_skill_1": "100001_12",
     "shared_skill_2": "110019_01"
   }
+},
+{
+  "model": "comps.comp",
+  "pk": 3,
+  "fields": {
+    "slug": "jaldabaoths-piercing-gale-expert-huang",
+    "title": "Jaldabaoth’s Piercing Gale: Expert – Huang",
+    "creator": 3,
+    "post_date": "2021-05-03",
+    "auto_shapeshift": true,
+    "game_version": "2.7.0",
+    "clear_time": "0",
+    "clear_rate": "93% (340/365",
+    "description": "A consistent team that has been well-tested by OM member RaenonX.",
+    "creators_notes": "“G!Mym SS can be replaced by any dgauge SS.\r\n\r\nY!Cassandra can be replaced by DY!Lily.\r\n\r\nDue to Nihilism, Y!Cassandra and DY!Lily have the same effect.\r\n\r\nY!Cassandra’s SSP is 15468; DY!Lily‘s SSP is 17324.”\r\n\r\n– RaenonX",
+    "discussion_link": "https://www.reddit.com/r/DragaliaLost/comments/n3rx0q/jaldabaoth_expert_full_auto_w_clear_master_solo/?ref=share&ref_source=embed&utm_content=title&utm_medium=post_embed&utm_name=74eda48dc1474ef3aaf72",
+    "video_link": null,
+    "section": 1,
+    "quest": 3,
+    "difficulty": 3,
+    "shared_skill_1": "100010_04",
+    "shared_skill_2": "110346_01"
+  }
+},
+{
+  "model": "comps.comp",
+  "pk": 4,
+  "fields": {
+    "slug": "liliths-encroaching-shadow-expert-version-2-teyah",
+    "title": "Lilith’s Encroaching Shadow: Expert – Version 2 – Teyah",
+    "creator": 4,
+    "post_date": "2021-03-24",
+    "auto_shapeshift": false,
+    "game_version": "2.6.0",
+    "clear_time": "6:30-8:30",
+    "clear_rate": "99% (99/100)",
+    "description": "",
+    "creators_notes": "“I’ve messed about and worked up a couple of very high consistency No-Autoshift teams for Expert Lilith. The first team uses Ryzsarda and cleared 99/100 attempted runs. The Ryzsarda comp is particularly near-foolproof, taking a minor miracle to fail.”\r\n\r\n– Teyah",
+    "discussion_link": null,
+    "video_link": null,
+    "section": 1,
+    "quest": 2,
+    "difficulty": 3,
+    "shared_skill_1": "110337_01",
+    "shared_skill_2": "100003_01"
+  }
 }
 ]

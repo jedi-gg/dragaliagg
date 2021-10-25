@@ -4,6 +4,7 @@
   "pk": 1,
   "fields": {
     "slug": "asuras-blinding-light-expert-sermatheus",
+    "comp_type": 1,
     "title": "Asura’s Blinding Light: Expert – sermatheus",
     "creator": 1,
     "post_date": "2021-10-15",
@@ -27,6 +28,7 @@
   "pk": 2,
   "fields": {
     "slug": "asuras-blinding-light-expert-leondl",
+    "comp_type": 1,
     "title": "Asura’s Blinding Light: Expert – LeonDL",
     "creator": 2,
     "post_date": "2021-08-05",
@@ -50,6 +52,7 @@
   "pk": 3,
   "fields": {
     "slug": "jaldabaoths-piercing-gale-expert-huang",
+    "comp_type": 1,
     "title": "Jaldabaoth’s Piercing Gale: Expert – Huang",
     "creator": 3,
     "post_date": "2021-05-03",
@@ -73,6 +76,7 @@
   "pk": 4,
   "fields": {
     "slug": "liliths-encroaching-shadow-expert-version-2-teyah",
+    "comp_type": 1,
     "title": "Lilith’s Encroaching Shadow: Expert – Version 2 – Teyah",
     "creator": 4,
     "post_date": "2021-03-24",

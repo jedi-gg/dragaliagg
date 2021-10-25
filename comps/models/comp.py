@@ -7,7 +7,9 @@ from game_data.models import Adventurer
 
 class Comp(SlugModel):
     title = models.CharField(max_length=100, null=True, blank=True)
-    creator = models.CharField(max_length=100)
+    creator = models.ForeignKey('CompCreator', related_name='comps', on_delete=models.DO_NOTHING, blank=True, null=True)
+    post_date = models.DateField(blank=True, null=True)
+    auto_shapeshift = models.BooleanField(blank=True, null=True)
     game_version = models.CharField(max_length=100, blank=True, null=True)
     clear_time = models.CharField(max_length=50)
     clear_rate = models.CharField(max_length=50)

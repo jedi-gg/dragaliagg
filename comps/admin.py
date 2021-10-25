@@ -6,6 +6,7 @@ from comps.models import (
     CompQuest,
     CompDifficulty,
     AdventurerBuild,
+    CompCreator,
 )
 
 
@@ -32,6 +33,7 @@ class CompAdmin(admin.ModelAdmin):
     save_as = True
 
     autocomplete_fields = [
+        'creator',
         'shared_skill_1',
         'shared_skill_2',
         'section',
@@ -42,10 +44,12 @@ class CompAdmin(admin.ModelAdmin):
 @admin.register(CompSection)
 class CompSectionAdmin(admin.ModelAdmin):
     search_fields = ['title',]
+    save_as = True
 
 
 @admin.register(CompQuest)
 class CompQuestAdmin(admin.ModelAdmin):
+    save_as = True
     search_fields = ['title',]
     autocomplete_fields = [
         'section',
@@ -54,3 +58,7 @@ class CompQuestAdmin(admin.ModelAdmin):
 @admin.register(CompDifficulty)
 class CompDifficultyAdmin(admin.ModelAdmin):
     search_fields = ['title',]
+
+@admin.register(CompCreator)
+class CompCreatorAdmin(admin.ModelAdmin):
+    search_fields = ['name',]

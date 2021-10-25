@@ -18,7 +18,7 @@ class CompSection(SlugModel):
         return self.slug.replace('-', '')
     
     def get_quests(self):
-        return self.quests.order_by('ordering')
+        return self.quests.order_by('-ordering')
     
     def get_nav_title(self):
         return self.nav_title if self.nav_title else self.title

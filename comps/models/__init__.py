@@ -1,3 +1,4 @@
+from .comp_creator import CompCreator
 from .comp import Comp
 from .comp_section import CompSection
 from .comp_quest import CompQuest

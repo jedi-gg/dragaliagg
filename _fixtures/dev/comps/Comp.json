@@ -1,0 +1,48 @@
+[
+{
+  "model": "comps.comp",
+  "pk": 1,
+  "fields": {
+    "slug": "asuras-blinding-light-expert-sermatheus",
+    "title": "Asura’s Blinding Light: Expert – sermatheus",
+    "creator": 1,
+    "post_date": "2021-10-15",
+    "auto_shapeshift": true,
+    "game_version": "2.12.0",
+    "clear_time": "6:52",
+    "clear_rate": "100% (4/4)",
+    "description": "Since Sandalphon's along for the ride, this team refrains from packing Paralysis resistance.",
+    "creators_notes": "“Tested about 4 times and they managed to do it in all four. This recorded one being the only one where Mascula actually died.\r\n\r\nMascula being here to help with the orb, but if you have someone else capable of replacing him, then that is okay too.”\r\n\r\n– sermatheus",
+    "discussion_link": "https://www.reddit.com/r/DragaliaLost/comments/q93611/sandalphon_is_kind_of_an_amazing_healer_auto/?ref=share&ref_source=embed&utm_content=body&utm_medium=post_embed&utm_name=3c2bef2597ef406c88fb3bcc6",
+    "video_link": null,
+    "section": 1,
+    "quest": 1,
+    "difficulty": 3,
+    "shared_skill_1": "100001_01",
+    "shared_skill_2": "100007_07"
+  }
+},
+{
+  "model": "comps.comp",
+  "pk": 2,
+  "fields": {
+    "slug": "asuras-blinding-light-expert-leondl",
+    "title": "Asura’s Blinding Light: Expert – LeonDL",
+    "creator": 2,
+    "post_date": "2021-08-05",
+    "auto_shapeshift": false,
+    "game_version": "2.10.0",
+    "clear_time": "0",
+    "clear_rate": "100% (100/100)",
+    "description": "This builds assumes the squishy members of your team will die to Divinity Slayer, but they get a second chance at life due to Draconic Resurrection.",
+    "creators_notes": "“So even though this fight is now a month old and therefore Dead Content™ I still see some people asking around for auto eAsura comps. And many of them, like me, lack the core units for the established tank comp and AoE comp strategies. While you can get 70-80% consistent autos off of throwing 3 dps+healer teams together, I wanted something that could do actual afk farming, and this was the result. A somewhat flexible comp built around the world’s most useless wyrmprint, Beneath the Boughs. Hope this helps at least a few of you get those 4 copies of bow’s boon unlocked.”\r\n\r\n– LeonDL",
+    "discussion_link": "https://www.reddit.com/r/DragaliaLost/comments/oycdlz/no_vampy_no_mascula_no_alberius_no_hch_no_verica/?ref=share&ref_source=embed&utm_content=title&utm_medium=post_embed&utm_name=1d49789d5577464eaec5",
+    "video_link": "https://www.youtube.com/watch?v=jge4Fx3hdFQ",
+    "section": 1,
+    "quest": 1,
+    "difficulty": 3,
+    "shared_skill_1": "100001_12",
+    "shared_skill_2": "110019_01"
+  }
+}
+]

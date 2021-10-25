@@ -6,9 +6,63 @@
     "slug": "asuras-blinding-light",
     "title": "Asura's Blinding Light",
     "nav_title": "Asura",
-    "ordering": 0,
+    "ordering": 6,
     "description": "",
     "wiki_link": "https://dragalialost.wiki/w/Asura%27s_Blinding_Light",
+    "section": 1,
+    "difficulties": [
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "comps.compquest",
+  "pk": 2,
+  "fields": {
+    "slug": "liliths-encroaching-shadow",
+    "title": "Lilith's Encroaching Shadow",
+    "nav_title": "Lilith",
+    "ordering": 5,
+    "description": "",
+    "wiki_link": "https://dragalialost.wiki/w/Lilith%27s_Encroaching_Shadow",
+    "section": 1,
+    "difficulties": [
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "comps.compquest",
+  "pk": 3,
+  "fields": {
+    "slug": "jaldabaoths-piercing-gale",
+    "title": "Jaldabaoth's Piercing Gale",
+    "nav_title": "Jaldabaoth",
+    "ordering": 10,
+    "description": "",
+    "wiki_link": "https://dragalialost.wiki/w/Jaldabaoth%27s_Piercing_Gale",
+    "section": 1,
+    "difficulties": [
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "comps.compquest",
+  "pk": 4,
+  "fields": {
+    "slug": "ilbiss-surging-cascade",
+    "title": "Ilbis's Surging Cascade",
+    "nav_title": "Ilbis",
+    "ordering": 9,
+    "description": "",
+    "wiki_link": "https://dragalialost.wiki/w/Iblis%27s_Surging_Cascade",
     "section": 1,
     "difficulties": [
       2,

@@ -27,13 +27,15 @@ def scrape_wyrmprints():
         for row in trs:
             cols = row.findAll('td')
 
-            wp_id = (
+            image_id = (
                 cols[0].find('img')['src']
                 .replace('/thumb.php?f=', '')
                 .replace('_01.png&width=80', '')
                 .replace('_02.png&width=80', '')
             )
             name = cols[1].find('a').text.strip()
+            slug = slugify(name)
+            wp_id = '{}_{}'.format(image_id, slug)
 
             # Affinity
             affinity_name = None
@@ -57,7 +59,8 @@ def scrape_wyrmprints():
                 id=wp_id,
                 defaults={
                     'name': name,
-                    'slug': slugify(name),
+                    'image_id': image_id,
+                    'slug': slug,
                     'wiki_url': cols[0].find('a')['href'],
                     'rarity': cols[2].find('div').text.strip(),
                     'affinity_name': affinity_name,

@@ -6,13 +6,14 @@ def get_all_fixtures(dev):
     """
     Returns a full list of all base or dev fixture files
     """
+    ignored_files = ['.DS_Store', ]
     fixtures = []
     fixtures_path = os.path.join(
         settings.BASE_DIR,
         settings.FIXTURES_DIR_NAME,
         settings.FIXTURES_DEV_DIR_NAME if dev else '',
     )
-    app_labels = os.listdir(fixtures_path)
+    app_labels = [f for f in os.listdir(fixtures_path) if f not in ignored_files]
 
     # If there is a dev directory, remove it from app_labels
     if settings.FIXTURES_DEV_DIR_NAME in app_labels:
@@ -20,7 +21,7 @@ def get_all_fixtures(dev):
 
     for app_label in app_labels:
         app_label_path = os.path.join(fixtures_path, app_label)
-        model_files = os.listdir(app_label_path)
+        model_files = [f for f in os.listdir(app_label_path) if f not in ignored_files]
         for model_file in model_files:
             fixtures.append(os.path.join(app_label_path, model_file))
 

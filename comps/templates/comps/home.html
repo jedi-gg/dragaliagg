@@ -36,7 +36,11 @@
                 <div class="card">
                 <div class="card-body" style="background: url('{{ c.get_lead.get_portrait }}') no-repeat left -10px; padding: 1rem">
                     <div class="row align-items-center">
-                    <div class="col-auto" style="width: 185px;"><img src="{{ c.quest.get_banner_image }}" class="avatar-img rounded" style="margin-top: 90px;" /></div>
+                    <div class="col-auto" style="width: 185px;">
+                        <div style="margin-top: 90px; height: 42px; background: url('{% static 'game_assets/banners/banner_bg_160.png' %}') no-repeat left; background-size: cover;">
+                            <img src="{{ c.quest.get_banner_image }}" class="border-element-{{ c.quest.get_element|lower }}" style="object-fit: cover; height: 36px; width: 160px; border-width: 2px; border-style: solid; margin-top: 3px;" />
+                        </div>
+                    </div>
                     <div class="col ms-n2">
 
                         <!-- Title -->

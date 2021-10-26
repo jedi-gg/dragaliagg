@@ -17,6 +17,14 @@ class Wyrmprint(models.Model):
     ability_icon = models.CharField(max_length=100, blank=True, null=True)
     ability_description = models.TextField(blank=True, null=True)
 
+    @property
+    def get_image(self, size=60):
+        return '{}game_assets/wyrmprints/{}_{}.png'.format(
+            settings.STATIC_URL,
+            self.image_id,
+            size
+        )
+
     def download_images(self):
         thumb_image_sizes = ['30', '60', '155',]
         portrait_sizes = ['100', '200', '450', '1000',]

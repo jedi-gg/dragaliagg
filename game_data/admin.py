@@ -9,7 +9,8 @@ class AdventurerAdmin(admin.ModelAdmin):
 
 @admin.register(Wyrmprint)
 class WyrmprintAdmin(admin.ModelAdmin):
-    search_fields = ['name']
+    list_display = ['name', 'ability_name', 'ability_description']
+    search_fields = ['name', 'ability_name']
 
 @admin.register(Dragon)
 class DragonAdmin(admin.ModelAdmin):

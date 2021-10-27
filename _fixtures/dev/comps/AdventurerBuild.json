@@ -78,15 +78,15 @@
     "comp": 2,
     "adventurer": "110333_01",
     "slot": 1,
-    "adventurer_wp_1": null,
-    "adventurer_wp_2": null,
-    "adventurer_wp_3": null,
-    "adventurer_wp_4": null,
-    "adventurer_wp_5": null,
-    "adventurer_wp_6": null,
-    "adventurer_wp_7": null,
-    "adventurer_dragon": null,
-    "adventurer_weapon": null
+    "adventurer_wp_1": "400459_a-man-unchanging",
+    "adventurer_wp_2": "400472_bloody-little-queen",
+    "adventurer_wp_3": "400280_bonds-between-worlds",
+    "adventurer_wp_4": "400085_beautys-secret",
+    "adventurer_wp_5": "400421_a-small-courage",
+    "adventurer_wp_6": "400177_crown-of-light-serpents-boon",
+    "adventurer_wp_7": "400325_beneath-the-boughs-staffs-boon",
+    "adventurer_dragon": "210138",
+    "adventurer_weapon": "307139"
   }
 },
 {
@@ -96,15 +96,15 @@
     "comp": 2,
     "adventurer": "110349_01",
     "slot": 2,
-    "adventurer_wp_1": null,
-    "adventurer_wp_2": null,
-    "adventurer_wp_3": null,
-    "adventurer_wp_4": null,
-    "adventurer_wp_5": null,
-    "adventurer_wp_6": null,
-    "adventurer_wp_7": null,
-    "adventurer_dragon": null,
-    "adventurer_weapon": null
+    "adventurer_wp_1": "400091_a-wish-upon-the-yuletree",
+    "adventurer_wp_2": "400070_levins-champion",
+    "adventurer_wp_3": "400462_pecorines-grand-adventure",
+    "adventurer_wp_4": "400381_beautiful-nothingness",
+    "adventurer_wp_5": "400410_the-plaguebringer",
+    "adventurer_wp_6": "400177_crown-of-light-serpents-boon",
+    "adventurer_wp_7": "400359_tutelarys-destiny-wolfs-boon",
+    "adventurer_dragon": "210087",
+    "adventurer_weapon": "305135"
   }
 },
 {
@@ -114,15 +114,15 @@
     "comp": 2,
     "adventurer": "110335_02",
     "slot": 3,
-    "adventurer_wp_1": null,
-    "adventurer_wp_2": null,
-    "adventurer_wp_3": null,
-    "adventurer_wp_4": null,
-    "adventurer_wp_5": null,
-    "adventurer_wp_6": null,
-    "adventurer_wp_7": null,
-    "adventurer_dragon": null,
-    "adventurer_weapon": null
+    "adventurer_wp_1": "400418_the-lurker-in-the-woods",
+    "adventurer_wp_2": "400163_kung-fu-masters",
+    "adventurer_wp_3": "400124_happy-new-year",
+    "adventurer_wp_4": "400381_beautiful-nothingness",
+    "adventurer_wp_5": "400410_the-plaguebringer",
+    "adventurer_wp_6": "400177_crown-of-light-serpents-boon",
+    "adventurer_wp_7": "400359_tutelarys-destiny-wolfs-boon",
+    "adventurer_dragon": "210155",
+    "adventurer_weapon": "301010"
   }
 },
 {

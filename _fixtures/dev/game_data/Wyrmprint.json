@@ -1,8 +1,9 @@
 [
 {
   "model": "game_data.wyrmprint",
-  "pk": "400001",
+  "pk": "400001_ring-of-exaltation",
   "fields": {
+    "image_id": "400001",
     "name": "Ring of Exaltation",
     "slug": "ring-of-exaltation",
     "wiki_url": "/w/Ring_of_Exaltation",
@@ -16,8 +17,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400002",
+  "pk": "400002_seafood-soup",
   "fields": {
+    "image_id": "400002",
     "name": "Seafood Soup",
     "slug": "seafood-soup",
     "wiki_url": "/w/Seafood_Soup",
@@ -31,8 +33,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400003",
+  "pk": "400003_dragon-arcanum",
   "fields": {
+    "image_id": "400003",
     "name": "Dragon Arcanum",
     "slug": "dragon-arcanum",
     "wiki_url": "/w/Dragon_Arcanum",
@@ -46,8 +49,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400004",
+  "pk": "400004_mana-fount",
   "fields": {
+    "image_id": "400004",
     "name": "Mana Fount",
     "slug": "mana-fount",
     "wiki_url": "/w/Mana_Fount",
@@ -61,8 +65,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400005",
+  "pk": "400005_old-harp",
   "fields": {
+    "image_id": "400005",
     "name": "Old Harp",
     "slug": "old-harp",
     "wiki_url": "/w/Old_Harp",
@@ -76,8 +81,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400006",
+  "pk": "400006_scorn-the-destrier",
   "fields": {
+    "image_id": "400006",
     "name": "Scorn the Destrier",
     "slug": "scorn-the-destrier",
     "wiki_url": "/w/Scorn_the_Destrier",
@@ -91,8 +97,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400007",
+  "pk": "400007_halo",
   "fields": {
+    "image_id": "400007",
     "name": "Halo",
     "slug": "halo",
     "wiki_url": "/w/Halo",
@@ -106,8 +113,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400008",
+  "pk": "400008_teatime",
   "fields": {
+    "image_id": "400008",
     "name": "Teatime",
     "slug": "teatime",
     "wiki_url": "/w/Teatime",
@@ -121,8 +129,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400009",
+  "pk": "400009_bellathorna",
   "fields": {
+    "image_id": "400009",
     "name": "Bellathorna",
     "slug": "bellathorna",
     "wiki_url": "/w/Bellathorna",
@@ -136,8 +145,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400010",
+  "pk": "400010_alberian-banner",
   "fields": {
+    "image_id": "400010",
     "name": "Alberian Banner",
     "slug": "alberian-banner",
     "wiki_url": "/w/Alberian_Banner",
@@ -151,8 +161,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400011",
+  "pk": "400011_cry-of-the-horn",
   "fields": {
+    "image_id": "400011",
     "name": "Cry of the Horn",
     "slug": "cry-of-the-horn",
     "wiki_url": "/w/Cry_of_the_Horn",
@@ -166,8 +177,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400012",
+  "pk": "400012_howling-predator",
   "fields": {
+    "image_id": "400012",
     "name": "Howling Predator",
     "slug": "howling-predator",
     "wiki_url": "/w/Howling_Predator",
@@ -181,8 +193,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400013",
+  "pk": "400013_syndicate-mask",
   "fields": {
+    "image_id": "400013",
     "name": "Syndicate Mask",
     "slug": "syndicate-mask",
     "wiki_url": "/w/Syndicate_Mask",
@@ -196,8 +209,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400014",
+  "pk": "400014_hallowed-mountains",
   "fields": {
+    "image_id": "400014",
     "name": "Hallowed Mountains",
     "slug": "hallowed-mountains",
     "wiki_url": "/w/Hallowed_Mountains",
@@ -211,8 +225,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400015",
+  "pk": "400015_lakeside-euphony",
   "fields": {
+    "image_id": "400015",
     "name": "Lakeside Euphony",
     "slug": "lakeside-euphony",
     "wiki_url": "/w/Lakeside_Euphony",
@@ -226,8 +241,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400016",
+  "pk": "400016_dragons-nest",
   "fields": {
+    "image_id": "400016",
     "name": "Dragon's Nest",
     "slug": "dragons-nest",
     "wiki_url": "/w/Dragon%27s_Nest",
@@ -241,8 +257,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400017",
+  "pk": "400017_enchiridion",
   "fields": {
+    "image_id": "400017",
     "name": "Enchiridion",
     "slug": "enchiridion",
     "wiki_url": "/w/Enchiridion",
@@ -256,8 +273,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400018",
+  "pk": "400018_ironside-shield",
   "fields": {
+    "image_id": "400018",
     "name": "Ironside Shield",
     "slug": "ironside-shield",
     "wiki_url": "/w/Ironside_Shield",
@@ -271,8 +289,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400019",
+  "pk": "400019_winds-of-saint-lotier",
   "fields": {
+    "image_id": "400019",
     "name": "Winds of Saint Lotier",
     "slug": "winds-of-saint-lotier",
     "wiki_url": "/w/Winds_of_Saint_Lotier",
@@ -286,8 +305,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400020",
+  "pk": "400020_aromatherapy",
   "fields": {
+    "image_id": "400020",
     "name": "Aromatherapy",
     "slug": "aromatherapy",
     "wiki_url": "/w/Aromatherapy",
@@ -301,8 +321,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400021",
+  "pk": "400021_eight-leaf-clover",
   "fields": {
+    "image_id": "400021",
     "name": "Eight-Leaf Clover",
     "slug": "eight-leaf-clover",
     "wiki_url": "/w/Eight-Leaf_Clover",
@@ -316,8 +337,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400022",
+  "pk": "400022_forbidden-relic",
   "fields": {
+    "image_id": "400022",
     "name": "Forbidden Relic",
     "slug": "forbidden-relic",
     "wiki_url": "/w/Forbidden_Relic",
@@ -331,8 +353,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400023",
+  "pk": "400023_unfulfilled-visions",
   "fields": {
+    "image_id": "400023",
     "name": "Unfulfilled Visions",
     "slug": "unfulfilled-visions",
     "wiki_url": "/w/Unfulfilled_Visions",
@@ -346,8 +369,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400024",
+  "pk": "400024_liber-grimortis",
   "fields": {
+    "image_id": "400024",
     "name": "Liber Grimortis",
     "slug": "liber-grimortis",
     "wiki_url": "/w/Liber_Grimortis",
@@ -361,8 +385,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400025",
+  "pk": "400025_night-harbinger",
   "fields": {
+    "image_id": "400025",
     "name": "Night Harbinger",
     "slug": "night-harbinger",
     "wiki_url": "/w/Night_Harbinger",
@@ -376,8 +401,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400026",
+  "pk": "400026_tracks-of-hope",
   "fields": {
+    "image_id": "400026",
     "name": "Tracks of Hope",
     "slug": "tracks-of-hope",
     "wiki_url": "/w/Tracks_of_Hope",
@@ -391,8 +417,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400027",
+  "pk": "400027_vio-rhyse-alberia",
   "fields": {
+    "image_id": "400027",
     "name": "Vio Rhyse Alberia!",
     "slug": "vio-rhyse-alberia",
     "wiki_url": "/w/Vio_Rhyse_Alberia!",
@@ -406,8 +433,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400028",
+  "pk": "400028_potiongrass",
   "fields": {
+    "image_id": "400028",
     "name": "Potiongrass",
     "slug": "potiongrass",
     "wiki_url": "/w/Potiongrass",
@@ -421,8 +449,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400029",
+  "pk": "400029_crown-of-yore",
   "fields": {
+    "image_id": "400029",
     "name": "Crown of Yore",
     "slug": "crown-of-yore",
     "wiki_url": "/w/Crown_of_Yore",
@@ -436,8 +465,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400031",
+  "pk": "400031_nevermelt-ice",
   "fields": {
+    "image_id": "400031",
     "name": "Nevermelt Ice",
     "slug": "nevermelt-ice",
     "wiki_url": "/w/Nevermelt_Ice",
@@ -451,8 +481,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400032",
+  "pk": "400032_pumpkin-pail",
   "fields": {
+    "image_id": "400032",
     "name": "Pumpkin Pail",
     "slug": "pumpkin-pail",
     "wiki_url": "/w/Pumpkin_Pail",
@@ -466,8 +497,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400033",
+  "pk": "400033_flower-in-the-fray",
   "fields": {
+    "image_id": "400033",
     "name": "Flower in the Fray",
     "slug": "flower-in-the-fray",
     "wiki_url": "/w/Flower_in_the_Fray",
@@ -481,8 +513,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400034",
+  "pk": "400034_destinys-hand",
   "fields": {
+    "image_id": "400034",
     "name": "Destiny's Hand",
     "slug": "destinys-hand",
     "wiki_url": "/w/Destiny%27s_Hand",
@@ -496,8 +529,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400035",
+  "pk": "400035_snipers-allure",
   "fields": {
+    "image_id": "400035",
     "name": "Sniper's Allure",
     "slug": "snipers-allure",
     "wiki_url": "/w/Sniper%27s_Allure",
@@ -511,8 +545,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400036",
+  "pk": "400036_promises-in-the-rain",
   "fields": {
+    "image_id": "400036",
     "name": "Promises in the Rain",
     "slug": "promises-in-the-rain",
     "wiki_url": "/w/Promises_in_the_Rain",
@@ -526,8 +561,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400037",
+  "pk": "400037_fireside-gathering",
   "fields": {
+    "image_id": "400037",
     "name": "Fireside Gathering",
     "slug": "fireside-gathering",
     "wiki_url": "/w/Fireside_Gathering",
@@ -541,8 +577,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400038",
+  "pk": "400038_trove-of-knowledge",
   "fields": {
+    "image_id": "400038",
     "name": "Trove of Knowledge",
     "slug": "trove-of-knowledge",
     "wiki_url": "/w/Trove_of_Knowledge",
@@ -556,8 +593,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400039",
+  "pk": "400039_castaways-journal",
   "fields": {
+    "image_id": "400039",
     "name": "Castaway's Journal",
     "slug": "castaways-journal",
     "wiki_url": "/w/Castaway%27s_Journal",
@@ -571,8 +609,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400040",
+  "pk": "400040_lord-of-the-skies",
   "fields": {
+    "image_id": "400040",
     "name": "Lord of the Skies",
     "slug": "lord-of-the-skies",
     "wiki_url": "/w/Lord_of_the_Skies",
@@ -586,8 +625,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400041",
+  "pk": "400041_kings-countenance",
   "fields": {
+    "image_id": "400041",
     "name": "King's Countenance",
     "slug": "kings-countenance",
     "wiki_url": "/w/King%27s_Countenance",
@@ -601,8 +641,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400042",
+  "pk": "400042_braving-the-unknown",
   "fields": {
+    "image_id": "400042",
     "name": "Braving the Unknown",
     "slug": "braving-the-unknown",
     "wiki_url": "/w/Braving_the_Unknown",
@@ -616,8 +657,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400043",
+  "pk": "400043_what-a-handful",
   "fields": {
+    "image_id": "400043",
     "name": "What a Handful!",
     "slug": "what-a-handful",
     "wiki_url": "/w/What_a_Handful!",
@@ -631,8 +673,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400044",
+  "pk": "400044_how-to-flee-properly",
   "fields": {
+    "image_id": "400044",
     "name": "How to Flee Properly",
     "slug": "how-to-flee-properly",
     "wiki_url": "/w/How_to_Flee_Properly",
@@ -646,8 +689,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400045",
+  "pk": "400045_one-with-the-shadows",
   "fields": {
+    "image_id": "400045",
     "name": "One with the Shadows",
     "slug": "one-with-the-shadows",
     "wiki_url": "/w/One_with_the_Shadows",
@@ -661,8 +705,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400046",
+  "pk": "400046_warlust",
   "fields": {
+    "image_id": "400046",
     "name": "Warlust",
     "slug": "warlust",
     "wiki_url": "/w/Warlust",
@@ -676,8 +721,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400047",
+  "pk": "400047_armorers-aspirations",
   "fields": {
+    "image_id": "400047",
     "name": "Armorer's Aspirations",
     "slug": "armorers-aspirations",
     "wiki_url": "/w/Armorer%27s_Aspirations",
@@ -691,8 +737,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400048",
+  "pk": "400048_revolutionary-magic",
   "fields": {
+    "image_id": "400048",
     "name": "Revolutionary Magic",
     "slug": "revolutionary-magic",
     "wiki_url": "/w/Revolutionary_Magic",
@@ -706,8 +753,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400049",
+  "pk": "400049_sisters-of-the-anvil",
   "fields": {
+    "image_id": "400049",
     "name": "Sisters of the Anvil",
     "slug": "sisters-of-the-anvil",
     "wiki_url": "/w/Sisters_of_the_Anvil",
@@ -721,8 +769,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400050",
+  "pk": "400050_dueling-dancers",
   "fields": {
+    "image_id": "400050",
     "name": "Dueling Dancers",
     "slug": "dueling-dancers",
     "wiki_url": "/w/Dueling_Dancers",
@@ -736,8 +785,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400051",
+  "pk": "400051_together-we-stand",
   "fields": {
+    "image_id": "400051",
     "name": "Together We Stand",
     "slug": "together-we-stand",
     "wiki_url": "/w/Together_We_Stand",
@@ -751,8 +801,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400052",
+  "pk": "400052_give-me-your-wounded",
   "fields": {
+    "image_id": "400052",
     "name": "Give Me Your Wounded",
     "slug": "give-me-your-wounded",
     "wiki_url": "/w/Give_Me_Your_Wounded",
@@ -766,8 +817,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400053",
+  "pk": "400053_paladyn-defender",
   "fields": {
+    "image_id": "400053",
     "name": "Paladyn Defender",
     "slug": "paladyn-defender",
     "wiki_url": "/w/Paladyn_Defender",
@@ -781,8 +833,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400054",
+  "pk": "400054_pipe-down",
   "fields": {
+    "image_id": "400054",
     "name": "Pipe Down",
     "slug": "pipe-down",
     "wiki_url": "/w/Pipe_Down",
@@ -796,8 +849,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400055",
+  "pk": "400055_greatwyrm-midgardsormr",
   "fields": {
+    "image_id": "400055",
     "name": "Greatwyrm Midgardsormr",
     "slug": "greatwyrm-midgardsormr",
     "wiki_url": "/w/Greatwyrm_Midgardsormr",
@@ -811,8 +865,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400056",
+  "pk": "400056_greatwyrm-mercury",
   "fields": {
+    "image_id": "400056",
     "name": "Greatwyrm Mercury",
     "slug": "greatwyrm-mercury",
     "wiki_url": "/w/Greatwyrm_Mercury",
@@ -826,8 +881,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400057",
+  "pk": "400057_greatwyrm-brunhilda",
   "fields": {
+    "image_id": "400057",
     "name": "Greatwyrm Brunhilda",
     "slug": "greatwyrm-brunhilda",
     "wiki_url": "/w/Greatwyrm_Brunhilda",
@@ -841,8 +897,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400058",
+  "pk": "400058_greatwyrm-jupiter",
   "fields": {
+    "image_id": "400058",
     "name": "Greatwyrm Jupiter",
     "slug": "greatwyrm-jupiter",
     "wiki_url": "/w/Greatwyrm_Jupiter",
@@ -856,8 +913,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400059",
+  "pk": "400059_greatwyrm-zodiark",
   "fields": {
+    "image_id": "400059",
     "name": "Greatwyrm Zodiark",
     "slug": "greatwyrm-zodiark",
     "wiki_url": "/w/Greatwyrm_Zodiark",
@@ -871,8 +929,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400060",
+  "pk": "400060_the-warrioresses",
   "fields": {
+    "image_id": "400060",
     "name": "The Warrioresses",
     "slug": "the-warrioresses",
     "wiki_url": "/w/The_Warrioresses",
@@ -886,8 +945,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400061",
+  "pk": "400061_silke-lends-a-hand",
   "fields": {
+    "image_id": "400061",
     "name": "Silke Lends a Hand",
     "slug": "silke-lends-a-hand",
     "wiki_url": "/w/Silke_Lends_a_Hand",
@@ -901,8 +961,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400062",
+  "pk": "400062_valiant-crown",
   "fields": {
+    "image_id": "400062",
     "name": "Valiant Crown",
     "slug": "valiant-crown",
     "wiki_url": "/w/Valiant_Crown",
@@ -916,8 +977,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400063",
+  "pk": "400063_flash-of-genius",
   "fields": {
+    "image_id": "400063",
     "name": "Flash of Genius",
     "slug": "flash-of-genius",
     "wiki_url": "/w/Flash_of_Genius_(Wyrmprint)",
@@ -931,8 +993,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400064",
+  "pk": "400064_evening-of-luxury",
   "fields": {
+    "image_id": "400064",
     "name": "Evening of Luxury",
     "slug": "evening-of-luxury",
     "wiki_url": "/w/Evening_of_Luxury",
@@ -946,8 +1009,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400065",
+  "pk": "400065_worthy-rivals",
   "fields": {
+    "image_id": "400065",
     "name": "Worthy Rivals",
     "slug": "worthy-rivals",
     "wiki_url": "/w/Worthy_Rivals",
@@ -961,8 +1025,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400066",
+  "pk": "400066_auspexs-prayer",
   "fields": {
+    "image_id": "400066",
     "name": "Auspex's Prayer",
     "slug": "auspexs-prayer",
     "wiki_url": "/w/Auspex%27s_Prayer_(Wyrmprint)",
@@ -976,8 +1041,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400067",
+  "pk": "400067_dragon-brethren",
   "fields": {
+    "image_id": "400067",
     "name": "Dragon Brethren",
     "slug": "dragon-brethren",
     "wiki_url": "/w/Dragon_Brethren",
@@ -991,8 +1057,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400068",
+  "pk": "400068_lucas-prank",
   "fields": {
+    "image_id": "400068",
     "name": "Luca's Prank",
     "slug": "lucas-prank",
     "wiki_url": "/w/Luca%27s_Prank",
@@ -1006,8 +1073,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400069",
+  "pk": "400069_happier-times",
   "fields": {
+    "image_id": "400069",
     "name": "Happier Times",
     "slug": "happier-times",
     "wiki_url": "/w/Happier_Times",
@@ -1021,8 +1089,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400070",
+  "pk": "400070_levins-champion",
   "fields": {
+    "image_id": "400070",
     "name": "Levin's Champion",
     "slug": "levins-champion",
     "wiki_url": "/w/Levin%27s_Champion",
@@ -1036,8 +1105,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400071",
+  "pk": "400071_nightstalker",
   "fields": {
+    "image_id": "400071",
     "name": "Nightstalker",
     "slug": "nightstalker",
     "wiki_url": "/w/Nightstalker",
@@ -1051,8 +1121,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400072",
+  "pk": "400072_glorious-tempest",
   "fields": {
+    "image_id": "400072",
     "name": "Glorious Tempest",
     "slug": "glorious-tempest",
     "wiki_url": "/w/Glorious_Tempest",
@@ -1066,8 +1137,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400073",
+  "pk": "400073_united-by-one-vision",
   "fields": {
+    "image_id": "400073",
     "name": "United by One Vision",
     "slug": "united-by-one-vision",
     "wiki_url": "/w/United_by_One_Vision",
@@ -1081,8 +1153,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400074",
+  "pk": "400074_cleos-ruse",
   "fields": {
+    "image_id": "400074",
     "name": "Cleo's Ruse",
     "slug": "cleos-ruse",
     "wiki_url": "/w/Cleo%27s_Ruse",
@@ -1096,8 +1169,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400075",
+  "pk": "400075_tough-love",
   "fields": {
+    "image_id": "400075",
     "name": "Tough Love",
     "slug": "tough-love",
     "wiki_url": "/w/Tough_Love",
@@ -1111,8 +1185,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400076",
+  "pk": "400076_crystalian-envoy",
   "fields": {
+    "image_id": "400076",
     "name": "Crystalian Envoy",
     "slug": "crystalian-envoy",
     "wiki_url": "/w/Crystalian_Envoy",
@@ -1126,8 +1201,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400077",
+  "pk": "400077_witchs-kitchen",
   "fields": {
+    "image_id": "400077",
     "name": "Witch's Kitchen",
     "slug": "witchs-kitchen",
     "wiki_url": "/w/Witch%27s_Kitchen",
@@ -1141,8 +1217,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400078",
+  "pk": "400078_of-tricks-and-treats",
   "fields": {
+    "image_id": "400078",
     "name": "Of Tricks and Treats",
     "slug": "of-tricks-and-treats",
     "wiki_url": "/w/Of_Tricks_and_Treats",
@@ -1156,8 +1233,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400079",
+  "pk": "400079_holywyrms-advent",
   "fields": {
+    "image_id": "400079",
     "name": "Holywyrm's Advent",
     "slug": "holywyrms-advent",
     "wiki_url": "/w/Holywyrm%27s_Advent",
@@ -1171,8 +1249,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400080",
+  "pk": "400080_warrior-maiden",
   "fields": {
+    "image_id": "400080",
     "name": "Warrior Maiden",
     "slug": "warrior-maiden",
     "wiki_url": "/w/Warrior_Maiden",
@@ -1186,8 +1265,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400083",
+  "pk": "400083_after-an-eternity",
   "fields": {
+    "image_id": "400083",
     "name": "After an Eternity",
     "slug": "after-an-eternity",
     "wiki_url": "/w/After_an_Eternity",
@@ -1201,8 +1281,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400084",
+  "pk": "400084_an-ancient-oath",
   "fields": {
+    "image_id": "400084",
     "name": "An Ancient Oath",
     "slug": "an-ancient-oath",
     "wiki_url": "/w/An_Ancient_Oath",
@@ -1216,8 +1297,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400085",
+  "pk": "400085_beautys-secret",
   "fields": {
+    "image_id": "400085",
     "name": "Beauty's Secret",
     "slug": "beautys-secret",
     "wiki_url": "/w/Beauty%27s_Secret",
@@ -1231,8 +1313,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400087",
+  "pk": "400087_plunder-pals",
   "fields": {
+    "image_id": "400087",
     "name": "Plunder Pals",
     "slug": "plunder-pals",
     "wiki_url": "/w/Plunder_Pals",
@@ -1246,8 +1329,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400088",
+  "pk": "400088_the-red-impulse",
   "fields": {
+    "image_id": "400088",
     "name": "The Red Impulse",
     "slug": "the-red-impulse",
     "wiki_url": "/w/The_Red_Impulse",
@@ -1261,8 +1345,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400090",
+  "pk": "400090_slow-and-steady",
   "fields": {
+    "image_id": "400090",
     "name": "Slow and Steady",
     "slug": "slow-and-steady",
     "wiki_url": "/w/Slow_and_Steady",
@@ -1276,8 +1361,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400091",
+  "pk": "400091_a-wish-upon-the-yuletree",
   "fields": {
+    "image_id": "400091",
     "name": "A Wish Upon the Yuletree",
     "slug": "a-wish-upon-the-yuletree",
     "wiki_url": "/w/A_Wish_Upon_the_Yuletree",
@@ -1291,8 +1377,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400092",
+  "pk": "400092_the-chocolatiers",
   "fields": {
+    "image_id": "400092",
     "name": "The Chocolatiers",
     "slug": "the-chocolatiers",
     "wiki_url": "/w/The_Chocolatiers",
@@ -1306,8 +1393,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400093",
+  "pk": "400093_new-world-escort",
   "fields": {
+    "image_id": "400093",
     "name": "New World Escort",
     "slug": "new-world-escort",
     "wiki_url": "/w/New_World_Escort",
@@ -1321,8 +1409,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400095",
+  "pk": "400095_to-the-extreme",
   "fields": {
+    "image_id": "400095",
     "name": "To the Extreme!",
     "slug": "to-the-extreme",
     "wiki_url": "/w/To_the_Extreme!",
@@ -1336,8 +1425,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400096",
+  "pk": "400096_the-bridal-dragon",
   "fields": {
+    "image_id": "400096",
     "name": "The Bridal Dragon",
     "slug": "the-bridal-dragon",
     "wiki_url": "/w/The_Bridal_Dragon",
@@ -1351,8 +1441,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400097",
+  "pk": "400097_twinfold-bonds",
   "fields": {
+    "image_id": "400097",
     "name": "Twinfold Bonds",
     "slug": "twinfold-bonds",
     "wiki_url": "/w/Twinfold_Bonds",
@@ -1366,8 +1457,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400098",
+  "pk": "400098_summer-paladyns",
   "fields": {
+    "image_id": "400098",
     "name": "Summer Paladyns",
     "slug": "summer-paladyns",
     "wiki_url": "/w/Summer_Paladyns",
@@ -1381,8 +1473,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400099",
+  "pk": "400099_jewels-of-the-sun",
   "fields": {
+    "image_id": "400099",
     "name": "Jewels of the Sun",
     "slug": "jewels-of-the-sun",
     "wiki_url": "/w/Jewels_of_the_Sun",
@@ -1396,8 +1489,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400100",
+  "pk": "400100_samurai-siesta",
   "fields": {
+    "image_id": "400100",
     "name": "Samurai Siesta",
     "slug": "samurai-siesta",
     "wiki_url": "/w/Samurai_Siesta",
@@ -1411,8 +1505,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400101",
+  "pk": "400101_the-halidoms-picnic",
   "fields": {
+    "image_id": "400101",
     "name": "The Halidom's Picnic",
     "slug": "the-halidoms-picnic",
     "wiki_url": "/w/The_Halidom%27s_Picnic",
@@ -1426,8 +1521,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400102",
+  "pk": "400102_better-together",
   "fields": {
+    "image_id": "400102",
     "name": "Better Together",
     "slug": "better-together",
     "wiki_url": "/w/Better_Together",
@@ -1441,8 +1537,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400103",
+  "pk": "400103_gentle-winds",
   "fields": {
+    "image_id": "400103",
     "name": "Gentle Winds",
     "slug": "gentle-winds",
     "wiki_url": "/w/Gentle_Winds",
@@ -1456,8 +1553,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400104",
+  "pk": "400104_gale-of-beauty",
   "fields": {
+    "image_id": "400104",
     "name": "Gale of Beauty",
     "slug": "gale-of-beauty",
     "wiki_url": "/w/Gale_of_Beauty",
@@ -1471,8 +1569,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400105",
+  "pk": "400105_fresh-perspective",
   "fields": {
+    "image_id": "400105",
     "name": "Fresh Perspective",
     "slug": "fresh-perspective",
     "wiki_url": "/w/Fresh_Perspective",
@@ -1486,8 +1585,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400106",
+  "pk": "400106_garudas-feathers",
   "fields": {
+    "image_id": "400106",
     "name": "Garuda's Feathers",
     "slug": "garudas-feathers",
     "wiki_url": "/w/Garuda%27s_Feathers",
@@ -1501,8 +1601,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400107",
+  "pk": "400107_louises-hobbies",
   "fields": {
+    "image_id": "400107",
     "name": "Louise's Hobbies",
     "slug": "louises-hobbies",
     "wiki_url": "/w/Louise%27s_Hobbies",
@@ -1516,8 +1617,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400108",
+  "pk": "400108_queen-of-the-blue-seas",
   "fields": {
+    "image_id": "400108",
     "name": "Queen of the Blue Seas",
     "slug": "queen-of-the-blue-seas",
     "wiki_url": "/w/Queen_of_the_Blue_Seas",
@@ -1531,8 +1633,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400110",
+  "pk": "400110_resounding-rendition",
   "fields": {
+    "image_id": "400110",
     "name": "Resounding Rendition",
     "slug": "resounding-rendition",
     "wiki_url": "/w/Resounding_Rendition",
@@ -1546,8 +1649,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400111",
+  "pk": "400111_heavenly-holiday",
   "fields": {
+    "image_id": "400111",
     "name": "Heavenly Holiday",
     "slug": "heavenly-holiday",
     "wiki_url": "/w/Heavenly_Holiday",
@@ -1561,8 +1665,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400112",
+  "pk": "400112_kicking-back",
   "fields": {
+    "image_id": "400112",
     "name": "Kicking Back",
     "slug": "kicking-back",
     "wiki_url": "/w/Kicking_Back",
@@ -1576,8 +1681,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400113",
+  "pk": "400113_secret-friend",
   "fields": {
+    "image_id": "400113",
     "name": "Secret Friend",
     "slug": "secret-friend",
     "wiki_url": "/w/Secret_Friend",
@@ -1591,8 +1697,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400114",
+  "pk": "400114_as-the-snow-falls",
   "fields": {
+    "image_id": "400114",
     "name": "As the Snow Falls",
     "slug": "as-the-snow-falls",
     "wiki_url": "/w/As_the_Snow_Falls",
@@ -1606,8 +1713,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400115",
+  "pk": "400115_the-prince-of-dragonyule",
   "fields": {
+    "image_id": "400115",
     "name": "The Prince of Dragonyule",
     "slug": "the-prince-of-dragonyule",
     "wiki_url": "/w/The_Prince_of_Dragonyule",
@@ -1621,8 +1729,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400116",
+  "pk": "400116_saintly-delivery",
   "fields": {
+    "image_id": "400116",
     "name": "Saintly Delivery",
     "slug": "saintly-delivery",
     "wiki_url": "/w/Saintly_Delivery",
@@ -1636,8 +1745,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400117",
+  "pk": "400117_roast-feast",
   "fields": {
+    "image_id": "400117",
     "name": "Roast Feast",
     "slug": "roast-feast",
     "wiki_url": "/w/Roast_Feast",
@@ -1651,8 +1761,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400118",
+  "pk": "400118_a-slice-of-dragonyule",
   "fields": {
+    "image_id": "400118",
     "name": "A Slice of Dragonyule",
     "slug": "a-slice-of-dragonyule",
     "wiki_url": "/w/A_Slice_of_Dragonyule",
@@ -1666,8 +1777,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400119",
+  "pk": "400119_first-rate-hospitality",
   "fields": {
+    "image_id": "400119",
     "name": "First-Rate Hospitality",
     "slug": "first-rate-hospitality",
     "wiki_url": "/w/First-Rate_Hospitality",
@@ -1681,8 +1793,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400121",
+  "pk": "400121_volcanic-queen",
   "fields": {
+    "image_id": "400121",
     "name": "Volcanic Queen",
     "slug": "volcanic-queen",
     "wiki_url": "/w/Volcanic_Queen",
@@ -1696,8 +1809,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400123",
+  "pk": "400123_the-greatest-gift",
   "fields": {
+    "image_id": "400123",
     "name": "The Greatest Gift",
     "slug": "the-greatest-gift",
     "wiki_url": "/w/The_Greatest_Gift",
@@ -1711,8 +1825,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400124",
+  "pk": "400124_happy-new-year",
   "fields": {
+    "image_id": "400124",
     "name": "Happy New Year!",
     "slug": "happy-new-year",
     "wiki_url": "/w/Happy_New_Year!",
@@ -1726,8 +1841,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400125",
+  "pk": "400125_heralds-of-hinomoto",
   "fields": {
+    "image_id": "400125",
     "name": "Heralds of Hinomoto",
     "slug": "heralds-of-hinomoto",
     "wiki_url": "/w/Heralds_of_Hinomoto",
@@ -1741,8 +1857,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400126",
+  "pk": "400126_hanetsuki-rally",
   "fields": {
+    "image_id": "400126",
     "name": "Hanetsuki Rally",
     "slug": "hanetsuki-rally",
     "wiki_url": "/w/Hanetsuki_Rally",
@@ -1756,8 +1873,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400127",
+  "pk": "400127_luck-of-the-draw",
   "fields": {
+    "image_id": "400127",
     "name": "Luck of the Draw",
     "slug": "luck-of-the-draw",
     "wiki_url": "/w/Luck_of_the_Draw",
@@ -1771,8 +1889,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400128",
+  "pk": "400128_dragon-and-tamer",
   "fields": {
+    "image_id": "400128",
     "name": "Dragon and Tamer",
     "slug": "dragon-and-tamer",
     "wiki_url": "/w/Dragon_and_Tamer",
@@ -1786,8 +1905,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400129",
+  "pk": "400129_stellar-show",
   "fields": {
+    "image_id": "400129",
     "name": "Stellar Show",
     "slug": "stellar-show",
     "wiki_url": "/w/Stellar_Show",
@@ -1801,8 +1921,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400130",
+  "pk": "400130_welcome-one-and-all",
   "fields": {
+    "image_id": "400130",
     "name": "Welcome, One and All",
     "slug": "welcome-one-and-all",
     "wiki_url": "/w/Welcome,_One_and_All",
@@ -1816,8 +1937,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400131",
+  "pk": "400131_astounding-trick",
   "fields": {
+    "image_id": "400131",
     "name": "Astounding Trick",
     "slug": "astounding-trick",
     "wiki_url": "/w/Astounding_Trick",
@@ -1831,8 +1953,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400132",
+  "pk": "400132_rogues-banquet",
   "fields": {
+    "image_id": "400132",
     "name": "Rogues' Banquet",
     "slug": "rogues-banquet",
     "wiki_url": "/w/Rogues%27_Banquet",
@@ -1846,8 +1969,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400135",
+  "pk": "400135_candy-couriers",
   "fields": {
+    "image_id": "400135",
     "name": "Candy Couriers",
     "slug": "candy-couriers",
     "wiki_url": "/w/Candy_Couriers",
@@ -1861,8 +1985,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400136",
+  "pk": "400136_lunar-festivities",
   "fields": {
+    "image_id": "400136",
     "name": "Lunar Festivities",
     "slug": "lunar-festivities",
     "wiki_url": "/w/Lunar_Festivities",
@@ -1876,8 +2001,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400137",
+  "pk": "400137_blossoms-ablaze",
   "fields": {
+    "image_id": "400137",
     "name": "Blossoms Ablaze",
     "slug": "blossoms-ablaze",
     "wiki_url": "/w/Blossoms_Ablaze",
@@ -1891,8 +2017,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400138",
+  "pk": "400138_dragon-dance",
   "fields": {
+    "image_id": "400138",
     "name": "Dragon Dance",
     "slug": "dragon-dance",
     "wiki_url": "/w/Dragon_Dance",
@@ -1906,8 +2033,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400139",
+  "pk": "400139_the-rose-prince",
   "fields": {
+    "image_id": "400139",
     "name": "The Rose Prince",
     "slug": "the-rose-prince",
     "wiki_url": "/w/The_Rose_Prince",
@@ -1921,8 +2049,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400140",
+  "pk": "400140_entwined-flames",
   "fields": {
+    "image_id": "400140",
     "name": "Entwined Flames",
     "slug": "entwined-flames",
     "wiki_url": "/w/Entwined_Flames",
@@ -1936,8 +2065,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400141",
+  "pk": "400141_to-my-beloved",
   "fields": {
+    "image_id": "400141",
     "name": "To My Beloved",
     "slug": "to-my-beloved",
     "wiki_url": "/w/To_My_Beloved",
@@ -1951,8 +2081,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400142",
+  "pk": "400142_the-petal-queen",
   "fields": {
+    "image_id": "400142",
     "name": "The Petal Queen",
     "slug": "the-petal-queen",
     "wiki_url": "/w/The_Petal_Queen",
@@ -1966,8 +2097,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400143",
+  "pk": "400143_a-heartfelt-gift",
   "fields": {
+    "image_id": "400143",
     "name": "A Heartfelt Gift",
     "slug": "a-heartfelt-gift",
     "wiki_url": "/w/A_Heartfelt_Gift",
@@ -1981,8 +2113,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400144",
+  "pk": "400144_valentines-venture",
   "fields": {
+    "image_id": "400144",
     "name": "Valentine's Venture",
     "slug": "valentines-venture",
     "wiki_url": "/w/Valentine%27s_Venture",
@@ -1996,8 +2129,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400145",
+  "pk": "400145_an-indelible-date",
   "fields": {
+    "image_id": "400145",
     "name": "An Indelible Date",
     "slug": "an-indelible-date",
     "wiki_url": "/w/An_Indelible_Date",
@@ -2011,8 +2145,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400146",
+  "pk": "400146_elegant-escort",
   "fields": {
+    "image_id": "400146",
     "name": "Elegant Escort",
     "slug": "elegant-escort",
     "wiki_url": "/w/Elegant_Escort",
@@ -2026,8 +2161,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400147",
+  "pk": "400147_take-my-hand",
   "fields": {
+    "image_id": "400147",
     "name": "Take My Hand",
     "slug": "take-my-hand",
     "wiki_url": "/w/Take_My_Hand",
@@ -2041,8 +2177,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400148",
+  "pk": "400148_honest-repose",
   "fields": {
+    "image_id": "400148",
     "name": "Honest Repose",
     "slug": "honest-repose",
     "wiki_url": "/w/Honest_Repose",
@@ -2056,8 +2193,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400150",
+  "pk": "400150_a-solitary-light",
   "fields": {
+    "image_id": "400150",
     "name": "A Solitary Light",
     "slug": "a-solitary-light",
     "wiki_url": "/w/A_Solitary_Light",
@@ -2071,8 +2209,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400151",
+  "pk": "400151_the-davian-wetlands",
   "fields": {
+    "image_id": "400151",
     "name": "The Davian Wetlands",
     "slug": "the-davian-wetlands",
     "wiki_url": "/w/The_Davian_Wetlands",
@@ -2086,8 +2225,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400152",
+  "pk": "400152_delightful-dancer",
   "fields": {
+    "image_id": "400152",
     "name": "Delightful Dancer",
     "slug": "delightful-dancer",
     "wiki_url": "/w/Delightful_Dancer",
@@ -2101,8 +2241,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400153",
+  "pk": "400153_partners-in-truth",
   "fields": {
+    "image_id": "400153",
     "name": "Partners in Truth",
     "slug": "partners-in-truth",
     "wiki_url": "/w/Partners_in_Truth",
@@ -2116,8 +2257,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400154",
+  "pk": "400154_the-fleeting-girl",
   "fields": {
+    "image_id": "400154",
     "name": "The Fleeting Girl",
     "slug": "the-fleeting-girl",
     "wiki_url": "/w/The_Fleeting_Girl",
@@ -2131,8 +2273,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400155",
+  "pk": "400155_treasury-of-knowledge",
   "fields": {
+    "image_id": "400155",
     "name": "Treasury of Knowledge",
     "slug": "treasury-of-knowledge",
     "wiki_url": "/w/Treasury_of_Knowledge",
@@ -2146,8 +2289,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400156",
+  "pk": "400156_the-heretics-laboratory",
   "fields": {
+    "image_id": "400156",
     "name": "The Heretic's Laboratory",
     "slug": "the-heretics-laboratory",
     "wiki_url": "/w/The_Heretic%27s_Laboratory",
@@ -2161,8 +2305,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400157",
+  "pk": "400157_hitting-the-books",
   "fields": {
+    "image_id": "400157",
     "name": "Hitting the Books",
     "slug": "hitting-the-books",
     "wiki_url": "/w/Hitting_the_Books",
@@ -2176,8 +2321,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400158",
+  "pk": "400158_king-of-the-skies",
   "fields": {
+    "image_id": "400158",
     "name": "King of the Skies",
     "slug": "king-of-the-skies",
     "wiki_url": "/w/King_of_the_Skies",
@@ -2191,8 +2337,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400161",
+  "pk": "400161_the-floofiest-bed",
   "fields": {
+    "image_id": "400161",
     "name": "The Floofiest Bed",
     "slug": "the-floofiest-bed",
     "wiki_url": "/w/The_Floofiest_Bed",
@@ -2206,8 +2353,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400163",
+  "pk": "400163_kung-fu-masters",
   "fields": {
+    "image_id": "400163",
     "name": "Kung Fu Masters",
     "slug": "kung-fu-masters",
     "wiki_url": "/w/Kung_Fu_Masters",
@@ -2221,8 +2369,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400164",
+  "pk": "400164_kunoichi-charisma",
   "fields": {
+    "image_id": "400164",
     "name": "Kunoichi Charisma",
     "slug": "kunoichi-charisma",
     "wiki_url": "/w/Kunoichi_Charisma",
@@ -2236,8 +2385,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400166",
+  "pk": "400166_a-day-in-her-life",
   "fields": {
+    "image_id": "400166",
     "name": "A Day in Her Life",
     "slug": "a-day-in-her-life",
     "wiki_url": "/w/A_Day_in_Her_Life",
@@ -2251,8 +2401,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400167",
+  "pk": "400167_the-shining-overlord",
   "fields": {
+    "image_id": "400167",
     "name": "The Shining Overlord",
     "slug": "the-shining-overlord",
     "wiki_url": "/w/The_Shining_Overlord",
@@ -2266,8 +2417,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400168",
+  "pk": "400168_study-rabbits",
   "fields": {
+    "image_id": "400168",
     "name": "Study Rabbits",
     "slug": "study-rabbits",
     "wiki_url": "/w/Study_Rabbits",
@@ -2281,8 +2433,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400169",
+  "pk": "400169_his-clever-brother",
   "fields": {
+    "image_id": "400169",
     "name": "His Clever Brother",
     "slug": "his-clever-brother",
     "wiki_url": "/w/His_Clever_Brother",
@@ -2296,8 +2449,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400171",
+  "pk": "400171_a-maddened-master",
   "fields": {
+    "image_id": "400171",
     "name": "A Maddened Master",
     "slug": "a-maddened-master",
     "wiki_url": "/w/A_Maddened_Master",
@@ -2311,8 +2465,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400172",
+  "pk": "400172_forest-bonds",
   "fields": {
+    "image_id": "400172",
     "name": "Forest Bonds",
     "slug": "forest-bonds",
     "wiki_url": "/w/Forest_Bonds",
@@ -2326,8 +2481,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400174",
+  "pk": "400174_egg-shaped-dreams",
   "fields": {
+    "image_id": "400174",
     "name": "Egg-Shaped Dreams",
     "slug": "egg-shaped-dreams",
     "wiki_url": "/w/Egg-Shaped_Dreams",
@@ -2341,8 +2497,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400175",
+  "pk": "400175_tiny-dragonatas",
   "fields": {
+    "image_id": "400175",
     "name": "Tiny Dragoñatas",
     "slug": "tiny-dragonatas",
     "wiki_url": "/w/Tiny_Drago%C3%B1atas",
@@ -2356,8 +2513,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400176",
+  "pk": "400176_a-mothers-love",
   "fields": {
+    "image_id": "400176",
     "name": "A Mother's Love",
     "slug": "a-mothers-love",
     "wiki_url": "/w/A_Mother%27s_Love",
@@ -2371,8 +2529,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400177",
+  "pk": "400177_crown-of-light-serpents-boon",
   "fields": {
+    "image_id": "400177",
     "name": "Crown of Light (Serpent's Boon)",
     "slug": "crown-of-light-serpents-boon",
     "wiki_url": "/w/Crown_of_Light_(Serpent%27s_Boon)",
@@ -2386,8 +2545,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400178",
+  "pk": "400178_a-knights-dream-axes-boon",
   "fields": {
+    "image_id": "400178",
     "name": "\"A Knight's Dream\" (Axe's Boon)",
     "slug": "a-knights-dream-axes-boon",
     "wiki_url": "/w/%22A_Knight%27s_Dream%22_(Axe%27s_Boon)",
@@ -2401,8 +2561,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400179",
+  "pk": "400179_a-mercenarys-pride-eagles-boon",
   "fields": {
+    "image_id": "400179",
     "name": "A Mercenary's Pride (Eagle's Boon)",
     "slug": "a-mercenarys-pride-eagles-boon",
     "wiki_url": "/w/A_Mercenary%27s_Pride_(Eagle%27s_Boon)",
@@ -2416,8 +2577,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400180",
+  "pk": "400180_testament-of-eternity-fishs-boon",
   "fields": {
+    "image_id": "400180",
     "name": "Testament of Eternity (Fish's Boon)",
     "slug": "testament-of-eternity-fishs-boon",
     "wiki_url": "/w/Testament_of_Eternity_(Fish%27s_Boon)",
@@ -2431,8 +2593,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400199",
+  "pk": "400199_treasured-memory-of-the-sea-butterflys-boon",
   "fields": {
+    "image_id": "400199",
     "name": "Treasured Memory of the Sea (Butterfly's Boon)",
     "slug": "treasured-memory-of-the-sea-butterflys-boon",
     "wiki_url": "/w/Treasured_Memory_of_the_Sea_(Butterfly%27s_Boon)",
@@ -2446,8 +2609,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400203",
+  "pk": "400203_a-kings-pride-staffs-boon",
   "fields": {
+    "image_id": "400203",
     "name": "A King's Pride (Staff's Boon)",
     "slug": "a-kings-pride-staffs-boon",
     "wiki_url": "/w/A_King%27s_Pride_(Staff%27s_Boon)",
@@ -2461,8 +2625,25 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400214",
+  "pk": "400203_a-kings-pride-swords-boon",
   "fields": {
+    "image_id": "400203",
+    "name": "A King's Pride (Sword's Boon)",
+    "slug": "a-kings-pride-swords-boon",
+    "wiki_url": "/w/A_King%27s_Pride_(Sword%27s_Boon)",
+    "rarity": 9,
+    "affinity_name": "Sword's Boon",
+    "affinity_icon": "03",
+    "ability_name": "Impregnable Fortress III",
+    "ability_icon": "1010041",
+    "ability_description": "Increases HP and defense by 10%, but reduces movement speed by 10%."
+  }
+},
+{
+  "model": "game_data.wyrmprint",
+  "pk": "400214_savage-hawk-bows-boon",
+  "fields": {
+    "image_id": "400214",
     "name": "Savage Hawk (Bow's Boon)",
     "slug": "savage-hawk-bows-boon",
     "wiki_url": "/w/Savage_Hawk_(Bow%27s_Boon)",
@@ -2476,8 +2657,25 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400226",
+  "pk": "400214_savage-hawk-lances-boon",
   "fields": {
+    "image_id": "400214",
+    "name": "Savage Hawk (Lance's Boon)",
+    "slug": "savage-hawk-lances-boon",
+    "wiki_url": "/w/Savage_Hawk_(Lance%27s_Boon)",
+    "rarity": 9,
+    "affinity_name": "Lance's Boon",
+    "affinity_icon": "06",
+    "ability_name": "Sword's Psalm III",
+    "ability_icon": "1010105",
+    "ability_description": "If the user has one or more wyrmprints equipped with the Sword's Boon affinity, this ability decreases the number of wyrmprints necessary to activate the Sword's Boon affinity bonus by three."
+  }
+},
+{
+  "model": "game_data.wyrmprint",
+  "pk": "400226_promised-piety-bows-boon",
+  "fields": {
+    "image_id": "400226",
     "name": "Promised Piety (Bow's Boon)",
     "slug": "promised-piety-bows-boon",
     "wiki_url": "/w/Promised_Piety_(Bow%27s_Boon)",
@@ -2491,8 +2689,41 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400236",
+  "pk": "400226_promised-piety-staffs-boon",
   "fields": {
+    "image_id": "400226",
+    "name": "Promised Piety (Staff's Boon)",
+    "slug": "promised-piety-staffs-boon",
+    "wiki_url": "/w/Promised_Piety_(Staff%27s_Boon)",
+    "rarity": 9,
+    "affinity_name": "Staff's Boon",
+    "affinity_icon": "11",
+    "ability_name": "Bow's Psalm III",
+    "ability_icon": "1010108",
+    "ability_description": "If the user has one or more wyrmprints equipped with the Bow's Boon affinity, this ability decreases the number of wyrmprints necessary to activate the Bow's Boon affinity bonus by three."
+  }
+},
+{
+  "model": "game_data.wyrmprint",
+  "pk": "400236_her-beloved-crowns-boon",
+  "fields": {
+    "image_id": "400236",
+    "name": "Her Beloved (Crown's Boon)",
+    "slug": "her-beloved-crowns-boon",
+    "wiki_url": "/w/Her_Beloved_(Crown%27s_Boon)",
+    "rarity": 9,
+    "affinity_name": "Crown's Boon",
+    "affinity_icon": "01",
+    "ability_name": "Forbidden Corrosion III",
+    "ability_icon": "1020006",
+    "ability_description": "Increases HP and strength by 15%, but inflicts the user with the Creeping Corrosion debuff. Creeping Corrosion deals 1% Max HP damage every 2.9 seconds and reduces incoming healing by 50%. Every 5 seconds, the damage taken is increased by 1% Max HP. This accumulation will reset when 3000 HP is healed by the user."
+  }
+},
+{
+  "model": "game_data.wyrmprint",
+  "pk": "400236_her-beloved-swords-boon",
+  "fields": {
+    "image_id": "400236",
     "name": "Her Beloved (Sword's Boon)",
     "slug": "her-beloved-swords-boon",
     "wiki_url": "/w/Her_Beloved_(Sword%27s_Boon)",
@@ -2506,8 +2737,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400237",
+  "pk": "400237_memories-of-youth",
   "fields": {
+    "image_id": "400237",
     "name": "Memories of Youth",
     "slug": "memories-of-youth",
     "wiki_url": "/w/Memories_of_Youth",
@@ -2521,8 +2753,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400239",
+  "pk": "400239_the-synthetic-dragon",
   "fields": {
+    "image_id": "400239",
     "name": "The Synthetic Dragon",
     "slug": "the-synthetic-dragon",
     "wiki_url": "/w/The_Synthetic_Dragon",
@@ -2536,8 +2769,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400243",
+  "pk": "400243_sisters-day-out",
   "fields": {
+    "image_id": "400243",
     "name": "Sisters' Day Out",
     "slug": "sisters-day-out",
     "wiki_url": "/w/Sisters%27_Day_Out",
@@ -2551,8 +2785,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400245",
+  "pk": "400245_the-dragon-smiths",
   "fields": {
+    "image_id": "400245",
     "name": "The Dragon Smiths",
     "slug": "the-dragon-smiths",
     "wiki_url": "/w/The_Dragon_Smiths",
@@ -2566,8 +2801,25 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400247",
+  "pk": "400247_an-unfreezing-flower-axes-boon",
   "fields": {
+    "image_id": "400247",
+    "name": "An Unfreezing Flower (Axe's Boon)",
+    "slug": "an-unfreezing-flower-axes-boon",
+    "wiki_url": "/w/An_Unfreezing_Flower_(Axe%27s_Boon)",
+    "rarity": 9,
+    "affinity_name": "Axe's Boon",
+    "affinity_icon": "02",
+    "ability_name": "Lance's Psalm III",
+    "ability_icon": "1010110",
+    "ability_description": "If the user has one or more wyrmprints equipped with the Lance's Boon affinity, this ability decreases the number of wyrmprints necessary to activate the Lance's Boon affinity bonus by three."
+  }
+},
+{
+  "model": "game_data.wyrmprint",
+  "pk": "400247_an-unfreezing-flower-deers-boon",
+  "fields": {
+    "image_id": "400247",
     "name": "An Unfreezing Flower (Deer's Boon)",
     "slug": "an-unfreezing-flower-deers-boon",
     "wiki_url": "/w/An_Unfreezing_Flower_(Deer%27s_Boon)",
@@ -2581,8 +2833,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400258",
+  "pk": "400258_wind-of-oaths-eagles-boon",
   "fields": {
+    "image_id": "400258",
     "name": "Wind of Oaths (Eagle's Boon)",
     "slug": "wind-of-oaths-eagles-boon",
     "wiki_url": "/w/Wind_of_Oaths_(Eagle%27s_Boon)",
@@ -2596,8 +2849,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400261",
+  "pk": "400261_recital-invitation-bulls-boon",
   "fields": {
+    "image_id": "400261",
     "name": "Recital Invitation (Bull's Boon)",
     "slug": "recital-invitation-bulls-boon",
     "wiki_url": "/w/Recital_Invitation_(Bull%27s_Boon)",
@@ -2611,8 +2865,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400277",
+  "pk": "400277_the-heroes-arrive",
   "fields": {
+    "image_id": "400277",
     "name": "The Heroes Arrive",
     "slug": "the-heroes-arrive",
     "wiki_url": "/w/The_Heroes_Arrive",
@@ -2626,8 +2881,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400279",
+  "pk": "400279_the-orders-messenger-owl",
   "fields": {
+    "image_id": "400279",
     "name": "The Order's Messenger Owl",
     "slug": "the-orders-messenger-owl",
     "wiki_url": "/w/The_Order%27s_Messenger_Owl",
@@ -2641,8 +2897,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400280",
+  "pk": "400280_bonds-between-worlds",
   "fields": {
+    "image_id": "400280",
     "name": "Bonds Between Worlds",
     "slug": "bonds-between-worlds",
     "wiki_url": "/w/Bonds_Between_Worlds",
@@ -2656,8 +2913,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400282",
+  "pk": "400282_halidom-grooms",
   "fields": {
+    "image_id": "400282",
     "name": "Halidom Grooms",
     "slug": "halidom-grooms",
     "wiki_url": "/w/Halidom_Grooms",
@@ -2671,8 +2929,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400284",
+  "pk": "400284_a-bouquet",
   "fields": {
+    "image_id": "400284",
     "name": "A Bouquet",
     "slug": "a-bouquet",
     "wiki_url": "/w/A_Bouquet",
@@ -2686,8 +2945,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400285",
+  "pk": "400285_breakfast-at-valerios",
   "fields": {
+    "image_id": "400285",
     "name": "Breakfast at Valerio's",
     "slug": "breakfast-at-valerios",
     "wiki_url": "/w/Breakfast_at_Valerio%27s",
@@ -2701,8 +2961,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400286",
+  "pk": "400286_the-queen-of-the-knife",
   "fields": {
+    "image_id": "400286",
     "name": "The Queen of the Knife",
     "slug": "the-queen-of-the-knife",
     "wiki_url": "/w/The_Queen_of_the_Knife",
@@ -2716,8 +2977,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400288",
+  "pk": "400288_berry-lovable-friends",
   "fields": {
+    "image_id": "400288",
     "name": "Berry Lovable Friends",
     "slug": "berry-lovable-friends",
     "wiki_url": "/w/Berry_Lovable_Friends",
@@ -2731,8 +2993,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400291",
+  "pk": "400291_amanes-babysitting-chronicles",
   "fields": {
+    "image_id": "400291",
     "name": "Amane's Babysitting Chronicles",
     "slug": "amanes-babysitting-chronicles",
     "wiki_url": "/w/Amane%27s_Babysitting_Chronicles",
@@ -2746,8 +3009,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400293",
+  "pk": "400293_a-brief-repose",
   "fields": {
+    "image_id": "400293",
     "name": "A Brief Repose",
     "slug": "a-brief-repose",
     "wiki_url": "/w/A_Brief_Repose",
@@ -2761,8 +3025,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400301",
+  "pk": "400301_thunderswift-lords-blade-axes-boon",
   "fields": {
+    "image_id": "400301",
     "name": "Thunderswift Lord's Blade (Axe's Boon)",
     "slug": "thunderswift-lords-blade-axes-boon",
     "wiki_url": "/w/Thunderswift_Lord%27s_Blade_(Axe%27s_Boon)",
@@ -2776,8 +3041,41 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400325",
+  "pk": "400301_thunderswift-lords-blade-lances-boon",
   "fields": {
+    "image_id": "400301",
+    "name": "Thunderswift Lord's Blade (Lance's Boon)",
+    "slug": "thunderswift-lords-blade-lances-boon",
+    "wiki_url": "/w/Thunderswift_Lord%27s_Blade_(Lance%27s_Boon)",
+    "rarity": 9,
+    "affinity_name": "Lance's Boon",
+    "affinity_icon": "06",
+    "ability_name": "Flash of Desperation III",
+    "ability_icon": "1010002",
+    "ability_description": "Reduces attack skill damage by 20%. Damage dealt by the user's skills will be increased as the user's HP decreases, up to 60% additional damage. This damage increase is calculated separately from normal skill damage."
+  }
+},
+{
+  "model": "game_data.wyrmprint",
+  "pk": "400325_beneath-the-boughs-staffs-boon",
+  "fields": {
+    "image_id": "400325",
+    "name": "Beneath the Boughs (Staff's Boon)",
+    "slug": "beneath-the-boughs-staffs-boon",
+    "wiki_url": "/w/Beneath_the_Boughs_(Staff%27s_Boon)",
+    "rarity": 9,
+    "affinity_name": "Staff's Boon",
+    "affinity_icon": "11",
+    "ability_name": "Draconic Resurrection III",
+    "ability_icon": "1010126",
+    "ability_description": "If the user's HP falls to zero while 50% or more of the dragon gauge is filled, this ability consumes 50% of the dragon gauge and, after five seconds, revives the user with 50% of their maximum HP (once per quest). This revive does not consume any of the revives provided for a given quest."
+  }
+},
+{
+  "model": "game_data.wyrmprint",
+  "pk": "400325_beneath-the-boughs-wolfs-boon",
+  "fields": {
+    "image_id": "400325",
     "name": "Beneath the Boughs (Wolf's Boon)",
     "slug": "beneath-the-boughs-wolfs-boon",
     "wiki_url": "/w/Beneath_the_Boughs_(Wolf%27s_Boon)",
@@ -2791,8 +3089,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400334",
+  "pk": "400334_indelible-summer",
   "fields": {
+    "image_id": "400334",
     "name": "Indelible Summer",
     "slug": "indelible-summer",
     "wiki_url": "/w/Indelible_Summer",
@@ -2806,8 +3105,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400335",
+  "pk": "400335_taiko-tandem",
   "fields": {
+    "image_id": "400335",
     "name": "Taiko Tandem",
     "slug": "taiko-tandem",
     "wiki_url": "/w/Taiko_Tandem",
@@ -2821,8 +3121,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400336",
+  "pk": "400336_beach-battle",
   "fields": {
+    "image_id": "400336",
     "name": "Beach Battle",
     "slug": "beach-battle",
     "wiki_url": "/w/Beach_Battle",
@@ -2836,8 +3137,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400337",
+  "pk": "400337_preachers-vacation",
   "fields": {
+    "image_id": "400337",
     "name": "Preacher's Vacation",
     "slug": "preachers-vacation",
     "wiki_url": "/w/Preacher%27s_Vacation",
@@ -2851,8 +3153,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400338",
+  "pk": "400338_seaside-princess",
   "fields": {
+    "image_id": "400338",
     "name": "Seaside Princess",
     "slug": "seaside-princess",
     "wiki_url": "/w/Seaside_Princess",
@@ -2866,8 +3169,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400339",
+  "pk": "400339_the-bustling-hut",
   "fields": {
+    "image_id": "400339",
     "name": "The Bustling Hut",
     "slug": "the-bustling-hut",
     "wiki_url": "/w/The_Bustling_Hut",
@@ -2881,8 +3185,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400340",
+  "pk": "400340_surfing-siblings",
   "fields": {
+    "image_id": "400340",
     "name": "Surfing Siblings",
     "slug": "surfing-siblings",
     "wiki_url": "/w/Surfing_Siblings",
@@ -2896,8 +3201,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400342",
+  "pk": "400342_dazzling-duet",
   "fields": {
+    "image_id": "400342",
     "name": "Dazzling Duet!",
     "slug": "dazzling-duet",
     "wiki_url": "/w/Dazzling_Duet!",
@@ -2911,8 +3217,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400359",
+  "pk": "400359_tutelarys-destiny-wolfs-boon",
   "fields": {
+    "image_id": "400359",
     "name": "Tutelary's Destiny (Wolf's Boon)",
     "slug": "tutelarys-destiny-wolfs-boon",
     "wiki_url": "/w/Tutelary%27s_Destiny_(Wolf%27s_Boon)",
@@ -2926,8 +3233,25 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400362",
+  "pk": "400362_mask-of-determination-bows-boon",
   "fields": {
+    "image_id": "400362",
+    "name": "Mask of Determination (Bow's Boon)",
+    "slug": "mask-of-determination-bows-boon",
+    "wiki_url": "/w/Mask_of_Determination_(Bow%27s_Boon)",
+    "rarity": 9,
+    "affinity_name": "Bow's Boon",
+    "affinity_icon": "04",
+    "ability_name": "Sword's Psalm III",
+    "ability_icon": "1010105",
+    "ability_description": "If the user has one or more wyrmprints equipped with the Sword's Boon affinity, this ability decreases the number of wyrmprints necessary to activate the Sword's Boon affinity bonus by three."
+  }
+},
+{
+  "model": "game_data.wyrmprint",
+  "pk": "400362_mask-of-determination-lances-boon",
+  "fields": {
+    "image_id": "400362",
     "name": "Mask of Determination (Lance's Boon)",
     "slug": "mask-of-determination-lances-boon",
     "wiki_url": "/w/Mask_of_Determination_(Lance%27s_Boon)",
@@ -2941,8 +3265,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400379",
+  "pk": "400379_hastened-squall",
   "fields": {
+    "image_id": "400379",
     "name": "Hastened Squall",
     "slug": "hastened-squall",
     "wiki_url": "/w/Hastened_Squall",
@@ -2956,8 +3281,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400380",
+  "pk": "400380_castle-cheer-corps",
   "fields": {
+    "image_id": "400380",
     "name": "Castle Cheer Corps",
     "slug": "castle-cheer-corps",
     "wiki_url": "/w/Castle_Cheer_Corps",
@@ -2971,8 +3297,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400381",
+  "pk": "400381_beautiful-nothingness",
   "fields": {
+    "image_id": "400381",
     "name": "Beautiful Nothingness",
     "slug": "beautiful-nothingness",
     "wiki_url": "/w/Beautiful_Nothingness",
@@ -2986,8 +3313,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400382",
+  "pk": "400382_ruler-of-darkness",
   "fields": {
+    "image_id": "400382",
     "name": "Ruler of Darkness",
     "slug": "ruler-of-darkness",
     "wiki_url": "/w/Ruler_of_Darkness",
@@ -3001,8 +3329,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400384",
+  "pk": "400384_endless-waltz",
   "fields": {
+    "image_id": "400384",
     "name": "Endless Waltz",
     "slug": "endless-waltz",
     "wiki_url": "/w/Endless_Waltz",
@@ -3016,8 +3345,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400385",
+  "pk": "400385_odd-sparrows",
   "fields": {
+    "image_id": "400385",
     "name": "Odd Sparrows",
     "slug": "odd-sparrows",
     "wiki_url": "/w/Odd_Sparrows",
@@ -3031,8 +3361,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400386",
+  "pk": "400386_a-widows-lament",
   "fields": {
+    "image_id": "400386",
     "name": "A Widow's Lament",
     "slug": "a-widows-lament",
     "wiki_url": "/w/A_Widow%27s_Lament",
@@ -3046,8 +3377,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400387",
+  "pk": "400387_the-bewitching-magician",
   "fields": {
+    "image_id": "400387",
     "name": "The Bewitching Magician",
     "slug": "the-bewitching-magician",
     "wiki_url": "/w/The_Bewitching_Magician",
@@ -3061,8 +3393,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400388",
+  "pk": "400388_masquerade-mission",
   "fields": {
+    "image_id": "400388",
     "name": "Masquerade Mission",
     "slug": "masquerade-mission",
     "wiki_url": "/w/Masquerade_Mission",
@@ -3076,8 +3409,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400389",
+  "pk": "400389_prayers-unto-him",
   "fields": {
+    "image_id": "400389",
     "name": "Prayers Unto Him",
     "slug": "prayers-unto-him",
     "wiki_url": "/w/Prayers_Unto_Him",
@@ -3091,8 +3425,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400390",
+  "pk": "400390_from-whence-he-comes",
   "fields": {
+    "image_id": "400390",
     "name": "From Whence He Comes",
     "slug": "from-whence-he-comes",
     "wiki_url": "/w/From_Whence_He_Comes",
@@ -3106,8 +3441,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400391",
+  "pk": "400391_dear-diary",
   "fields": {
+    "image_id": "400391",
     "name": "Dear Diary",
     "slug": "dear-diary",
     "wiki_url": "/w/Dear_Diary",
@@ -3121,8 +3457,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400392",
+  "pk": "400392_chariot-drift",
   "fields": {
+    "image_id": "400392",
     "name": "Chariot Drift",
     "slug": "chariot-drift",
     "wiki_url": "/w/Chariot_Drift",
@@ -3136,8 +3473,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400393",
+  "pk": "400393_spirit-of-the-season",
   "fields": {
+    "image_id": "400393",
     "name": "Spirit of the Season",
     "slug": "spirit-of-the-season",
     "wiki_url": "/w/Spirit_of_the_Season",
@@ -3151,8 +3489,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400394",
+  "pk": "400394_glittering-dragonyule",
   "fields": {
+    "image_id": "400394",
     "name": "Glittering Dragonyule",
     "slug": "glittering-dragonyule",
     "wiki_url": "/w/Glittering_Dragonyule",
@@ -3166,8 +3505,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400395",
+  "pk": "400395_howling-to-the-heavens",
   "fields": {
+    "image_id": "400395",
     "name": "Howling to the Heavens",
     "slug": "howling-to-the-heavens",
     "wiki_url": "/w/Howling_to_the_Heavens",
@@ -3181,8 +3521,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400396",
+  "pk": "400396_fluff-aplenty",
   "fields": {
+    "image_id": "400396",
     "name": "Fluff Aplenty",
     "slug": "fluff-aplenty",
     "wiki_url": "/w/Fluff_Aplenty",
@@ -3196,8 +3537,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400397",
+  "pk": "400397_mega-friends",
   "fields": {
+    "image_id": "400397",
     "name": "Mega Friends",
     "slug": "mega-friends",
     "wiki_url": "/w/Mega_Friends",
@@ -3211,8 +3553,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400398",
+  "pk": "400398_wily-warriors-bubble-wood",
   "fields": {
+    "image_id": "400398",
     "name": "Wily Warriors: Bubble & Wood",
     "slug": "wily-warriors-bubble-wood",
     "wiki_url": "/w/Wily_Warriors:_Bubble_%26_Wood",
@@ -3226,8 +3569,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400399",
+  "pk": "400399_wily-warriors-air-crash",
   "fields": {
+    "image_id": "400399",
     "name": "Wily Warriors: Air & Crash",
     "slug": "wily-warriors-air-crash",
     "wiki_url": "/w/Wily_Warriors:_Air_%26_Crash",
@@ -3241,8 +3585,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400400",
+  "pk": "400400_wily-warriors-metal-quick",
   "fields": {
+    "image_id": "400400",
     "name": "Wily Warriors: Metal & Quick",
     "slug": "wily-warriors-metal-quick",
     "wiki_url": "/w/Wily_Warriors:_Metal_%26_Quick",
@@ -3256,8 +3601,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400401",
+  "pk": "400401_wily-warriors-flash-heat",
   "fields": {
+    "image_id": "400401",
     "name": "Wily Warriors: Flash & Heat",
     "slug": "wily-warriors-flash-heat",
     "wiki_url": "/w/Wily_Warriors:_Flash_%26_Heat",
@@ -3271,8 +3617,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400402",
+  "pk": "400402_brothers-in-arms",
   "fields": {
+    "image_id": "400402",
     "name": "Brothers in Arms",
     "slug": "brothers-in-arms",
     "wiki_url": "/w/Brothers_in_Arms",
@@ -3286,8 +3633,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400403",
+  "pk": "400403_rivalry-of-kings",
   "fields": {
+    "image_id": "400403",
     "name": "Rivalry of Kings",
     "slug": "rivalry-of-kings",
     "wiki_url": "/w/Rivalry_of_Kings",
@@ -3301,8 +3649,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400405",
+  "pk": "400405_in-the-limelight",
   "fields": {
+    "image_id": "400405",
     "name": "In the Limelight",
     "slug": "in-the-limelight",
     "wiki_url": "/w/In_the_Limelight",
@@ -3316,8 +3665,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400406",
+  "pk": "400406_a-game-of-cat-and-boar",
   "fields": {
+    "image_id": "400406",
     "name": "A Game of Cat and Boar",
     "slug": "a-game-of-cat-and-boar",
     "wiki_url": "/w/A_Game_of_Cat_and_Boar",
@@ -3331,8 +3681,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400407",
+  "pk": "400407_the-wyrmclan-duo",
   "fields": {
+    "image_id": "400407",
     "name": "The Wyrmclan Duo",
     "slug": "the-wyrmclan-duo",
     "wiki_url": "/w/The_Wyrmclan_Duo",
@@ -3346,8 +3697,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400408",
+  "pk": "400408_a-new-years-battle",
   "fields": {
+    "image_id": "400408",
     "name": "A New Year's Battle",
     "slug": "a-new-years-battle",
     "wiki_url": "/w/A_New_Year%27s_Battle",
@@ -3361,8 +3713,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400409",
+  "pk": "400409_a-dogs-day",
   "fields": {
+    "image_id": "400409",
     "name": "A Dog's Day",
     "slug": "a-dogs-day",
     "wiki_url": "/w/A_Dog%27s_Day",
@@ -3376,8 +3729,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400410",
+  "pk": "400410_the-plaguebringer",
   "fields": {
+    "image_id": "400410",
     "name": "The Plaguebringer",
     "slug": "the-plaguebringer",
     "wiki_url": "/w/The_Plaguebringer",
@@ -3391,8 +3745,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400411",
+  "pk": "400411_in-an-unending-world",
   "fields": {
+    "image_id": "400411",
     "name": "In an Unending World",
     "slug": "in-an-unending-world",
     "wiki_url": "/w/In_an_Unending_World",
@@ -3406,8 +3761,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400412",
+  "pk": "400412_roll-on",
   "fields": {
+    "image_id": "400412",
     "name": "Roll On",
     "slug": "roll-on",
     "wiki_url": "/w/Roll_On",
@@ -3421,8 +3777,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400413",
+  "pk": "400413_the-fires-of-hate",
   "fields": {
+    "image_id": "400413",
     "name": "The Fires of Hate",
     "slug": "the-fires-of-hate",
     "wiki_url": "/w/The_Fires_of_Hate",
@@ -3436,8 +3793,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400414",
+  "pk": "400414_the-maid-crusade",
   "fields": {
+    "image_id": "400414",
     "name": "The Maid Crusade",
     "slug": "the-maid-crusade",
     "wiki_url": "/w/The_Maid_Crusade",
@@ -3451,8 +3809,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400415",
+  "pk": "400415_soaring-terror",
   "fields": {
+    "image_id": "400415",
     "name": "Soaring Terror",
     "slug": "soaring-terror",
     "wiki_url": "/w/Soaring_Terror",
@@ -3466,8 +3825,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400416",
+  "pk": "400416_a-suit-of-midnight",
   "fields": {
+    "image_id": "400416",
     "name": "A Suit of Midnight",
     "slug": "a-suit-of-midnight",
     "wiki_url": "/w/A_Suit_of_Midnight",
@@ -3481,8 +3841,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400417",
+  "pk": "400417_felyne-hospitality",
   "fields": {
+    "image_id": "400417",
     "name": "Felyne Hospitality",
     "slug": "felyne-hospitality",
     "wiki_url": "/w/Felyne_Hospitality",
@@ -3496,8 +3857,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400418",
+  "pk": "400418_the-lurker-in-the-woods",
   "fields": {
+    "image_id": "400418",
     "name": "The Lurker in the Woods",
     "slug": "the-lurker-in-the-woods",
     "wiki_url": "/w/The_Lurker_in_the_Woods",
@@ -3511,8 +3873,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400419",
+  "pk": "400419_unexpected-requests",
   "fields": {
+    "image_id": "400419",
     "name": "Unexpected Requests",
     "slug": "unexpected-requests",
     "wiki_url": "/w/Unexpected_Requests",
@@ -3526,8 +3889,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400420",
+  "pk": "400420_the-ilian-faithful",
   "fields": {
+    "image_id": "400420",
     "name": "The Ilian Faithful",
     "slug": "the-ilian-faithful",
     "wiki_url": "/w/The_Ilian_Faithful",
@@ -3541,8 +3905,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400421",
+  "pk": "400421_a-small-courage",
   "fields": {
+    "image_id": "400421",
     "name": "A Small Courage",
     "slug": "a-small-courage",
     "wiki_url": "/w/A_Small_Courage",
@@ -3556,8 +3921,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400422",
+  "pk": "400422_a-pledge-of-protection",
   "fields": {
+    "image_id": "400422",
     "name": "A Pledge of Protection",
     "slug": "a-pledge-of-protection",
     "wiki_url": "/w/A_Pledge_of_Protection",
@@ -3571,8 +3937,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400423",
+  "pk": "400423_proper-maintenance",
   "fields": {
+    "image_id": "400423",
     "name": "Proper Maintenance",
     "slug": "proper-maintenance",
     "wiki_url": "/w/Proper_Maintenance",
@@ -3586,8 +3953,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400424",
+  "pk": "400424_primal-crisis",
   "fields": {
+    "image_id": "400424",
     "name": "Primal Crisis",
     "slug": "primal-crisis",
     "wiki_url": "/w/Primal_Crisis_(Wyrmprint)",
@@ -3601,8 +3969,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400425",
+  "pk": "400425_welcome-to-the-halidom",
   "fields": {
+    "image_id": "400425",
     "name": "Welcome to the Halidom!",
     "slug": "welcome-to-the-halidom",
     "wiki_url": "/w/Welcome_to_the_Halidom!",
@@ -3616,8 +3985,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400429",
+  "pk": "400429_memory-of-a-friend",
   "fields": {
+    "image_id": "400429",
     "name": "Memory of a Friend",
     "slug": "memory-of-a-friend",
     "wiki_url": "/w/Memory_of_a_Friend",
@@ -3631,8 +4001,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400430",
+  "pk": "400430_fallen-wings",
   "fields": {
+    "image_id": "400430",
     "name": "Fallen Wings",
     "slug": "fallen-wings",
     "wiki_url": "/w/Fallen_Wings",
@@ -3646,8 +4017,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400431",
+  "pk": "400431_blossoms-in-a-new-years-sky",
   "fields": {
+    "image_id": "400431",
     "name": "Blossoms in a New Year's Sky",
     "slug": "blossoms-in-a-new-years-sky",
     "wiki_url": "/w/Blossoms_in_a_New_Year%27s_Sky",
@@ -3661,8 +4033,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400432",
+  "pk": "400432_happy-times",
   "fields": {
+    "image_id": "400432",
     "name": "Happy Times",
     "slug": "happy-times",
     "wiki_url": "/w/Happy_Times",
@@ -3676,8 +4049,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400433",
+  "pk": "400433_here-come-the-sealers",
   "fields": {
+    "image_id": "400433",
     "name": "Here Come the Sealers!",
     "slug": "here-come-the-sealers",
     "wiki_url": "/w/Here_Come_the_Sealers!",
@@ -3691,8 +4065,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400434",
+  "pk": "400434_flowers-under-the-moon",
   "fields": {
+    "image_id": "400434",
     "name": "Flowers Under the Moon",
     "slug": "flowers-under-the-moon",
     "wiki_url": "/w/Flowers_Under_the_Moon",
@@ -3706,8 +4081,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400435",
+  "pk": "400435_me-and-my-bestie",
   "fields": {
+    "image_id": "400435",
     "name": "Me and My Bestie!",
     "slug": "me-and-my-bestie",
     "wiki_url": "/w/Me_and_My_Bestie!",
@@ -3721,8 +4097,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400436",
+  "pk": "400436_best-buds",
   "fields": {
+    "image_id": "400436",
     "name": "Best Buds",
     "slug": "best-buds",
     "wiki_url": "/w/Best_Buds",
@@ -3736,8 +4113,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400437",
+  "pk": "400437_once-in-a-lifetime",
   "fields": {
+    "image_id": "400437",
     "name": "Once in a Lifetime",
     "slug": "once-in-a-lifetime",
     "wiki_url": "/w/Once_in_a_Lifetime",
@@ -3751,8 +4129,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400438",
+  "pk": "400438_catch-me-in-the-sunflowers",
   "fields": {
+    "image_id": "400438",
     "name": "Catch Me in the Sunflowers",
     "slug": "catch-me-in-the-sunflowers",
     "wiki_url": "/w/Catch_Me_in_the_Sunflowers",
@@ -3766,8 +4145,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400439",
+  "pk": "400439_blossoms-on-the-waters-edge",
   "fields": {
+    "image_id": "400439",
     "name": "Blossoms on the Water's Edge",
     "slug": "blossoms-on-the-waters-edge",
     "wiki_url": "/w/Blossoms_on_the_Water%27s_Edge",
@@ -3781,8 +4161,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400440",
+  "pk": "400440_such-high-spirits",
   "fields": {
+    "image_id": "400440",
     "name": "Such High Spirits!",
     "slug": "such-high-spirits",
     "wiki_url": "/w/Such_High_Spirits!",
@@ -3796,8 +4177,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400441",
+  "pk": "400441_a-new-look",
   "fields": {
+    "image_id": "400441",
     "name": "A New Look",
     "slug": "a-new-look",
     "wiki_url": "/w/A_New_Look",
@@ -3811,8 +4193,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400442",
+  "pk": "400442_summertime-feeling-feline",
   "fields": {
+    "image_id": "400442",
     "name": "Summertime, Feeling Feline",
     "slug": "summertime-feeling-feline",
     "wiki_url": "/w/Summertime,_Feeling_Feline",
@@ -3826,8 +4209,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400443",
+  "pk": "400443_fun-in-the-sun",
   "fields": {
+    "image_id": "400443",
     "name": "Fun in the Sun",
     "slug": "fun-in-the-sun",
     "wiki_url": "/w/Fun_in_the_Sun",
@@ -3841,8 +4225,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400444",
+  "pk": "400444_seaside-memory",
   "fields": {
+    "image_id": "400444",
     "name": "Seaside Memory",
     "slug": "seaside-memory",
     "wiki_url": "/w/Seaside_Memory",
@@ -3856,8 +4241,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400445",
+  "pk": "400445_memories-of-summers-dusk",
   "fields": {
+    "image_id": "400445",
     "name": "Memories of Summer's Dusk",
     "slug": "memories-of-summers-dusk",
     "wiki_url": "/w/Memories_of_Summer%27s_Dusk",
@@ -3871,8 +4257,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400446",
+  "pk": "400446_a-passion-for-produce",
   "fields": {
+    "image_id": "400446",
     "name": "A Passion for Produce",
     "slug": "a-passion-for-produce",
     "wiki_url": "/w/A_Passion_for_Produce",
@@ -3886,8 +4273,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400447",
+  "pk": "400447_wings-in-the-night",
   "fields": {
+    "image_id": "400447",
     "name": "Wings in the Night",
     "slug": "wings-in-the-night",
     "wiki_url": "/w/Wings_in_the_Night",
@@ -3901,8 +4289,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400448",
+  "pk": "400448_moonlight-party",
   "fields": {
+    "image_id": "400448",
     "name": "Moonlight Party",
     "slug": "moonlight-party",
     "wiki_url": "/w/Moonlight_Party",
@@ -3916,8 +4305,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400449",
+  "pk": "400449_dance-of-the-twin-blossoms",
   "fields": {
+    "image_id": "400449",
     "name": "Dance of the Twin Blossoms",
     "slug": "dance-of-the-twin-blossoms",
     "wiki_url": "/w/Dance_of_the_Twin_Blossoms",
@@ -3931,8 +4321,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400450",
+  "pk": "400450_second-anniversary",
   "fields": {
+    "image_id": "400450",
     "name": "Second Anniversary",
     "slug": "second-anniversary",
     "wiki_url": "/w/Second_Anniversary",
@@ -3946,8 +4337,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400451",
+  "pk": "400451_blessed-days",
   "fields": {
+    "image_id": "400451",
     "name": "Blessed Days",
     "slug": "blessed-days",
     "wiki_url": "/w/Blessed_Days",
@@ -3961,8 +4353,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400452",
+  "pk": "400452_guardian-of-the-bond",
   "fields": {
+    "image_id": "400452",
     "name": "Guardian of the Bond",
     "slug": "guardian-of-the-bond",
     "wiki_url": "/w/Guardian_of_the_Bond",
@@ -3976,8 +4369,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400453",
+  "pk": "400453_to-my-dear-child",
   "fields": {
+    "image_id": "400453",
     "name": "To My Dear Child",
     "slug": "to-my-dear-child",
     "wiki_url": "/w/To_My_Dear_Child",
@@ -3991,8 +4385,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400454",
+  "pk": "400454_secret-nightmare",
   "fields": {
+    "image_id": "400454",
     "name": "Secret Nightmare",
     "slug": "secret-nightmare",
     "wiki_url": "/w/Secret_Nightmare",
@@ -4006,8 +4401,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400455",
+  "pk": "400455_a-perfect-faerie-tale",
   "fields": {
+    "image_id": "400455",
     "name": "A Perfect Faerie Tale",
     "slug": "a-perfect-faerie-tale",
     "wiki_url": "/w/A_Perfect_Faerie_Tale",
@@ -4021,8 +4417,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400456",
+  "pk": "400456_free-spirited-opera",
   "fields": {
+    "image_id": "400456",
     "name": "Free-Spirited Opera",
     "slug": "free-spirited-opera",
     "wiki_url": "/w/Free-Spirited_Opera",
@@ -4036,8 +4433,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400457",
+  "pk": "400457_welcome-to-the-opera",
   "fields": {
+    "image_id": "400457",
     "name": "Welcome to the Opera!",
     "slug": "welcome-to-the-opera",
     "wiki_url": "/w/Welcome_to_the_Opera!",
@@ -4051,8 +4449,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400458",
+  "pk": "400458_enter-the-blue-rose",
   "fields": {
+    "image_id": "400458",
     "name": "Enter the Blue Rose!",
     "slug": "enter-the-blue-rose",
     "wiki_url": "/w/Enter_the_Blue_Rose!",
@@ -4066,8 +4465,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400459",
+  "pk": "400459_a-man-unchanging",
   "fields": {
+    "image_id": "400459",
     "name": "A Man Unchanging",
     "slug": "a-man-unchanging",
     "wiki_url": "/w/A_Man_Unchanging",
@@ -4081,8 +4481,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400460",
+  "pk": "400460_beautiful-gunman",
   "fields": {
+    "image_id": "400460",
     "name": "Beautiful Gunman",
     "slug": "beautiful-gunman",
     "wiki_url": "/w/Beautiful_Gunman",
@@ -4096,8 +4497,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400461",
+  "pk": "400461_dragonyule-dreaming",
   "fields": {
+    "image_id": "400461",
     "name": "Dragonyule Dreaming",
     "slug": "dragonyule-dreaming",
     "wiki_url": "/w/Dragonyule_Dreaming",
@@ -4111,8 +4513,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400462",
+  "pk": "400462_pecorines-grand-adventure",
   "fields": {
+    "image_id": "400462",
     "name": "Pecorine's Grand Adventure",
     "slug": "pecorines-grand-adventure",
     "wiki_url": "/w/Pecorine%27s_Grand_Adventure",
@@ -4126,8 +4529,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400463",
+  "pk": "400463_meanwhile-in-landosol",
   "fields": {
+    "image_id": "400463",
     "name": "Meanwhile, in Landosol...",
     "slug": "meanwhile-in-landosol",
     "wiki_url": "/w/Meanwhile,_in_Landosol...",
@@ -4141,8 +4545,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400464",
+  "pk": "400464_amaterasu-oblation",
   "fields": {
+    "image_id": "400464",
     "name": "Amaterasu Oblation",
     "slug": "amaterasu-oblation",
     "wiki_url": "/w/Amaterasu_Oblation",
@@ -4156,8 +4561,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400465",
+  "pk": "400465_the-cutie-competition",
   "fields": {
+    "image_id": "400465",
     "name": "The Cutie Competition",
     "slug": "the-cutie-competition",
     "wiki_url": "/w/The_Cutie_Competition",
@@ -4171,8 +4577,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400466",
+  "pk": "400466_sweet-surprise",
   "fields": {
+    "image_id": "400466",
     "name": "Sweet Surprise",
     "slug": "sweet-surprise",
     "wiki_url": "/w/Sweet_Surprise",
@@ -4186,8 +4593,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400467",
+  "pk": "400467_extreme-teamwork",
   "fields": {
+    "image_id": "400467",
     "name": "Extreme Teamwork",
     "slug": "extreme-teamwork",
     "wiki_url": "/w/Extreme_Teamwork",
@@ -4201,8 +4609,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400468",
+  "pk": "400468_springtime-breeze",
   "fields": {
+    "image_id": "400468",
     "name": "Springtime Breeze",
     "slug": "springtime-breeze",
     "wiki_url": "/w/Springtime_Breeze",
@@ -4216,8 +4625,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400469",
+  "pk": "400469_showtime",
   "fields": {
+    "image_id": "400469",
     "name": "Showtime!",
     "slug": "showtime",
     "wiki_url": "/w/Showtime!",
@@ -4231,8 +4641,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400470",
+  "pk": "400470_humanitys-companions",
   "fields": {
+    "image_id": "400470",
     "name": "Humanity's Companions",
     "slug": "humanitys-companions",
     "wiki_url": "/w/Humanity%27s_Companions",
@@ -4246,8 +4657,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400471",
+  "pk": "400471_two-myms",
   "fields": {
+    "image_id": "400471",
     "name": "Two Myms",
     "slug": "two-myms",
     "wiki_url": "/w/Two_Myms",
@@ -4261,8 +4673,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400472",
+  "pk": "400472_bloody-little-queen",
   "fields": {
+    "image_id": "400472",
     "name": "Bloody Little Queen",
     "slug": "bloody-little-queen",
     "wiki_url": "/w/Bloody_Little_Queen",
@@ -4276,8 +4689,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400473",
+  "pk": "400473_advent-of-the-war-god",
   "fields": {
+    "image_id": "400473",
     "name": "Advent of the War God",
     "slug": "advent-of-the-war-god",
     "wiki_url": "/w/Advent_of_the_War_God",
@@ -4291,8 +4705,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400474",
+  "pk": "400474_initios-sentinel",
   "fields": {
+    "image_id": "400474",
     "name": "Initio's Sentinel",
     "slug": "initios-sentinel",
     "wiki_url": "/w/Initio%27s_Sentinel",
@@ -4306,8 +4721,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400475",
+  "pk": "400475_a-rainy-day",
   "fields": {
+    "image_id": "400475",
     "name": "A Rainy Day",
     "slug": "a-rainy-day",
     "wiki_url": "/w/A_Rainy_Day",
@@ -4321,8 +4737,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400476",
+  "pk": "400476_caged-desire",
   "fields": {
+    "image_id": "400476",
     "name": "Caged Desire",
     "slug": "caged-desire",
     "wiki_url": "/w/Caged_Desire_(Wyrmprint)",
@@ -4336,8 +4753,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400477",
+  "pk": "400477_having-a-summer-ball",
   "fields": {
+    "image_id": "400477",
     "name": "Having a Summer Ball",
     "slug": "having-a-summer-ball",
     "wiki_url": "/w/Having_a_Summer_Ball",
@@ -4351,8 +4769,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400478",
+  "pk": "400478_super-soaking-androids",
   "fields": {
+    "image_id": "400478",
     "name": "Super Soaking Androids",
     "slug": "super-soaking-androids",
     "wiki_url": "/w/Super_Soaking_Androids",
@@ -4366,8 +4785,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400479",
+  "pk": "400479_superior-summer",
   "fields": {
+    "image_id": "400479",
     "name": "Superior Summer",
     "slug": "superior-summer",
     "wiki_url": "/w/Superior_Summer",
@@ -4381,8 +4801,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400480",
+  "pk": "400480_bloom-of-the-battlefield",
   "fields": {
+    "image_id": "400480",
     "name": "Bloom of the Battlefield",
     "slug": "bloom-of-the-battlefield",
     "wiki_url": "/w/Bloom_of_the_Battlefield",
@@ -4396,8 +4817,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400481",
+  "pk": "400481_one-winged-journey",
   "fields": {
+    "image_id": "400481",
     "name": "One-Winged Journey",
     "slug": "one-winged-journey",
     "wiki_url": "/w/One-Winged_Journey",
@@ -4411,8 +4833,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400482",
+  "pk": "400482_a-choice-blend",
   "fields": {
+    "image_id": "400482",
     "name": "A Choice Blend",
     "slug": "a-choice-blend",
     "wiki_url": "/w/A_Choice_Blend",
@@ -4426,8 +4849,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400483",
+  "pk": "400483_emissaries-of-the-heavens",
   "fields": {
+    "image_id": "400483",
     "name": "Emissaries of the Heavens",
     "slug": "emissaries-of-the-heavens",
     "wiki_url": "/w/Emissaries_of_the_Heavens",
@@ -4441,8 +4865,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400484",
+  "pk": "400484_bonded-by-a-dream",
   "fields": {
+    "image_id": "400484",
     "name": "Bonded by a Dream",
     "slug": "bonded-by-a-dream",
     "wiki_url": "/w/Bonded_by_a_Dream",
@@ -4456,8 +4881,9 @@
 },
 {
   "model": "game_data.wyrmprint",
-  "pk": "400491",
+  "pk": "400491_third-anniversary",
   "fields": {
+    "image_id": "400491",
     "name": "Third Anniversary!",
     "slug": "third-anniversary",
     "wiki_url": "/w/Third_Anniversary!",

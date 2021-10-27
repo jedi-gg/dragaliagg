@@ -1,9 +1,11 @@
 from django.conf import settings
 from django.db import models
+from django.utils.html import html_safe
 
 from game_data.utils.save_image import save_image
 
 
+@html_safe
 class Wyrmprint(models.Model):
     id = models.CharField(max_length=100, primary_key=True)
     image_id = models.CharField(max_length=100, null=True, blank=True)
@@ -17,23 +19,29 @@ class Wyrmprint(models.Model):
     ability_icon = models.CharField(max_length=100, blank=True, null=True)
     ability_description = models.TextField(blank=True, null=True)
 
-    @property
     def get_image(self, size=60):
-        return '{}game_assets/wyrmprints/{}_{}.png'.format(
+        vestige_id = '01'
+        if self.rarity != 9:
+            vestige_id = '02'
+        return '{}game_assets/wyrmprints/{}_{}_{}.png'.format(
             settings.STATIC_URL,
             self.image_id,
+            vestige_id,
             size
         )
 
     def download_images(self):
-        thumb_image_sizes = ['30', '60', '155',]
+        thumb_image_sizes = ['30', '60', '100', '155',]
         portrait_sizes = ['100', '200', '450', '1000',]
 
         for size in thumb_image_sizes:
-            url = '{}/thumb.php?f={}_01.png&width={}'.format(
-                settings.BASE_WIKI_URL, self.image_id, size)
-            path = '_static/game_assets/wyrmprints/{}_{}.png'.format(
-                self.image_id, size)
+            vestige_id = '01'
+            if self.rarity != 9:
+                vestige_id = '02'
+            url = '{}/thumb.php?f={}_{}.png&width={}'.format(
+                settings.BASE_WIKI_URL, self.image_id, vestige_id, size)
+            path = '_static/game_assets/wyrmprints/{}_{}_{}.png'.format(
+                self.image_id, vestige_id, size)
             
             save_image(url, path)
         

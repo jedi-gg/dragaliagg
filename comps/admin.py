@@ -1,3 +1,4 @@
+from django import forms
 from django.contrib import admin
 
 from comps.models import (
@@ -17,6 +18,11 @@ class AdventurerBuildInline(admin.StackedInline):
 
     autocomplete_fields = [
         'adventurer',
+        'adventurer_dragon',
+        'adventurer_weapon',
+    ]
+
+    raw_id_fields = (
         'adventurer_wp_1',
         'adventurer_wp_2',
         'adventurer_wp_3',
@@ -24,9 +30,13 @@ class AdventurerBuildInline(admin.StackedInline):
         'adventurer_wp_5',
         'adventurer_wp_6',
         'adventurer_wp_7',
-        'adventurer_dragon',
-        'adventurer_weapon',
-    ]
+    )
+
+    class Meta:
+        widgets = {
+            'adventurer_wp_1': forms.TextInput(attrs={'size': 3}),
+        }
+
 
 @admin.register(Comp)
 class CompAdmin(admin.ModelAdmin):

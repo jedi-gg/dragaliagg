@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 from comps.enums import AdventurerSlotEnum
 from core.models import SlugModel
@@ -46,6 +47,13 @@ class Comp(SlugModel):
             rest_of_team[build.slot] = build.adventurer
         
         return rest_of_team
+    
+    def get_absolute_url(self):
+        return reverse('comp-detail', kwargs={
+            'comp_slug': self.slug,
+            'section_slug': self.section.slug,
+            'quest_slug': self.quest.slug,
+        })
 
     def __str__(self):
         return self.title

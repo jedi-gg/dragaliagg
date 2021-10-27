@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block header_pretitle %}Dragalia Lost{% endblock %}
+{% block header_title %}{{ comp }}{% endblock %}
+
+{% block page_content %}
+<!-- CONTENT -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-xl-8">
+
+            <!-- Card -->
+            {% for slot, adv in comp.get_team.items %}
+            <div class="card">
+              <div class="card-body">
+                <img src="{{ adv.get_image }}" style="width: 120px;" />
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+
+          <div class="col-12 col-xl-4">
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+                <div class="list-group list-group-flush my-n3">
+                  {% for cd in comp_data %}
+                  <div class="list-group-item">
+                    <div class="row align-items-center">
+                      <div class="col">
+                        <h5 class="mb-0">
+                          {{ cd.0 }}
+                        </h5>
+                      </div>
+                      <div class="col-auto">
+                        <small>
+                          {{ cd.1 }}
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+                  {% endfor %}
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div>
+
+{% endblock %}

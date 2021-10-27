@@ -4,16 +4,24 @@ from django.utils.html import format_html
 from game_data.models import Adventurer, Wyrmprint, Dragon, Weapon
 
 
-@admin.register(Adventurer)
-class AdventurerAdmin(admin.ModelAdmin):
-    search_fields = ['name']
-    actions = None
+class ReadOnlyAdminMixin:
+    def has_add_permission(self, request):
+        return False
+
+    def has_change_permission(self, request, obj=None):
+        return False
 
     def has_delete_permission(self, request, obj=None):
         return False
 
+
+@admin.register(Adventurer)
+class AdventurerAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
+    search_fields = ['name']
+    actions = None
+
 @admin.register(Wyrmprint)
-class WyrmprintAdmin(admin.ModelAdmin):
+class WyrmprintAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
     def image_tag(self, obj):
         return format_html('<img src="{}" />'.format(obj.get_image(size=100)))
 
@@ -23,22 +31,13 @@ class WyrmprintAdmin(admin.ModelAdmin):
     actions = None
     ordering = ('-rarity', 'name')
 
-    def has_delete_permission(self, request, obj=None):
-        return False
-
 
 @admin.register(Dragon)
-class DragonAdmin(admin.ModelAdmin):
+class DragonAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
     search_fields = ['name']
     actions = None
-
-    def has_delete_permission(self, request, obj=None):
-        return False
 
 @admin.register(Weapon)
-class WeaponAdmin(admin.ModelAdmin):
+class WeaponAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
     search_fields = ['name']
     actions = None
-
-    def has_delete_permission(self, request, obj=None):
-        return False

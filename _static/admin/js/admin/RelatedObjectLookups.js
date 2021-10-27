@@ -60,6 +60,7 @@
             if (elemName === 'SELECT') {
                 elem.options[elem.options.length] = new Option(newRepr, newId, true, true);
             } else if (elemName === 'INPUT') {
+                alert('hi');
                 if (elem.classList.contains('vManyToManyRawIdAdminField') && elem.value) {
                     elem.value += ',' + newId;
                 } else {

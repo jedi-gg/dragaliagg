@@ -7,6 +7,7 @@ from game_data.models import Adventurer, Wyrmprint, Dragon, Weapon
 @admin.register(Adventurer)
 class AdventurerAdmin(admin.ModelAdmin):
     search_fields = ['name']
+    actions = None
 
 @admin.register(Wyrmprint)
 class WyrmprintAdmin(admin.ModelAdmin):
@@ -16,13 +17,16 @@ class WyrmprintAdmin(admin.ModelAdmin):
     list_display = ['image_tag', 'name', 'ability_name', 'ability_description']
     list_filter = ('rarity', 'affinity_name', )
     search_fields = ['name', 'ability_name']
+    actions = None
     ordering = ('-rarity', 'name')
 
 
 @admin.register(Dragon)
 class DragonAdmin(admin.ModelAdmin):
     search_fields = ['name']
+    actions = None
 
 @admin.register(Weapon)
 class WeaponAdmin(admin.ModelAdmin):
     search_fields = ['name']
+    actions = None

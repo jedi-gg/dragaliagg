@@ -1,3 +1,4 @@
+from django.contrib.humanize.templatetags.humanize import ordinal
 from django.db import models
 
 from game_data.models import Adventurer, Wyrmprint, Dragon, Weapon
@@ -17,3 +18,18 @@ class AdventurerBuild(models.Model):
     adventurer_wp_7 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_7', on_delete=models.DO_NOTHING, blank=True, null=True)
     adventurer_dragon = models.ForeignKey(Dragon, related_name='comp_build_dragon', on_delete=models.DO_NOTHING, blank=True, null=True)
     adventurer_weapon = models.ForeignKey(Weapon, related_name='comp_build_weapon', on_delete=models.DO_NOTHING, blank=True, null=True)
+
+    def get_slot_name(self):
+        if self.slot == AdventurerSlotEnum.LEAD_UNIT.value:
+            return 'Lead Unit'
+        else:
+            return '{} Unit'.format(ordinal(self.slot))
+
+    def get_all_wyrmprints(self):
+        all_wyrmprints = []
+        for i in range(1,8):
+            all_wyrmprints.append(
+                getattr(self, 'adventurer_wp_{}'.format(i))
+            )
+        
+        return all_wyrmprints

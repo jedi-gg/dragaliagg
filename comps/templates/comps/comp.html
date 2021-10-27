@@ -3,17 +3,45 @@
 {% block header_pretitle %}Dragalia Lost{% endblock %}
 {% block header_title %}{{ comp }}{% endblock %}
 
+{% block extra_css %}
+<style>
+.popover {
+  max-width: 400px;
+  text-align: center;
+}
+.adventurer-image {
+  width: 20%;
+  min-width: 20%;
+  background-repeat: no-repeat;
+  background-position: top 0 left 4px;
+  background-size: contain;
+}
+</style>
+{% endblock %}
+
+{% block page_nav %}{% endblock %}
+
 {% block page_content %}
 <!-- CONTENT -->
       <div class="container-fluid">
-        <div class="row">
+        <div class="row" style="max-width: 1100px;">
           <div class="col-12 col-xl-8">
 
             <!-- Card -->
-            {% for slot, adv in comp.get_team.items %}
-            <div class="card">
-              <div class="card-body">
-                <img src="{{ adv|get_image_size:120 }}" style="width: 120px;" />
+            {% for slot, build in comp.get_team.items %}
+            <div class="card" style="padding: 10px;">
+              <div class="row">
+                <div class="col-3 adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');"></div>
+                <div class="col-9" style="width: 80%;">
+                  <h4 class="draglia-font-normal" style="font-size: 25px; margin-top: 10px; border-bottom: 2px solid #000;">{{ build.adventurer.name }}
+                    <small style="float: right;">{{ build.get_slot_name }}</small>
+                  </h4>
+                  <div class="wyrmprints">
+                    {% for wp in build.get_all_wyrmprints %}
+                    <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp.get_image }}" />
+                    {% endfor %}
+                  </div>
+                </div>
               </div>
             </div>
             {% endfor %}

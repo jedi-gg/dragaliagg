@@ -19,6 +19,11 @@
     <link rel="stylesheet" href="{% static '/assets/css/theme.bundle.css' %}" />
 
     <style>
+    .draglia-font-normal {
+      font-family: itc-avant-garde-gothic-pro, sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
     .dragalia-font {
       font-family: itc-avant-garde-gothic-pro, sans-serif;
       font-weight: 700;
@@ -53,7 +58,12 @@
     .border-element-water {
       border-color: #188ede;
     }
+    .header-body {
+      border-bottom: 0;
+    }
     </style>
+
+    {% block extra_css %}{% endblock %}
     
     <!-- Title -->
     <title>Draglia.gg</title>
@@ -99,9 +109,9 @@
             <div class="row align-items-center">
               <div class="col">
 
+                {% block page_nav %}
                 <!-- Nav -->
                 <ul class="nav nav-tabs nav-overflow header-tabs">
-                  {% block page_nav %}
                   <li class="nav-item">
                     <a href="project-overview.html" class="nav-link active">
                       All Comps
@@ -122,8 +132,8 @@
                       Standard (6)
                     </a>
                   </li>
-                  {% endblock %}
                 </ul>
+                {% endblock %}
 
               </div>
             </div>
@@ -148,5 +158,6 @@
     <!-- Theme JS -->
     <script src="{% static '/assets/js/theme.bundle.js' %}"></script>
 
+    {% block extra_js %}{% endblock %}
   </body>
 </html>

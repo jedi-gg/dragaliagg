@@ -34,7 +34,7 @@ class Comp(SlugModel):
     def get_team(self):
         comp_slots = {}
         for build in self.builds.all():
-            comp_slots[build.slot] = build.adventurer
+            comp_slots[build.slot] = build
         
         return comp_slots
     

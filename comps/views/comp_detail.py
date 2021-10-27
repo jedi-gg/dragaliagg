@@ -20,6 +20,7 @@ class CompDetail(DetailView):
             auto_shapeshift = 'On'
 
         context['comp_data'] = [
+            ('Comp Type', self.object.comp_type),
             ('Creator', self.object.creator),
             ('Date Posted', self.object.post_date),
             ('Game Version', self.object.game_version),

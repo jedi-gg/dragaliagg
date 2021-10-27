@@ -9,6 +9,9 @@ class AdventurerAdmin(admin.ModelAdmin):
     search_fields = ['name']
     actions = None
 
+    def has_delete_permission(self, request, obj=None):
+        return False
+
 @admin.register(Wyrmprint)
 class WyrmprintAdmin(admin.ModelAdmin):
     def image_tag(self, obj):
@@ -20,13 +23,22 @@ class WyrmprintAdmin(admin.ModelAdmin):
     actions = None
     ordering = ('-rarity', 'name')
 
+    def has_delete_permission(self, request, obj=None):
+        return False
+
 
 @admin.register(Dragon)
 class DragonAdmin(admin.ModelAdmin):
     search_fields = ['name']
     actions = None
 
+    def has_delete_permission(self, request, obj=None):
+        return False
+
 @admin.register(Weapon)
 class WeaponAdmin(admin.ModelAdmin):
     search_fields = ['name']
     actions = None
+
+    def has_delete_permission(self, request, obj=None):
+        return False

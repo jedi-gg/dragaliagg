@@ -16,6 +16,8 @@ class WyrmprintAdmin(admin.ModelAdmin):
     list_display = ['image_tag', 'name', 'ability_name', 'ability_description']
     list_filter = ('rarity', 'affinity_name', )
     search_fields = ['name', 'ability_name']
+    ordering = ('-rarity', 'name')
+
 
 @admin.register(Dragon)
 class DragonAdmin(admin.ModelAdmin):

@@ -9,15 +9,15 @@ class AdventurerBuild(models.Model):
     comp = models.ForeignKey(Comp, related_name='builds', on_delete=models.DO_NOTHING, blank=True, null=True)
     adventurer = models.ForeignKey(Adventurer, related_name='builds', on_delete=models.DO_NOTHING, blank=True, null=True)
     slot = models.PositiveSmallIntegerField(choices=AdventurerSlotEnum.as_tuples(), default=AdventurerSlotEnum.LEAD_UNIT.value)
-    adventurer_wp_1 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_1', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_wp_2 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_2', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_wp_3 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_3', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_wp_4 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_4', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_wp_5 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_5', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_wp_6 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_6', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_wp_7 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_7', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_dragon = models.ForeignKey(Dragon, related_name='comp_build_dragon', on_delete=models.DO_NOTHING, blank=True, null=True)
-    adventurer_weapon = models.ForeignKey(Weapon, related_name='comp_build_weapon', on_delete=models.DO_NOTHING, blank=True, null=True)
+    wyrmprint_1 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_1', on_delete=models.DO_NOTHING, blank=True, null=True)
+    wyrmprint_2 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_2', on_delete=models.DO_NOTHING, blank=True, null=True)
+    wyrmprint_3 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_3', on_delete=models.DO_NOTHING, blank=True, null=True)
+    wyrmprint_4 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_4', on_delete=models.DO_NOTHING, blank=True, null=True)
+    wyrmprint_5 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_5', on_delete=models.DO_NOTHING, blank=True, null=True)
+    wyrmprint_6 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_6', on_delete=models.DO_NOTHING, blank=True, null=True)
+    wyrmprint_7 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_7', on_delete=models.DO_NOTHING, blank=True, null=True)
+    dragon = models.ForeignKey(Dragon, related_name='comp_build_dragon', on_delete=models.DO_NOTHING, blank=True, null=True)
+    weapon = models.ForeignKey(Weapon, related_name='comp_build_weapon', on_delete=models.DO_NOTHING, blank=True, null=True)
 
     def get_slot_name(self):
         if self.slot == AdventurerSlotEnum.LEAD_UNIT.value:
@@ -29,7 +29,7 @@ class AdventurerBuild(models.Model):
         all_wyrmprints = []
         for i in range(1,8):
             all_wyrmprints.append(
-                getattr(self, 'adventurer_wp_{}'.format(i))
+                getattr(self, 'wyrmprint_{}'.format(i))
             )
         
         return all_wyrmprints

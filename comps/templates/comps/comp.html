@@ -43,7 +43,8 @@
             
               <div class="row">
                 <div class="col-3 adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');"></div>
-                <div class="col-9" style="width: 80%;">
+                <div class="col-2" style="width: 74px; padding-left: 0; padding-right: 0; padding-top: 5px;"><img src="{{ build.dragon.get_image }}" /><img src="{{ build.weapon|get_image_size:40 }}" /></div>
+                <div class="col-6" style="width: 73%; padding-left: 0;">
                   <h4 class="draglia-font-normal" style="font-size: 25px; margin-top: 10px; border-bottom: 2px solid #000;">{{ build.adventurer.name }}
                     <small style="float: right;">{{ build.get_slot_name }}</small>
                   </h4>

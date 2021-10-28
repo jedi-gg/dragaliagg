@@ -18,23 +18,23 @@ class AdventurerBuildInline(admin.StackedInline):
 
     autocomplete_fields = [
         'adventurer',
-        'adventurer_dragon',
-        'adventurer_weapon',
+        'dragon',
+        'weapon',
     ]
 
     raw_id_fields = (
-        'adventurer_wp_1',
-        'adventurer_wp_2',
-        'adventurer_wp_3',
-        'adventurer_wp_4',
-        'adventurer_wp_5',
-        'adventurer_wp_6',
-        'adventurer_wp_7',
+        'wyrmprint_1',
+        'wyrmprint_2',
+        'wyrmprint_3',
+        'wyrmprint_4',
+        'wyrmprint_5',
+        'wyrmprint_6',
+        'wyrmprint_7',
     )
 
     class Meta:
         widgets = {
-            'adventurer_wp_1': forms.TextInput(attrs={'size': 3}),
+            'wyrmprint_1': forms.TextInput(attrs={'size': 3}),
         }
 
 

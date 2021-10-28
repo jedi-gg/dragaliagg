@@ -1,7 +1,7 @@
 [
 {
   "model": "game_data.weapon",
-  "pk": "301001",
+  "pk": "301001_01_19901",
   "fields": {
     "name": "Battleworn Sword",
     "slug": "battleworn-sword",
@@ -13,7 +13,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301002",
+  "pk": "301002_01_29901",
   "fields": {
     "name": "Soldier's Brand",
     "slug": "soldiers-brand",
@@ -25,7 +25,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301010",
+  "pk": "301010_01_50201",
   "fields": {
     "name": "Eoantide",
     "slug": "eoantide",
@@ -37,7 +37,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301015",
+  "pk": "301015_01_50401",
   "fields": {
     "name": "Zex's End",
     "slug": "zexs-end",
@@ -49,7 +49,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301030",
+  "pk": "301030_01_39901",
   "fields": {
     "name": "Knight's Sword",
     "slug": "knights-sword",
@@ -61,7 +61,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301032",
+  "pk": "301032_01_50101",
   "fields": {
     "name": "Levatein",
     "slug": "levatein",
@@ -73,7 +73,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301033",
+  "pk": "301033_01_50301",
   "fields": {
     "name": "Durandal",
     "slug": "durandal",
@@ -85,7 +85,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301037",
+  "pk": "301037_01_50501",
   "fields": {
     "name": "Dáinsleif",
     "slug": "dainsleif",
@@ -97,7 +97,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301040",
+  "pk": "301040_01_49901",
   "fields": {
     "name": "Knights' Grace",
     "slug": "knights-grace",
@@ -109,7 +109,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301041",
+  "pk": "301041_01_59901",
   "fields": {
     "name": "Hero's Sword",
     "slug": "heros-sword",
@@ -121,7 +121,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301046",
+  "pk": "301046_01_59901",
   "fields": {
     "name": "Lucky Hanetsuki Paddle",
     "slug": "lucky-hanetsuki-paddle",
@@ -133,7 +133,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301056",
+  "pk": "301056_01_50101",
   "fields": {
     "name": "Inferno Apogee",
     "slug": "inferno-apogee",
@@ -145,7 +145,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301077",
+  "pk": "301077_01_50201",
   "fields": {
     "name": "Judge of Oceans",
     "slug": "judge-of-oceans",
@@ -157,7 +157,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301098",
+  "pk": "301098_01_50301",
   "fields": {
     "name": "Roaring Weald",
     "slug": "roaring-weald",
@@ -169,7 +169,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301106",
+  "pk": "301106_01_50501",
   "fields": {
     "name": "Abyssbringer",
     "slug": "abyssbringer",
@@ -181,7 +181,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301117",
+  "pk": "301117_01_50401",
   "fields": {
     "name": "Death Aeon",
     "slug": "death-aeon",
@@ -193,7 +193,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301119",
+  "pk": "301119_01_50301",
   "fields": {
     "name": "Absolute Tempest",
     "slug": "absolute-tempest",
@@ -205,7 +205,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301120",
+  "pk": "301120_01_50201",
   "fields": {
     "name": "Absolute Aqua",
     "slug": "absolute-aqua",
@@ -217,7 +217,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301121",
+  "pk": "301121_01_50401",
   "fields": {
     "name": "Absolute Lightning",
     "slug": "absolute-lightning",
@@ -229,7 +229,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301122",
+  "pk": "301122_01_50101",
   "fields": {
     "name": "Absolute Crimson",
     "slug": "absolute-crimson",
@@ -241,7 +241,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301123",
+  "pk": "301123_01_50501",
   "fields": {
     "name": "Absolute Hex",
     "slug": "absolute-hex",
@@ -253,7 +253,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301130",
+  "pk": "301130_01_59901",
   "fields": {
     "name": "Mega Sword",
     "slug": "mega-sword",
@@ -265,7 +265,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301132",
+  "pk": "301132_01_50101",
   "fields": {
     "name": "Chimeratech Commander",
     "slug": "chimeratech-commander",
@@ -277,7 +277,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301133",
+  "pk": "301133_01_50201",
   "fields": {
     "name": "Chimeratech Anomalocaris",
     "slug": "chimeratech-anomalocaris",
@@ -289,7 +289,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301134",
+  "pk": "301134_01_50301",
   "fields": {
     "name": "Chimeratech Cypress",
     "slug": "chimeratech-cypress",
@@ -301,7 +301,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301135",
+  "pk": "301135_01_50401",
   "fields": {
     "name": "Chimeratech Sirius",
     "slug": "chimeratech-sirius",
@@ -313,7 +313,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301136",
+  "pk": "301136_01_50501",
   "fields": {
     "name": "Chimeratech Nocturne",
     "slug": "chimeratech-nocturne",
@@ -325,7 +325,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301138",
+  "pk": "301138_01_60101",
   "fields": {
     "name": "Nothung",
     "slug": "nothung",
@@ -337,7 +337,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301139",
+  "pk": "301139_01_60201",
   "fields": {
     "name": "Ame no Murakumo",
     "slug": "ame-no-murakumo",
@@ -349,7 +349,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301140",
+  "pk": "301140_01_60301",
   "fields": {
     "name": "Excalibur",
     "slug": "excalibur",
@@ -361,7 +361,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301141",
+  "pk": "301141_01_60401",
   "fields": {
     "name": "Caladbolg",
     "slug": "caladbolg",
@@ -373,7 +373,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "301142",
+  "pk": "301142_01_60501",
   "fields": {
     "name": "Yitian Jian",
     "slug": "yitian-jian",
@@ -385,7 +385,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302001",
+  "pk": "302001_01_19901",
   "fields": {
     "name": "Battleworn Blade",
     "slug": "battleworn-blade",
@@ -397,7 +397,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302010",
+  "pk": "302010_01_50201",
   "fields": {
     "name": "Maar Oasis",
     "slug": "maar-oasis",
@@ -409,7 +409,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302012",
+  "pk": "302012_01_49901",
   "fields": {
     "name": "Guardian Seal",
     "slug": "guardian-seal",
@@ -421,7 +421,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302013",
+  "pk": "302013_01_50101",
   "fields": {
     "name": "Heaven's Acuity",
     "slug": "heavens-acuity",
@@ -433,7 +433,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302014",
+  "pk": "302014_01_59901",
   "fields": {
     "name": "Dane's Favor",
     "slug": "danes-favor",
@@ -445,7 +445,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302021",
+  "pk": "302021_01_39901",
   "fields": {
     "name": "Subjugator",
     "slug": "subjugator",
@@ -457,7 +457,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302023",
+  "pk": "302023_01_50301",
   "fields": {
     "name": "Anemone",
     "slug": "anemone",
@@ -469,7 +469,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302025",
+  "pk": "302025_01_50401",
   "fields": {
     "name": "Heavenwing",
     "slug": "heavenwing",
@@ -481,7 +481,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302028",
+  "pk": "302028_01_50501",
   "fields": {
     "name": "Blackwing",
     "slug": "blackwing",
@@ -493,7 +493,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302045",
+  "pk": "302045_01_50101",
   "fields": {
     "name": "Skyrender",
     "slug": "skyrender",
@@ -505,7 +505,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302058",
+  "pk": "302058_01_50201",
   "fields": {
     "name": "Highwater Slicer",
     "slug": "highwater-slicer",
@@ -517,7 +517,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302089",
+  "pk": "302089_01_50301",
   "fields": {
     "name": "Stormsquall Crash",
     "slug": "stormsquall-crash",
@@ -529,7 +529,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302097",
+  "pk": "302097_01_50501",
   "fields": {
     "name": "Nightsky Ripper",
     "slug": "nightsky-ripper",
@@ -541,7 +541,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302108",
+  "pk": "302108_01_50401",
   "fields": {
     "name": "Hollow Lightning",
     "slug": "hollow-lightning",
@@ -553,7 +553,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302110",
+  "pk": "302110_01_50301",
   "fields": {
     "name": "Endless Horizon",
     "slug": "endless-horizon",
@@ -565,7 +565,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302111",
+  "pk": "302111_01_50201",
   "fields": {
     "name": "Ruinous Torrent",
     "slug": "ruinous-torrent",
@@ -577,7 +577,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302112",
+  "pk": "302112_01_50401",
   "fields": {
     "name": "Brilliant Flash",
     "slug": "brilliant-flash",
@@ -589,7 +589,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302113",
+  "pk": "302113_01_50101",
   "fields": {
     "name": "Blinding Conflagration",
     "slug": "blinding-conflagration",
@@ -601,7 +601,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302114",
+  "pk": "302114_01_50501",
   "fields": {
     "name": "True Abyss",
     "slug": "true-abyss",
@@ -613,7 +613,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302121",
+  "pk": "302121_01_59901",
   "fields": {
     "name": "Mega Blade",
     "slug": "mega-blade",
@@ -625,7 +625,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302123",
+  "pk": "302123_01_50101",
   "fields": {
     "name": "Chimeratech Lord",
     "slug": "chimeratech-lord",
@@ -637,7 +637,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302124",
+  "pk": "302124_01_50201",
   "fields": {
     "name": "Chimeratech Hadranax",
     "slug": "chimeratech-hadranax",
@@ -649,7 +649,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302125",
+  "pk": "302125_01_50301",
   "fields": {
     "name": "Chimeratech Benzoin",
     "slug": "chimeratech-benzoin",
@@ -661,7 +661,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302126",
+  "pk": "302126_01_50401",
   "fields": {
     "name": "Chimeratech Canopus",
     "slug": "chimeratech-canopus",
@@ -673,7 +673,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302127",
+  "pk": "302127_01_50501",
   "fields": {
     "name": "Chimeratech Requiem",
     "slug": "chimeratech-requiem",
@@ -685,7 +685,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302129",
+  "pk": "302129_01_60101",
   "fields": {
     "name": "Tyrfing",
     "slug": "tyrfing",
@@ -697,7 +697,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302130",
+  "pk": "302130_01_60201",
   "fields": {
     "name": "Ame no Habakiri",
     "slug": "ame-no-habakiri",
@@ -709,7 +709,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302131",
+  "pk": "302131_01_60301",
   "fields": {
     "name": "Arondight",
     "slug": "arondight",
@@ -721,7 +721,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302132",
+  "pk": "302132_01_60401",
   "fields": {
     "name": "Fragarach",
     "slug": "fragarach",
@@ -733,7 +733,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "302133",
+  "pk": "302133_01_60501",
   "fields": {
     "name": "Qixing Baodao",
     "slug": "qixing-baodao",
@@ -745,7 +745,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303001",
+  "pk": "303001_01_19901",
   "fields": {
     "name": "Battleworn Dagger",
     "slug": "battleworn-dagger",
@@ -757,7 +757,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303013",
+  "pk": "303013_01_50101",
   "fields": {
     "name": "Aeternal Flame",
     "slug": "aeternal-flame",
@@ -769,7 +769,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303020",
+  "pk": "303020_01_50201",
   "fields": {
     "name": "Lux Lamina",
     "slug": "lux-lamina",
@@ -781,7 +781,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303026",
+  "pk": "303026_01_39901",
   "fields": {
     "name": "Bejeweled Dagger",
     "slug": "bejeweled-dagger",
@@ -793,7 +793,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303028",
+  "pk": "303028_01_50301",
   "fields": {
     "name": "Karlsnautr",
     "slug": "karlsnautr",
@@ -805,7 +805,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303030",
+  "pk": "303030_01_50401",
   "fields": {
     "name": "Thunderblade Sugaar",
     "slug": "thunderblade-sugaar",
@@ -817,7 +817,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303031",
+  "pk": "303031_01_50501",
   "fields": {
     "name": "Honor Edge",
     "slug": "honor-edge",
@@ -829,7 +829,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303033",
+  "pk": "303033_01_49901",
   "fields": {
     "name": "Hardbreaker",
     "slug": "hardbreaker",
@@ -841,7 +841,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303035",
+  "pk": "303035_01_59901",
   "fields": {
     "name": "Kris Naga",
     "slug": "kris-naga",
@@ -853,7 +853,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303058",
+  "pk": "303058_01_50201",
   "fields": {
     "name": "Frigid Sting",
     "slug": "frigid-sting",
@@ -865,7 +865,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303065",
+  "pk": "303065_01_50101",
   "fields": {
     "name": "Vermillion Pain",
     "slug": "vermillion-pain",
@@ -877,7 +877,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303088",
+  "pk": "303088_01_50301",
   "fields": {
     "name": "The Gale",
     "slug": "the-gale",
@@ -889,7 +889,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303096",
+  "pk": "303096_01_50501",
   "fields": {
     "name": "Death Seeker",
     "slug": "death-seeker",
@@ -901,7 +901,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303107",
+  "pk": "303107_01_50401",
   "fields": {
     "name": "Merciful Claw",
     "slug": "merciful-claw",
@@ -913,7 +913,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303109",
+  "pk": "303109_01_50301",
   "fields": {
     "name": "Windruler's Maw",
     "slug": "windrulers-maw",
@@ -925,7 +925,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303110",
+  "pk": "303110_01_50201",
   "fields": {
     "name": "Tideruler's Maw",
     "slug": "tiderulers-maw",
@@ -937,7 +937,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303111",
+  "pk": "303111_01_50401",
   "fields": {
     "name": "Fulminator's Maw",
     "slug": "fulminators-maw",
@@ -949,7 +949,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303112",
+  "pk": "303112_01_50101",
   "fields": {
     "name": "Flameruler's Maw",
     "slug": "flamerulers-maw",
@@ -961,7 +961,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303113",
+  "pk": "303113_01_50501",
   "fields": {
     "name": "Shaderuler's Maw",
     "slug": "shaderulers-maw",
@@ -973,7 +973,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303120",
+  "pk": "303120_01_59901",
   "fields": {
     "name": "Mega Dagger",
     "slug": "mega-dagger",
@@ -985,7 +985,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303122",
+  "pk": "303122_01_50101",
   "fields": {
     "name": "Chimeratech Elite",
     "slug": "chimeratech-elite",
@@ -997,7 +997,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303123",
+  "pk": "303123_01_50201",
   "fields": {
     "name": "Chimeratech Vetulicola",
     "slug": "chimeratech-vetulicola",
@@ -1009,7 +1009,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303124",
+  "pk": "303124_01_50301",
   "fields": {
     "name": "Chimeratech Tea Tree",
     "slug": "chimeratech-tea-tree",
@@ -1021,7 +1021,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303125",
+  "pk": "303125_01_50401",
   "fields": {
     "name": "Chimeratech Capella",
     "slug": "chimeratech-capella",
@@ -1033,7 +1033,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303126",
+  "pk": "303126_01_50501",
   "fields": {
     "name": "Chimeratech Rhapsody",
     "slug": "chimeratech-rhapsody",
@@ -1045,7 +1045,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303128",
+  "pk": "303128_01_60101",
   "fields": {
     "name": "Hrotti",
     "slug": "hrotti",
@@ -1057,7 +1057,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303129",
+  "pk": "303129_01_60201",
   "fields": {
     "name": "Futsu no Mitama",
     "slug": "futsu-no-mitama",
@@ -1069,7 +1069,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303130",
+  "pk": "303130_01_60301",
   "fields": {
     "name": "Carnwennan",
     "slug": "carnwennan",
@@ -1081,7 +1081,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303131",
+  "pk": "303131_01_60401",
   "fields": {
     "name": "Claíomh Solais",
     "slug": "claiomh-solais",
@@ -1093,7 +1093,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "303132",
+  "pk": "303132_01_60501",
   "fields": {
     "name": "Qinghong Jian",
     "slug": "qinghong-jian",
@@ -1105,7 +1105,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304001",
+  "pk": "304001_01_19901",
   "fields": {
     "name": "Battleworn Axe",
     "slug": "battleworn-axe",
@@ -1117,7 +1117,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304012",
+  "pk": "304012_01_59901",
   "fields": {
     "name": "Victory Axe",
     "slug": "victory-axe",
@@ -1129,7 +1129,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304013",
+  "pk": "304013_01_50401",
   "fields": {
     "name": "Radiant Swath",
     "slug": "radiant-swath",
@@ -1141,7 +1141,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304014",
+  "pk": "304014_01_50501",
   "fields": {
     "name": "Primordial Titan",
     "slug": "primordial-titan",
@@ -1153,7 +1153,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304025",
+  "pk": "304025_01_39901",
   "fields": {
     "name": "Warrior's Axe",
     "slug": "warriors-axe",
@@ -1165,7 +1165,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304026",
+  "pk": "304026_01_49901",
   "fields": {
     "name": "Plain Axe",
     "slug": "plain-axe",
@@ -1177,7 +1177,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304027",
+  "pk": "304027_01_50101",
   "fields": {
     "name": "Axe of the Blazing King",
     "slug": "axe-of-the-blazing-king",
@@ -1189,7 +1189,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304028",
+  "pk": "304028_01_50201",
   "fields": {
     "name": "Grand Seadragon",
     "slug": "grand-seadragon",
@@ -1201,7 +1201,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304029",
+  "pk": "304029_01_50301",
   "fields": {
     "name": "Axe of the Southern Cross",
     "slug": "axe-of-the-southern-cross",
@@ -1213,7 +1213,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304043",
+  "pk": "304043_01_50101",
   "fields": {
     "name": "Heavenwrath Gaze",
     "slug": "heavenwrath-gaze",
@@ -1225,7 +1225,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304066",
+  "pk": "304066_01_50201",
   "fields": {
     "name": "Permafrost Crash",
     "slug": "permafrost-crash",
@@ -1237,7 +1237,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304087",
+  "pk": "304087_01_50301",
   "fields": {
     "name": "Jagged Bolt",
     "slug": "jagged-bolt",
@@ -1249,7 +1249,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304095",
+  "pk": "304095_01_50501",
   "fields": {
     "name": "Genocide Cleaver",
     "slug": "genocide-cleaver",
@@ -1261,7 +1261,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304106",
+  "pk": "304106_01_50401",
   "fields": {
     "name": "Blitzfang",
     "slug": "blitzfang",
@@ -1273,7 +1273,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304108",
+  "pk": "304108_01_50301",
   "fields": {
     "name": "Glorystorm's Guide",
     "slug": "glorystorms-guide",
@@ -1285,7 +1285,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304109",
+  "pk": "304109_01_50201",
   "fields": {
     "name": "Mercy's Azure Tide",
     "slug": "mercys-azure-tide",
@@ -1297,7 +1297,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304110",
+  "pk": "304110_01_50401",
   "fields": {
     "name": "Mighty Thundercrash",
     "slug": "mighty-thundercrash",
@@ -1309,7 +1309,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304111",
+  "pk": "304111_01_50101",
   "fields": {
     "name": "Royal Crimson Heat",
     "slug": "royal-crimson-heat",
@@ -1321,7 +1321,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304112",
+  "pk": "304112_01_50501",
   "fields": {
     "name": "Shadowy Darkbite Axe",
     "slug": "shadowy-darkbite-axe",
@@ -1333,7 +1333,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304119",
+  "pk": "304119_01_59901",
   "fields": {
     "name": "Mega Axe",
     "slug": "mega-axe",
@@ -1345,7 +1345,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304121",
+  "pk": "304121_01_50101",
   "fields": {
     "name": "Chimeratech Warlord",
     "slug": "chimeratech-warlord",
@@ -1357,7 +1357,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304122",
+  "pk": "304122_01_50201",
   "fields": {
     "name": "Chimeratech Helmetia",
     "slug": "chimeratech-helmetia",
@@ -1369,7 +1369,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304123",
+  "pk": "304123_01_50301",
   "fields": {
     "name": "Chimeratech Palmarosa",
     "slug": "chimeratech-palmarosa",
@@ -1381,7 +1381,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304124",
+  "pk": "304124_01_50401",
   "fields": {
     "name": "Chimeratech Rigel",
     "slug": "chimeratech-rigel",
@@ -1393,7 +1393,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304125",
+  "pk": "304125_01_50501",
   "fields": {
     "name": "Chimeratech Fugue",
     "slug": "chimeratech-fugue",
@@ -1405,7 +1405,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304127",
+  "pk": "304127_01_60101",
   "fields": {
     "name": "Mjölnir",
     "slug": "mjolnir",
@@ -1417,7 +1417,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304128",
+  "pk": "304128_01_60201",
   "fields": {
     "name": "Ohohagari",
     "slug": "ohohagari",
@@ -1429,7 +1429,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304129",
+  "pk": "304129_01_60301",
   "fields": {
     "name": "Marmyadose",
     "slug": "marmyadose",
@@ -1441,7 +1441,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304130",
+  "pk": "304130_01_60401",
   "fields": {
     "name": "Rog Mol",
     "slug": "rog-mol",
@@ -1453,7 +1453,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "304131",
+  "pk": "304131_01_60501",
   "fields": {
     "name": "Fangtian Huaji",
     "slug": "fangtian-huaji",
@@ -1465,7 +1465,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305001",
+  "pk": "305001_01_19901",
   "fields": {
     "name": "Battleworn Lance",
     "slug": "battleworn-lance",
@@ -1477,7 +1477,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305014",
+  "pk": "305014_01_50201",
   "fields": {
     "name": "Ocean Lord",
     "slug": "ocean-lord",
@@ -1489,7 +1489,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305015",
+  "pk": "305015_01_59901",
   "fields": {
     "name": "Pactspear",
     "slug": "pactspear",
@@ -1501,7 +1501,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305029",
+  "pk": "305029_01_49901",
   "fields": {
     "name": "Strong Halberd",
     "slug": "strong-halberd",
@@ -1513,7 +1513,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305030",
+  "pk": "305030_01_50101",
   "fields": {
     "name": "Calamity Trigger",
     "slug": "calamity-trigger",
@@ -1525,7 +1525,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305032",
+  "pk": "305032_01_50301",
   "fields": {
     "name": "Spear of the Northern Cross",
     "slug": "spear-of-the-northern-cross",
@@ -1537,7 +1537,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305033",
+  "pk": "305033_01_50401",
   "fields": {
     "name": "Thunder King's Greatspear",
     "slug": "thunder-kings-greatspear",
@@ -1549,7 +1549,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305036",
+  "pk": "305036_01_50501",
   "fields": {
     "name": "Mistilteinn",
     "slug": "mistilteinn",
@@ -1561,7 +1561,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305039",
+  "pk": "305039_01_39901",
   "fields": {
     "name": "Trident",
     "slug": "trident",
@@ -1573,7 +1573,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305066",
+  "pk": "305066_01_50201",
   "fields": {
     "name": "Strohm Mare",
     "slug": "strohm-mare",
@@ -1585,7 +1585,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305077",
+  "pk": "305077_01_50101",
   "fields": {
     "name": "Flamedance Lance",
     "slug": "flamedance-lance",
@@ -1597,7 +1597,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305094",
+  "pk": "305094_01_50301",
   "fields": {
     "name": "Windsovereign Trident",
     "slug": "windsovereign-trident",
@@ -1609,7 +1609,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305102",
+  "pk": "305102_01_50501",
   "fields": {
     "name": "Final Eclipse",
     "slug": "final-eclipse",
@@ -1621,7 +1621,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305113",
+  "pk": "305113_01_50401",
   "fields": {
     "name": "Starpiercer",
     "slug": "starpiercer",
@@ -1633,7 +1633,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305115",
+  "pk": "305115_01_50301",
   "fields": {
     "name": "Guiding Gale",
     "slug": "guiding-gale",
@@ -1645,7 +1645,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305116",
+  "pk": "305116_01_50201",
   "fields": {
     "name": "Limpid Rush",
     "slug": "limpid-rush",
@@ -1657,7 +1657,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305117",
+  "pk": "305117_01_50401",
   "fields": {
     "name": "Brilliant Lightflash",
     "slug": "brilliant-lightflash",
@@ -1669,7 +1669,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305118",
+  "pk": "305118_01_50101",
   "fields": {
     "name": "Pureflame Lance",
     "slug": "pureflame-lance",
@@ -1681,7 +1681,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305119",
+  "pk": "305119_01_50501",
   "fields": {
     "name": "Ebon Scourge Lance",
     "slug": "ebon-scourge-lance",
@@ -1693,7 +1693,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305126",
+  "pk": "305126_01_59901",
   "fields": {
     "name": "Mega Lance",
     "slug": "mega-lance",
@@ -1705,7 +1705,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305128",
+  "pk": "305128_01_50101",
   "fields": {
     "name": "Chimeratech Lancemaster",
     "slug": "chimeratech-lancemaster",
@@ -1717,7 +1717,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305129",
+  "pk": "305129_01_50201",
   "fields": {
     "name": "Chimeratech Takakkawia",
     "slug": "chimeratech-takakkawia",
@@ -1729,7 +1729,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305130",
+  "pk": "305130_01_50301",
   "fields": {
     "name": "Chimeratech Caraway",
     "slug": "chimeratech-caraway",
@@ -1741,7 +1741,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305131",
+  "pk": "305131_01_50401",
   "fields": {
     "name": "Chimeratech Arcturus",
     "slug": "chimeratech-arcturus",
@@ -1753,7 +1753,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305132",
+  "pk": "305132_01_50501",
   "fields": {
     "name": "Chimeratech Elegy",
     "slug": "chimeratech-elegy",
@@ -1765,7 +1765,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305135",
+  "pk": "305135_01_60101",
   "fields": {
     "name": "Gungnir",
     "slug": "gungnir",
@@ -1777,7 +1777,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305136",
+  "pk": "305136_01_60201",
   "fields": {
     "name": "Ame no Nuhoko",
     "slug": "ame-no-nuhoko",
@@ -1789,7 +1789,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305137",
+  "pk": "305137_01_60301",
   "fields": {
     "name": "Rhongomyniad",
     "slug": "rhongomyniad",
@@ -1801,7 +1801,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305138",
+  "pk": "305138_01_60401",
   "fields": {
     "name": "Areadbhar",
     "slug": "areadbhar",
@@ -1813,7 +1813,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "305139",
+  "pk": "305139_01_60501",
   "fields": {
     "name": "Qinglong Yanyuedao",
     "slug": "qinglong-yanyuedao",
@@ -1825,7 +1825,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306001",
+  "pk": "306001_01_19901",
   "fields": {
     "name": "Battleworn Bow",
     "slug": "battleworn-bow",
@@ -1837,7 +1837,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306013",
+  "pk": "306013_01_49901",
   "fields": {
     "name": "Executor",
     "slug": "executor",
@@ -1849,7 +1849,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306014",
+  "pk": "306014_01_50501",
   "fields": {
     "name": "Necro Arcus",
     "slug": "necro-arcus",
@@ -1861,7 +1861,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306015",
+  "pk": "306015_01_59901",
   "fields": {
     "name": "Nitralica's Koto",
     "slug": "nitralicas-koto",
@@ -1873,7 +1873,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306026",
+  "pk": "306026_01_39901",
   "fields": {
     "name": "Composite Bow",
     "slug": "composite-bow",
@@ -1885,7 +1885,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306027",
+  "pk": "306027_01_50101",
   "fields": {
     "name": "Lupis Solis",
     "slug": "lupis-solis",
@@ -1897,7 +1897,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306029",
+  "pk": "306029_01_50201",
   "fields": {
     "name": "Peacock's Whorl",
     "slug": "peacocks-whorl",
@@ -1909,7 +1909,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306030",
+  "pk": "306030_01_50301",
   "fields": {
     "name": "Stellar Pegasus",
     "slug": "stellar-pegasus",
@@ -1921,7 +1921,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306031",
+  "pk": "306031_01_50401",
   "fields": {
     "name": "Thunderbow",
     "slug": "thunderbow",
@@ -1933,7 +1933,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306061",
+  "pk": "306061_01_50101",
   "fields": {
     "name": "Vulcanrage",
     "slug": "vulcanrage",
@@ -1945,7 +1945,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306071",
+  "pk": "306071_01_50201",
   "fields": {
     "name": "Everfrost Bow",
     "slug": "everfrost-bow",
@@ -1957,7 +1957,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306087",
+  "pk": "306087_01_50301",
   "fields": {
     "name": "Firmament Auger",
     "slug": "firmament-auger",
@@ -1969,7 +1969,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306095",
+  "pk": "306095_01_50501",
   "fields": {
     "name": "Black Dahlia Bow",
     "slug": "black-dahlia-bow",
@@ -1981,7 +1981,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306106",
+  "pk": "306106_01_50401",
   "fields": {
     "name": "Astral Echo",
     "slug": "astral-echo",
@@ -1993,7 +1993,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306108",
+  "pk": "306108_01_50301",
   "fields": {
     "name": "Jormungand's Fury",
     "slug": "jormungands-fury",
@@ -2005,7 +2005,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306109",
+  "pk": "306109_01_50201",
   "fields": {
     "name": "Azure Mercurius",
     "slug": "azure-mercurius",
@@ -2017,7 +2017,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306110",
+  "pk": "306110_01_50401",
   "fields": {
     "name": "Jupiter's Sky",
     "slug": "jupiters-sky",
@@ -2029,7 +2029,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306111",
+  "pk": "306111_01_50101",
   "fields": {
     "name": "Valkyrie's Fire",
     "slug": "valkyries-fire",
@@ -2041,7 +2041,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306112",
+  "pk": "306112_01_50501",
   "fields": {
     "name": "Hellish Prophecy",
     "slug": "hellish-prophecy",
@@ -2053,7 +2053,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306119",
+  "pk": "306119_01_59901",
   "fields": {
     "name": "Mega Bow",
     "slug": "mega-bow",
@@ -2065,7 +2065,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306121",
+  "pk": "306121_01_50101",
   "fields": {
     "name": "Chimeratech Sniper",
     "slug": "chimeratech-sniper",
@@ -2077,7 +2077,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306122",
+  "pk": "306122_01_50201",
   "fields": {
     "name": "Chimeratech Hallucigenia",
     "slug": "chimeratech-hallucigenia",
@@ -2089,7 +2089,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306123",
+  "pk": "306123_01_50301",
   "fields": {
     "name": "Chimeratech Ajwain",
     "slug": "chimeratech-ajwain",
@@ -2101,7 +2101,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306124",
+  "pk": "306124_01_50401",
   "fields": {
     "name": "Chimeratech Vega",
     "slug": "chimeratech-vega",
@@ -2113,7 +2113,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306125",
+  "pk": "306125_01_50501",
   "fields": {
     "name": "Chimeratech Concerto",
     "slug": "chimeratech-concerto",
@@ -2125,7 +2125,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306127",
+  "pk": "306127_01_60101",
   "fields": {
     "name": "Ýdalir",
     "slug": "ydalir",
@@ -2137,7 +2137,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306128",
+  "pk": "306128_01_60201",
   "fields": {
     "name": "Ame no Hajiyumi",
     "slug": "ame-no-hajiyumi",
@@ -2149,7 +2149,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306129",
+  "pk": "306129_01_60301",
   "fields": {
     "name": "Failnaught",
     "slug": "failnaught",
@@ -2161,7 +2161,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306130",
+  "pk": "306130_01_60401",
   "fields": {
     "name": "Tathlum",
     "slug": "tathlum",
@@ -2173,7 +2173,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "306131",
+  "pk": "306131_01_60501",
   "fields": {
     "name": "Longshe Gong",
     "slug": "longshe-gong",
@@ -2185,7 +2185,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307001",
+  "pk": "307001_01_19901",
   "fields": {
     "name": "Battleworn Wand",
     "slug": "battleworn-wand",
@@ -2197,7 +2197,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307012",
+  "pk": "307012_01_49901",
   "fields": {
     "name": "Latchkey",
     "slug": "latchkey",
@@ -2209,7 +2209,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307014",
+  "pk": "307014_01_50301",
   "fields": {
     "name": "Phytalmios",
     "slug": "phytalmios",
@@ -2221,7 +2221,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307015",
+  "pk": "307015_01_50101",
   "fields": {
     "name": "Terranigmus",
     "slug": "terranigmus",
@@ -2233,7 +2233,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307031",
+  "pk": "307031_01_59901",
   "fields": {
     "name": "Wand of the Torrent",
     "slug": "wand-of-the-torrent",
@@ -2245,7 +2245,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307032",
+  "pk": "307032_01_50201",
   "fields": {
     "name": "Ocean Monarch",
     "slug": "ocean-monarch",
@@ -2257,7 +2257,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307034",
+  "pk": "307034_01_50401",
   "fields": {
     "name": "Twilight Shimmer",
     "slug": "twilight-shimmer",
@@ -2269,7 +2269,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307035",
+  "pk": "307035_01_50501",
   "fields": {
     "name": "Underworld Despair",
     "slug": "underworld-despair",
@@ -2281,7 +2281,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307042",
+  "pk": "307042_01_39901",
   "fields": {
     "name": "Wizard's Rod",
     "slug": "wizards-rod",
@@ -2293,7 +2293,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307066",
+  "pk": "307066_01_50101",
   "fields": {
     "name": "Scepter of Infinite Fire",
     "slug": "scepter-of-infinite-fire",
@@ -2305,7 +2305,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307077",
+  "pk": "307077_01_50201",
   "fields": {
     "name": "Spirit Breaker",
     "slug": "spirit-breaker",
@@ -2317,7 +2317,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307095",
+  "pk": "307095_01_50301",
   "fields": {
     "name": "Typhoon's Rule",
     "slug": "typhoons-rule",
@@ -2329,7 +2329,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307103",
+  "pk": "307103_01_50501",
   "fields": {
     "name": "Dirge of Desperation",
     "slug": "dirge-of-desperation",
@@ -2341,7 +2341,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307114",
+  "pk": "307114_01_50401",
   "fields": {
     "name": "Worldshaker",
     "slug": "worldshaker",
@@ -2353,7 +2353,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307116",
+  "pk": "307116_01_50301",
   "fields": {
     "name": "Grand Tempest",
     "slug": "grand-tempest",
@@ -2365,7 +2365,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307117",
+  "pk": "307117_01_50201",
   "fields": {
     "name": "Aquatic Spiral",
     "slug": "aquatic-spiral",
@@ -2377,7 +2377,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307118",
+  "pk": "307118_01_50401",
   "fields": {
     "name": "Primeval Thunder",
     "slug": "primeval-thunder",
@@ -2389,7 +2389,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307119",
+  "pk": "307119_01_50101",
   "fields": {
     "name": "Infernoblaze",
     "slug": "infernoblaze",
@@ -2401,7 +2401,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307120",
+  "pk": "307120_01_50501",
   "fields": {
     "name": "Darkbinder",
     "slug": "darkbinder",
@@ -2413,7 +2413,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307127",
+  "pk": "307127_01_59901",
   "fields": {
     "name": "Mega Wand",
     "slug": "mega-wand",
@@ -2425,7 +2425,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307129",
+  "pk": "307129_01_50101",
   "fields": {
     "name": "Chimeratech Archmage",
     "slug": "chimeratech-archmage",
@@ -2437,7 +2437,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307130",
+  "pk": "307130_01_50201",
   "fields": {
     "name": "Chimeratech Hurdia",
     "slug": "chimeratech-hurdia",
@@ -2449,7 +2449,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307131",
+  "pk": "307131_01_50301",
   "fields": {
     "name": "Chimeratech Frankin",
     "slug": "chimeratech-frankin",
@@ -2461,7 +2461,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307132",
+  "pk": "307132_01_50401",
   "fields": {
     "name": "Chimeratech Betelgeuse",
     "slug": "chimeratech-betelgeuse",
@@ -2473,7 +2473,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307133",
+  "pk": "307133_01_50501",
   "fields": {
     "name": "Chimeratech Oratorio",
     "slug": "chimeratech-oratorio",
@@ -2485,7 +2485,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307135",
+  "pk": "307135_01_60101",
   "fields": {
     "name": "Brísingr",
     "slug": "brisingr",
@@ -2497,7 +2497,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307136",
+  "pk": "307136_01_60201",
   "fields": {
     "name": "Omizununo",
     "slug": "omizununo",
@@ -2509,7 +2509,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307137",
+  "pk": "307137_01_60301",
   "fields": {
     "name": "Camelot",
     "slug": "camelot",
@@ -2521,7 +2521,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307138",
+  "pk": "307138_01_60401",
   "fields": {
     "name": "Brionac",
     "slug": "brionac",
@@ -2533,7 +2533,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "307139",
+  "pk": "307139_01_60501",
   "fields": {
     "name": "Jiu Ci",
     "slug": "jiu-ci",
@@ -2545,7 +2545,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308001",
+  "pk": "308001_01_19901",
   "fields": {
     "name": "Battleworn Staff",
     "slug": "battleworn-staff",
@@ -2557,7 +2557,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308002",
+  "pk": "308002_01_39901",
   "fields": {
     "name": "Staff of Grace",
     "slug": "staff-of-grace",
@@ -2569,7 +2569,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308005",
+  "pk": "308005_01_49901",
   "fields": {
     "name": "Staff of Life",
     "slug": "staff-of-life",
@@ -2581,7 +2581,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308011",
+  "pk": "308011_01_50201",
   "fields": {
     "name": "Bracing Waters",
     "slug": "bracing-waters",
@@ -2593,7 +2593,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308014",
+  "pk": "308014_01_50401",
   "fields": {
     "name": "Light of Judgment",
     "slug": "light-of-judgment",
@@ -2605,7 +2605,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308015",
+  "pk": "308015_01_50501",
   "fields": {
     "name": "Caduceus",
     "slug": "caduceus",
@@ -2617,7 +2617,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308030",
+  "pk": "308030_01_59901",
   "fields": {
     "name": "Cane of Soul's Repose",
     "slug": "cane-of-souls-repose",
@@ -2629,7 +2629,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308031",
+  "pk": "308031_01_50101",
   "fields": {
     "name": "Staff of the Red Emperor",
     "slug": "staff-of-the-red-emperor",
@@ -2641,7 +2641,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308032",
+  "pk": "308032_01_50301",
   "fields": {
     "name": "Ancient Mage's Windcane",
     "slug": "ancient-mages-windcane",
@@ -2653,7 +2653,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308044",
+  "pk": "308044_01_50101",
   "fields": {
     "name": "Endless Demise",
     "slug": "endless-demise",
@@ -2665,7 +2665,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308055",
+  "pk": "308055_01_50201",
   "fields": {
     "name": "Endless Azure Core",
     "slug": "endless-azure-core",
@@ -2677,7 +2677,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308088",
+  "pk": "308088_01_50301",
   "fields": {
     "name": "Skypainter Staff",
     "slug": "skypainter-staff",
@@ -2689,7 +2689,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308096",
+  "pk": "308096_01_50501",
   "fields": {
     "name": "Aria of Lamentation",
     "slug": "aria-of-lamentation",
@@ -2701,7 +2701,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308107",
+  "pk": "308107_01_50401",
   "fields": {
     "name": "Dominus of Ever",
     "slug": "dominus-of-ever",
@@ -2713,7 +2713,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308109",
+  "pk": "308109_01_50301",
   "fields": {
     "name": "Stormruler",
     "slug": "stormruler",
@@ -2725,7 +2725,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308110",
+  "pk": "308110_01_50201",
   "fields": {
     "name": "Ocean's Embrace",
     "slug": "oceans-embrace",
@@ -2737,7 +2737,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308111",
+  "pk": "308111_01_50401",
   "fields": {
     "name": "Heavensneer",
     "slug": "heavensneer",
@@ -2749,7 +2749,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308112",
+  "pk": "308112_01_50101",
   "fields": {
     "name": "Blazegambol",
     "slug": "blazegambol",
@@ -2761,7 +2761,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308113",
+  "pk": "308113_01_50501",
   "fields": {
     "name": "Dark Hunger",
     "slug": "dark-hunger",
@@ -2773,7 +2773,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308120",
+  "pk": "308120_01_59901",
   "fields": {
     "name": "Mega Staff",
     "slug": "mega-staff",
@@ -2785,7 +2785,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308122",
+  "pk": "308122_01_50101",
   "fields": {
     "name": "Chimeratech Cardinal",
     "slug": "chimeratech-cardinal",
@@ -2797,7 +2797,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308123",
+  "pk": "308123_01_50201",
   "fields": {
     "name": "Chimeratech Metaldetes",
     "slug": "chimeratech-metaldetes",
@@ -2809,7 +2809,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308124",
+  "pk": "308124_01_50301",
   "fields": {
     "name": "Chimeratech Marjoram",
     "slug": "chimeratech-marjoram",
@@ -2821,7 +2821,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308125",
+  "pk": "308125_01_50401",
   "fields": {
     "name": "Chimeratech Procyon",
     "slug": "chimeratech-procyon",
@@ -2833,7 +2833,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308126",
+  "pk": "308126_01_50501",
   "fields": {
     "name": "Chimeratech Coda",
     "slug": "chimeratech-coda",
@@ -2845,7 +2845,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308128",
+  "pk": "308128_01_60101",
   "fields": {
     "name": "Gjallarhorn",
     "slug": "gjallarhorn",
@@ -2857,7 +2857,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308129",
+  "pk": "308129_01_60201",
   "fields": {
     "name": "Kunado",
     "slug": "kunado",
@@ -2869,7 +2869,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308130",
+  "pk": "308130_01_60301",
   "fields": {
     "name": "Avalon",
     "slug": "avalon",
@@ -2881,7 +2881,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308131",
+  "pk": "308131_01_60401",
   "fields": {
     "name": "Del Frith",
     "slug": "del-frith",
@@ -2893,7 +2893,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "308132",
+  "pk": "308132_01_60501",
   "fields": {
     "name": "Li Zhang",
     "slug": "li-zhang",
@@ -2905,7 +2905,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309001",
+  "pk": "309001_01_19901",
   "fields": {
     "name": "Battleworn Manacaster",
     "slug": "battleworn-manacaster",
@@ -2917,7 +2917,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309002",
+  "pk": "309002_01_49901",
   "fields": {
     "name": "Antique Manacaster",
     "slug": "antique-manacaster",
@@ -2929,7 +2929,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309009",
+  "pk": "309009_01_59901",
   "fields": {
     "name": "Chanzelian Caster",
     "slug": "chanzelian-caster",
@@ -2941,7 +2941,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309011",
+  "pk": "309011_01_50101",
   "fields": {
     "name": "Chanzelian Caster Mk. 65",
     "slug": "chanzelian-caster-mk-65",
@@ -2953,7 +2953,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309012",
+  "pk": "309012_01_50201",
   "fields": {
     "name": "Chanzelian Caster Mk. 72",
     "slug": "chanzelian-caster-mk-72",
@@ -2965,7 +2965,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309013",
+  "pk": "309013_01_50301",
   "fields": {
     "name": "Chanzelian Caster Mk. 21",
     "slug": "chanzelian-caster-mk-21",
@@ -2977,7 +2977,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309014",
+  "pk": "309014_01_50401",
   "fields": {
     "name": "Chanzelian Caster Mk. 62",
     "slug": "chanzelian-caster-mk-62",
@@ -2989,7 +2989,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309015",
+  "pk": "309015_01_50501",
   "fields": {
     "name": "Chanzelian Caster Mk. 81",
     "slug": "chanzelian-caster-mk-81",
@@ -3001,7 +3001,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309016",
+  "pk": "309016_01_50101",
   "fields": {
     "name": "Chimeratech Gunner",
     "slug": "chimeratech-gunner",
@@ -3013,7 +3013,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309017",
+  "pk": "309017_01_50201",
   "fields": {
     "name": "Chimeratech Marella",
     "slug": "chimeratech-marella",
@@ -3025,7 +3025,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309018",
+  "pk": "309018_01_50301",
   "fields": {
     "name": "Chimeratech Fennel",
     "slug": "chimeratech-fennel",
@@ -3037,7 +3037,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309019",
+  "pk": "309019_01_50401",
   "fields": {
     "name": "Chimeratech Al Nasr",
     "slug": "chimeratech-al-nasr",
@@ -3049,7 +3049,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309020",
+  "pk": "309020_01_50501",
   "fields": {
     "name": "Chimeratech Cantata",
     "slug": "chimeratech-cantata",
@@ -3061,7 +3061,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309021",
+  "pk": "309021_01_50101",
   "fields": {
     "name": "Crimson Trigger",
     "slug": "crimson-trigger",
@@ -3073,7 +3073,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309022",
+  "pk": "309022_01_50201",
   "fields": {
     "name": "Aqua Trigger",
     "slug": "aqua-trigger",
@@ -3085,7 +3085,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309023",
+  "pk": "309023_01_50301",
   "fields": {
     "name": "Tempest Trigger",
     "slug": "tempest-trigger",
@@ -3097,7 +3097,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309024",
+  "pk": "309024_01_50401",
   "fields": {
     "name": "Thunder Trigger",
     "slug": "thunder-trigger",
@@ -3109,7 +3109,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309025",
+  "pk": "309025_01_50501",
   "fields": {
     "name": "Curse Trigger",
     "slug": "curse-trigger",
@@ -3121,7 +3121,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309026",
+  "pk": "309026_01_60101",
   "fields": {
     "name": "Draupnir",
     "slug": "draupnir",
@@ -3133,7 +3133,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309027",
+  "pk": "309027_01_60201",
   "fields": {
     "name": "Ame no Torifune",
     "slug": "ame-no-torifune",
@@ -3145,7 +3145,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309028",
+  "pk": "309028_01_60301",
   "fields": {
     "name": "Gallatin",
     "slug": "gallatin",
@@ -3157,7 +3157,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309029",
+  "pk": "309029_01_60401",
   "fields": {
     "name": "Gae Assail",
     "slug": "gae-assail",
@@ -3169,7 +3169,7 @@
 },
 {
   "model": "game_data.weapon",
-  "pk": "309030",
+  "pk": "309030_01_60501",
   "fields": {
     "name": "Wanli Qi Yunyan",
     "slug": "wanli-qi-yunyan",

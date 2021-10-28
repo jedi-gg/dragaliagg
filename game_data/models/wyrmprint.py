@@ -44,14 +44,6 @@ class Wyrmprint(models.Model):
                 self.image_id, vestige_id, size)
             
             save_image(url, path)
-        
-        # for size in portrait_sizes:
-        #     url = '{}/thumb.php?f={}_r05_portrait.png&width={}'.format(
-        #         settings.BASE_WIKI_URL, self.id, size)
-        #     path = '_static/game_assets/adventurers/{}_portrait_{}.png'.format(
-        #         self.id, size)
-            
-        #     save_image(url, path)
 
     def __str__(self):
         return '{} - {}'.format(self.name, self.ability_name)

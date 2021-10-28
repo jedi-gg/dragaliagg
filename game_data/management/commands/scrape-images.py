@@ -2,7 +2,7 @@ import requests
 
 from django.core.management.base import BaseCommand
 
-from game_data.models import Adventurer, Wyrmprint
+from game_data.models import Adventurer, Wyrmprint, Dragon
 
 # Disable warnings
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
@@ -16,3 +16,6 @@ class Command(BaseCommand):
 
         for w in Wyrmprint.objects.all():
             w.download_images()
+
+        for d in Dragon.objects.all():
+            d.download_images()

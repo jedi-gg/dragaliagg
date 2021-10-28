@@ -34,6 +34,11 @@ class WyrmprintAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
 
 @admin.register(Dragon)
 class DragonAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
+    def image_tag(self, obj):
+        return format_html('<img src="{}" />'.format(obj.get_image(size=100)))
+    
+    list_display = ['image_tag', 'name']
+
     search_fields = ['name']
     actions = None
 

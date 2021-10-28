@@ -28,7 +28,8 @@
 </style>
 {% endblock %}
 
-{% block page_nav %}{% endblock %}
+{% block page_nav %}
+{% endblock %}
 
 {% block page_content %}
 <!-- CONTENT -->
@@ -39,13 +40,14 @@
             <!-- Card -->
             {% for slot, build in comp.get_team.items %}
             <div class="card" style="padding: 10px;">
+            
               <div class="row">
                 <div class="col-3 adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');"></div>
                 <div class="col-9" style="width: 80%;">
                   <h4 class="draglia-font-normal" style="font-size: 25px; margin-top: 10px; border-bottom: 2px solid #000;">{{ build.adventurer.name }}
                     <small style="float: right;">{{ build.get_slot_name }}</small>
                   </h4>
-                  <div class="wyrmprints">
+                  <div class="wyrmprints" style="display: block;">
                     {% for wp in build.get_all_wyrmprints %}
                     <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp.get_image }}" />
                     {% endfor %}

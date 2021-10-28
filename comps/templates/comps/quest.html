@@ -29,8 +29,8 @@
                         </p>
 
                         <p class="mb-0">
-                            {% for slot, adv in c.get_team.items %}
-                            <img src="{{ adv.get_image }}" style="width: 60px;" />
+                            {% for slot, build in c.get_team.items %}
+                            <img src="{{ build.adventurer.get_image }}" style="width: 60px;" />
                             {% endfor %}
                         </p>
 

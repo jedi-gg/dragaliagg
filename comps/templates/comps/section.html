@@ -18,19 +18,19 @@
 
                         <!-- Title -->
                         <h3 class="mb-1 name" style="font-size: 25px;">
-                        <a href="project-overview.html">{{ c }}</a>
+                        <a href="{{ c.get_absolute_url }}">{{ c }}</a>
                         </h3>
 
                         <p class="mb-0">{{ c.description }}</p>
 
                         <!-- Text -->
                         <p class="card-text small text-muted mb-1">
-                        <time datetime="2018-06-21">{{ c.difficulty }} - {{ c.clear_time }} - {{ c.clear_rate }}%</time>
+                            {{ c.difficulty }} - {% if c.clear_time %}{{ c.clear_time }} - {% endif %}{{ c.clear_rate }}%
                         </p>
 
                         <p class="mb-0">
-                            {% for slot, adv in c.get_team.items %}
-                            <img src="{{ adv.get_image }}" style="width: 60px;" />
+                            {% for slot, build in c.get_team.items %}
+                            <img src="{{ build.adventurer.get_image }}" style="width: 60px;" />
                             {% endfor %}
                         </p>
 

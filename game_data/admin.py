@@ -17,6 +17,11 @@ class ReadOnlyAdminMixin:
 
 @admin.register(Adventurer)
 class AdventurerAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
+    def image_tag(self, obj):
+        return format_html('<img src="{}" />'.format(obj.get_image(size=120)))
+
+    list_display = ['image_tag', 'name']
+
     search_fields = ['name']
     actions = None
 
@@ -44,5 +49,9 @@ class DragonAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
 
 @admin.register(Weapon)
 class WeaponAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
+    def image_tag(self, obj):
+        return format_html('<img src="{}" />'.format(obj.get_image(size=60)))
+
+    list_display = ['image_tag', 'name']
     search_fields = ['name']
     actions = None

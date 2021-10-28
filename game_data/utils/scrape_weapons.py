@@ -27,8 +27,7 @@ def scrape_weapons():
         for row in rows:
             cols = row.findAll('td')
 
-            id_parts = cols[0].find('img')['alt'].split(' ')
-            w_id = id_parts[0]
+            w_id = cols[0].find('img')['alt'].replace(' ','_').replace('.png', '')
             name = cols[1].find('a').text.strip()
 
             # Check if already in DB

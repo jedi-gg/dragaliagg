@@ -12,4 +12,4 @@ services:
       timeout: 10s
     labels:
       - "autoheal=true"
-    restart: on-failure
+    restart: unless-stopped

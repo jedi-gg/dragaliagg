@@ -52,6 +52,9 @@ class CompAdmin(admin.ModelAdmin):
         'difficulty',
     ]
 
+    list_display = ['title', 'creator', 'modified_date', ]
+    list_filter = ('section', 'quest', )
+
 @admin.register(CompSection)
 class CompSectionAdmin(admin.ModelAdmin):
     search_fields = ['title',]

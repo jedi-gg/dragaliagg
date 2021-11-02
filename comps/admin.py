@@ -55,6 +55,13 @@ class CompAdmin(admin.ModelAdmin):
     list_display = ['title', 'creator', 'modified_date', ]
     list_filter = ('section', 'quest', )
 
+    def delete_model(self, request, object):
+        # Manually delete adventurer builds
+        for build in object.builds.all():
+            build.delete()
+
+        object.delete()
+
 @admin.register(CompSection)
 class CompSectionAdmin(admin.ModelAdmin):
     search_fields = ['title',]

@@ -50,6 +50,7 @@ class CompAdmin(admin.ModelAdmin):
         'section',
         'quest',
         'difficulty',
+        'helper_dragon',
     ]
 
     list_display = ['title', 'creator', 'modified_date', ]

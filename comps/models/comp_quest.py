@@ -14,6 +14,7 @@ class CompQuest(SlugModel):
     ordering = models.PositiveIntegerField(default=0)
     description = models.TextField(blank=True, null=True)
     wiki_link = models.URLField(blank=True, null=True)
+    is_new = models.BooleanField(blank=True, null=True, default=False)
 
     section = models.ForeignKey('CompSection', related_name='quests', on_delete=models.DO_NOTHING, blank=True, null=True)
     difficulties = models.ManyToManyField('CompDifficulty')

@@ -3,92 +3,69 @@
 {% block header_pretitle %}Dragalia Lost{% endblock %}
 {% block header_title %}{{ comp }}{% endblock %}
 
-{% block extra_css %}
-<style>
-.popover {
-  max-width: 400px;
-  text-align: center;
-}
-.adventurer-image {
-  width: 20%;
-  min-width: 20%;
-  background-repeat: no-repeat;
-  background-position: top 0 left 4px;
-  background-size: contain;
-}
-@media (min-width: 769px){
-  .adventurer-image {
-    width: 16%;
-    min-width: 16%;
-  }
-}
-@media (max-width: 999px){
-  .wyrmprints {
-    width: 100%;
-  }
-}
-.wyrmprints img {
-  cursor: help;
-}
-</style>
-{% endblock %}
-
 {% block page_nav %}
 {% endblock %}
 
-{% block page_content %}
-<!-- CONTENT -->
-<div class="container-fluid">
-  <div class="row" style="max-width: 1100px;">
-    <div class="col-12 col-xl-8">
+{% block page_breadcrumb %}
+<nav aria-label="breadcrumb" class="mb-2">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ comp.quest.section.get_absolute_url }}">{{ comp.quest.section }}</a></li>
+        <li class="breadcrumb-item"><a href="{{ comp.quest.get_absolute_url }}">{{ comp.quest }}</a></li>
+        <li class="breadcrumb-item active mobile-hide" aria-current="page">{{ comp.title }}</li>
+    </ol>
+</nav>
+{% endblock %}
 
-      <!-- Card -->
-      {% for slot, build in comp.get_team.items %}
-      <div class="card" style="padding: 10px;">
-      
-        <div class="row">
-          <div class="col-3 adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');"></div>
-          <div class="col-2" style="width: 74px; padding-left: 0; padding-right: 0; padding-top: 5px;"><img src="{{ build.dragon.get_image }}" /><img src="{{ build.weapon|get_image_size:40 }}" /></div>
-          <div class="col-6" style="width: 73%; padding-left: 0;">
-            <h4 class="draglia-font-normal" style="font-size: 25px; margin-top: 10px; border-bottom: 2px solid #000;">{{ build.adventurer.name }}
-              <small style="float: right;">{{ build.get_slot_name }}</small>
-            </h4>
-            <div class="wyrmprints" style="display: block;">
-              {% for wp in build.get_all_wyrmprints %}
-              <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp.get_image }}" />
-              {% endfor %}
-            </div>
+{% block page_content %}
+<div class="row" style="max-width: 1100px;">
+  <div class="col-12 col-xl-8">
+
+    <!-- Card -->
+    {% for slot, build in comp.get_team.items %}
+    <div class="card" style="padding: 10px;">
+      <div class="row">
+        <div class="col-3 adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');"></div>
+        <div class="col-2 build-adventurer-dragon"><img src="{{ build.dragon.get_image }}" /><img src="{{ build.weapon|get_image_size:40 }}" /></div>
+        <div class="col-6 build-adventurer-box">
+          <h4 class="build-adventurer-name draglia-font-normal">{{ build.adventurer.name }}
+            <small style="float: right;">{{ build.get_slot_name }}</small>
+          </h4>
+          <div class="wyrmprints">
+            {% for wp in build.get_all_wyrmprints %}
+            <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp.get_image }}" />
+            {% endfor %}
           </div>
         </div>
       </div>
-      {% endfor %}
     </div>
+    {% endfor %}
+  </div>
 
-    <div class="col-12 col-xl-4">
-      <!-- Card -->
-      <div class="card">
-        <div class="card-body">
-          <div class="list-group list-group-flush my-n3">
-            {% for cd in comp_data %}
-            <div class="list-group-item">
-              <div class="row align-items-center">
-                <div class="col">
-                  <h5 class="mb-0">
-                    {{ cd.0 }}
-                  </h5>
-                </div>
-                <div class="col-auto">
-                  <small>
-                    {{ cd.1 }}
-                  </small>
-                </div>
+  <div class="col-12 col-xl-4">
+    <!-- Card -->
+    <div class="card">
+      <div class="card-body">
+        <div class="list-group list-group-flush my-n3">
+          {% for cd in comp_data %}
+          <div class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col">
+                <h5 class="mb-0">
+                  {{ cd.0 }}
+                </h5>
+              </div>
+              <div class="col-auto">
+                <small>
+                  {{ cd.1 }}
+                </small>
               </div>
             </div>
-            {% endfor %}
-        </div>
+          </div>
+          {% endfor %}
       </div>
-
     </div>
-  </div> <!-- / .row -->
-</div>
+
+  </div>
+</div> <!-- / .row -->
 {% endblock %}

@@ -1,0 +1,98 @@
+.draglia-font-normal {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.dragalia-font {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 0;
+    color: #fff;
+    text-shadow: #000 0 0 3px, #000 0 0 3px, #000 0 0 3px, #000 0 0 3px, #000 0 0 3px, #000 0 0 3px, #000 0 0 3px, #000 0 0 3px, #000 0 0 3px, #000 0 0 3px, #000 0 0 3px, #000 0 0 3px;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 460px) {
+    .mobile-hide {
+        display: none !important;
+    }
+}
+
+#sidebar {
+    color: #000;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.border-element-light {
+    border-color: #95700c;
+}
+.border-element-shadow {
+    border-color: #682484;
+}
+.border-element-wind {
+    border-color: #1f754d;
+}
+.border-element-flame {
+    border-color: #e73031;
+}
+.border-element-water {
+    border-color: #188ede;
+}
+.header {
+    margin-bottom: 1rem;
+}
+.header-body {
+    border-bottom: 0;
+}
+.header-tabs .nav-link {
+    padding-bottom: 0.5rem;
+}
+
+/* Comps CSS */
+.popover {
+    max-width: 400px;
+    text-align: center;
+}
+.adventurer-image {
+    width: 20%;
+    min-width: 20%;
+    background-repeat: no-repeat;
+    background-position: top 0 left 4px;
+    background-size: contain;
+}
+@media(min-width: 769px) {
+    .adventurer-image {
+        width: 16%;
+        min-width: 16%;
+    }
+}
+@media(max-width: 999px) {
+    .wyrmprints {
+        width: 100%;
+    }
+}
+.wyrmptints {
+    display: block;
+}
+.wyrmprints img {
+    cursor: help;
+}
+.build-adventurer-box {
+    width: 73%;
+    padding-left: 0;
+}
+.build-adventurer-dragon {
+    width: 74px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+}
+.build-adventurer-name {
+    font-size: 25px;
+    margin-top: 10px;
+    border-bottom: 2px solid #000;
+}

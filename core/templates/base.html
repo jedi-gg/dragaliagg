@@ -58,8 +58,14 @@
     .border-element-water {
       border-color: #188ede;
     }
+    .header {
+      margin-bottom: 1rem;
+    }
     .header-body {
       border-bottom: 0;
+    }
+    .header-tabs .nav-link {
+      padding-bottom: 0.5rem;
     }
     </style>
 
@@ -143,8 +149,12 @@
       </div> <!-- / .header -->
 
       <!-- CONTENT -->
-      {% block page_content %}
-      {% endblock %}
+      <div class="container-fluid">
+        {% block page_breadcrumb %}
+        {% endblock %}
+        {% block page_content %}
+        {% endblock %}
+      </div>
 
     </div> <!-- / .main-content -->
 

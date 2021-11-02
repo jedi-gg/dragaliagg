@@ -3,45 +3,51 @@
 {% block header_pretitle %}Dragalia Lost{% endblock %}
 {% block header_title %}{{ quest }} Comps{% endblock %}
 
+{% block page_breadcrumb %}
+<nav aria-label="breadcrumb" class="mb-2">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ quest.section.get_absolute_url }}">{{ quest.section }}</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ quest }}</li>
+    </ol>
+</nav>
+{% endblock %}
+
 {% block page_content %}
-<div data-list='{"valueNames": ["name"]}'>
-    <div class="container-fluid" data-list='{"valueNames": ["name"], "listClass": "listAlias"}'>
-        {% for c in comps %}
-         <div class="row list">
-            <div class="col-12">
+{% for c in comps %}
+    <div class="row list">
+    <div class="col-12">
 
-                <div class="card">
-                <div class="card-body" style="background: url('{{ c.get_lead.get_portrait }}') no-repeat left -10px; padding: 1rem">
-                    <div class="row align-items-center">
-                    <div class="col-auto" style="width: 185px;"></div>
-                    <div class="col ms-n2">
+        <div class="card">
+        <div class="card-body" style="background: url('{{ c.get_lead.get_portrait }}') no-repeat left -10px; padding: 1rem">
+            <div class="row align-items-center">
+            <div class="col-auto" style="width: 185px;"></div>
+            <div class="col ms-n2">
 
-                        <!-- Title -->
-                        <h3 class="mb-1 name" style="font-size: 25px;">
-                        <a href="{{ c.get_absolute_url }}">{{ c }}</a>
-                        </h3>
+                <!-- Title -->
+                <h3 class="mb-1 name" style="font-size: 25px;">
+                <a href="{{ c.get_absolute_url }}">{{ c }}</a>
+                </h3>
 
-                        <p class="mb-0">{{ c.description }}</p>
+                <p class="mb-0">{{ c.description }}</p>
 
-                        <!-- Text -->
-                        <p class="card-text small text-muted mb-1">
-                        <time datetime="2018-06-21">{{ c.difficulty }} - {{ c.clear_time }} - {{ c.clear_rate }}%</time>
-                        </p>
+                <!-- Text -->
+                <p class="card-text small text-muted mb-1">
+                <time datetime="2018-06-21">{{ c.difficulty }} - {{ c.clear_time }} - {{ c.clear_rate }}%</time>
+                </p>
 
-                        <p class="mb-0">
-                            {% for slot, build in c.get_team.items %}
-                            <img src="{{ build.adventurer.get_image }}" style="width: 60px;" />
-                            {% endfor %}
-                        </p>
-
-                    </div>
-                    </div> <!-- / .row -->
-                </div> <!-- / .card-body -->
-                </div>
+                <p class="mb-0">
+                    {% for slot, build in c.get_team.items %}
+                    <img src="{{ build.adventurer.get_image }}" style="width: 60px;" />
+                    {% endfor %}
+                </p>
 
             </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .card-body -->
         </div>
-        {% endfor %}
+
     </div>
 </div>
+{% endfor %}
 {% endblock %}

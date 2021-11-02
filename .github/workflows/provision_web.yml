@@ -1,0 +1,19 @@
+name: Provision - Web Server
+on:
+  workflow_dispatch:
+    inputs:
+      ip:
+        description: 'Target IP'
+        default: ''
+jobs:
+  provision-web:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+    - name: Provision Web Server
+      run: >
+        ansible-playbook
+        /home/ubuntu/actions-runner/_work/dragaliagg/dragaliagg/_prod/ansible/provision_web.yml
+        --extra-vars "target=${{ github.event.inputs.ip }} "
+        -i ${{ github.event.inputs.ip }},
+        --verbose

@@ -68,7 +68,7 @@
                 {% for event in section.get_quests %}
                 <li class="nav-item">
                   <a href="{{ event.get_absolute_url }}" class="nav-link">
-                    {{ event }}
+                    {{ event.nav_title }}{% if event.is_new %}<span class="badge bg-primary ms-auto">New!</span>{% endif %}
                   </a>
                 </li>
                 {% endfor %}

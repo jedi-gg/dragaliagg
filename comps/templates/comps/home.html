@@ -4,26 +4,29 @@
 {% block header_title %}Dragalia.GG{% endblock %}
 
 {% block page_nav %}
-<li class="nav-item">
-<a href="project-overview.html" class="nav-link active">
-    Latest Comps
-</a>
-</li>
-<li class="nav-item">
-<a href="project-files.html" class="nav-link">
-    Auto Comps
-</a>
-</li>
-<li class="nav-item">
-<a href="project-reports.html" class="nav-link">
-    Manual Comps
-</a>
-</li>
-<li class="nav-item">
-<a href="project-reports.html" class="nav-link">
-    Popular Comps
-</a>
-</li>
+<!-- Nav -->
+<ul class="nav nav-tabs nav-overflow header-tabs">
+    <li class="nav-item">
+    <a href="#" class="nav-link active">
+        Latest Comps
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="project-files.html" class="nav-link">
+        Auto Comps
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="project-reports.html" class="nav-link">
+        Manual Comps
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="project-reports.html" class="nav-link">
+        Popular Comps
+    </a>
+    </li>
+</ul>
 {% endblock %}
 
 {% block page_content %}
@@ -45,7 +48,7 @@
 
                         <!-- Title -->
                         <h3 class="mb-1 name" style="font-size: 25px;">
-                        <a href="project-overview.html">{{ c }}</a>
+                        <a href="{{ c.get_absolute_url }}">{{ c }}</a>
                         </h3>
 
                         <p class="mb-0">{{ c.description }}</p>

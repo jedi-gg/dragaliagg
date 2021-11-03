@@ -1,0 +1,52 @@
+[
+{
+  "model": "comps.compcreator",
+  "pk": 1,
+  "fields": {
+    "slug": "sermatheus",
+    "name": "sermatheus",
+    "description": "",
+    "creator_link_1": null
+  }
+},
+{
+  "model": "comps.compcreator",
+  "pk": 2,
+  "fields": {
+    "slug": "leondl",
+    "name": "LeonDL",
+    "description": "",
+    "creator_link_1": null
+  }
+},
+{
+  "model": "comps.compcreator",
+  "pk": 3,
+  "fields": {
+    "slug": "huang",
+    "name": "Huang",
+    "description": "",
+    "creator_link_1": null
+  }
+},
+{
+  "model": "comps.compcreator",
+  "pk": 4,
+  "fields": {
+    "slug": "teyah",
+    "name": "Teyah",
+    "description": "",
+    "creator_link_1": null
+  }
+},
+{
+  "model": "comps.compcreator",
+  "pk": 5,
+  "fields": {
+    "slug": "snow-dust",
+    "name": "Snow-Dust",
+    "description": "",
+    "creator_link_1": null
+  }
+}
+]

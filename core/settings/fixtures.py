@@ -15,6 +15,7 @@ FIXTURES_LIST_BASE = [
     'comps.compSection',
     'comps.CompQuest',
     'comps.CompType',
+    'comps.CompCreator',
     'comps.AdventurerBuild',
     'comps.Comp',
 ]
@@ -29,6 +30,7 @@ FIXTURES_LIST_DEV = [
     'comps.compSection',
     'comps.CompQuest',
     'comps.CompType',
+    'comps.CompCreator',
     'comps.AdventurerBuild',
     'comps.Comp',
 ]

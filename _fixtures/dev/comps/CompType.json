@@ -1,0 +1,20 @@
+[
+{
+  "model": "comps.comptype",
+  "pk": 1,
+  "fields": {
+    "slug": "auto",
+    "name": "Auto",
+    "description": ""
+  }
+},
+{
+  "model": "comps.comptype",
+  "pk": 2,
+  "fields": {
+    "slug": "manual",
+    "name": "Manual",
+    "description": ""
+  }
+}
+]

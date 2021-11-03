@@ -15,16 +15,16 @@
     -webkit-font-smoothing: antialiased;
 }
 
-@media (max-width: 460px) {
-    .mobile-hide {
-        display: none !important;
-    }
-}
-
 #sidebar {
     color: #000;
     background-position: bottom;
     background-size: cover;
+}
+
+.main-content {
+    background-image: url('/static/img/gg_bg2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .border-element-light {
@@ -36,7 +36,7 @@
 .border-element-wind {
     border-color: #1f754d;
 }
-.border-element-flame {
+.border-element-flame {fo
     border-color: #e73031;
 }
 .border-element-water {
@@ -50,6 +50,20 @@
 }
 .header-tabs .nav-link {
     padding-bottom: 0.5rem;
+}
+
+/* Listings */
+.comp-list-row .card-body {
+    background-image: var(--background);
+    background-repeat: no-repeat;
+    background-position: left -10px;
+    padding: 1rem
+}
+@media (max-width: 460px) {
+    .comp-list-row .card-body {
+        background-size: 30%;
+        background-position: left top;
+    }
 }
 
 /* Comps CSS */
@@ -95,4 +109,14 @@
     font-size: 25px;
     margin-top: 10px;
     border-bottom: 2px solid #000;
+}
+
+/* Mobile */
+@media (max-width: 460px) {
+    .mobile-hide {
+        display: none !important;
+    }
+    .main-content {
+        background-size: auto;
+    }
 }

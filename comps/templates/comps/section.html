@@ -32,39 +32,6 @@
 
 {% block page_content %}
 {% for c in comps %}
-    <div class="row list">
-    <div class="col-12">
-
-        <div class="card">
-        <div class="card-body" style="background: url('{{ c.get_lead.get_portrait }}') no-repeat left -10px; padding: 1rem">
-            <div class="row align-items-center">
-            <div class="col-auto" style="width: 185px;"><img src="{{ c.quest.get_banner_image }}" class="avatar-img rounded" style="margin-top: 90px;" /></div>
-            <div class="col ms-n2">
-
-                <!-- Title -->
-                <h3 class="mb-1 name" style="font-size: 25px;">
-                <a href="{{ c.get_absolute_url }}">{{ c }}</a>
-                </h3>
-
-                <p class="mb-0">{{ c.description }}</p>
-
-                <!-- Text -->
-                <p class="card-text small text-muted mb-1">
-                    {{ c.difficulty }} - {% if c.clear_time %}{{ c.clear_time }} - {% endif %}{{ c.clear_rate }}%
-                </p>
-
-                <p class="mb-0">
-                    {% for slot, build in c.get_team.items %}
-                    <img src="{{ build.adventurer.get_image }}" style="width: 60px;" />
-                    {% endfor %}
-                </p>
-
-            </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .card-body -->
-        </div>
-
-    </div>
-</div>
+{% include "comps/partials/comp_listing_row.html" %}
 {% endfor %}
 {% endblock %}

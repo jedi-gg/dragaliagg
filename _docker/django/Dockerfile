@@ -18,4 +18,8 @@ RUN pip install -r /tmp/requirements.txt
 # Create Log Files
 RUN mkdir -p /var/log/applogs/
 
+# Add Entrypoint file
+COPY _docker/django/entrypoint.sh /
+RUN chmod +x /entrypoint.sh
+
 CMD ["/bin/bash"]

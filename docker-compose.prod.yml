@@ -15,6 +15,7 @@ services:
       service: dg.django
     environment:
       <<: *web-variables
+    entrypoint: /entrypoint.sh
 
   dg.nginx:
     extends:

@@ -6,6 +6,7 @@ x-web-variables: &web-variables
   MYSQL_USER: ${SQL_USER-root}
   MYSQL_ROOT_PASSWORD: ${SQL_PASSWORD-root}
   MYSQL_HOST: ${SQL_HOST-dg.sql}
+  DJANGO_SECRET_KEY: ${DJANGO_SUPERUSER_EMAIL-secret}
 
 services:
   dg.django:

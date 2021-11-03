@@ -8,13 +8,18 @@
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
         <li class="breadcrumb-item"><a href="{{ quest.section.get_absolute_url }}">{{ quest.section }}</a></li>
-        <li class="breadcrumb-item active" aria-current="page">{{ quest }}</li>
+        <li class="breadcrumb-item active" aria-current="page">{{ quest.nav_title }}</li>
     </ol>
 </nav>
 {% endblock %}
 
 {% block page_content %}
+
 {% for c in comps %}
+{% if forloop.first %}
 {% include "comps/partials/comp_listing_row.html" %}
+{% else %}
+{% include "comps/partials/comp_listing_row.html" with no_banner=True %}
+{% endif %}
 {% endfor %}
 {% endblock %}

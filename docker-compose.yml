@@ -12,14 +12,6 @@ x-web-variables: &web-variables
   DJANGO_SECRET_KEY: ${DJANGO_SUPERUSER_EMAIL-secret}
 
 services:
-  dg.redis:
-    image: redis:6.0.5
-    container_name: dg.redis
-    ports:
-      - 6379:6379
-    volumes:
-      - redis:/data
-
   dg.sql:
     container_name: dg.sql
     image: mariadb:10.3-focal
@@ -38,20 +30,5 @@ services:
     environment:
       <<: *web-variables
 
-  dg.nginx:
-    extends:
-      file: ./_docker/docker-nginx.yml
-      service: dg.nginx
-    volumes:
-      - ./_docker/django/nginx.dev.conf:/etc/nginx/conf.d/app.conf
-    depends_on:
-      - dg.django
-    ports:
-      - 80:80
-    healthcheck:
-      test: ["CMD-SHELL"]
-      timeout: 10h
-
 volumes:
   sql: {}
-  redis: {}

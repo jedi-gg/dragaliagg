@@ -21,7 +21,7 @@ services:
       file: ./_docker/docker-nginx.yml
       service: dg.nginx
     volumes:
-      - ./_docker/django/nginx.dev.conf:/etc/nginx/conf.d/app.conf
+      - ./_docker/nginx/nginx.conf:/etc/nginx/conf.d/app.conf
     depends_on:
       - dg.django
     ports:
@@ -29,7 +29,8 @@ services:
     healthcheck:
       test: ["CMD-SHELL"]
       timeout: 10h
-
-volumes:
-  sql: {}
-  redis: {}
+  
+  autoheal:
+    extends:
+      file: ./_docker/docker-autoheal.yml
+      service: autoheal

@@ -21,7 +21,11 @@
     "quest": 1,
     "difficulty": 3,
     "shared_skill_1": "100001_01",
-    "shared_skill_2": "100007_07"
+    "shared_skill_2": "100007_07",
+    "helper": false,
+    "helper_dragon": null,
+    "created_date": "2021-11-02T17:25:34.370Z",
+    "modified_date": "2021-11-02T17:25:34.382Z"
   }
 },
 {
@@ -46,7 +50,11 @@
     "quest": 1,
     "difficulty": 3,
     "shared_skill_1": "100001_12",
-    "shared_skill_2": "110019_01"
+    "shared_skill_2": "110019_01",
+    "helper": false,
+    "helper_dragon": null,
+    "created_date": "2021-11-02T17:25:34.370Z",
+    "modified_date": "2021-11-02T17:25:34.382Z"
   }
 },
 {
@@ -71,7 +79,11 @@
     "quest": 3,
     "difficulty": 3,
     "shared_skill_1": "100010_04",
-    "shared_skill_2": "110346_01"
+    "shared_skill_2": "110346_01",
+    "helper": false,
+    "helper_dragon": null,
+    "created_date": "2021-11-02T17:25:34.370Z",
+    "modified_date": "2021-11-02T17:25:34.382Z"
   }
 },
 {
@@ -96,7 +108,11 @@
     "quest": 2,
     "difficulty": 3,
     "shared_skill_1": "110337_01",
-    "shared_skill_2": "100003_01"
+    "shared_skill_2": "100003_01",
+    "helper": false,
+    "helper_dragon": null,
+    "created_date": "2021-11-02T17:25:34.370Z",
+    "modified_date": "2021-11-02T17:25:34.382Z"
   }
 },
 {
@@ -121,7 +137,11 @@
     "quest": 5,
     "difficulty": 2,
     "shared_skill_1": null,
-    "shared_skill_2": "110337_03"
+    "shared_skill_2": "110337_03",
+    "helper": false,
+    "helper_dragon": null,
+    "created_date": "2021-11-02T17:25:34.370Z",
+    "modified_date": "2021-11-02T17:34:13.366Z"
   }
 }
 ]

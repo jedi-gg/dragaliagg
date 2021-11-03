@@ -11,6 +11,7 @@
     "ordering": 6,
     "description": "",
     "wiki_link": "https://dragalialost.wiki/w/Asura%27s_Blinding_Light",
+    "is_new": false,
     "section": 1,
     "difficulties": [
       2,
@@ -31,6 +32,7 @@
     "ordering": 5,
     "description": "",
     "wiki_link": "https://dragalialost.wiki/w/Lilith%27s_Encroaching_Shadow",
+    "is_new": false,
     "section": 1,
     "difficulties": [
       2,
@@ -51,6 +53,7 @@
     "ordering": 10,
     "description": "",
     "wiki_link": "https://dragalialost.wiki/w/Jaldabaoth%27s_Piercing_Gale",
+    "is_new": false,
     "section": 1,
     "difficulties": [
       2,
@@ -71,6 +74,7 @@
     "ordering": 9,
     "description": "",
     "wiki_link": "https://dragalialost.wiki/w/Iblis%27s_Surging_Cascade",
+    "is_new": false,
     "section": 1,
     "difficulties": [
       2,
@@ -91,9 +95,31 @@
     "ordering": 10,
     "description": "",
     "wiki_link": "https://dragalialost.wiki/w/Volk%27s_Wrath",
+    "is_new": false,
     "section": 2,
     "difficulties": [
       1,
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "comps.compquest",
+  "pk": 6,
+  "fields": {
+    "slug": "surtrs-devouring-flame",
+    "title": "Surtr's Devouring Flame",
+    "nav_title": "Surtr",
+    "banner_title": null,
+    "element": 3,
+    "ordering": 7,
+    "description": "",
+    "wiki_link": "https://dragalialost.wiki/w/Surtr%27s_Devouring_Flame",
+    "is_new": true,
+    "section": 1,
+    "difficulties": [
       2,
       3,
       4

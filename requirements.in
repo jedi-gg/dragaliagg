@@ -3,6 +3,7 @@ boto3
 django
 django-debug-toolbar
 django-redis-cache
+gunicorn
 html5lib
 mysqlclient
 pip-tools

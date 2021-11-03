@@ -10,6 +10,9 @@ Import environment settings
 if config('ENV', default='DEV') == 'DEV':
     from ._dev import *
 
+if config('ENV', default='DEV') == 'PROD':
+    from ._prod import *
+
 """
 If applicable, import local settings.
 """

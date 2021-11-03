@@ -27,8 +27,8 @@ services:
     ports:
       - 80:80
     healthcheck:
-      test: ["CMD-SHELL"]
-      timeout: 10h
+      test: ["CMD-SHELL", "wget -O /dev/null http://dg.nginx:80 || exit 1"]
+      timeout: 10s
   
   autoheal:
     extends:

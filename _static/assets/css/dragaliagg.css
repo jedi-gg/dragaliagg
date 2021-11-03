@@ -59,10 +59,41 @@
     background-position: left -10px;
     padding: 1rem
 }
+.comp-list-row .card-body h3 {
+    font-size: 25px;
+}
+.comp-list-card-portrait {
+    
+}
+.comp-list-card-portrait-banner {
+    width: 160px;
+    margin-top: 90px;
+    height: 42px;
+    background: url('/static/game_assets/banners/banner_bg_160.png') no-repeat left;
+    background-size: cover;
+}
+.comp-list-card-portrait-banner img {
+    object-fit: cover;
+    height: 36px;
+    width: 160px;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 3px;
+}
 @media (max-width: 460px) {
     .comp-list-row .card-body {
-        background-size: 30%;
-        background-position: left top;
+        background-image: none;
+    }
+    .comp-list-card-portrait {
+        display: block;
+        width: 100%;
+    }
+    .comp-list-card-portrait-banner {
+        margin: 0 auto 5px auto;
+    }
+
+    .comp-list-row .card-body h3 {
+        font-size: 20px;
     }
 }
 

@@ -103,22 +103,11 @@
     text-align: center;
 }
 .adventurer-image {
-    width: 20%;
-    min-width: 20%;
+    width: 100%;
+    height: 95px;
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom center;
     background-size: contain;
-}
-@media(min-width: 769px) {
-    .adventurer-image {
-        width: 16%;
-        min-width: 16%;
-    }
-}
-@media(max-width: 999px) {
-    .wyrmprints {
-        width: 100%;
-    }
 }
 .wyrmptints {
     display: block;
@@ -139,7 +128,7 @@
 }
 .build-adventurer-dragon img {
     display: inline-block;
-    width: 40px;
+    width: 45px;
 }
 .build-adventurer-name {
     font-size: 25px;
@@ -154,5 +143,15 @@
     }
     .main-content {
         background-size: auto;
+    }
+    .build-adventurer-name {
+        font-size: 18px;
+    }
+    .wyrmprints {
+        text-align: center;
+    }
+    .wyrmprints img {
+        cursor: help;
+        width: 52px;
     }
 }

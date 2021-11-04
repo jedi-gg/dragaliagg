@@ -38,13 +38,13 @@
     {% for slot, build in comp.get_team.items %}
     <div class="card" style="padding: 10px;">
       <div class="row">
-        <div class="col-2">
-          <div class="adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}'); width: 100%; height: 95px;">&nbsp;</div>
+        <div class="col-4 col-sm-2">
+          <div class="adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');">&nbsp;</div>
           <div class="build-adventurer-dragon">
             <img src="{{ build.dragon.get_image }}" /><img src="{{ build.weapon.get_image }}" />
           </div>
         </div>
-        <div class="col-10 build-adventurer-box">
+        <div class="col-8 col-sm-10 build-adventurer-box">
           <h4 class="build-adventurer-name draglia-font-normal">{{ build.adventurer.name }}
             <small style="float: right;">{{ build.get_slot_name }}</small>
           </h4>

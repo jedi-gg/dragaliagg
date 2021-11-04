@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block header_pretitle %}Dragalia Lost{% endblock %}
+{% block header_title %}{{ title }} Comps{% endblock %}
+
+{% block page_breadcrumb %}
+<nav aria-label="breadcrumb" class="mb-2">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+        {% if list_type == 'section' %}
+        <li class="breadcrumb-item active" ia-current="page">{{ section }}</li>
+        {% endif %}
+        {% if list_type == 'quest' %}
+        <li class="breadcrumb-item"><a href="{{ section.get_absolute_url }}">{{ section }}</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ quest.nav_title }}</li>
+        {% endif %}
+        {% if list_type == 'difficulty' %}
+        <li class="breadcrumb-item"><a href="{{ section.get_absolute_url }}">{{ section }}</a></li>
+        <li class="breadcrumb-item"><a href="{{ quest.get_absolute_url }}">{{ quest.nav_title }}</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ difficulty }}</li>
+        {% endif %}
+    </ol>
+</nav>
+{% endblock %}
+
+{% block page_nav %}
+{% if list_type == 'section' %}
+{% include "comps/partials/section_nav.html" %}
+{% else %}
+{% include "comps/partials/quest_nav.html" %}
+{% endif %}
+{% endblock %}
+
+{% block page_content %}
+{% if not comps %}
+No Comps!
+{% endif %}
+{% for c in comps %}
+{% if list_type == 'quest' or list_type == 'difficulty'%}
+    {% if forloop.first %}
+        {% include "comps/partials/comp_listing_row.html" %}
+    {% else %}
+        {% include "comps/partials/comp_listing_row.html" with no_banner=True %}
+    {% endif %}
+{% else %}
+{% include "comps/partials/comp_listing_row.html" %}
+{% endif %}
+{% endfor %}
+{% endblock %}

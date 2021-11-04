@@ -36,7 +36,11 @@ class Comp(SlugModel):
     modified_date = models.DateTimeField(auto_now=True)
 
     def slug_name(self):
-        return self.title
+        return '{}-{}-{}'.format(
+            self.created_date.strftime("%d%m%y"),
+            self.difficulty,
+            self.creator
+        )
     
     def get_team(self):
         comp_slots = {}
@@ -67,6 +71,7 @@ class Comp(SlugModel):
             'comp_slug': self.slug,
             'section_slug': self.section.slug,
             'quest_slug': self.quest.slug,
+            'difficulty_slug': self.difficulty.slug,
         })
 
     def __str__(self):

@@ -7,15 +7,13 @@
       >
         <div class="row align-items-center">
           <div class="col-auto comp-list-card-portrait">
-          {% if not no_banner %}
-            <div class="comp-list-card-portrait-banner">
+            <div class="comp-list-card-portrait-banner{% if no_banner %} mobile-hide{% endif %}">
               <img
                 src="{{ c.quest.get_banner_image }}"
                 class="border-element-{{ c.quest.get_element|lower }}"
               />
             </div>
           </div>
-          {% endif %}
           <div class="col ms-n2">
             <!-- Title -->
             <h3 class="mb-1 name">

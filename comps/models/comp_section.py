@@ -24,7 +24,7 @@ class CompSection(SlugModel):
         return self.nav_title if self.nav_title else self.title
 
     def get_absolute_url(self):
-        return reverse('section-list', kwargs={
+        return reverse('comp-list', kwargs={
             'section_slug': self.slug,
         })
 

@@ -1,0 +1,14 @@
+<ul class="nav nav-tabs nav-overflow header-tabs">
+    <li class="nav-item">
+    <a href="{{ quest.get_absolute_url }}" class="nav-link active">
+        All Comps
+    </a>
+    </li>
+    {% for d in quest.difficulties.all %}
+    <li class="nav-item">
+        <a href="{% url 'comp-list' quest.section.slug quest.slug d.slug %}" class="nav-link">
+            {{ d }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

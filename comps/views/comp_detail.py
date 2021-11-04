@@ -13,6 +13,8 @@ class CompDetail(DetailView):
     def get_context_data(self, **kwargs):
         context = super(CompDetail, self).get_context_data(**kwargs)
 
+        print(self.object.created_date.strftime("%d%m%y"))
+
         context['section'] = self.object.section
 
         auto_shapeshift = 'Off'

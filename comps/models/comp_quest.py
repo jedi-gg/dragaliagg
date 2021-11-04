@@ -39,7 +39,7 @@ class CompQuest(SlugModel):
         )
     
     def get_absolute_url(self):
-        return reverse('quest-list', kwargs={
+        return reverse('comp-list', kwargs={
             'section_slug': self.section.slug,
             'quest_slug': self.slug,
         })

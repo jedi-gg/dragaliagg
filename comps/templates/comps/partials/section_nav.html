@@ -1,0 +1,14 @@
+<ul class="nav nav-tabs nav-overflow header-tabs">
+    <li class="nav-item">
+    <a href="{{ section.get_absolute_url }}" class="nav-link active">
+        All<span class="d-none d-sm-inline-block">&nbsp;Comps</span>
+    </a>
+    </li>
+    {% for event in section.get_quests %}
+    <li class="nav-item">
+        <a href="{{ event.get_absolute_url }}" class="nav-link">
+        {{ event.nav_title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

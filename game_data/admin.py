@@ -50,8 +50,10 @@ class DragonAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
 @admin.register(Weapon)
 class WeaponAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
     def image_tag(self, obj):
-        return format_html('<img src="{}" />'.format(obj.get_image(size=60)))
+        return format_html('<img src="{}" />'.format(obj.get_image(size=100)))
 
-    list_display = ['image_tag', 'name']
+    list_filter = ('element', 'rarity', )
+    list_display = ['image_tag', 'name', 'rarity']
+    ordering = ('-rarity', 'name')
     search_fields = ['name']
     actions = None

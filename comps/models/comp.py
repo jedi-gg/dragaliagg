@@ -44,6 +44,12 @@ class Comp(SlugModel):
         
         return comp_slots
     
+    @property
+    def get_title(self):
+        constructed_title = '{}: {} - {}'.format(
+            self.quest, self.difficulty, self.creator)
+        return self.title if self.title else constructed_title
+    
     def get_lead(self):
         return self.builds.get(slot=AdventurerSlotEnum.LEAD_UNIT.value).adventurer
     
@@ -62,4 +68,4 @@ class Comp(SlugModel):
         })
 
     def __str__(self):
-        return self.title
+        return self.get_title

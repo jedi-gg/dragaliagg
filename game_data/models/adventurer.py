@@ -13,7 +13,7 @@ class Adventurer(models.Model):
     element = models.CharField(max_length=50)
     weapon = models.CharField(max_length=50)
 
-    def get_image(self, size=60):
+    def get_image(self, size=120):
         return '{}game_assets/adventurers/{}_{}.png'.format(
             settings.STATIC_URL,
             self.id,

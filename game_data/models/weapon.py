@@ -13,7 +13,7 @@ class Weapon(models.Model):
     element = models.CharField(max_length=50)
     type = models.CharField(max_length=50)
 
-    def get_image(self, size=60):
+    def get_image(self, size=155):
         return '{}game_assets/weapons/{}_{}.png'.format(
             settings.STATIC_URL,
             self.id,

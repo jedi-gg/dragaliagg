@@ -131,10 +131,13 @@
     padding-left: 0;
 }
 .build-adventurer-dragon {
-    width: 74px;
+    width: 100%;
     padding-left: 0;
     padding-right: 0;
     padding-top: 5px;
+}
+.build-adventurer-dragon img {
+    display: inline-block;
 }
 .build-adventurer-name {
     font-size: 25px;

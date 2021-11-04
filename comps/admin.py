@@ -42,6 +42,7 @@ class AdventurerBuildInline(admin.StackedInline):
 class CompAdmin(admin.ModelAdmin):
     inlines = [AdventurerBuildInline,]
     save_as = True
+    save_on_top = True
 
     autocomplete_fields = [
         'creator',

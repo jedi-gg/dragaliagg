@@ -9,6 +9,7 @@ from game_data.models import Adventurer, Dragon
 class Comp(SlugModel):
     comp_type = models.ForeignKey('CompType', related_name='comps', on_delete=models.DO_NOTHING, blank=True, null=True)
     title = models.CharField(max_length=100, null=True, blank=True)
+    suffix = models.CharField(max_length=100, null=True, blank=True)
     creator = models.ForeignKey('CompCreator', related_name='comps', on_delete=models.DO_NOTHING, blank=True, null=True)
     post_date = models.DateField(blank=True, null=True)
     auto_shapeshift = models.BooleanField(blank=True, null=True)
@@ -46,8 +47,9 @@ class Comp(SlugModel):
     
     @property
     def get_title(self):
-        constructed_title = '{}: {} - {}'.format(
-            self.quest, self.difficulty, self.creator)
+        suffix = ' {}'.format(self.suffix) if self.suffix else ''
+        constructed_title = '{}: {} - {}{}'.format(
+            self.quest, self.difficulty, self.creator, suffix)
         return self.title if self.title else constructed_title
     
     def get_lead(self):

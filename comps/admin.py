@@ -19,10 +19,10 @@ class AdventurerBuildInline(admin.StackedInline):
     autocomplete_fields = [
         'adventurer',
         'dragon',
-        'weapon',
     ]
 
     raw_id_fields = (
+        'weapon',
         'wyrmprint_1',
         'wyrmprint_2',
         'wyrmprint_3',

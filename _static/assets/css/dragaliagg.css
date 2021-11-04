@@ -106,7 +106,7 @@
     width: 20%;
     min-width: 20%;
     background-repeat: no-repeat;
-    background-position: top 0 left 4px;
+    background-position: bottom left;
     background-size: contain;
 }
 @media(min-width: 769px) {
@@ -125,12 +125,13 @@
 }
 .wyrmprints img {
     cursor: help;
+    width: 79px;
 }
 .build-adventurer-box {
-    width: 73%;
     padding-left: 0;
 }
 .build-adventurer-dragon {
+    text-align: center;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -138,6 +139,7 @@
 }
 .build-adventurer-dragon img {
     display: inline-block;
+    width: 40px;
 }
 .build-adventurer-name {
     font-size: 25px;

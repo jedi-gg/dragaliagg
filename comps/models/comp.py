@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from django.utils.text import slugify
 
 from comps.enums import AdventurerSlotEnum
 from core.models import SlugModel
@@ -36,11 +37,16 @@ class Comp(SlugModel):
     modified_date = models.DateTimeField(auto_now=True)
 
     def slug_name(self):
-        return '{}-{}-{}'.format(
-            self.created_date.strftime("%d%m%y"),
+        slug_string = '{}-{}-{}'.format(
+            self.post_date.strftime("%d%m%y"),
             self.difficulty,
             self.creator
         )
+
+        if self.suffix:
+            slug_string = '{}-{}'.format(slug_string, slugify(self.suffix))
+        
+        return slug_string
     
     def get_team(self):
         comp_slots = {}

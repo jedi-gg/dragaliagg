@@ -8,7 +8,7 @@
 <meta property="og:url" content="{{ request.build_absolute_uri }}" />
 <meta property="og:description" content="{{ comp.difficulty }} {{ comp.quest }} featuring {{ comp.get_lead }} lead." />
 <meta property="og:site_name" content="Dragalia.gg - Dragalia Lost Team Compositions & Builds" />
-<meta property="og:image" content="{{ request.get_host }}{{ comp.get_lead.get_image }}" />
+<meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{{ comp.get_lead.get_image }}" />
 {% endblock %}
 
 {% block header_pretitle %}Dragalia Lost{% endblock %}

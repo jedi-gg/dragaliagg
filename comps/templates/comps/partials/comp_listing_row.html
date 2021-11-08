@@ -22,17 +22,16 @@
 
             <p class="mb-0">{{ c.description }}</p>
 
-            <!-- Text -->
-            <p class="card-text small text-muted mb-1">
-              <time datetime="2018-06-21"
-                >{{ c.difficulty }} - {{ c.clear_time }} - {{ c.clear_rate }}%</time
-              >
-            </p>
-
             <p class="mb-0">
               {% for slot, build in c.get_team.items %}
               <img src="{{ build.adventurer.get_image }}" style="width: 60px" />
               {% endfor %}
+            </p>
+
+            <p class="card-text   mb-1">
+                <span class="badge bg-{{ c.difficulty|lower }}">{{ c.difficulty }}</span>
+                <span class="badge bg-primary-soft">{{ c.clear_time }}</span>
+                {% if c.clear_rate %}<span class="badge bg-primary-soft">Clear Rate: {{ c.clear_rate }}%</span>{% endif %}
             </p>
           </div>
         </div>

@@ -136,6 +136,24 @@
     border-bottom: 2px solid #000;
 }
 
+/* Badges */
+.badge.bg-standard {
+    background-color: #68c3fd;
+    color: #000;
+}
+.badge.bg-expert {
+    background-color: #ffd824;
+    color: #000;
+}
+.badge.bg-master {
+    background-color: #fb7b8c;
+    color: #000;
+}
+.badge.bg-legend {
+    background-color: #c29cfa;
+    color: #000;
+}
+
 /* Mobile */
 @media (max-width: 460px) {
     .mobile-hide {

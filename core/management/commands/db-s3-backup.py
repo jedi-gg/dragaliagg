@@ -15,7 +15,7 @@ class Command(BaseCommand):
 
         bucket_name = 'dragaliagg'
         object_name = 'dragaliagg-db-backup.sql'
-        db_file_path = 'data/data_files/dragaliagg-db-backup.sql'
+        db_file_path = '/tmp/dragaliagg-db-backup.sql'
 
         s3 = boto3.client('s3', **kwargs)
 

@@ -37,16 +37,19 @@ class Comp(SlugModel):
     modified_date = models.DateTimeField(auto_now=True)
 
     def slug_name(self):
+        s = self
+        return s.get_slug_string(
+            s.post_date, s.difficulty, s.creator, s.suffix)
+    
+    def get_slug_string(self=None, date=None, difficulty=None, creator=None, suffix=None):
         slug_string = '{}-{}-{}'.format(
-            self.post_date.strftime("%d%m%y"),
-            self.difficulty,
-            self.creator
+            date.strftime("%d%m%y"), difficulty, creator
         )
 
-        if self.suffix:
-            slug_string = '{}-{}'.format(slug_string, slugify(self.suffix))
+        if suffix:
+            slug_string = '{}-{}'.format(slug_string, slugify(suffix))
         
-        return slug_string
+        return slugify(slug_string)
     
     def get_team(self):
         comp_slots = {}

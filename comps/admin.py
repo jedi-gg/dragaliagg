@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib import admin
 
+from comps.forms import CompForm
 from comps.models import (
     Comp,
     CompSection,
@@ -40,6 +41,7 @@ class AdventurerBuildInline(admin.StackedInline):
 
 @admin.register(Comp)
 class CompAdmin(admin.ModelAdmin):
+    form = CompForm
     inlines = [AdventurerBuildInline,]
     save_as = True
     save_on_top = True
@@ -53,6 +55,8 @@ class CompAdmin(admin.ModelAdmin):
         'difficulty',
         'helper_dragon',
     ]
+
+    readonly_fields = ('slug',)
 
     list_display = ['get_title', 'creator', 'modified_date', 'created_date']
     list_filter = ('section', 'quest', )

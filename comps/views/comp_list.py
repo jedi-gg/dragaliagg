@@ -45,7 +45,7 @@ class CompList(ListView):
             self.difficulty = get_object_or_404(CompDifficulty, slug=self.difficulty_slug)
             q &= Q(difficulty=self.difficulty)
 
-        return Comp.objects.filter(q)
+        return Comp.objects.filter(q).order_by('created_date')
 
     def get_context_data(self, **kwargs):
         context = super(CompList, self).get_context_data(**kwargs)

@@ -54,7 +54,7 @@ class CompAdmin(admin.ModelAdmin):
         'helper_dragon',
     ]
 
-    list_display = ['get_title', 'creator', 'modified_date', ]
+    list_display = ['get_title', 'creator', 'modified_date', 'created_date']
     list_filter = ('section', 'quest', )
 
     def delete_model(self, request, object):

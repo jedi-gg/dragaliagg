@@ -8,7 +8,7 @@ from comps.models import Comp
 class AdventurerBuild(models.Model):
     comp = models.ForeignKey(Comp, related_name='builds', on_delete=models.DO_NOTHING, blank=True, null=True)
     adventurer = models.ForeignKey(Adventurer, related_name='builds', on_delete=models.DO_NOTHING, blank=True, null=True)
-    slot = models.PositiveSmallIntegerField(choices=AdventurerSlotEnum.as_tuples(), default=AdventurerSlotEnum.LEAD_UNIT.value)
+    slot = models.PositiveSmallIntegerField(choices=AdventurerSlotEnum.as_tuples(), default=AdventurerSlotEnum.LEAD_UNIT.value, blank=True, null=True)
     wyrmprint_1 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_1', on_delete=models.DO_NOTHING, blank=True, null=True)
     wyrmprint_2 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_2', on_delete=models.DO_NOTHING, blank=True, null=True)
     wyrmprint_3 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_3', on_delete=models.DO_NOTHING, blank=True, null=True)

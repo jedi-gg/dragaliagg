@@ -26,3 +26,4 @@ _env.py
 
 # Prod
 /_prod/
+/data/

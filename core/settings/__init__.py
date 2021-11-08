@@ -3,6 +3,7 @@ from decouple import config
 from .django import *
 from .site import *
 from .fixtures import *
+from .aws import *
 
 """
 Import environment settings

@@ -53,7 +53,10 @@ class CompList(ListView):
         title_map = {
             'section': getattr(self, 'section', None),
             'quest': getattr(self, 'quest', None),
-            'difficulty': getattr(self, 'quest', None),
+            'difficulty': '{} {}'.format(
+                getattr(self, 'difficulty', ''),
+                getattr(self, 'quest', ''),
+            )
         }
 
         context['list_type'] = self.list_type

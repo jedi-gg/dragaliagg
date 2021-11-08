@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc." />
+    <meta name="description" content="{% block meta_description %}Welcome to Dragalia.gg - Dragalia Lost Team Builds - Auto, Manual, and more!{% endblock %}" />
     
     <!-- Favicon -->
     <link rel="shortcut icon" href="{% static '/assets/favicon/favicon.ico' %}" type="image/x-icon"/>
@@ -30,7 +30,7 @@
     {% block extra_css %}{% endblock %}
     
     <!-- Title -->
-    <title>Draglia.gg</title>
+    <title>{% block meta_title %}Draglia.gg - Dragalia Lost Team Compositions - Auto, Manual and more!{% endblock %}</title>
   </head>
   <body>
 

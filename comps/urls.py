@@ -1,6 +1,6 @@
 from django.urls import path
 
-from comps.views import CompQuestList, CompSectionList, CompDetail, CompList
+from comps.views import CompDetail, CompList
 
 
 urlpatterns = [

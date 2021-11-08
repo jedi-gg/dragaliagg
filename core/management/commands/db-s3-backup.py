@@ -18,7 +18,6 @@ class Command(BaseCommand):
         db_file_path = 'data/data_files/dragaliagg-db-backup.sql'
 
         s3 = boto3.client('s3', **kwargs)
-        last_updated = s3.get_object(Bucket=bucket_name, Key=object_name)['LastModified']
 
         print('# Create DB Dump')
         os.system('mysqldump --single-transaction --quick --lock-tables=false -h{0} -u{1} -p{2} {3} > {4}'.format(

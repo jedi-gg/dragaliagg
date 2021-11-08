@@ -23,6 +23,7 @@ INSTALLED_APPS = [
 
     'django_fixtures',
 
+    'core',
     'game_data',
     'comps',
 ]

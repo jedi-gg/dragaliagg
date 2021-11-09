@@ -34,3 +34,14 @@ FIXTURES_LIST_DEV = [
     'comps.AdventurerBuild',
     'comps.Comp',
 ]
+
+FIXTURES_LIST_DEV_GAME = [
+    'game_data.Adventurer',
+    'game_data.Wyrmprint',
+    'game_data.Dragon',
+    'game_data.Weapon',
+    'comps.CompDifficulty',
+    'comps.compSection',
+    'comps.CompQuest',
+    'comps.CompType',
+]

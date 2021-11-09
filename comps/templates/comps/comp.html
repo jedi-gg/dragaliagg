@@ -36,7 +36,7 @@
         <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
         <li class="breadcrumb-item"><a href="{{ comp.quest.section.get_absolute_url }}">{{ comp.quest.section }}</a></li>
         <li class="breadcrumb-item"><a href="{{ comp.quest.get_absolute_url }}">{{ comp.quest.nav_title }}</a></li>
-        <li class="breadcrumb-item active mobile-hide" aria-current="page">{{ comp.title }}</li>
+        <li class="breadcrumb-item active mobile-hide" aria-current="page">{{ comp.get_title }}</li>
     </ol>
 </nav>
 {% endblock %}

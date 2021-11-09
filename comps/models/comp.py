@@ -1,3 +1,7 @@
+import re
+
+from pytube import extract
+
 from django.db import models
 from django.urls import reverse
 from django.utils.text import slugify
@@ -64,6 +68,10 @@ class Comp(SlugModel):
         constructed_title = '{}: {} - {}{}'.format(
             self.quest, self.difficulty, self.creator, suffix)
         return self.title if self.title else constructed_title
+    
+    @property
+    def get_youtube_id(self):
+        return extract.video_id(self.video_link)
     
     def get_lead(self):
         return self.builds.get(slot=AdventurerSlotEnum.LEAD_UNIT.value).adventurer

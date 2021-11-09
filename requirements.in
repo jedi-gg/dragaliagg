@@ -8,5 +8,6 @@ html5lib
 mysqlclient
 pip-tools
 python-decouple
+pytube
 redis
 requests

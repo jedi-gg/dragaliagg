@@ -42,102 +42,120 @@
 {% endblock %}
 
 {% block page_content %}
-<div class="row tab-content" style="max-width: 1100px;">
+<div class="row" style="max-width: 1100px;">
   <!-- order-last order-md-first -->
-  <div class="col-12 col-xl-8 tab-pane active" id="comp_visual">
-    <!-- Card -->
-    {% for slot, build in comp.get_team.items %}
-    <div class="card" style="padding: 10px;">
-      <div class="row">
-        <div class="col-4 col-sm-2">
-          <div class="adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');">&nbsp;</div>
-          <div class="build-adventurer-dragon">
-            <img src="{{ build.dragon.get_image }}" /><img src="{{ build.weapon.get_image }}" />
+  <div class="col-12 col-xl-8 tab-content">
+    <div class="tab-pane active" id="comp_visual">
+      <!-- Card -->
+      {% for slot, build in comp.get_team.items %}
+      <div class="card" style="padding: 10px;">
+        <div class="row">
+          <div class="col-4 col-sm-2">
+            <div class="adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');">&nbsp;</div>
+            <div class="build-adventurer-dragon">
+              <img src="{{ build.dragon.get_image }}" /><img src="{{ build.weapon.get_image }}" />
+            </div>
+          </div>
+          <div class="col-8 col-sm-10 build-adventurer-box">
+            <h4 class="build-adventurer-name draglia-font-normal">{{ build.adventurer.name }}
+              <small style="float: right;">{{ build.get_slot_name }}</small>
+            </h4>
+            <div class="wyrmprints">
+              {% for wp in build.get_all_wyrmprints %}
+              {% if wp.name %}
+              <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp|get_image_size:155 }}" />
+              {% endif %}
+              {% endfor %}
+            </div>
           </div>
         </div>
-        <div class="col-8 col-sm-10 build-adventurer-box">
-          <h4 class="build-adventurer-name draglia-font-normal">{{ build.adventurer.name }}
-            <small style="float: right;">{{ build.get_slot_name }}</small>
-          </h4>
-          <div class="wyrmprints">
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="comp_text">
+      {% for slot, build in comp.get_team.items %}
+      <div class="card">
+        <div class="card-body">
+          <div class="list-group list-group-flush list-group-focus">
+            <a class="list-group-item" href="../team-overview.html">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <div class="avatar">
+                    <img src="{{ build.adventurer|get_image_size:120 }}" alt="..." class="avatar-img">
+                  </div>
+                </div>
+                <div class="col ms-n2">
+                  <h4 class="text-body text-focus mb-1 name">{{ build.adventurer.name }}</h4>
+                  <p class="small mb-0">{{ build.get_slot_name }}</p>
+                </div>
+              </div>
+            </a>
             {% for wp in build.get_all_wyrmprints %}
-            {% if wp.name %}
-            <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp|get_image_size:155 }}" />
+            {% if wp%}
+            <a class="list-group-item" href="../team-overview.html">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <div class="avatar">
+                    <img src="{{ wp|get_image_size:155 }}" alt="..." class="avatar-img">
+                  </div>
+                </div>
+                <div class="col ms-n2">
+                  <h4 class="text-body text-focus mb-1 name">{{ wp.name }}</h4>
+                  <p class="small mb-0">{{ wp.ability_name }}</p>
+                </div>
+              </div>
+            </a>
             {% endif %}
             {% endfor %}
+            <a class="list-group-item" href="../team-overview.html">
+              <div class="row">
+                <div class="col-6">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="avatar">
+                        <img src="{{ build.dragon.get_image }}" alt="..." class="avatar-img">
+                      </div>
+                    </div>
+                    <div class="col ms-n2">
+                      <h4 class="text-body text-focus mb-1 name">{{ build.dragon.name }}</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="avatar">
+                        <img src="{{ build.weapon.get_image }}" alt="..." class="avatar-img">
+                      </div>
+                    </div>
+                    <div class="col ms-n2">
+                      <h4 class="text-body text-focus mb-1 name">{{ build.weapon.name }}</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
-  </div>
 
-  <div class="col-12 col-xl-8 tab-pane" id="comp_text">
-    {% for slot, build in comp.get_team.items %}
+    <div class="card" style="padding: 10px 20px;">
+      <h3 class="mt-2">Creator's Notes</h3>
+      <p>{{ comp.creators_notes|linebreaks }}</p>
+    </div>
+
+    {% if comp.video_link %}
     <div class="card">
-      <div class="card-body">
-        <div class="list-group list-group-flush list-group-focus">
-          <a class="list-group-item" href="../team-overview.html">
-            <div class="row align-items-center">
-              <div class="col-auto">
-                <div class="avatar">
-                  <img src="{{ build.adventurer|get_image_size:120 }}" alt="..." class="avatar-img">
-                </div>
-              </div>
-              <div class="col ms-n2">
-                <h4 class="text-body text-focus mb-1 name">{{ build.adventurer.name }}</h4>
-                <p class="small mb-0">{{ build.get_slot_name }}</p>
-              </div>
-            </div>
-          </a>
-          {% for wp in build.get_all_wyrmprints %}
-          <a class="list-group-item" href="../team-overview.html">
-            <div class="row align-items-center">
-              <div class="col-auto">
-                <div class="avatar">
-                  <img src="{{ wp|get_image_size:155 }}" alt="..." class="avatar-img">
-                </div>
-              </div>
-              <div class="col ms-n2">
-                <h4 class="text-body text-focus mb-1 name">{{ wp.name }}</h4>
-                <p class="small mb-0">{{ wp.ability_name }}</p>
-              </div>
-            </div>
-          </a>
-          {% endfor %}
-          <a class="list-group-item" href="../team-overview.html">
-            <div class="row">
-              <div class="col-6">
-                <div class="row align-items-center">
-                  <div class="col-auto">
-                    <div class="avatar">
-                      <img src="{{ build.dragon.get_image }}" alt="..." class="avatar-img">
-                    </div>
-                  </div>
-                  <div class="col ms-n2">
-                    <h4 class="text-body text-focus mb-1 name">{{ build.dragon.name }}</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="row align-items-center">
-                  <div class="col-auto">
-                    <div class="avatar">
-                      <img src="{{ build.weapon.get_image }}" alt="..." class="avatar-img">
-                    </div>
-                  </div>
-                  <div class="col ms-n2">
-                    <h4 class="text-body text-focus mb-1 name">{{ build.weapon.name }}</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+      <div class="card-body text-center" style="min-height: 450px;">
+         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ comp.get_youtube_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-    {% endfor %}
   </div>
+  {% endif %}
+    
 
   <div class="col-12 col-xl-4">
     <!-- Card -->
@@ -160,6 +178,18 @@
             </div>
           </div>
           {% endfor %}
+          {% if comp.discussion_link %}
+          <div class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col">
+                <h5 class="mb-0 text-center">
+                  <a href="{{ comp.discussion_link }}" target="_blank" class="btn btn-danger btn-sm">Discuss on Reddit <span class="fe fe-external-link"></span></a>
+                </h5>
+              </div>
+
+            </div>
+          </div>
+          {% endif %}
       </div>
     </div>
 

@@ -58,8 +58,8 @@ class CompAdmin(admin.ModelAdmin):
 
     readonly_fields = ('slug',)
 
-    list_display = ['get_title', 'creator', 'modified_date', 'created_date']
-    list_filter = ('section', 'quest', )
+    list_display = ['get_title', 'difficulty', 'creator', 'modified_date', 'created_date']
+    list_filter = ('section', 'quest', 'difficulty',)
 
     def delete_model(self, request, object):
         # Manually delete adventurer builds

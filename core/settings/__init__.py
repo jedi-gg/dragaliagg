@@ -13,6 +13,7 @@ if config('ENV', default='DEV') == 'DEV':
 
 if config('ENV', default='DEV') == 'PROD':
     from ._prod import *
+    from .sentry import *
 
 """
 If applicable, import local settings.

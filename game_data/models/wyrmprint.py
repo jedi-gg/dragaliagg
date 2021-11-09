@@ -19,6 +19,9 @@ class Wyrmprint(models.Model):
     ability_icon = models.CharField(max_length=100, blank=True, null=True)
     ability_description = models.TextField(blank=True, null=True)
 
+    def get_wiki_url(self):
+        return '{}{}'.format(settings.BASE_WIKI_URL, self.wiki_url)
+
     def get_image(self, size=60):
         vestige_id = '01'
         if self.rarity != 9:

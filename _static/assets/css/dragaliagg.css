@@ -113,7 +113,7 @@
     display: block;
 }
 .wyrmprints img {
-    cursor: help;
+    cursor: pointer;
     width: 79px;
 }
 .build-adventurer-box {

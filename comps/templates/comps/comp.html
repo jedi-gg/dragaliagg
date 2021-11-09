@@ -53,7 +53,14 @@
           <div class="col-4 col-sm-2">
             <div class="adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');">&nbsp;</div>
             <div class="build-adventurer-dragon">
-              <img src="{{ build.dragon.get_image }}" /><img src="{{ build.weapon.get_image }}" />
+              {% spaceless %}
+              <a href="{{ build.dragon.get_wiki_url }}" target="_blank">
+                <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ build.dragon.name }}" src="{{ build.dragon.get_image }}" />
+              </a>
+              <a href="{{ build.weapon.get_wiki_url }}" target="_blank">
+                <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ build.weapon.name }}" src="{{ build.weapon.get_image }}" />
+              </a>
+              {% endspaceless %}
             </div>
           </div>
           <div class="col-8 col-sm-10 build-adventurer-box">
@@ -63,7 +70,7 @@
             <div class="wyrmprints">
               {% for wp in build.get_all_wyrmprints %}
               {% if wp.name %}
-              <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp|get_image_size:155 }}" />
+              <a href="{{ wp.get_wiki_url }}" target="_blank"><img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp|get_image_size:155 }}" /></a>
               {% endif %}
               {% endfor %}
             </div>
@@ -92,8 +99,8 @@
               </div>
             </a>
             {% for wp in build.get_all_wyrmprints %}
-            {% if wp%}
-            <a class="list-group-item" href="../team-overview.html">
+            {% if wp %}
+            <a class="list-group-item" href="{{ wp.get_wiki_url }}" target="_blank">
               <div class="row align-items-center">
                 <div class="col-auto">
                   <div class="avatar">
@@ -108,17 +115,17 @@
             </a>
             {% endif %}
             {% endfor %}
-            <a class="list-group-item" href="../team-overview.html">
+            <div class="list-group-item">
               <div class="row">
                 <div class="col-6">
                   <div class="row align-items-center">
                     <div class="col-auto">
                       <div class="avatar">
-                        <img src="{{ build.dragon.get_image }}" alt="..." class="avatar-img">
+                        <a href="{{ build.dragon.get_wiki_url }}" target="_blank"><img src="{{ build.dragon.get_image }}" alt="..." class="avatar-img"></a>
                       </div>
                     </div>
                     <div class="col ms-n2">
-                      <h4 class="text-body text-focus mb-1 name">{{ build.dragon.name }}</h4>
+                      <h4 class="text-body text-focus mb-1 name"><a href="{{ build.dragon.get_wiki_url }}" target="_blank">{{ build.dragon.name }}</a></h4>
                     </div>
                   </div>
                 </div>
@@ -126,16 +133,16 @@
                   <div class="row align-items-center">
                     <div class="col-auto">
                       <div class="avatar">
-                        <img src="{{ build.weapon.get_image }}" alt="..." class="avatar-img">
+                        <a href="{{ build.weapon.get_wiki_url }}" target="_blank"><img src="{{ build.weapon.get_image }}" alt="..." class="avatar-img"></a>
                       </div>
                     </div>
                     <div class="col ms-n2">
-                      <h4 class="text-body text-focus mb-1 name">{{ build.weapon.name }}</h4>
+                      <h4 class="text-body text-focus mb-1 name"><a href="{{ build.weapon.get_wiki_url }}" target="_blank">{{ build.weapon.name }}</a></h4>
                     </div>
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>

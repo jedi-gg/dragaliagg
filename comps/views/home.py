@@ -9,6 +9,6 @@ class Home(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(Home, self).get_context_data(**kwargs)
 
-        context['comps'] = Comp.objects.all().order_by('-created_date')
+        context['comps'] = Comp.objects.all().order_by('-created_date')[:10]
 
         return context

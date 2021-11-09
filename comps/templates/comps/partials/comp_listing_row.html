@@ -15,7 +15,6 @@
             </div>
           </div>
           <div class="col ms-n2">
-            <!-- Title -->
             <h3 class="mb-1 name">
               <a href="{{ c.get_absolute_url }}">{{ c }}</a>
             </h3>
@@ -28,16 +27,14 @@
               {% endfor %}
             </p>
 
-            <p class="card-text   mb-1">
+            <p class="card-text mb-1">
                 <span class="badge bg-{{ c.difficulty|lower }}">{{ c.difficulty }}</span>
                 <span class="badge bg-primary-soft">{{ c.clear_time }}</span>
                 {% if c.clear_rate %}<span class="badge bg-primary-soft">Clear Rate: {{ c.clear_rate }}%</span>{% endif %}
             </p>
           </div>
         </div>
-        <!-- / .row -->
       </div>
-      <!-- / .card-body -->
     </div>
   </div>
 </div>

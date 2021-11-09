@@ -13,6 +13,14 @@
 
 {% block header_pretitle %}Dragalia Lost{% endblock %}
 {% block header_title %}{{ comp }}{% endblock %}
+{% block header_posttitle %}
+<div class="mt-2">
+  <span class="badge bg-{{ comp.difficulty|lower }}">{{ comp.difficulty }}</span>
+  <span class="badge bg-primary-soft">{{ comp.comp_type }}</span>
+  {% if comp.clear_time %}<span class="badge bg-primary-soft">Clear Time: {{ comp.clear_time }}</span>{% endif %}
+  {% if comp.clear_rate %}<span class="badge bg-primary-soft">Clear Rate: {{ comp.clear_rate }}%</span>{% endif %}
+</div>
+{% endblock %}
 
 {% block page_nav %}
 <!-- Nav -->

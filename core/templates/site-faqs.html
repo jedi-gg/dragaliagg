@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block header_pretitle %}Welcome!{% endblock %}
+{% block header_title %}Dragalia.GG Frequently Asked Questions{% endblock %}
+
+{% block page_content %}
+<div class="row" style="max-width: 1100px;">
+  <!-- order-last order-md-first -->
+  <div class="col-12 col-xl-8 tab-content">
+    {% for faq in faqs %}
+    <div class="card" style="padding: 10px 20px;">
+      <h3 class="mt-2">{{ faq.question }}</h3>
+      <p>{{ faq.answer|linebreaks }}</p>
+    </div>
+    {% endfor %}
+
+    {% if comp.video_link %}
+      {% if comp.get_video_type == 'youtube' %}
+        {% include "comps/partials/video_youtube.html" %}
+      {% endif %}
+      {% if comp.get_video_type == 'streamable' %}
+        {% include "comps/partials/video_streamable.html" %}
+      {% endif %}
+    {% endif %}
+  </div>
+    
+
+  <div class="col-12 col-xl-4">
+    <!-- Card -->
+    <div class="card">
+      <div class="card-body">
+        <div class="list-group list-group-flush my-n3">
+          <div class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col">
+                <h5 class="mb-0">
+                  Maybe some data here
+                </h5>
+              </div>
+              <div class="col-auto">
+                <small>
+                  Who knows
+                </small>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div> <!-- / .row -->
+{% endblock %}

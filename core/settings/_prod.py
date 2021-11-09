@@ -2,7 +2,7 @@ import os
 from core import settings
 
 # Remove when live
-ALLOWED_HOSTS = ['dragalia.gg',]
+ALLOWED_HOSTS = ['dragalia.gg', 'dg.nginx',]
 
 STATIC_ROOT = os.path.join(settings.BASE_DIR, 'static')
 STATICFILES_DIRS = [

@@ -59,7 +59,7 @@
       <div class="card" style="padding: 10px;">
         <div class="row">
           <div class="col-4 col-sm-2">
-            <div class="adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');">&nbsp;</div>
+            <a href="{{ build.adventurer.get_absolute_url }}" class="adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');">&nbsp;</a>
             <div class="build-adventurer-dragon">
               {% spaceless %}
               <a href="{{ build.dragon.get_wiki_url }}" target="_blank">

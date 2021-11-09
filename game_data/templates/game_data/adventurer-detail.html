@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block meta_title %}{{ adventurer }} Comps and Builds - Dragalia.gg{% endblock %}
+{% block meta_description %}{{ comp }} build on Dragalia Lost!{% endblock %}
+{% block meta_extra %}
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ comp }}" />
+<meta property="og:url" content="{{ request.build_absolute_uri }}" />
+<meta property="og:description" content="{{ comp.difficulty }} {{ comp.quest }} featuring {{ comp.get_lead }} lead." />
+<meta property="og:site_name" content="Dragalia.gg - Dragalia Lost Team Compositions & Builds" />
+<meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{{ comp.get_lead.get_image }}" />
+{% endblock %}
+
+{% block header_pretitle %}Dragalia Lost{% endblock %}
+{% block header_title %}{{ adventurer }}{% endblock %}
+{% block header_posttitle %}
+<div class="mt-2">
+  <span class="badge bg-element-{{ adventurer.element|lower }}">{{ adventurer.element }}</span>
+  <span class="badge bg-primary-soft">{{ adventurer.weapon }}</span>
+</div>
+{% endblock %}
+
+
+
+{% block page_breadcrumb %}
+<nav aria-label="breadcrumb" class="mb-2">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Adventurers</a></li>
+        <li class="breadcrumb-item active mobile-hide" aria-current="page">{{ adventurer }}</li>
+    </ol>
+</nav>
+{% endblock %}
+
+{% block page_content %}
+<div class="row" style="max-width: 1100px;">
+  <!-- order-last order-md-first -->
+  <div class="col-12 col-xl-8 tab-content">
+    {% for c in comps %}
+    {% include "comps/partials/comp_listing_row.html" %}
+    {% endfor %}
+  </div>
+
+
+  <div class="col-12 col-xl-4">
+    <!-- Card -->
+    <div class="card">
+      <div class="card-body">
+        <div class="list-group list-group-flush my-n3">
+          <div class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col">
+                <img src="{{ adventurer|get_portrait_size:450 }}" style="width: 100%;" />
+              </div>
+            </div>
+          </div>
+          <div class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col text-center">
+                <a href="{{ adventurer.get_wiki_url }}" target="_blank">{{ adventurer }} on Dragalia Wiki <span class="fe fe-external-link"></span></a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div> <!-- / .row -->
+{% endblock %}

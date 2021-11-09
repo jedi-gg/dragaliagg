@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.db import models
+from django.urls import reverse
 
 from game_data.utils.save_image import save_image
 
@@ -27,6 +28,9 @@ class Adventurer(models.Model):
             size
         )
     
+    def get_wiki_url(self):
+        return '{}{}'.format(settings.BASE_WIKI_URL, self.wiki_url)
+    
     def download_images(self):
         thumb_image_sizes = ['40', '60', '80', '120',]
         portrait_sizes = ['100', '200', '450', '1000',]
@@ -47,6 +51,10 @@ class Adventurer(models.Model):
             
             save_image(url, path)
 
+    def get_absolute_url(self):
+        return reverse('adventurer-detail', kwargs={
+            'adventurer_slug': self.slug
+        })
 
     def __str__(self):
         return self.name

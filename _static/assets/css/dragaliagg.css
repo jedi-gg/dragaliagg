@@ -103,6 +103,7 @@
     text-align: center;
 }
 .adventurer-image {
+    display: block;
     width: 100%;
     height: 95px;
     background-repeat: no-repeat;

@@ -70,6 +70,16 @@ class Comp(SlugModel):
         return self.title if self.title else constructed_title
     
     @property
+    def get_video_type(self):
+        video_types = ['youtube', 'streamable',]
+
+        for vtype in video_types:
+            if vtype in self.video_link:
+                return vtype
+        
+        return None
+
+    @property
     def get_youtube_id(self):
         return extract.video_id(self.video_link)
     

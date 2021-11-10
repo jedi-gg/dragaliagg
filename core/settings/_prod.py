@@ -10,3 +10,5 @@ STATICFILES_DIRS = [
 ]
 
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+
+DEFAULT_CACHE_TIMEOUT = 604800

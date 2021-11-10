@@ -1,5 +1,3 @@
-from core import settings
-
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
@@ -9,5 +7,3 @@ CACHES = {
         }
     }
 }
-
-DEFAULT_CACHE_TIMEOUT = 604800

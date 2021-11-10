@@ -24,31 +24,13 @@
             <a class="nav-link" href="{% url 'home' %}">
               <i class="fe fe-home"></i> Home
             </a>
-            <div class="collapse " id="sidebarDashboards">
-              <ul class="nav nav-sm flex-column">
-                <li class="nav-item">
-                  <a href="./index.html" class="nav-link ">
-                    Default
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="./dashboard-project-management.html" class="nav-link ">
-                    Project Management
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="./dashboard-ecommerce.html" class="nav-link ">
-                    E-Commerce
-                  </a>
-                </li>
-              </ul>
-            </div>
           </li>
           {% for section in sections %}
           <li class="nav-item">
             <a class="nav-link" href="{{ section.get_absolute_url }}">
               {{ section }}
             </a>
+            {% if not section.hide_children %}
             <div class="collapse show" id="{{ section.string_slug }}">
               <ul class="nav nav-sm flex-column">
                 {% for event in section.get_quests %}
@@ -60,6 +42,7 @@
                 {% endfor %}
               </ul>
             </div>
+            {% endif %}
           </li>
           {% endfor %}            
         </ul>

@@ -10,6 +10,8 @@ class CompSection(SlugModel):
     ordering = models.PositiveIntegerField(default=0)
     description = models.TextField(blank=True, null=True)
     wiki_link = models.URLField(blank=True, null=True)
+    is_new = models.BooleanField(blank=True, default=False)
+    hide_children = models.BooleanField(blank=True, default=False)
 
     def slug_name(self):
         return self.title

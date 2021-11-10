@@ -71,13 +71,21 @@
     font-size: 25px;
 }
 
-.comp-list-row a span.link-spanner {
+.comp-list-row a.link-spanner {
   position:absolute; 
   width:100%;
   height:100%;
   top:0;
   left: 0;
   z-index: 1;
+}
+
+.link-spanner:hover ~ .comp-list-card {
+    background-color: #FDFDFD;
+}
+
+.link-spanner:hover ~ .comp-list-card h3.name a {
+    color: #1657af;
 }
 
 .comp-list-card-portrait {

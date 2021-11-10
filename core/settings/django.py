@@ -122,11 +122,24 @@ USE_L10N = True
 
 USE_TZ = True
 
+def skip_static_requests(record):
+    if record.args[0].startswith('GET /static/'):
+        return False
+    return True
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
+    'filters': {
+        # use Django's built in CallbackFilter to point to your filter 
+        'skip_static_requests': {
+            '()': 'django.utils.log.CallbackFilter',
+            'callback': skip_static_requests
+        }
+    },
     'handlers': {
         'console': {
+            'filters': ['skip_static_requests'],
             'class': 'logging.StreamHandler',
         },
     },

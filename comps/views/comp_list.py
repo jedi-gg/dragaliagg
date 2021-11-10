@@ -15,7 +15,7 @@ class CompList(ListView):
     quest_slug = None
     difficulty = None
     difficulty_slug = None
-    paginate_by = 10
+    paginate_by = 20
 
     def dispatch(self, request, *args, **kwargs):
         if 'section_slug' in kwargs:

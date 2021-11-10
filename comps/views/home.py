@@ -1,14 +1,12 @@
-from django.views.generic import TemplateView
+from django.views.generic.list import ListView
 
 from comps.models import Comp
 
 
-class Home(TemplateView):
+class Home(ListView):
     template_name = 'comps/home.html'
+    context_object_name = 'comps'
+    paginate_by = 20
 
-    def get_context_data(self, **kwargs):
-        context = super(Home, self).get_context_data(**kwargs)
-
-        context['comps'] = Comp.objects.all().order_by('-created_date')[:10]
-
-        return context
+    def get_queryset(self):
+        return Comp.objects.all().order_by('created_date')

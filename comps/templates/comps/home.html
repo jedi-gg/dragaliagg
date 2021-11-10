@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block header_pretitle %}Welcome!{% endblock %}
-{% block header_title %}Dragalia.GG{% endblock %}
+{% block header_title %}Dragalia.GG - Dragalia Lost Comps and Team Builds{% endblock %}
 
 {% block page_nav %}
 <!-- Nav -->
@@ -35,4 +35,5 @@
 {% for c in comps %}
 {% include "comps/partials/comp_listing_row.html" %}
 {% endfor %}
+{% include "partials/pagination.html" %}
 {% endblock %}

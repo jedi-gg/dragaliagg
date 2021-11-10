@@ -3,9 +3,10 @@ from django.shortcuts import get_object_or_404
 from django.views.generic.list import ListView
 
 from comps.models import Comp, CompQuest, CompSection, CompDifficulty
+from core.mixins import CacheMixin
 
 
-class CompList(ListView):
+class CompList(CacheMixin, ListView):
     template_name = 'comps/comp-list.html'
     context_object_name = 'comps'
     object_type = None
@@ -46,7 +47,7 @@ class CompList(ListView):
             self.difficulty = get_object_or_404(CompDifficulty, slug=self.difficulty_slug)
             q &= Q(difficulty=self.difficulty)
 
-        return Comp.objects.filter(q).order_by('created_date')
+        return Comp.objects.filter(q).order_by('-created_date')
 
     def get_context_data(self, **kwargs):
         context = super(CompList, self).get_context_data(**kwargs)

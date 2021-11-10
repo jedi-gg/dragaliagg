@@ -4,6 +4,7 @@ from .django import *
 from .site import *
 from .fixtures import *
 from .aws import *
+from .cache import *
 
 """
 Import environment settings

@@ -81,7 +81,10 @@
             <div class="wyrmprints">
               {% for wp in build.get_all_wyrmprints %}
               {% if wp.name %}
-              <a href="{{ wp.get_wiki_url }}" target="_blank"><img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp|get_image_size:155 }}" /></a>
+              <a href="{{ wp.get_wiki_url }}" target="_blank">
+                <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp|get_image_size:155 }}" class="wp-image" />
+                {% if wp.affinity_icon %}<img class="wp-affinity" src="{{ wp.get_affinity_image }}" />{% endif %}
+              </a>
               {% endif %}
               {% endfor %}
             </div>

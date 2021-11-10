@@ -32,6 +32,12 @@ class Wyrmprint(models.Model):
             vestige_id,
             size
         )
+    
+    def get_affinity_image(self):
+        return '{}game_assets/affinities/Icon_Union_{}.png'.format(
+            settings.STATIC_URL,
+            self.affinity_icon,
+        )
 
     def download_images(self):
         thumb_image_sizes = ['30', '60', '100', '155',]

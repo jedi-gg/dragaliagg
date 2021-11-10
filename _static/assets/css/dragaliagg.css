@@ -143,12 +143,22 @@
     background-position: bottom center;
     background-size: contain;
 }
-.wyrmptints {
+.wyrmprints {
     display: block;
 }
-.wyrmprints img {
+.wyrmprints a {
+    position: relative;
+}
+.wyrmprints .wp-image {
     cursor: pointer;
     width: 79px;
+}
+.wp-affinity {
+    position: absolute;
+    width: 15px;
+    z-index: 10;
+    top: -5px;
+    left: 4px;
 }
 .build-adventurer-box {
     padding-left: 0;

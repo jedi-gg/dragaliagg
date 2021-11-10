@@ -123,9 +123,12 @@ USE_L10N = True
 USE_TZ = True
 
 def skip_static_requests(record):
-    if record.args[0].startswith('GET /static/'):
-        return False
-    return True
+    try:
+        if record.args[0].startswith('GET /static/'):
+            return False
+        return True
+    except:
+        return True
 
 LOGGING = {
     'version': 1,

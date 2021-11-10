@@ -34,6 +34,7 @@ class CompList(CacheMixin, ListView):
         return super().dispatch(request, *args, **kwargs)
 
     def get_queryset(self):
+        print('UNCACHED')
         q = Q()
         if self.section_slug:
             self.section = get_object_or_404(CompSection, slug=self.section_slug)

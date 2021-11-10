@@ -1,10 +1,10 @@
 from django.shortcuts import get_object_or_404
 from django.views.generic.detail import DetailView
 
-from comps.models import Comp, CompSection, CompQuest
+from comps.models import Comp
+from core.mixins import CacheMixin
 
-
-class CompDetail(DetailView):
+class CompDetail(CacheMixin, DetailView):
     model = Comp
     template_name = 'comps/comp.html'
     slug_url_kwarg = 'comp_slug'

@@ -3,6 +3,11 @@
     font-weight: 500;
     font-style: normal;
 }
+.draglia-font-bold {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 .dragalia-font {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 700;
@@ -93,6 +98,13 @@
     border-style: solid;
     margin-top: 3px;
 }
+
+.creator-notes {
+    border-bottom: 2px solid #000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 @media (max-width: 460px) {
     .comp-list-row .card-body {
         background-image: none;

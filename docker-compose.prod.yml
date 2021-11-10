@@ -35,7 +35,18 @@ services:
       test: ["CMD-SHELL", "wget -O /dev/null http://dg.nginx:80 || exit 1"]
       timeout: 10s
   
+  dg.redis:
+    image: redis:6.0.5
+    container_name: dg.redis
+    ports:
+      - 6379:6379
+    volumes:
+      - redis:/data
+  
   autoheal:
     extends:
       file: ./_docker/docker-autoheal.yml
       service: autoheal
+
+volumes:
+  redis: {}

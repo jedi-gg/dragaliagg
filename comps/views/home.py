@@ -9,4 +9,4 @@ class Home(ListView):
     paginate_by = 20
 
     def get_queryset(self):
-        return Comp.objects.all().order_by('created_date')
+        return Comp.objects.all().order_by('-created_date')

@@ -182,6 +182,7 @@
       <div class="card-body">
         <div class="list-group list-group-flush my-n3">
           {% for cd in comp_data %}
+          {% if cd.1 %}
           <div class="list-group-item">
             <div class="row align-items-center">
               <div class="col">
@@ -196,6 +197,7 @@
               </div>
             </div>
           </div>
+          {% endif %}
           {% endfor %}
           {% if comp.discussion_link %}
           <div class="list-group-item">

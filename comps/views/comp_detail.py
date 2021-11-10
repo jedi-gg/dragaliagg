@@ -18,6 +18,8 @@ class CompDetail(DetailView):
         auto_shapeshift = 'Off'
         if self.object.auto_shapeshift:
             auto_shapeshift = 'On'
+        
+        
 
         context['comp_data'] = [
             ('Comp Type', self.object.comp_type),
@@ -25,8 +27,8 @@ class CompDetail(DetailView):
             ('Date Posted', self.object.post_date),
             ('Game Version', self.object.game_version),
             ('Auto-Shapeshift', auto_shapeshift),
-            ('Creator\'s Clear Time', self.object.clear_time),
-            ('Creator\'s Clear Rate', '{}%'.format(self.object.clear_rate)),
+            ('Creator\'s Clear Time', self.object.get_clear_time),
+            ('Creator\'s Clear Rate', self.object.get_clear_rate),
         ]
 
         return context

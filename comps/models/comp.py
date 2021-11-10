@@ -70,6 +70,25 @@ class Comp(SlugModel):
         return self.title if self.title else constructed_title
     
     @property
+    def get_clear_time(self):
+        clear_time = None
+        if self.clear_time and self.clear_time != '0':
+            clear_time = self.clear_time
+        
+        return clear_time
+
+    @property
+    def get_clear_rate(self):
+        clear_rate = None
+        if self.clear_rate:
+            clear_rate = '{}%'.format(self.clear_rate)
+            if self.clear_rate_note:
+                clear_rate = '{} {}'.format(
+                    clear_rate, self.clear_rate_note)
+        
+        return clear_rate
+    
+    @property
     def get_video_type(self):
         video_types = ['youtube', 'streamable',]
 

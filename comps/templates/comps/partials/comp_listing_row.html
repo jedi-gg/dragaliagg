@@ -30,8 +30,8 @@
             <p class="card-text mb-1">
                 <span class="badge bg-{{ c.difficulty|lower }}">{{ c.difficulty }}</span>
                 <span class="badge bg-primary-soft">{{ c.comp_type }}</span>
-                {% if c.clear_time %}<span class="badge bg-primary-soft">{{ c.clear_time }}</span>{% endif %}
-                {% if c.clear_rate %}<span class="badge bg-primary-soft">Clear Rate: {{ c.clear_rate }}%</span>{% endif %}
+                {% if c.get_clear_time %}<span class="badge bg-primary-soft">{{ c.get_clear_time }}</span>{% endif %}
+                {% if c.get_clear_rate %}<span class="badge bg-primary-soft">Clear Rate: {{ c.get_clear_rate }}</span>{% endif %}
             </p>
           </div>
         </div>

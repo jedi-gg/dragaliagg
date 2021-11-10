@@ -1,0 +1,11 @@
+{% if page_obj.has_next %}
+    <link rel="next" href="{{ request|build_uri_no_query }}?page={{ page_obj.next_page_number }}"/>
+{% endif %}
+{% if page_obj.has_previous %}
+    {% if page_obj.previous_page_number == 1 %}
+    <link rel="prev" href="{{ request|build_uri_no_query }}"/>
+    {% else %}
+    <link rel="prev" href="{{ request|build_uri_no_query }}?page={{ page_obj.previous_page_number }}"/>
+    {% endif %}
+{% endif %}
+    <link rel="canonical" href="{{ request.build_absolute_uri }}"/>

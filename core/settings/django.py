@@ -64,6 +64,7 @@ TEMPLATES = [
             'builtins': [
                 'django.contrib.humanize.templatetags.humanize',
                 'django.templatetags.static',
+                'core.template_tags.tags',
                 'game_data.template_tags.get_image_size',
             ],
         },

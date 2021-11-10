@@ -3,7 +3,11 @@
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
     {% if page_obj.has_previous %}
+      {% if page_obj.previous_page_number == 1 %}
+      <li class="page-item"><a href="{{ request|build_uri_no_query }}" class="page-link">&laquo;</a></li>
+      {% else %}
       <li class="page-item"><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo;</a></li>
+      {% endif %}
     {% else %}
       <li class="page-item disabled"><span class="page-link">&laquo;</a></li>
     {% endif %}
@@ -11,7 +15,11 @@
       {% if page_obj.number == i %}
         <li class="page-item active"><a class="page-link" href="javascript:;">{{ i }}</a></li>
       {% else %}
+        {% if i == 1 %}
+        <li class="page-item"><a class="page-link" href="{{ request|build_uri_no_query }}">{{ i }}</a></li>
+        {% else %}
         <li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+        {% endif %}
       {% endif %}
     {% endfor %}
     {% if page_obj.has_next %}

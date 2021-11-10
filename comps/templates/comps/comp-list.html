@@ -5,6 +5,9 @@
 
 {% block header_pretitle %}Dragalia Lost{% endblock %}
 {% block header_title %}{{ title }} Comps{% endblock %}
+{% block meta_canonical %}
+{% include "comps/partials/comp_listing_canonical.html" %}
+{% endblock %}
 
 {% block page_breadcrumb %}
 <nav aria-label="breadcrumb" class="mb-2">

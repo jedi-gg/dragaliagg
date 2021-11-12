@@ -13,6 +13,10 @@ class Adventurer(models.Model):
     rarity = models.PositiveIntegerField()
     element = models.CharField(max_length=50)
     weapon = models.CharField(max_length=50)
+    shared_skill_name = models.CharField(max_length=100, null=True, blank=True)
+    shared_skill_description = models.TextField(blank=True, null=True)
+    shared_skill_cost = models.PositiveIntegerField(blank=True, null=True)
+    shared_skill_sp = models.PositiveIntegerField(blank=True, null=True)
 
     def get_image(self, size=120):
         return '{}game_assets/adventurers/{}_{}.png'.format(

@@ -160,6 +160,11 @@
     top: -5px;
     left: 4px;
 }
+.wp-affinity-text {
+    position: absolute;
+    right: 0;
+    width: 35px;
+}
 .build-adventurer-box {
     padding-left: 0;
 }

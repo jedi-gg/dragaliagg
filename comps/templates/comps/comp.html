@@ -122,6 +122,7 @@
                   </div>
                 </div>
                 <div class="col ms-n2">
+                  {% if wp.affinity_icon %}<img class="wp-affinity-text" src="{{ wp.get_affinity_image }}" />{% endif %}
                   <h4 class="text-body text-focus mb-1 name">{{ wp.name }}</h4>
                   <p class="small mb-0">{{ wp.ability_name }}</p>
                 </div>

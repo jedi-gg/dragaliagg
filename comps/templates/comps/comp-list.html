@@ -65,20 +65,18 @@
           </a>
         </div>
         <div id="questNav" class="list-group list-group-flush list-group-focus d-none d-sm-block">
-          {% for event in section.get_quests %}
-          <a class="list-group-item" href="{{ event.get_absolute_url }}">
+          {% for quest in section.get_quests %}
+          <a class="list-group-item" href="{{ quest.get_absolute_url }}">
             <div class="row align-items-center">
               <div class="col-auto">
-                <div class="avatar list-nav-avatar" style="background-image: url('{{ event.get_banner_image }}'); background-position: {{ event.image_offset }}px 0;">
-                  
-                </div>
+                <div class="avatar list-nav-avatar" style="background-image: url('{{ quest.get_banner_image }}'); background-position: {{ quest.image_offset }}px 0;"></div>
               </div>
               <div class="col ms-n2">
                 <h4 class="text-body text-focus mb-1 name">
-                  {{ event.get_nav_title }}
+                  {{ quest.get_nav_title }}
                 </h4>
                 <p class="small text-muted mb-0">
-                  {{ event.comps.count }} Comps
+                  {{ quest.comps.count }} Comps
                 </p>
               </div>
             </div> <!-- / .row -->
@@ -100,9 +98,7 @@
            <a class="list-group-item" href="{{ quest.get_absolute_url }}">
             <div class="row align-items-center">
               <div class="col-auto">
-                <div class="avatar list-nav-avatar" style="background-image: url('{{ original.get_banner_image }}'); background-position: {{ original.image_offset }}px 0;">
-                  <img src="{{ quest.get_banner_image }}" alt="..." class="avatar-img rounded">
-                </div>
+                <div class="avatar list-nav-avatar" style="background-image: url('{{ quest.get_banner_image }}'); background-position: {{ quest.image_offset }}px 0;"></div>
               </div>
               <div class="col ms-n2">
                 <h4 class="text-body text-focus mb-1 name">

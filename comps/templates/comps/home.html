@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'comps/comp-list-base.html' %}
 
 {% block meta_title %}Dragalia.gg - Dragalia Lost Comps and Team Builds (Auto and Manual){% endblock %}
 {% block meta_description %}Check out all of the latest Dragalia Lost auto and manual comps and Adventurer Builds on Dragalia.gg!{% endblock %}
@@ -38,9 +38,19 @@
 </ul>
 {% endblock %}
 
-{% block page_content %}
-{% for c in comps %}
-{% include "comps/partials/comp_listing_row.html" %}
-{% endfor %}
-{% include "partials/pagination.html" %}
+{% block page_breadcrumb %}{% endblock %}
+
+{% block sidebar_order %}{% endblock %}
+
+{% block comp_list_sidebar %}
+  <div class="card-header">
+    
+    <h4 class="card-header-title">
+      Welcome to Dragalia.gg!
+    </h4>
+    
+  </div>
+  <div class="card-body">
+    <p class="pb-0 mb-0">Some really uplifting words about using the site!</p>
+  </div>
 {% endblock %}

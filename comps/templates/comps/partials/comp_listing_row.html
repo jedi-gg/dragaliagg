@@ -1,40 +1,38 @@
-<div class="row list comp-list-row">
-  <div class="col-12">
-    <a href="{{ c.get_absolute_url }}" class="link-spanner"></a>
-    <div class="card comp-list-card border-element-{{ c.quest.get_element|lower }}">
-      <div
-        class="card-body"
-        style="--background: url('{{ c.get_lead.get_portrait }}')"
-      >
-        <div class="row align-items-center">
-          <div class="col-auto comp-list-card-portrait">
-            <div class="comp-list-card-portrait-banner{% if no_banner %} mobile-hide{% endif %}">
-              <img
-                src="{{ c.quest.get_banner_image }}"
-                class="border-element-{{ c.quest.get_element|lower }}"
-              />
-            </div>
+<div class="comp-list-row">
+  <a href="{{ c.get_absolute_url }}" class="link-spanner"></a>
+  <div class="card comp-list-card border-element-{{ c.quest.get_element|lower }}">
+    <div
+      class="card-body"
+      style="--background: url('{{ c.get_lead.get_portrait }}')"
+    >
+      <div class="row align-items-center">
+        <div class="col-auto comp-list-card-portrait">
+          <div class="comp-list-card-portrait-banner{% if no_banner %} mobile-hide{% endif %}">
+            <img
+              src="{{ c.quest.get_banner_image }}"
+              class="border-element-{{ c.quest.get_element|lower }}"
+            />
           </div>
-          <div class="col ms-n2">
-            <h3 class="mb-1 name">
-              <a href="{{ c.get_absolute_url }}">{{ c }}</a>
-            </h3>
+        </div>
+        <div class="col ms-n2">
+          <h3 class="mb-1 name">
+            <a href="{{ c.get_absolute_url }}">{{ c }}</a>
+          </h3>
 
-            <p class="mb-0">{{ c.description }}</p>
+          <p class="mb-0">{{ c.description }}</p>
 
-            <p class="mb-0">
-              {% for slot, build in c.get_team.items %}
-              <img src="{{ build.adventurer.get_image }}" style="width: 60px" />
-              {% endfor %}
-            </p>
+          <p class="mb-0">
+            {% for slot, build in c.get_team.items %}
+            <img src="{{ build.adventurer.get_image }}" style="width: 60px" />
+            {% endfor %}
+          </p>
 
-            <p class="card-text mb-1">
-                <span class="badge bg-{{ c.difficulty|lower }}">{{ c.difficulty }}</span>
-                <span class="badge bg-primary-soft">{{ c.comp_type }}</span>
-                {% if c.get_clear_time %}<span class="badge bg-primary-soft">{{ c.get_clear_time }}</span>{% endif %}
-                {% if c.get_clear_rate %}<span class="badge bg-primary-soft">Clear Rate: {{ c.get_clear_rate }}</span>{% endif %}
-            </p>
-          </div>
+          <p class="card-text mb-1">
+              <span class="badge bg-{{ c.difficulty|lower }}">{{ c.difficulty }}</span>
+              <span class="badge bg-primary-soft">{{ c.comp_type }}</span>
+              {% if c.get_clear_time %}<span class="badge bg-primary-soft">{{ c.get_clear_time }}</span>{% endif %}
+              {% if c.get_clear_rate %}<span class="badge bg-primary-soft">Clear Rate: {{ c.get_clear_rate }}</span>{% endif %}
+          </p>
         </div>
       </div>
     </div>

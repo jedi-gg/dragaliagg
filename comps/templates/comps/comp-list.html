@@ -9,48 +9,138 @@
 {% include "comps/partials/comp_listing_canonical.html" %}
 {% endblock %}
 
+{% block extra_js %}
+<script>
+const el = document.querySelector('#questNav');
+document.getElementById('questNavMenu').addEventListener('click', ()=>{
+  el.classList.toggle('d-none');
+});
+</script>
+{% endblock%}
+
 {% block page_breadcrumb %}
 <nav aria-label="breadcrumb" class="mb-2">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
-        {% if list_type == 'section' %}
-        <li class="breadcrumb-item active" ia-current="page">{{ section }}</li>
-        {% endif %}
-        {% if list_type == 'quest' %}
-        <li class="breadcrumb-item"><a href="{{ section.get_absolute_url }}">{{ section }}</a></li>
-        <li class="breadcrumb-item active" aria-current="page">{{ quest.nav_title }}</li>
-        {% endif %}
-        {% if list_type == 'difficulty' %}
-        <li class="breadcrumb-item"><a href="{{ section.get_absolute_url }}">{{ section }}</a></li>
-        <li class="breadcrumb-item"><a href="{{ quest.get_absolute_url }}">{{ quest.nav_title }}</a></li>
-        <li class="breadcrumb-item active" aria-current="page">{{ difficulty }}</li>
-        {% endif %}
-    </ol>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+    {% if list_type == 'section' %}
+    <li class="breadcrumb-item active" ia-current="page">{{ section }}</li>
+    {% endif %}
+    {% if list_type == 'quest' %}
+    <li class="breadcrumb-item"><a href="{{ section.get_absolute_url }}">{{ section }}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ quest.nav_title }}</li>
+    {% endif %}
+    {% if list_type == 'difficulty' %}
+    <li class="breadcrumb-item"><a href="{{ section.get_absolute_url }}">{{ section }}</a></li>
+    <li class="breadcrumb-item"><a href="{{ quest.get_absolute_url }}">{{ quest.nav_title }}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ difficulty }}</li>
+    {% endif %}
+  </ol>
 </nav>
 {% endblock %}
 
-{% block page_nav %}
-{% if list_type == 'section' %}
-{% include "comps/partials/section_nav.html" %}
-{% else %}
-{% include "comps/partials/quest_nav.html" %}
-{% endif %}
-{% endblock %}
+{% block page_nav %}{% endblock %}
 
 {% block page_content %}
-{% if not comps %}
-No Comps!
-{% endif %}
-{% for c in comps %}
-{% if list_type == 'quest' or list_type == 'difficulty'%}
-    {% if forloop.first %}
-        {% include "comps/partials/comp_listing_row.html" %}
-    {% else %}
-        {% include "comps/partials/comp_listing_row.html" with no_banner=True %}
+<div class="row">
+  <!-- order-last order-md-first -->
+  <div class="col-12 col-xl-9 order-last order-md-first">    
+    {% if not comps %}
+    No Comps!
     {% endif %}
-{% else %}
-{% include "comps/partials/comp_listing_row.html" %}
-{% endif %}
-{% endfor %}
-{% include "partials/pagination.html" %}
+    {% for c in comps %}
+    {% if list_type == 'quest' or list_type == 'difficulty'%}
+        {% if forloop.first %}
+            {% include "comps/partials/comp_listing_row.html" %}
+        {% else %}
+            {% include "comps/partials/comp_listing_row.html" with no_banner=True %}
+        {% endif %}
+    {% else %}
+    {% include "comps/partials/comp_listing_row.html" %}
+    {% endif %}
+    {% endfor %}
+    {% include "partials/pagination.html" %}
+  </div>
+
+  <div class="col-12 col-xl-3">
+    <div class="card">
+      <div class="card-body mt-0 pt-0 pb-0" style="margin-top: 0;">
+        {% if list_type == 'section' %}
+        <div class="list-group list-group-flush list-group-focus d-block d-sm-none">
+          <a id="questNavMenu" class="list-group-item" href="javascript:;">
+            <div class="row align-items-center">
+              <div class="col ms-n2">
+                <h4 class="text-body text-focus mb-1 name">
+                  <span class="fe fe-menu"></span> Quest Navigation
+                </h4>
+              </div>
+            </div> <!-- / .row -->
+          </a>
+        </div>
+        <div id="questNav" class="list-group list-group-flush list-group-focus d-none d-sm-block">
+          {% for event in section.get_quests %}
+          <a class="list-group-item" href="{{ event.get_absolute_url }}">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <div class="avatar">
+                  <img src="{{ event.get_banner_image }}" alt="..." class="avatar-img rounded">
+                </div>
+              </div>
+              <div class="col ms-n2">
+                <h4 class="text-body text-focus mb-1 name">
+                  {{ event.get_nav_title }}
+                </h4>
+                <p class="small text-muted mb-0">
+                  {{ event.comps.count }} Comps
+                </p>
+              </div>
+            </div> <!-- / .row -->
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if list_type == 'quest' or list_type == 'difficulty' %}
+        <div class="list-group list-group-flush list-group-focus">
+          <a class="list-group-item" href="{{ quest.section.get_absolute_url }}">
+            <div class="row align-items-center">
+              <div class="col ms-n2">
+                <h4 class="text-body text-focus mb-1 name">
+                  <span class="fe fe-arrow-left"></span> {{ quest.section }}
+                </h4>
+              </div>
+            </div> <!-- / .row -->
+          </a>
+           <a class="list-group-item" href="{{ quest.get_absolute_url }}">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                <div class="avatar">
+                  <img src="{{ quest.get_banner_image }}" alt="..." class="avatar-img rounded">
+                </div>
+              </div>
+              <div class="col ms-n2">
+                <h4 class="text-body text-focus mb-1 name">
+                  {{ quest.get_nav_title }}
+                </h4>
+                <p class="small text-muted mb-0">
+                  {{ quest.comps.count }} Comps
+                </p>
+              </div>
+            </div> <!-- / .row -->
+          </a>
+          {% for d in quest.difficulties.all %}
+          <a class="list-group-item" href="{% url 'comp-list' quest.section.slug quest.slug d.slug %}">
+            <div class="row align-items-center">
+              <div class="col ms-n2">
+                <h4 class="text-body text-focus mb-1 name">
+                  {{ d }}
+                </h4>
+              </div>
+            </div> <!-- / .row -->
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}

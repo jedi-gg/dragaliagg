@@ -165,6 +165,22 @@
     </div>
 
     <div class="card" style="padding: 10px 20px;">
+      <h3 class="creator-notes mt-3 draglia-font-bold">Shared Skills</h3>
+      <div class="row text-center shared-skills">
+        <div class="col-6">
+          {% if comp.shared_skill_1.get_image %}
+          <img src="{{ comp.shared_skill_1.get_image }}" />
+          {% else %}
+          <img src="{{ comp.get_lead_build.weapon.get_image }}" />
+          {% endif %}
+        </div>
+        <div class="col-6">
+          <img src="{{ comp.shared_skill_2.get_image }}" />
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="padding: 10px 20px;">
       <h3 class="creator-notes mt-3 draglia-font-bold">Creator's Notes</h3>
       <p>{{ comp.creators_notes|linebreaks }}</p>
     </div>

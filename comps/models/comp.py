@@ -102,6 +102,9 @@ class Comp(SlugModel):
     def get_youtube_id(self):
         return extract.video_id(self.video_link)
     
+    def get_lead_build(self):
+        return self.builds.get(slot=AdventurerSlotEnum.LEAD_UNIT.value)
+
     def get_lead(self):
         return self.builds.get(slot=AdventurerSlotEnum.LEAD_UNIT.value).adventurer
     

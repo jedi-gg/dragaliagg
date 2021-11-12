@@ -185,6 +185,11 @@
     border-bottom: 2px solid #000;
 }
 
+/* Shared Skills */
+.shared-skills img {
+    width: 60px;
+}
+
 /* Badges */
 .badge.bg-standard {
     background-color: #68c3fd;
@@ -229,8 +234,20 @@
     .wyrmprints {
         text-align: center;
     }
-    .wyrmprints img {
-        cursor: help;
+
+    .wyrmprints a {
+        display: inline-block;
+    }
+    .wyrmprints .wp-image {
+        cursor: pointer;
         width: 52px;
+    }
+
+    .wp-affinity {
+        position: absolute;
+        width: 13px;
+        z-index: 10;
+        top: 14px;
+        left: 2px;
     }
 }

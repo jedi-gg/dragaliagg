@@ -3,6 +3,7 @@
 {% block field_sets %}
 {% if original.banner_title %}
 <img src="{{ original.get_banner_image }}">
+<div class="avatar" style="height: 48px; width: 48px;  background-color: #fff; background-image: url('{{ original.get_banner_image }}'); background-position: {{ original.image_offset }}px 0; background-size: cover;"></div>
 {% endif %}
 {{ block.super }}
 {% endblock %}

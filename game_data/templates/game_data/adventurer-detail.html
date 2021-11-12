@@ -12,7 +12,7 @@
 {% endblock %}
 
 {% block header_pretitle %}Dragalia Lost{% endblock %}
-{% block header_title %}{{ adventurer }}{% endblock %}
+{% block header_title %}{{ adventurer }} Builds & Comps{% endblock %}
 {% block header_posttitle %}
 <div class="mt-2">
   <span class="badge bg-element-{{ adventurer.element|lower }}">{{ adventurer.element }}</span>
@@ -26,16 +26,16 @@
 <nav aria-label="breadcrumb" class="mb-2">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Adventurers</a></li>
+        <li class="breadcrumb-item"><a href="{% url 'adventurer-list' %}">Adventurers</a></li>
         <li class="breadcrumb-item active mobile-hide" aria-current="page">{{ adventurer }}</li>
     </ol>
 </nav>
 {% endblock %}
 
 {% block page_content %}
-<div class="row" style="max-width: 1100px;">
+<div class="row">
   <!-- order-last order-md-first -->
-  <div class="col-12 col-xl-8 tab-content">
+  <div class="col-12 col-xl-8 order-last order-md-first">
     {% for c in comps %}
     {% include "comps/partials/comp_listing_row.html" %}
     {% endfor %}

@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block meta_title %}{{ adventurer }} Comps and Builds - Dragalia.gg{% endblock %}
+{% block meta_description %}{{ comp }} build on Dragalia Lost!{% endblock %}
+
+{% block meta_canonical %}
+{% include "partials/pagination_canonical.html" %}
+{% endblock %}
+
+{% block header_pretitle %}Dragalia Lost{% endblock %}
+{% block header_title %}Adventurer Comps & Builds{% endblock %}
+{% block page_breadcrumb %}
+<nav aria-label="breadcrumb" class="mb-2">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+        <li class="breadcrumb-item active mobile-hide" aria-current="page">Adventurers</li>
+    </ol>
+</nav>
+{% endblock %}
+
+{% block page_content %}
+<div class="row">
+  <!-- order-last order-md-first -->
+  <div class="col-12">
+    <div class="row">
+      {% for adventurer in adventurers %}
+      <div class="col-6 col-sm-3">
+        <div class="card">
+          <div class="card-body">
+            <div class="list-group list-group-flush my-n3">
+              <div class="list-group-item">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <a href="{{ adventurer.get_absolute_url }}"><img src="{{ adventurer|get_portrait_size:450 }}" style="width: 100%;" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="list-group-item">
+                <div class="row align-items-center">
+                  <div class="col text-center">
+                    <a href="{{ adventurer.get_absolute_url }}">{{ adventurer }}</a><br />{{ adventurer.builds.count }} Comps
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% include "partials/pagination.html" %}
+{% endblock %}

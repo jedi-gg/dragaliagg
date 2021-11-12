@@ -25,6 +25,11 @@
               <i class="fe fe-home"></i> Home
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'adventurer-list' %}">
+              <i class="fe fe-users"></i> Adventurers
+            </a>
+          </li>
           {% for section in sections %}
           <li class="nav-item">
             <a class="nav-link" href="{{ section.get_absolute_url }}">

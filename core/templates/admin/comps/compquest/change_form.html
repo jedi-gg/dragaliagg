@@ -1,0 +1,8 @@
+{% extends "admin/change_form.html" %}
+
+{% block field_sets %}
+{% if original.banner_title %}
+<img src="{{ original.get_banner_image }}">
+{% endif %}
+{{ block.super }}
+{% endblock %}

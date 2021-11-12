@@ -31,4 +31,11 @@ class CompDetail(CacheMixin, DetailView):
             ('Creator\'s Clear Rate', self.object.get_clear_rate),
         ]
 
+        if self.object.helper:
+            helper_text = 'Helper'
+            if self.object.helper_dragon:
+                helper_text = '{} - {}'.format(
+                    helper_text, self.object.helper_dragon)
+            context['helper_text'] = helper_text
+
         return context

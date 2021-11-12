@@ -175,7 +175,12 @@
           {% endif %}
         </div>
         <div class="col-12 col-sm-6">
+
+          {% if comp.helper %}
+          {% include "comps/partials/comp_ss.html" with image=comp.shared_skill_2.get_image name=comp.shared_skill_2 desc=helper_text %}
+          {% else %}
           {% include "comps/partials/comp_ss.html" with image=comp.shared_skill_2.get_image name=comp.shared_skill_2 desc=comp.shared_skill_2.shared_skill_name popover=comp.shared_skill_2.shared_skill_description %}
+          {% endif %}
         </div>
       </div>
     </div>

@@ -81,8 +81,8 @@ document.getElementById('questNavMenu').addEventListener('click', ()=>{
           <a class="list-group-item" href="{{ event.get_absolute_url }}">
             <div class="row align-items-center">
               <div class="col-auto">
-                <div class="avatar">
-                  <img src="{{ event.get_banner_image }}" alt="..." class="avatar-img rounded">
+                <div class="avatar list-nav-avatar" style="background-image: url('{{ event.get_banner_image }}'); background-position: {{ event.image_offset }}px 0;">
+                  
                 </div>
               </div>
               <div class="col ms-n2">
@@ -112,7 +112,7 @@ document.getElementById('questNavMenu').addEventListener('click', ()=>{
            <a class="list-group-item" href="{{ quest.get_absolute_url }}">
             <div class="row align-items-center">
               <div class="col-auto">
-                <div class="avatar">
+                <div class="avatar list-nav-avatar" style="background-image: url('{{ original.get_banner_image }}'); background-position: {{ original.image_offset }}px 0;">
                   <img src="{{ quest.get_banner_image }}" alt="..." class="avatar-img rounded">
                 </div>
               </div>

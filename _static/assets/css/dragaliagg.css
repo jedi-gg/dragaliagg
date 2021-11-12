@@ -79,6 +79,10 @@
   left: 0;
   z-index: 1;
 }
+.list-nav-avatar {
+    border-radius: .375rem !important;
+    background-size: cover;
+}
 
 .link-spanner:hover ~ .comp-list-card {
     background-color: #FDFDFD;

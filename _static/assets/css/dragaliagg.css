@@ -202,6 +202,18 @@
     background-color: #c29cfa;
     color: #000;
 }
+.text-legend {
+    color: #c29cfa;
+}
+.text-master {
+    color: #fb7b8c;
+}
+.text-expert {
+    color: #ffd824;
+}
+.text-standard {
+    color: #68c3fd;
+}
 
 /* Mobile */
 @media (max-width: 460px) {

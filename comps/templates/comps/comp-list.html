@@ -126,12 +126,12 @@ document.getElementById('questNavMenu').addEventListener('click', ()=>{
               </div>
             </div> <!-- / .row -->
           </a>
-          {% for d in quest.difficulties.all %}
+          {% for d, count in quest_difficulties %}
           <a class="list-group-item" href="{% url 'comp-list' quest.section.slug quest.slug d.slug %}">
             <div class="row align-items-center">
               <div class="col ms-n2">
-                <h4 class="text-body text-focus mb-1 name">
-                  {{ d }}
+                <h4 class="mb-1 name{% if d == difficulty %} text-{{ d|lower }}{% endif %}">
+                  {{ d }} <small class="text-muted">{{ count }} comps</small>
                 </h4>
               </div>
             </div> <!-- / .row -->

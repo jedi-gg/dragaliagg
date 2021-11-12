@@ -67,4 +67,16 @@ class CompList(CacheMixin, ListView):
         context['quest'] = self.quest
         context['difficulty'] = self.difficulty
 
+        # If a Quest, get counts of difficulties
+        if self.list_type in ['quest', 'difficulty',]:
+            quest_difficulties = []
+            for d in self.quest.difficulties.all():
+                difficulty_count = self.quest.comps.filter(difficulty=d).count()
+                if difficulty_count > 0:
+                    quest_difficulties.append(
+                        (d, difficulty_count)
+                    )
+            
+            context['quest_difficulties'] = quest_difficulties
+
         return context

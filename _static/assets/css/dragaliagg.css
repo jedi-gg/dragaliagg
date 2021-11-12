@@ -91,6 +91,9 @@
 .link-spanner:hover ~ .comp-list-card h3.name a {
     color: #1657af;
 }
+.ss-hover:hover {
+    cursor: help;
+}
 
 .comp-list-card-portrait {
     

@@ -167,15 +167,15 @@
     <div class="card" style="padding: 10px 20px;">
       <h3 class="creator-notes mt-3 draglia-font-bold">Shared Skills</h3>
       <div class="row text-center shared-skills">
-        <div class="col-6">
+        <div class="col-12 col-sm-6">
           {% if comp.shared_skill_1.get_image %}
-          <img src="{{ comp.shared_skill_1.get_image }}" />
+          {% include "comps/partials/comp_ss.html" with image=comp.shared_skill_1.get_image name=comp.shared_skill_1 desc=comp.shared_skill_1.shared_skill_name popover=comp.shared_skill_1.shared_skill_description %}
           {% else %}
-          <img src="{{ comp.get_lead_build.weapon.get_image }}" />
+          {% include "comps/partials/comp_ss.html" with image=comp.get_lead_build.weapon.get_image name=comp.get_lead_build.weapon desc="Agito Ability" %}
           {% endif %}
         </div>
-        <div class="col-6">
-          <img src="{{ comp.shared_skill_2.get_image }}" />
+        <div class="col-12 col-sm-6">
+          {% include "comps/partials/comp_ss.html" with image=comp.shared_skill_2.get_image name=comp.shared_skill_2 desc=comp.shared_skill_2.shared_skill_name popover=comp.shared_skill_2.shared_skill_description %}
         </div>
       </div>
     </div>

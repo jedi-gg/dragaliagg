@@ -1,6 +1,6 @@
 # Dragalia.gg
 
-A site for Dragalia Lost endgame builds & comps.
+A site for Dragalia Lost endgame team builds & comps.
 
 ## I have a complaint!
 

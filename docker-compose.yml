@@ -32,6 +32,8 @@ services:
       service: dg.django
     environment:
       <<: *web-variables
+    working_dir: /srv/app/
+    entrypoint: /entrypoint.sh
   
   dg.redis:
     image: redis:6.0.5

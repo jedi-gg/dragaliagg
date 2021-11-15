@@ -12,4 +12,4 @@ services:
       - 8000:8000
     volumes:
       - ../:/srv/app
-    restart: on-failure
+    restart: unless-stopped

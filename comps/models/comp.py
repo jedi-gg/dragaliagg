@@ -18,7 +18,6 @@ class Comp(SlugModel):
     creator = models.ForeignKey('CompCreator', related_name='comps', on_delete=models.DO_NOTHING, blank=True, null=True)
     post_date = models.DateField(blank=True, null=True)
     auto_shapeshift = models.BooleanField(blank=True, null=True)
-    game_version = models.CharField(max_length=100, blank=True, null=True)
     clear_time = models.CharField(max_length=50, blank=True, null=True)
     clear_rate = models.PositiveIntegerField(blank=True, null=True)
     clear_rate_note = models.CharField(max_length=100, blank=True, null=True)

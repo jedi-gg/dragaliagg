@@ -25,7 +25,6 @@ class CompDetail(CacheMixin, DetailView):
             ('Comp Type', self.object.comp_type),
             ('Creator', self.object.creator),
             ('Date Posted', self.object.post_date),
-            ('Game Version', self.object.game_version),
             ('Auto-Shapeshift', auto_shapeshift),
             ('Creator\'s Clear Time', self.object.get_clear_time),
             ('Creator\'s Clear Rate', self.object.get_clear_rate),

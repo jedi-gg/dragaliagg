@@ -1,0 +1,67 @@
+  {% for slot, build in comp.get_team.items %}
+  <div class="card team-text-card">
+    <div class="card-body">
+      <div class="list-group list-group-flush list-group-focus">
+        <a class="list-group-item" href="{{ build.adventurer.get_absolute_url }}">
+          <div class="row align-items-center">
+            <div class="col-auto">
+              <div class="avatar">
+                <img src="{{ build.adventurer|get_image_size:120 }}" alt="..." class="avatar-img">
+              </div>
+            </div>
+            <div class="col ms-n2">
+              <h4 class="text-body text-focus mb-1 name">{{ build.adventurer.name }}</h4>
+              <p class="small mb-0">{{ build.get_slot_name }}</p>
+            </div>
+          </div>
+        </a>
+        {% for wp in build.get_all_wyrmprints %}
+        {% if wp %}
+        <a class="list-group-item" href="{{ wp.get_wiki_url }}" target="_blank">
+          <div class="row align-items-center">
+            <div class="col-auto">
+              <div class="avatar">
+                <img src="{{ wp|get_image_size:155 }}" alt="..." class="avatar-img">
+              </div>
+            </div>
+            <div class="col ms-n2">
+              {% if wp.affinity_icon %}<img class="wp-affinity-text" src="{{ wp.get_affinity_image }}" />{% endif %}
+              <h4 class="text-body text-focus mb-1 name">{{ wp.name }}</h4>
+              <p class="small mb-0">{{ wp.ability_name }}</p>
+            </div>
+          </div>
+        </a>
+        {% endif %}
+        {% endfor %}
+        <div class="list-group-item">
+          <div class="row">
+            <div class="col-6">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <div class="avatar">
+                    <a href="{{ build.dragon.get_wiki_url }}" target="_blank"><img src="{{ build.dragon.get_image }}" alt="..." class="avatar-img"></a>
+                  </div>
+                </div>
+                <div class="col ms-n2">
+                  <h4 class="text-body text-focus mb-1 name"><a href="{{ build.dragon.get_wiki_url }}" target="_blank">{{ build.dragon.name }}</a></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <div class="avatar">
+                    <a href="{{ build.weapon.get_wiki_url }}" target="_blank"><img src="{{ build.weapon.get_image }}" alt="..." class="avatar-img"></a>
+                  </div>
+                </div>
+                <div class="col ms-n2">
+                  <h4 class="text-body text-focus mb-1 name"><a href="{{ build.weapon.get_wiki_url }}" target="_blank">{{ build.weapon.name }}</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}

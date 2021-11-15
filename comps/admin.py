@@ -56,6 +56,10 @@ class CompAdmin(admin.ModelAdmin):
         'helper_dragon',
     ]
 
+    raw_id_fields = (
+        'parent_comp',
+    )
+
     readonly_fields = ('slug',)
 
     list_display = ['get_title', 'difficulty', 'creator', 'modified_date', 'created_date']

@@ -1,15 +1,20 @@
-<div class="row ss-hover align-items-center"{% if popover %} data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="{{ popover|safe }}"{% endif %}>
-  <div class="col-auto">
-      <div class="">
-      <img src="{{ image }}" alt="..." class="avatar-img rounded">
-      </div>
-  </div>
-  <div class="col ms-n2">
-      <h4 class="text-body text-focus mb-1 name">
-      {{ name }}
-      </h4>
-      <p class="small text-muted mb-0">
-      {{ desc }}
-      </p>
+<div class="card" style="padding: 10px 20px;">
+  <h3 class="creator-notes mt-3 draglia-font-bold">Shared Skills</h3>
+  <div class="row text-center shared-skills">
+    <div class="col-12 col-sm-6">
+      {% if comp.shared_skill_1.get_image %}
+      {% include "comps/partials/comp_ss_item.html" with image=comp.shared_skill_1.get_image name=comp.shared_skill_1 desc=comp.shared_skill_1.shared_skill_name popover=comp.shared_skill_1.shared_skill_description %}
+      {% else %}
+      {% include "comps/partials/comp_ss_item.html" with image=comp.get_lead_build.weapon.get_image name=comp.get_lead_build.weapon desc="Agito Ability" %}
+      {% endif %}
+    </div>
+    <div class="col-12 col-sm-6">
+
+      {% if comp.helper %}
+      {% include "comps/partials/comp_ss_item.html" with image=comp.shared_skill_2.get_image name=comp.shared_skill_2 desc=helper_text %}
+      {% else %}
+      {% include "comps/partials/comp_ss_item.html" with image=comp.shared_skill_2.get_image name=comp.shared_skill_2 desc=comp.shared_skill_2.shared_skill_name popover=comp.shared_skill_2.shared_skill_description %}
+      {% endif %}
+    </div>
   </div>
 </div>

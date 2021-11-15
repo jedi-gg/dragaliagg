@@ -192,6 +192,14 @@
     border-bottom: 2px solid #000;
 }
 
+.team-text-card .card-body {
+    padding: 1rem;
+}
+.team-text-card a.list-group-item {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
 /* Shared Skills */
 .shared-skills img {
     width: 60px;

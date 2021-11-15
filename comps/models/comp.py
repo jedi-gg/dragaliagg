@@ -11,6 +11,11 @@ from core.models import SlugModel
 from game_data.models import Adventurer, Dragon
 
 
+class CompListObjectsManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(parent_comp__isnull=True)
+
+
 class Comp(SlugModel):
     comp_type = models.ForeignKey('CompType', related_name='comps', on_delete=models.DO_NOTHING, blank=True, null=True)
     title = models.CharField(max_length=100, null=True, blank=True)
@@ -38,6 +43,11 @@ class Comp(SlugModel):
 
     created_date = models.DateTimeField(auto_now_add=True)
     modified_date = models.DateTimeField(auto_now=True)
+
+    parent_comp = models.ForeignKey('Comp', related_name='teams', on_delete=models.DO_NOTHING, blank=True, null=True)
+
+    objects = models.Manager()
+    list_objects = CompListObjectsManager()
 
     def slug_name(self):
         s = self

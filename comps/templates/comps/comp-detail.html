@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+
+{% block meta_title %}{{ comp }} - Dragalia.gg{% endblock %}
+{% block meta_description %}{{ comp }} build on Dragalia Lost!{% endblock %}
+{% block meta_extra %}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ comp }}" />
+  <meta property="og:url" content="{{ request.build_absolute_uri }}" />
+  <meta property="og:description" content="{{ comp.difficulty }} {{ comp.quest }} featuring {{ comp.get_lead }} lead." />
+  <meta property="og:site_name" content="Dragalia.gg - Dragalia Lost Team Compositions & Builds" />
+  <meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{{ comp.get_lead.get_image }}" />
+{% endblock %}
+{% block meta_canonical %}
+  <link rel="canonical" href="{{ request.build_absolute_uri }}"/>
+{% endblock %}
+
+{% block header_pretitle %}Dragalia Lost{% endblock %}
+{% block header_title %}{{ comp }}{% endblock %}
+{% block header_posttitle %}
+<div class="mt-2">
+  <span class="badge bg-{{ comp.difficulty|lower }}">{{ comp.difficulty }}</span>
+  <span class="badge bg-primary-soft">{{ comp.comp_type }}</span>
+  {% if comp.clear_time %}<span class="badge bg-primary-soft">Clear Time: {{ comp.clear_time }}</span>{% endif %}
+  {% if comp.clear_rate %}<span class="badge bg-primary-soft">Clear Rate: {{ comp.clear_rate }}%</span>{% endif %}
+</div>
+{% endblock %}
+
+{% block page_nav %}
+<!-- Nav -->
+<ul class="nav nav-tabs nav-overflow header-tabs">
+    <li class="nav-item">
+    <a href="#" class="nav-link active" data-bs-toggle="tab" data-bs-target="#comp_visual">
+        Team Comp
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="#" class="nav-link" data-bs-toggle="tab" data-bs-target="#comp_text">
+        Text
+    </a>
+    </li>
+</ul>
+{% endblock %}
+
+{% block page_content %}
+<div class="row" style="max-width: 1100px;">
+  <div class="col-12 col-xl-8 tab-content">
+    <div class="tab-pane active" id="comp_visual">
+      {% if team_2 %}
+      <div class="mt-1 mb-1">
+        <button type="button" class="btn btn-primary btn-sm">
+          Team 1
+        </button>
+      </div>
+      {% endif %}
+      {% include "comps/partials/comp_team_visual.html" %}
+      {% include "comps/partials/comp_ss.html" %}
+      {% if team_2 %}
+      <div class="mt-1 mb-1">
+        <button type="button" class="btn btn-primary btn-sm">
+          Team 2
+        </button>
+      </div>
+      {% with comp=team_2 %}
+      {% include "comps/partials/comp_team_visual.html" %}
+      {% include "comps/partials/comp_ss.html" %}
+      {% endwith %}
+      {% endif %}
+    </div>
+
+    <div class="tab-pane" id="comp_text">
+      {% if team_2 %}
+      <div class="mt-1 mb-1">
+        <button type="button" class="btn btn-primary btn-sm">
+          Team 1
+        </button>
+      </div>
+      {% endif %}
+      {% include "comps/partials/comp_team_text.html" %}
+      {% include "comps/partials/comp_ss.html" %}
+      {% if team_2 %}
+      <div class="mt-1 mb-1">
+        <button type="button" class="btn btn-primary btn-sm">
+          Team 2
+        </button>
+      </div>
+      {% with comp=team_2 %}
+      {% include "comps/partials/comp_team_text.html" %}
+      {% include "comps/partials/comp_ss.html" %}
+      {% endwith %}
+      {% endif %}
+    </div>
+
+    <div class="card" style="padding: 10px 20px;">
+      <h3 class="creator-notes mt-3 draglia-font-bold">Creator's Notes</h3>
+      <p>{{ comp.creators_notes|linebreaks }}</p>
+    </div>
+
+    {% if comp.video_link %}
+      {% if comp.get_video_type == 'youtube' %}
+        {% include "comps/partials/video_youtube.html" %}
+      {% endif %}
+      {% if comp.get_video_type == 'streamable' %}
+        {% include "comps/partials/video_streamable.html" %}
+      {% endif %}
+    {% endif %}
+  </div>
+    
+  <div class="col-12 col-xl-4">
+    <div class="card">
+      <div class="card-body">
+        <div class="list-group list-group-flush my-n3">
+          {% for cd in comp_data %}
+          {% if cd.1 %}
+          <div class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col">
+                <h5 class="mb-0">
+                  {{ cd.0 }}
+                </h5>
+              </div>
+              <div class="col-auto">
+                <small>
+                  {{ cd.1 }}
+                </small>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+          {% if comp.discussion_link %}
+          <div class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col">
+                <h5 class="mb-0 text-center">
+                  <a href="{{ comp.discussion_link }}" target="_blank" class="btn btn-danger btn-sm">Discuss on Reddit <span class="fe fe-external-link"></span></a>
+                </h5>
+              </div>
+
+            </div>
+          </div>
+          {% endif %}
+      </div>
+    </div>
+  </div>
+</div> <!-- / .row -->
+{% endblock %}

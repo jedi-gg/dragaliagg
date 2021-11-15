@@ -1,0 +1,34 @@
+{% for slot, build in comp.get_team.items %}
+<div class="card mb-2" style="padding: 10px;">
+  <div class="row">
+    <div class="col-4 col-sm-2">
+      <a href="{{ build.adventurer.get_absolute_url }}" class="adventurer-image" style="background-image: url('{{ build.adventurer|get_image_size:120 }}');">&nbsp;</a>
+      <div class="build-adventurer-dragon">
+        {% spaceless %}
+        <a href="{{ build.dragon.get_wiki_url }}" target="_blank">
+          <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ build.dragon.name }}" src="{{ build.dragon.get_image }}" />
+        </a>
+        <a href="{{ build.weapon.get_wiki_url }}" target="_blank">
+          <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ build.weapon.name }}" src="{{ build.weapon.get_image }}" />
+        </a>
+        {% endspaceless %}
+      </div>
+    </div>
+    <div class="col-8 col-sm-10 build-adventurer-box">
+      <h4 class="build-adventurer-name draglia-font-bold">{{ build.adventurer.name }}
+        <small style="float: right;">{{ build.get_slot_name }}</small>
+      </h4>
+      <div class="wyrmprints">
+        {% for wp in build.get_all_wyrmprints %}
+        {% if wp.name %}
+        <a href="{{ wp.get_wiki_url }}" target="_blank">
+          <img data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" title="{{ wp.name }}" data-bs-content="{{ wp.ability_name }}" src="{{ wp|get_image_size:155 }}" class="wp-image" />
+          {% if wp.affinity_icon %}<img class="wp-affinity" src="{{ wp.get_affinity_image }}" />{% endif %}
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

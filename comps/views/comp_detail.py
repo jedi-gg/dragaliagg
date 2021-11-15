@@ -6,12 +6,17 @@ from core.mixins import CacheMixin
 
 class CompDetail(CacheMixin, DetailView):
     model = Comp
-    template_name = 'comps/comp.html'
+    template_name = 'comps/comp-detail.html'
     slug_url_kwarg = 'comp_slug'
     context_object_name = 'comp'
 
     def get_context_data(self, **kwargs):
         context = super(CompDetail, self).get_context_data(**kwargs)
+
+        team_2 = None
+        if self.object.teams.all():
+            team_2 = self.object.teams.first()
+        context['team_2'] = team_2
 
         context['section'] = self.object.section
 

@@ -1,0 +1,15 @@
+<div class="row ss-hover align-items-center"{% if popover %} data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="{{ popover|safe }}"{% endif %}>
+  <div class="col-auto">
+      <div class="">
+      <img src="{{ image }}" alt="..." class="avatar-img rounded">
+      </div>
+  </div>
+  <div class="col ms-n2">
+      <h4 class="text-body text-focus mb-1 name">
+      {{ name }}
+      </h4>
+      <p class="small text-muted mb-0">
+      {{ desc }}
+      </p>
+  </div>
+</div>

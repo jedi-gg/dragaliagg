@@ -14,7 +14,7 @@ class CreatorList(CacheMixin, ListView):
 
     def get_queryset(self):
         return (
-            CompCreator.objects.all()
+            CompCreator.objects
             .annotate(build_count=Count('comps'))
             .order_by('-build_count')
         )

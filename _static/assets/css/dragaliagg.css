@@ -190,6 +190,7 @@
     font-size: 25px;
     margin-top: 10px;
     border-bottom: 2px solid #000;
+    letter-spacing: 1px;
 }
 
 .team-text-card .card-body {

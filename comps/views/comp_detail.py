@@ -1,4 +1,4 @@
-from django.shortcuts import get_object_or_404
+from django.utils.safestring import mark_safe
 from django.views.generic.detail import DetailView
 
 from comps.models import Comp
@@ -19,11 +19,13 @@ class CompDetail(CacheMixin, DetailView):
         if self.object.auto_shapeshift:
             auto_shapeshift = 'On'
         
-        
+        creator_markup = '<a href="{}">{}</a>'.format(
+            self.object.creator.get_absolute_url(), self.object.creator
+        )
 
         context['comp_data'] = [
             ('Comp Type', self.object.comp_type),
-            ('Creator', self.object.creator),
+            ('Creator', mark_safe(creator_markup)),
             ('Date Posted', self.object.post_date),
             ('Auto-Shapeshift', auto_shapeshift),
             ('Creator\'s Clear Time', self.object.get_clear_time),

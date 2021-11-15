@@ -1,0 +1,54 @@
+{% extends 'comps/comp-list-base.html' %}
+
+{% block meta_title %}Dragalia.gg - Dragalia Lost Comps and Team Builds (Auto and Manual){% endblock %}
+{% block meta_description %}Check out all of the latest Dragalia Lost auto and manual comps and Adventurer Builds on Dragalia.gg!{% endblock %}
+
+{% block header_pretitle %}{% endblock %}
+{% block header_title %}Dragalia Lost Team Build Creators{% endblock %}
+
+{% block page_nav %}{% endblock %}
+
+{% block page_breadcrumb %}{% endblock %}
+
+{% block page_content %}
+<div class="row">
+  <!-- order-last order-md-first -->
+  <div class="col-12 col-xl-9{% block sidebar_order %} order-last order-md-first{% endblock %}">
+    <div class="row">
+    {% for c in creators %}
+      <div class="col-6 col-sm-3 text-center">
+        <div class="comp-list-row">
+          <a href="{{ c.get_absolute_url }}" class="link-spanner"></a>
+          <div class="card comp-list-card border-element-{{ c.quest.get_element|lower }}">
+              <div class="card-body">  
+                <h3 class="mb-1 name">
+                    <a href="{{ c.get_absolute_url }}">{{ c }}</a>
+                </h3>
+                <p class="mb-0">{{ c.build_count }} Builds</p>
+                </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+    {% include "partials/pagination.html" %}
+  </div>
+
+  <div class="col-12 col-xl-3">
+    <div class="card">
+      {% block comp_list_sidebar %}
+      <div class="card-header">
+    
+    <h4 class="card-header-title">
+      Welcome to Dragalia.gg!
+    </h4>
+    
+  </div>
+  <div class="card-body">
+    <p class="pb-0 mb-0">Thank you to all of the Dragalia Lost Content Creators for providing the community with awesome builds!</p>
+  </div>
+      {% endblock %}
+    </div>
+  </div>
+</div>
+{% endblock %}

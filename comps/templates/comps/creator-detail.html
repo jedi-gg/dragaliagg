@@ -1,0 +1,55 @@
+{% extends 'comps/comp-list-base.html' %}
+
+{% block meta_title %}Dragalia.gg - Dragalia Lost Comps and Team Builds (Auto and Manual){% endblock %}
+{% block meta_description %}Check out all of the latest Dragalia Lost auto and manual comps and Adventurer Builds on Dragalia.gg!{% endblock %}
+
+{% block header_pretitle %}Dragalia.gg{% endblock %}
+{% block header_title %}{{ creator }} - Dragalia Lost Comps and Team Builds{% endblock %}
+
+{% block page_nav %}
+<!-- Nav -->
+<ul class="nav nav-tabs nav-overflow header-tabs">
+    <li class="nav-item">
+    <a href="{% url 'creator-list' %}" class="nav-link">
+        <span class="fe fe-chevron-left"></span>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="#" class="nav-link active">
+        Latest Comps
+    </a>
+    </li>
+    {% comment %}
+    <li class="nav-item">
+    <a href="project-files.html" class="nav-link">
+        Auto Comps
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="project-reports.html" class="nav-link">
+        Manual Comps
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="#" class="nav-link">
+        Popular Comps
+    </a>
+    </li>
+    {% endcomment %}
+</ul>
+{% endblock %}
+{% block page_breadcrumb %}{% endblock %}
+{% block sidebar_order %}{% endblock %}
+
+{% block comp_list_sidebar %}
+  <div class="card-header">
+    
+    <h4 class="card-header-title">
+      {{ creator }}
+    </h4>
+    
+  </div>
+  <div class="card-body">
+    <p class="pb-0 mb-0"><a href="#">Check out Teyah's channel!</a></p>
+  </div>
+{% endblock %}

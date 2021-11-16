@@ -1,5 +1,3 @@
-import re
-
 from pytube import extract
 
 from django.db import models
@@ -51,12 +49,26 @@ class Comp(SlugModel):
 
     def slug_name(self):
         s = self
+
         return s.get_slug_string(
             s.post_date, s.difficulty, s.creator, s.suffix)
     
-    def get_slug_string(self=None, date=None, difficulty=None, creator=None, suffix=None):
-        slug_string = '{}-{}-{}'.format(
-            date.strftime("%d%m%y"), difficulty, creator
+    def get_slug_string(
+        self=None,
+        date=None,
+        difficulty=None,
+        creator=None,
+        suffix=None,
+        unit_strings=[]
+    ):
+        if not unit_strings:
+            for slot, adv in self.get_team().items():
+                unit_strings.append(adv.adventurer.slug)
+        
+            unit_strings = '-'.join(unit_strings)
+
+        slug_string = '{}-{}-{}-{}'.format(
+            date.strftime("%d%m%y"), difficulty, creator, unit_strings
         )
 
         if suffix:

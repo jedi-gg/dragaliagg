@@ -48,10 +48,9 @@ class Comp(SlugModel):
     list_objects = CompListObjectsManager()
 
     def slug_name(self):
-        s = self
-
-        return s.get_slug_string(
-            s.post_date, s.difficulty, s.creator, s.suffix)
+        print(self)
+        return self.get_slug_string(
+            self.post_date, self.difficulty, self.creator, self.suffix)
     
     def get_slug_string(
         self=None,
@@ -59,9 +58,10 @@ class Comp(SlugModel):
         difficulty=None,
         creator=None,
         suffix=None,
-        unit_strings=[]
+        unit_strings=None
     ):
         if not unit_strings:
+            unit_strings = []
             for slot, adv in self.get_team().items():
                 unit_strings.append(adv.adventurer.slug)
         

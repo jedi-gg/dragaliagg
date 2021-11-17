@@ -60,15 +60,8 @@ class Comp(SlugModel):
         suffix=None,
         unit_strings=None
     ):
-        if not unit_strings:
-            unit_strings = []
-            for slot, adv in self.get_team().items():
-                unit_strings.append(adv.adventurer.slug)
-        
-            unit_strings = '-'.join(unit_strings)
-
-        slug_string = '{}-{}-{}-{}'.format(
-            date.strftime("%d%m%y"), difficulty, creator, unit_strings
+        slug_string = '{}-{}-{}'.format(
+            date.strftime("%d%m%y"), difficulty, creator
         )
 
         if suffix:
@@ -138,6 +131,7 @@ class Comp(SlugModel):
     
     def get_absolute_url(self):
         return reverse('comp-detail', kwargs={
+            'pk': self.pk,
             'comp_slug': self.slug,
             'section_slug': self.section.slug,
             'quest_slug': self.quest.slug,

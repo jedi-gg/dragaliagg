@@ -4,9 +4,7 @@
 {% block meta_description %}Check out the latest team compositions and builds for {{ title }} on Dragalia Lost!{% endblock %}
 
 {% block header_pretitle %}Dragalia Lost{% endblock %}
-{% block header_title %}{{ title }} Comps{% endblock %}
-
-
+{% block header_title %}{{ title }}{% if difficulty %} {{ difficulty }}{% endif %} Comps{% endblock %}
 
 {% block page_nav %}{% endblock %}
 
@@ -64,6 +62,17 @@
             </div> <!-- / .row -->
           </a>
           {% endfor %}
+          {% for d, count in quest_difficulties %}
+          <a class="list-group-item" href="{% url 'comp-list' section.slug %}?difficulty={{ d.slug }}">
+            <div class="row align-items-center">
+              <div class="col ms-n2">
+                <h4 class="mb-1 name{% if d == difficulty %} text-{{ d|lower }}{% endif %}">
+                  {{ d }} <small class="text-muted">{{ count }} comps</small>
+                </h4>
+              </div>
+            </div> <!-- / .row -->
+          </a>
+          {% endfor %}
         </div>
         {% endif %}
         {% if list_type == 'quest' or list_type == 'difficulty' %}
@@ -105,6 +114,7 @@
           {% endfor %}
         </div>
         {% endif %}
+        
       </div>
     </div>
   </div>

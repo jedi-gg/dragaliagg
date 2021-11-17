@@ -37,14 +37,22 @@ class CompList(CacheMixin, ListView):
         q = Q()
         if self.section_slug:
             self.section = get_object_or_404(CompSection, slug=self.section_slug)
+            self.object_type = self.section
             q &= Q(section=self.section)
 
         if self.quest_slug:
             self.quest = get_object_or_404(CompQuest, slug=self.quest_slug)
+            self.object_type = self.quest
             q &= Q(quest=self.quest)
-        
+
         if self.difficulty_slug:
             self.difficulty = get_object_or_404(CompDifficulty, slug=self.difficulty_slug)
+            self.object_type = self.quest
+            q &= Q(difficulty=self.difficulty)
+        
+        if 'difficulty' in self.request.GET:
+            self.difficulty = get_object_or_404(
+                CompDifficulty, slug=self.request.GET['difficulty'])
             q &= Q(difficulty=self.difficulty)
 
         return Comp.list_objects.filter(q).order_by('-created_date')
@@ -67,16 +75,15 @@ class CompList(CacheMixin, ListView):
         context['quest'] = self.quest
         context['difficulty'] = self.difficulty
 
-        # If a Quest, get counts of difficulties
-        if self.list_type in ['quest', 'difficulty',]:
-            quest_difficulties = []
-            for d in self.quest.difficulties.all():
-                difficulty_count = self.quest.comps.filter(difficulty=d).count()
-                if difficulty_count > 0:
-                    quest_difficulties.append(
-                        (d, difficulty_count)
-                    )
-            
-            context['quest_difficulties'] = quest_difficulties
+        # Populate quest difficulties
+        quest_difficulties = []
+        for d in self.object_type.difficulties.all():
+            difficulty_count = self.object_type.comps.filter(difficulty=d).count()
+            if difficulty_count > 0:
+                quest_difficulties.append(
+                    (d, difficulty_count)
+                )
+        
+        context['quest_difficulties'] = quest_difficulties
 
         return context

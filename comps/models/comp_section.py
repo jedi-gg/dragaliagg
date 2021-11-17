@@ -12,6 +12,7 @@ class CompSection(SlugModel):
     wiki_link = models.URLField(blank=True, null=True)
     is_new = models.BooleanField(blank=True, default=False)
     hide_children = models.BooleanField(blank=True, default=False)
+    difficulties = models.ManyToManyField('CompDifficulty')
 
     def slug_name(self):
         return self.title

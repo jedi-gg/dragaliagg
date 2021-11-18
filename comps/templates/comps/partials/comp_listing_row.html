@@ -32,6 +32,7 @@
               <span class="badge bg-primary-soft">{{ c.comp_type }}</span>
               {% if c.get_clear_time %}<span class="badge bg-primary-soft">{{ c.get_clear_time }}</span>{% endif %}
               {% if c.get_clear_rate %}<span class="badge bg-primary-soft">Clear Rate: {{ c.get_clear_rate }}</span>{% endif %}
+              <span class="badge bg-primary-soft">{{ c.created_date|date:"M d, Y" }}</span>
           </p>
         </div>
       </div>

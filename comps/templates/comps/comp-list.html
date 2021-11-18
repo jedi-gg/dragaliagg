@@ -2,6 +2,16 @@
 
 {% block meta_title %}Dragalia Lost {{ title }} Team Comps & Builds - Dragalia.gg{% endblock %}
 {% block meta_description %}Check out the latest team compositions and builds for {{ title }} on Dragalia Lost!{% endblock %}
+{% block meta_extra %}
+{% if list_type == 'quest' or list_type == 'difficulty' %}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:url" content="{{ request.build_absolute_uri }}" />
+  <meta property="og:description" content="{{ title }} Team Comps & Builds" />
+  <meta property="og:site_name" content="Dragalia.gg - Dragalia Lost Team Compositions & Builds" />
+  <meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{{ quest.get_banner_image }}" />
+{% endif %}
+{% endblock %}
 
 {% block header_pretitle %}Dragalia Lost{% endblock %}
 {% block header_title %}{{ title }}{% if difficulty %} {{ difficulty }}{% endif %} Comps{% endblock %}

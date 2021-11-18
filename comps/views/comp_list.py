@@ -78,7 +78,7 @@ class CompList(CacheMixin, ListView):
         # Populate quest difficulties
         quest_difficulties = []
         for d in self.object_type.difficulties.all():
-            difficulty_count = self.object_type.comps.filter(difficulty=d).count()
+            difficulty_count = self.object_type.comps.filter(difficulty=d, parent_comp__isnull=True).count()
             if difficulty_count > 0:
                 quest_difficulties.append(
                     (d, difficulty_count)

@@ -9,11 +9,16 @@
   
       <!-- Brand -->
       <a class="navbar-brand" href="{% url 'home' %}">
-        <img src="{% static 'img/dragaliagg_logo.png' %}" class="navbar-brand-img mx-auto" alt="...">
+        <img
+          src="{% static 'img/dragaliagg_logo_h_w250.png' %}"
+          srcset="{% static 'img/dragaliagg_logo_w100.png' %} 100w,
+                  {% static 'img/dragaliagg_logo_h_w250.png' %} 250w"
+          sizes="(max-width: 767px) 250px, 100px"
+          class="navbar-brand-img mx-auto" alt="Dragalia.gg">
       </a>
   
       <!-- User (xs) -->
-      <div class="navbar-user d-md-none"></div>
+      <div class="navbar-user d-md-none" style="width: 40px;"></div>
   
       <!-- Collapse -->
       <div class="collapse navbar-collapse" id="sidebarCollapse">

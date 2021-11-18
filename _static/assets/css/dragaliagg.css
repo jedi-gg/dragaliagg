@@ -35,6 +35,9 @@
         max-height: 6rem;
     }
 }
+.navbar-brand-img, .navbar-brand > img {
+    max-height: 2.2rem;
+}
 
 .main-content {
     background-image: url('/static/img/gg_bg2.png');

@@ -94,6 +94,11 @@
         text-align: center;
     }
 }
+@media (min-width: 768px) {
+    .comp-list-row__team br {
+        display: none;
+    }
+}
 
 .list-nav-avatar {
     border-radius: .375rem !important;

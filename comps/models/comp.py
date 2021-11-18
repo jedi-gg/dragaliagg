@@ -76,6 +76,17 @@ class Comp(SlugModel):
         
         return comp_slots
     
+    def get_sub_team(self):
+        sub_team = self.teams.all().first()
+        if sub_team:
+            comp_slots = {}
+            for build in sub_team.builds.all():
+                comp_slots[build.slot] = build
+            
+            return comp_slots
+        
+        return None
+    
     @property
     def get_title(self):
         suffix = ' {}'.format(self.suffix) if self.suffix else ''

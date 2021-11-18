@@ -26,6 +26,16 @@
     background-size: cover;
 }
 
+@media (min-width: 768px) {
+    .navbar-vertical.navbar-expand-md .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-vertical.navbar-expand-md .navbar-brand-img {
+        max-height: 6rem;
+    }
+}
+
 .main-content {
     background-image: url('/static/img/gg_bg2.png');
     background-repeat: no-repeat;

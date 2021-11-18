@@ -62,6 +62,7 @@ class CompAdmin(admin.ModelAdmin):
 
     readonly_fields = ('slug',)
 
+    search_fields = ['title', 'creator__name', 'slug']
     list_display = ['get_title', 'difficulty', 'creator', 'modified_date', 'created_date']
     list_filter = ('section', 'quest', 'difficulty',)
 

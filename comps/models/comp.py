@@ -48,7 +48,6 @@ class Comp(SlugModel):
     list_objects = CompListObjectsManager()
 
     def slug_name(self):
-        print(self)
         return self.get_slug_string(
             self.post_date, self.difficulty, self.creator, self.suffix)
     

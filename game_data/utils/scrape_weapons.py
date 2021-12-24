@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import datetime
 import requests
 
 from django.conf import settings
@@ -30,11 +31,14 @@ def scrape_weapons():
             w_id = cols[0].find('img')['alt'].replace(' ','_').replace('.png', '')
             name = cols[1].find('a').text.strip()
 
-            # Check if already in DB
-            if w_id in w_lookup:
-                continue
+            release_date = datetime.datetime.strptime(
+                cols[10].text.strip(), "%b %d, %Y").date()
 
-            obj, created = Weapon.objects.get_or_create(
+            # Check if already in DB
+            # if w_id in w_lookup:
+            #     continue
+
+            obj, created = Weapon.objects.update_or_create(
                 id=w_id,
                 defaults={
                     'name': name,
@@ -42,7 +46,8 @@ def scrape_weapons():
                     'wiki_url': cols[0].find('a')['href'],
                     'rarity': cols[2].find('img')['title'],
                     'type': cols[3].find('img')['title'],
-                    'element': cols[4].find('img')['title']
+                    'element': cols[4].find('img')['title'],
+                    'release_date': release_date,
                 }
             )
 

@@ -16,8 +16,8 @@ requests.packages.urllib3.disable_warnings()
 
 class Command(BaseCommand):
     def handle(self, *args, **options):
-        scrape_adventurers()
-        scrape_wyrmprints()
-        scrape_dragons()
+        # scrape_adventurers()
+        # scrape_wyrmprints()
+        # scrape_dragons()
         scrape_weapons()
-        scrape_ss()
+        # scrape_ss()

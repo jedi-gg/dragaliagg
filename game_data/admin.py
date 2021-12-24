@@ -52,8 +52,8 @@ class WeaponAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
     def image_tag(self, obj):
         return format_html('<img src="{}" />'.format(obj.get_image(size=100)))
 
-    list_filter = ('element', 'rarity', )
+    list_filter = ('element', 'rarity', 'release_date')
     list_display = ['image_tag', 'name', 'rarity']
-    ordering = ('-rarity', 'name')
+    ordering = ('-rarity', '-release_date', 'name')
     search_fields = ['name']
     actions = None

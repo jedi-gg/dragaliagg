@@ -12,6 +12,7 @@ class Weapon(models.Model):
     rarity = models.PositiveIntegerField()
     element = models.CharField(max_length=50)
     type = models.CharField(max_length=50)
+    release_date = models.DateField(null=True, blank=True)
 
     def get_wiki_url(self):
         return '{}{}'.format(settings.BASE_WIKI_URL, self.wiki_url)

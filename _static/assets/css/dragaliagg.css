@@ -260,6 +260,27 @@
     color: #68c3fd;
 }
 
+/* Portrait Abiites */
+.portrait-ability {
+    border: 1px solid #e0fbff;
+    padding: 3px 0;
+    border-radius: 4px;
+    margin-bottom: 3px;
+    cursor: help;
+}
+.portrait-ability img {
+    width: 20px;
+}
+
+.portrait-ability-text img {
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 50%;
+    margin-left: -15px;
+}
+
 /* Mobile */
 @media (max-width: 460px) {
     .mobile-hide {

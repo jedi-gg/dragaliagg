@@ -33,6 +33,21 @@
         </a>
         {% endif %}
         {% endfor %}
+        {% if build.portrait_ability_slot_1 %}
+        <a class="list-group-item" href="https://dragalialost.wiki/w/Enter_the_Kaleidoscape#Portrait_wyrmprints" target="_blank">
+          <div class="wyrmprints mt-1 text-center" style="font-size: 13px;">
+            <div class="row justify-content-evenly">
+              <div class="col-sm-1"><img src="{% static 'game_assets/misc/portrait-wp.png' %}" style="width: 20px;" /></div>
+              <div class="col-sm-5" style="border: 1px solid #aceffa; padding: 3px 0; border-radius: 4px; margin-bottom: 3px;">{{ build.portrait_ability_slot_1 }}</div>
+              {% if build.portrait_ability_slot_2 %}
+              <div class="col-sm-5" style="border: 1px solid #aceffa; padding: 3px 0; border-radius: 4px;">{{ build.portrait_ability_slot_2 }}</div>
+              {% else %}
+              <div class="col-sm-5"></div>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+        {% endif %}
         <div class="list-group-item">
           <div class="row">
             <div class="col-6">

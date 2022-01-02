@@ -1,7 +1,13 @@
 from django.contrib.humanize.templatetags.humanize import ordinal
 from django.db import models
 
-from game_data.models import Adventurer, Wyrmprint, Dragon, Weapon
+from game_data.models import (
+    Adventurer,
+    Wyrmprint,
+    Dragon,
+    Weapon,
+    PortraitAbility
+)
 from comps.enums import AdventurerSlotEnum
 from comps.models import Comp
 
@@ -16,6 +22,8 @@ class AdventurerBuild(models.Model):
     wyrmprint_5 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_5', on_delete=models.DO_NOTHING, blank=True, null=True)
     wyrmprint_6 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_6', on_delete=models.DO_NOTHING, blank=True, null=True)
     wyrmprint_7 = models.ForeignKey(Wyrmprint, related_name='comp_build_adventurer_wp_7', on_delete=models.DO_NOTHING, blank=True, null=True)
+    portrait_ability_slot_1 = models.ForeignKey(PortraitAbility, related_name='portrait_ability_1', on_delete=models.DO_NOTHING, blank=True, null=True)
+    portrait_ability_slot_2 = models.ForeignKey(PortraitAbility, related_name='portrait_ability_2', on_delete=models.DO_NOTHING, blank=True, null=True)
     dragon = models.ForeignKey(Dragon, related_name='comp_build_dragon', on_delete=models.DO_NOTHING, blank=True, null=True)
     weapon = models.ForeignKey(Weapon, related_name='comp_build_weapon', on_delete=models.DO_NOTHING, blank=True, null=True)
 

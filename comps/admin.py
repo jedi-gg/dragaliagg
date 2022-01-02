@@ -31,6 +31,8 @@ class AdventurerBuildInline(admin.StackedInline):
         'wyrmprint_5',
         'wyrmprint_6',
         'wyrmprint_7',
+        'portrait_ability_slot_1',
+        'portrait_ability_slot_2',
     )
 
     class Meta:

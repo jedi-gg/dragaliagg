@@ -1,7 +1,13 @@
 from django.contrib import admin
 from django.utils.html import format_html
 
-from game_data.models import Adventurer, Wyrmprint, Dragon, Weapon
+from game_data.models import (
+    Adventurer,
+    Wyrmprint,
+    Dragon,
+    Weapon,
+    PortraitAbility
+)
 
 
 class ReadOnlyAdminMixin:
@@ -57,3 +63,10 @@ class WeaponAdmin(ReadOnlyAdminMixin, admin.ModelAdmin):
     ordering = ('-rarity', '-release_date', 'name')
     search_fields = ['name']
     actions = None
+
+@admin.register(PortraitAbility)
+class PortraitAbilityAdmin(admin.ModelAdmin):
+    list_display = ['ability_name', 'ability_description']
+    search_fields = ['ability_name']
+    actions = None
+    ordering = ('-ability_name',)

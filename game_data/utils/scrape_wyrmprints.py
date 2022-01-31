@@ -47,15 +47,18 @@ def scrape_wyrmprints():
 
             # Ability
             ability_icon = row['data-ability-icon'].replace('Icon_Ability_', '')
-            last_tooltip = row.find('td', {'class': 'wyrmprint-grid-entry-ability1'}).find_all('span', {'class': 'tooltip'})[-1]
-            ability_name = last_tooltip.find('a').text
-            ability_description = last_tooltip.find('span').text
+            last_tooltip = row.find('td', {'class': 'wyrmprint-grid-entry-ability1'}).find_all('span')[-1]
+            ability_name = last_tooltip.find('a').get('title')
+            ability_description = last_tooltip.find('a').get('title')
+
+            if not ability_name:
+                continue
 
             # Check if already in DB
             if wp_id in wp_lookup:
                 continue
 
-            obj, created = Wyrmprint.objects.get_or_create(
+            obj, created = Wyrmprint.objects.update_or_create(
                 id=wp_id,
                 defaults={
                     'name': name,

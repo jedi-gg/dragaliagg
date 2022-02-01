@@ -13,7 +13,7 @@ class CreatorDetail(CacheMixin, ListView):
 
     def get_queryset(self):
         self.creator = get_object_or_404(CompCreator, slug=self.kwargs['slug'])
-        return self.creator.comps.all()
+        return self.creator.comps.filter(parent_comp__isnull=True)
     
     def get_context_data(self, **kwargs):
         context = super(CreatorDetail, self).get_context_data(**kwargs)

@@ -14,7 +14,7 @@ class AdventurerDetail(DetailView):
         context = super(AdventurerDetail, self).get_context_data(**kwargs)
 
         comps = []
-        for build in self.object.builds.all():
+        for build in self.object.builds.filter(comp__parent_comp__isnull=True):
             comps.append(build.comp)
 
         context['comps'] = comps

@@ -1,0 +1,4 @@
+# Hourly Scrape for new data
+0 * * * 1-7 docker exec dg.django python /srv/app/manage.py scrape-wiki >> /var/log/cron.log 2>&1
+5 * * * 1-7 docker exec dg.django python /srv/app/manage.py scrape-images >> /var/log/cron.log 2>&1
+10 * * * 1-7 docker exec dg.django python /srv/app/manage.py collectstatic --noinput >> /var/log/cron.log 2>&1
